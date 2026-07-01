@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026070118 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070121 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 414 domains
+; Entries: 412 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 1, 2026 at 6:43 PM UTC | 2026-07-01T18:43:10.760Z
+; Last updated: July 1, 2026 at 9:36 PM UTC | 2026-07-01T21:36:39.771Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -150,6 +150,8 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 cess.digishart.news CNAME .
@@ -198,8 +200,6 @@ cronicasdelcentro.com CNAME .
 *.cronicasdelcentro.com CNAME .
 crystalpvp.ru CNAME .
 *.crystalpvp.ru CNAME .
-cs.go.kg CNAME .
-*.cs.go.kg CNAME .
 csg-app.com CNAME .
 *.csg-app.com CNAME .
 cvf.shart120x.com CNAME .
@@ -278,8 +278,6 @@ dowonline.ru CNAME .
 *.dowonline.ru CNAME .
 dreamapp.xyz CNAME .
 *.dreamapp.xyz CNAME .
-dreamwatchevent.com CNAME .
-*.dreamwatchevent.com CNAME .
 dshm5yet.betbuf.live CNAME .
 *.dshm5yet.betbuf.live CNAME .
 dsr.bet1forward.com CNAME .
@@ -288,6 +286,8 @@ dusttv.com CNAME .
 *.dusttv.com CNAME .
 dweixin.cn CNAME .
 *.dweixin.cn CNAME .
+dynga.pl CNAME .
+*.dynga.pl CNAME .
 easybrand.vn CNAME .
 *.easybrand.vn CNAME .
 easyfiles.cc CNAME .
@@ -374,8 +374,6 @@ hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
 *.hitstation.nl CNAME .
-hol.villgrow.life CNAME .
-*.hol.villgrow.life CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 i54qzo8r.btyek.xyz CNAME .
@@ -394,8 +392,6 @@ itssprout.com CNAME .
 *.itssprout.com CNAME .
 j1yidzep.boombasket.bet CNAME .
 *.j1yidzep.boombasket.bet CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -434,8 +430,8 @@ lawfirm.paperbirdtech.com CNAME .
 *.lawfirm.paperbirdtech.com CNAME .
 lb.nigsv.com CNAME .
 *.lb.nigsv.com CNAME .
-libss.0x504.com CNAME .
-*.libss.0x504.com CNAME .
+lindnerelektroanlagen.de CNAME .
+*.lindnerelektroanlagen.de CNAME .
 local-update.com CNAME .
 *.local-update.com CNAME .
 lomejordesalamanca.es CNAME .
@@ -512,6 +508,8 @@ planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 plasteredplayn.com CNAME .
 *.plasteredplayn.com CNAME .
+pns.org.pk CNAME .
+*.pns.org.pk CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
 preciosasjoyitas.com.mx CNAME .
@@ -620,6 +618,8 @@ steam66.cn CNAME .
 *.steam66.cn CNAME .
 stonecradle.com CNAME .
 *.stonecradle.com CNAME .
+streammobs.com CNAME .
+*.streammobs.com CNAME .
 support.clz.kr CNAME .
 *.support.clz.kr CNAME .
 sutterpoint.com CNAME .
@@ -636,6 +636,8 @@ tanscarattorneys.co.tz CNAME .
 *.tanscarattorneys.co.tz CNAME .
 tapestryoftruth.com CNAME .
 *.tapestryoftruth.com CNAME .
+techbud.ro CNAME .
+*.techbud.ro CNAME .
 tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
@@ -734,8 +736,6 @@ automobile-bk.de CNAME .
 *.automobile-bk.de CNAME .
 backupallfresh2030.com CNAME .
 *.backupallfresh2030.com CNAME .
-basefile.click CNAME .
-*.basefile.click CNAME .
 benshamcentre.co.uk CNAME .
 *.benshamcentre.co.uk CNAME .
 blackhattoolz.com CNAME .
@@ -806,8 +806,6 @@ zamilgroups.com CNAME .
 *.zamilgroups.com CNAME .
 zhikey.com CNAME .
 *.zhikey.com CNAME .
-xeno.help CNAME .
-*.xeno.help CNAME .
 xenon.studio CNAME .
 *.xenon.studio CNAME .
 xn--yh4bx88a.com CNAME .
@@ -822,8 +820,6 @@ youtransfer.net CNAME .
 *.youtransfer.net CNAME .
 zenglobalenerji.com CNAME .
 *.zenglobalenerji.com CNAME .
-zhigao5191.com CNAME .
-*.zhigao5191.com CNAME .
 zi6uvzi9.btyek.beauty CNAME .
 *.zi6uvzi9.btyek.beauty CNAME .
 zycdjz.com CNAME .
