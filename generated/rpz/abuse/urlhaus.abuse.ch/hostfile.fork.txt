@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026070107 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070110 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 413 domains
+; Entries: 417 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 1, 2026 at 7:32 AM UTC | 2026-07-01T07:32:22.335Z
+; Last updated: July 1, 2026 at 10:25 AM UTC | 2026-07-01T10:25:06.822Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -254,6 +254,8 @@ doc.e-statements.app CNAME .
 *.doc.e-statements.app CNAME .
 donkeytourscroatia.com CNAME .
 *.donkeytourscroatia.com CNAME .
+down.54nb.com CNAME .
+*.down.54nb.com CNAME .
 down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
@@ -290,6 +292,8 @@ dweixin.cn CNAME .
 *.dweixin.cn CNAME .
 easybrand.vn CNAME .
 *.easybrand.vn CNAME .
+easyfiles.cc CNAME .
+*.easyfiles.cc CNAME .
 electri.billregulator.com CNAME .
 *.electri.billregulator.com CNAME .
 elisans.novayonetim.com CNAME .
@@ -370,10 +374,10 @@ hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
 *.hitstation.nl CNAME .
+hobobot.net CNAME .
+*.hobobot.net CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
-i-ramps.com CNAME .
-*.i-ramps.com CNAME .
 i54qzo8r.btyek.xyz CNAME .
 *.i54qzo8r.btyek.xyz CNAME .
 i5sofk6r.xbetone.com CNAME .
@@ -382,6 +386,8 @@ icoffeecloud.com CNAME .
 *.icoffeecloud.com CNAME .
 igra123.com CNAME .
 *.igra123.com CNAME .
+ijbfi.pk CNAME .
+*.ijbfi.pk CNAME .
 injectroblox.ru CNAME .
 *.injectroblox.ru CNAME .
 ircftp.net CNAME .
@@ -406,6 +412,8 @@ js.byxly.eu.cc CNAME .
 *.js.byxly.eu.cc CNAME .
 jyothishmathi.in CNAME .
 *.jyothishmathi.in CNAME .
+kambohmag.net CNAME .
+*.kambohmag.net CNAME .
 kavacanada.ca CNAME .
 *.kavacanada.ca CNAME .
 kdf.betbacklink.com CNAME .
@@ -610,8 +618,6 @@ spgint.com CNAME .
 *.spgint.com CNAME .
 spoar.org.in CNAME .
 *.spoar.org.in CNAME .
-static.ilclock.com CNAME .
-*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
@@ -678,6 +684,8 @@ tu.feyhaum.com CNAME .
 *.tu.feyhaum.com CNAME .
 tuasesoriadigital.es CNAME .
 *.tuasesoriadigital.es CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 uhaita1o.1x303.casino CNAME .
 *.uhaita1o.1x303.casino CNAME .
 uni.site.je CNAME .
@@ -754,6 +762,8 @@ crazywickedaddiction.com CNAME .
 *.crazywickedaddiction.com CNAME .
 cutting-edge.in CNAME .
 *.cutting-edge.in CNAME .
+drgenov.com CNAME .
+*.drgenov.com CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 intelligradeeducation.vicentecisnerospub.com CNAME .
@@ -770,8 +780,6 @@ myvcart.com CNAME .
 *.myvcart.com CNAME .
 namuvpn.com CNAME .
 *.namuvpn.com CNAME .
-nccommunication.be CNAME .
-*.nccommunication.be CNAME .
 newkey.co.kr CNAME .
 *.newkey.co.kr CNAME .
 notbak.com CNAME .
