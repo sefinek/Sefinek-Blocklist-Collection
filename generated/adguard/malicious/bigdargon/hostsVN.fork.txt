@@ -6,12 +6,12 @@
 !     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 !
 ! Title: HostsVN Malware Blocklist
-! Entries: 18,025 domains
+! Entries: 18,087 domains
 ! Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ! License: Unknown, check the source
 ! Format: AdGuard [adguard.com]
 ! Expires: 1 day
-! Last updated: June 30, 2026 at 3:54 PM UTC | 2026-06-30T15:54:05.268Z
+! Last updated: July 2, 2026 at 4:28 AM UTC | 2026-07-02T04:28:13.791Z
 !
 ! This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ! Homepage: https://blocklist.sefinek.net
@@ -1822,6 +1822,7 @@
 ||sshowads.pubmatic.com^
 ||t.pubmatic.com^
 ||track.pubmatic.com^
+||ut.pubmatic.com^
 ||vid.pubmatic.com^
 ||www.pubmatic.com^
 ||cdn.doubleverify.com^
@@ -2937,6 +2938,7 @@
 ||www.jpush.io^
 ||adasia-d.openx.net^
 ||ads.openx.net^
+||apacdigital-d.openx.net^
 ||bid.openx.net^
 ||eu-u.openx.net^
 ||google-bidout-d.openx.net^
@@ -3305,9 +3307,10 @@
 ||edgecdn.bizible.com^
 ||info.bizible.com^
 ||www.bizible.com^
-||ads.adtarget.me^
 ||ads-us.adtarget.me^
+||ads.adtarget.me^
 ||adtarget.me^
+||cdn.adtarget.me^
 ||socrates-1.adtarget.me^
 ||socrates-6-1.adtarget.me^
 ||staging-ads.adtarget.me^
@@ -3317,6 +3320,37 @@
 ||system.adtarget.me^
 ||trackers.adtarget.me^
 ||www.adtarget.me^
+||z.cdn.adtarget.me^
+||adtarget.biz^
+||cdn.adtarget.biz^
+||static.cdn.adtarget.biz^
+||dsp-service.adtarget.biz^
+||prebid.adtarget.biz^
+||rtb.adtarget.biz^
+||adagio.rtb.adtarget.biz^
+||bidgear.rtb.adtarget.biz^
+||optima.rtb.adtarget.biz^
+||papayads.rtb.adtarget.biz^
+||weforads.rtb.adtarget.biz^
+||ssp-service.adtarget.biz^
+||www.adtarget.biz^
+||adtarget.com.tr^
+||cdn.adtarget.com.tr^
+||console.adtarget.com.tr^
+||adt-auxlog1-ec.console.adtarget.com.tr^
+||adt-auxlog2-wc.console.adtarget.com.tr^
+||ghb.console.adtarget.com.tr^
+||s.console.adtarget.com.tr^
+||sync.console.adtarget.com.tr^
+||adtarget.market^
+||at1.adtarget.market^
+||at2.adtarget.market^
+||at3.adtarget.market^
+||cdn.adtarget.market^
+||z.cdn.adtarget.market^
+||www.adtarget.market^
+||adtarget.tech^
+||ai.adtarget.tech^
 ||ads.ayads.co^
 ||antenna-apse.ayads.co^
 ||antenna-us.ayads.co^
@@ -4080,6 +4114,7 @@
 ||dp.33across.com^
 ||dp1.33across.com^
 ||dp2.33across.com^
+||et-c-ash.33across.com^
 ||flamenipper.33across.com^
 ||go.33across.com^
 ||internal.33across.com^
@@ -5740,7 +5775,9 @@
 ||rj.a-mo.net^
 ||s.update.a-mo.net^
 ||sdk.a-mo.net^
+||sea1-sync.a-mo.net^
 ||static.a-mo.net^
+||sync.a-mo.net^
 ||u.update.a-mo.net^
 ||update.a-mo.net^
 ||us-east-1.rtb.a-mo.net^
@@ -7970,10 +8007,15 @@
 ||dmp.datawrkz.com^
 ||serving.datawrkz.com^
 ||www.datawrkz.com^
+||dl-adx.op-mobile.opera.com^
 ||pps-log.op-mobile.opera.com^
 ||s-adx.op-mobile.opera.com^
 ||sdklog.tvstore.opera.com^
+||t-odx.op-mobile.opera.com^
 ||adx.opera.com^
+||b-eu.adx.opera.com^
+||b-sg.adx.opera.com^
+||b-us.adx.opera.com^
 ||px.adx.opera.com^
 ||res.adx.opera.com^
 ||s.adx.opera.com^
@@ -8736,6 +8778,8 @@
 ||c.4dex.io^
 ||mp.4dex.io^
 ||script.4dex.io^
+||u-tyo.4dex.io^
+||u.4dex.io^
 ||opt.ximad.com^
 ||pls.ximad.com^
 ||puzzlestore.ximad.com^
@@ -8784,6 +8828,7 @@
 ||www.playstream.media^
 ||ads.betweendigital.com^
 ||betweendigital.com^
+||cache.betweendigital.com^
 ||adwmg.com^
 ||hb.adwmg.com^
 ||rtb.adwmg.com^
@@ -10369,6 +10414,7 @@
 ||w3-reporting.reddit.com^
 ||richaudience.com^
 ||shb.richaudience.com^
+||sync.richaudience.com^
 ||adlogists.com^
 ||engine.adlogists.com^
 ||insights.rtgio.co^
@@ -10798,6 +10844,14 @@
 ||click-eu-v4.junclikrmedi.com^
 ||click-v4.junclikrmedi.com^
 ||www.junclikrmedi.com^
+||conversionsapigateway.com^
+||demo-1.conversionsapigateway.com^
+||gw.conversionsapigateway.com^
+||sgw.conversionsapigateway.com^
+||sgw-alpha-1.conversionsapigateway.com^
+||kueezrtb.com^
+||exchange.kueezrtb.com^
+||sync.kueezrtb.com^
 ||adtimaserver.vn^
 ||api.adtimaserver.vn^
 ||log.adtimaserver.vn^
@@ -11777,6 +11831,7 @@
 ||mautic.vmax.vn^
 ||piwik.rta.vn^
 ||ad.accesstrade.vn^
+||content.accesstrade.vn^
 ||partner.accesstrade.vn^
 ||service-api.accesstrade.vn^
 ||static.accesstrade.vn^
@@ -13238,6 +13293,7 @@
 ||adsynergy.com^
 ||adsys.townnews.com^
 ||adsystem.simplemachines.org^
+||adtarget.org^
 ||adtech.com^
 ||adtech.de^
 ||adtegrity.net^
@@ -14425,6 +14481,7 @@
 ||easyhits4u.com^
 ||easysitelabs.my^
 ||eatablesquare.com^
+||eb.koaeunhairy.shop^
 ||ebayadvertising.com^
 ||ebetoni.com^
 ||ec-optimizer.com^
@@ -14985,6 +15042,9 @@
 ||intowow.com^
 ||intrudefatherinlaw.com^
 ||inuvi.com^
+||invl.me^
+||invl.us^
+||invle.co^
 ||invol.co^
 ||iodideeyebath.cam^
 ||iogjhbnoypg.com^
@@ -15091,6 +15151,7 @@
 ||king3rsc7ol9e3ge.com^
 ||kiynew.com^
 ||kjdvn1340-ads.blogspot.com^
+||kkdeldurlxjjcz.com^
 ||klclick1.com^
 ||klik.blog^
 ||kliks.nl^
@@ -15117,7 +15178,6 @@
 ||ktu.sv2.biz^
 ||ku2d3a7pa8mdi.com^
 ||ku42hjr2e.com^
-||kueezrtb.com^
 ||kuno-gae.com^
 ||kupona.de^
 ||kuqfudazkn.com^
@@ -15139,6 +15199,7 @@
 ||layer-ads.de^
 ||lbn.ru^
 ||lby2kd27c.com^
+||ldjsypolwypxy.space^
 ||leadclick.com^
 ||leadplace.fr^
 ||leadzu.com^
@@ -17254,6 +17315,7 @@
 ||zimpolo.com^
 ||zipazvzu.com^
 ||zireemilsoude.net^
+||zjdpabwmeb.com^
 ||zkyrzoqc.com^
 ||zlp6s.pw^
 ||zm232.com^

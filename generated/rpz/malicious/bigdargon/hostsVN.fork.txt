@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026063015 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070204 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,025 domains
+; Entries: 18,087 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: June 30, 2026 at 3:54 PM UTC | 2026-06-30T15:54:05.362Z
+; Last updated: July 2, 2026 at 4:28 AM UTC | 2026-07-02T04:28:13.880Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -3536,6 +3536,8 @@ t.pubmatic.com CNAME .
 *.t.pubmatic.com CNAME .
 track.pubmatic.com CNAME .
 *.track.pubmatic.com CNAME .
+ut.pubmatic.com CNAME .
+*.ut.pubmatic.com CNAME .
 vid.pubmatic.com CNAME .
 *.vid.pubmatic.com CNAME .
 cdn.doubleverify.com CNAME .
@@ -5676,6 +5678,8 @@ adasia-d.openx.net CNAME .
 *.adasia-d.openx.net CNAME .
 ads.openx.net CNAME .
 *.ads.openx.net CNAME .
+apacdigital-d.openx.net CNAME .
+*.apacdigital-d.openx.net CNAME .
 bid.openx.net CNAME .
 *.bid.openx.net CNAME .
 eu-u.openx.net CNAME .
@@ -6378,12 +6382,14 @@ edgecdn.bizible.com CNAME .
 *.edgecdn.bizible.com CNAME .
 info.bizible.com CNAME .
 *.info.bizible.com CNAME .
-ads.adtarget.me CNAME .
-*.ads.adtarget.me CNAME .
 ads-us.adtarget.me CNAME .
 *.ads-us.adtarget.me CNAME .
+ads.adtarget.me CNAME .
+*.ads.adtarget.me CNAME .
 adtarget.me CNAME .
 *.adtarget.me CNAME .
+cdn.adtarget.me CNAME .
+*.cdn.adtarget.me CNAME .
 socrates-1.adtarget.me CNAME .
 *.socrates-1.adtarget.me CNAME .
 socrates-6-1.adtarget.me CNAME .
@@ -6400,6 +6406,64 @@ system.adtarget.me CNAME .
 *.system.adtarget.me CNAME .
 trackers.adtarget.me CNAME .
 *.trackers.adtarget.me CNAME .
+z.cdn.adtarget.me CNAME .
+*.z.cdn.adtarget.me CNAME .
+adtarget.biz CNAME .
+*.adtarget.biz CNAME .
+cdn.adtarget.biz CNAME .
+*.cdn.adtarget.biz CNAME .
+static.cdn.adtarget.biz CNAME .
+*.static.cdn.adtarget.biz CNAME .
+dsp-service.adtarget.biz CNAME .
+*.dsp-service.adtarget.biz CNAME .
+prebid.adtarget.biz CNAME .
+*.prebid.adtarget.biz CNAME .
+rtb.adtarget.biz CNAME .
+*.rtb.adtarget.biz CNAME .
+adagio.rtb.adtarget.biz CNAME .
+*.adagio.rtb.adtarget.biz CNAME .
+bidgear.rtb.adtarget.biz CNAME .
+*.bidgear.rtb.adtarget.biz CNAME .
+optima.rtb.adtarget.biz CNAME .
+*.optima.rtb.adtarget.biz CNAME .
+papayads.rtb.adtarget.biz CNAME .
+*.papayads.rtb.adtarget.biz CNAME .
+weforads.rtb.adtarget.biz CNAME .
+*.weforads.rtb.adtarget.biz CNAME .
+ssp-service.adtarget.biz CNAME .
+*.ssp-service.adtarget.biz CNAME .
+adtarget.com.tr CNAME .
+*.adtarget.com.tr CNAME .
+cdn.adtarget.com.tr CNAME .
+*.cdn.adtarget.com.tr CNAME .
+console.adtarget.com.tr CNAME .
+*.console.adtarget.com.tr CNAME .
+adt-auxlog1-ec.console.adtarget.com.tr CNAME .
+*.adt-auxlog1-ec.console.adtarget.com.tr CNAME .
+adt-auxlog2-wc.console.adtarget.com.tr CNAME .
+*.adt-auxlog2-wc.console.adtarget.com.tr CNAME .
+ghb.console.adtarget.com.tr CNAME .
+*.ghb.console.adtarget.com.tr CNAME .
+s.console.adtarget.com.tr CNAME .
+*.s.console.adtarget.com.tr CNAME .
+sync.console.adtarget.com.tr CNAME .
+*.sync.console.adtarget.com.tr CNAME .
+adtarget.market CNAME .
+*.adtarget.market CNAME .
+at1.adtarget.market CNAME .
+*.at1.adtarget.market CNAME .
+at2.adtarget.market CNAME .
+*.at2.adtarget.market CNAME .
+at3.adtarget.market CNAME .
+*.at3.adtarget.market CNAME .
+cdn.adtarget.market CNAME .
+*.cdn.adtarget.market CNAME .
+z.cdn.adtarget.market CNAME .
+*.z.cdn.adtarget.market CNAME .
+adtarget.tech CNAME .
+*.adtarget.tech CNAME .
+ai.adtarget.tech CNAME .
+*.ai.adtarget.tech CNAME .
 ads.ayads.co CNAME .
 *.ads.ayads.co CNAME .
 antenna-apse.ayads.co CNAME .
@@ -7852,6 +7916,8 @@ dp1.33across.com CNAME .
 *.dp1.33across.com CNAME .
 dp2.33across.com CNAME .
 *.dp2.33across.com CNAME .
+et-c-ash.33across.com CNAME .
+*.et-c-ash.33across.com CNAME .
 flamenipper.33across.com CNAME .
 *.flamenipper.33across.com CNAME .
 go.33across.com CNAME .
@@ -11002,8 +11068,12 @@ s.update.a-mo.net CNAME .
 *.s.update.a-mo.net CNAME .
 sdk.a-mo.net CNAME .
 *.sdk.a-mo.net CNAME .
+sea1-sync.a-mo.net CNAME .
+*.sea1-sync.a-mo.net CNAME .
 static.a-mo.net CNAME .
 *.static.a-mo.net CNAME .
+sync.a-mo.net CNAME .
+*.sync.a-mo.net CNAME .
 u.update.a-mo.net CNAME .
 *.u.update.a-mo.net CNAME .
 update.a-mo.net CNAME .
@@ -15172,14 +15242,24 @@ dmp.datawrkz.com CNAME .
 *.dmp.datawrkz.com CNAME .
 serving.datawrkz.com CNAME .
 *.serving.datawrkz.com CNAME .
+dl-adx.op-mobile.opera.com CNAME .
+*.dl-adx.op-mobile.opera.com CNAME .
 pps-log.op-mobile.opera.com CNAME .
 *.pps-log.op-mobile.opera.com CNAME .
 s-adx.op-mobile.opera.com CNAME .
 *.s-adx.op-mobile.opera.com CNAME .
 sdklog.tvstore.opera.com CNAME .
 *.sdklog.tvstore.opera.com CNAME .
+t-odx.op-mobile.opera.com CNAME .
+*.t-odx.op-mobile.opera.com CNAME .
 adx.opera.com CNAME .
 *.adx.opera.com CNAME .
+b-eu.adx.opera.com CNAME .
+*.b-eu.adx.opera.com CNAME .
+b-sg.adx.opera.com CNAME .
+*.b-sg.adx.opera.com CNAME .
+b-us.adx.opera.com CNAME .
+*.b-us.adx.opera.com CNAME .
 px.adx.opera.com CNAME .
 *.px.adx.opera.com CNAME .
 res.adx.opera.com CNAME .
@@ -16588,6 +16668,10 @@ mp.4dex.io CNAME .
 *.mp.4dex.io CNAME .
 script.4dex.io CNAME .
 *.script.4dex.io CNAME .
+u-tyo.4dex.io CNAME .
+*.u-tyo.4dex.io CNAME .
+u.4dex.io CNAME .
+*.u.4dex.io CNAME .
 opt.ximad.com CNAME .
 *.opt.ximad.com CNAME .
 pls.ximad.com CNAME .
@@ -16678,6 +16762,8 @@ ads.betweendigital.com CNAME .
 *.ads.betweendigital.com CNAME .
 betweendigital.com CNAME .
 *.betweendigital.com CNAME .
+cache.betweendigital.com CNAME .
+*.cache.betweendigital.com CNAME .
 adwmg.com CNAME .
 *.adwmg.com CNAME .
 hb.adwmg.com CNAME .
@@ -19772,6 +19858,8 @@ richaudience.com CNAME .
 *.richaudience.com CNAME .
 shb.richaudience.com CNAME .
 *.shb.richaudience.com CNAME .
+sync.richaudience.com CNAME .
+*.sync.richaudience.com CNAME .
 adlogists.com CNAME .
 *.adlogists.com CNAME .
 engine.adlogists.com CNAME .
@@ -20580,6 +20668,22 @@ click-eu-v4.junclikrmedi.com CNAME .
 *.click-eu-v4.junclikrmedi.com CNAME .
 click-v4.junclikrmedi.com CNAME .
 *.click-v4.junclikrmedi.com CNAME .
+conversionsapigateway.com CNAME .
+*.conversionsapigateway.com CNAME .
+demo-1.conversionsapigateway.com CNAME .
+*.demo-1.conversionsapigateway.com CNAME .
+gw.conversionsapigateway.com CNAME .
+*.gw.conversionsapigateway.com CNAME .
+sgw.conversionsapigateway.com CNAME .
+*.sgw.conversionsapigateway.com CNAME .
+sgw-alpha-1.conversionsapigateway.com CNAME .
+*.sgw-alpha-1.conversionsapigateway.com CNAME .
+kueezrtb.com CNAME .
+*.kueezrtb.com CNAME .
+exchange.kueezrtb.com CNAME .
+*.exchange.kueezrtb.com CNAME .
+sync.kueezrtb.com CNAME .
+*.sync.kueezrtb.com CNAME .
 adtimaserver.vn CNAME .
 *.adtimaserver.vn CNAME .
 api.adtimaserver.vn CNAME .
@@ -22426,6 +22530,8 @@ piwik.rta.vn CNAME .
 *.piwik.rta.vn CNAME .
 ad.accesstrade.vn CNAME .
 *.ad.accesstrade.vn CNAME .
+content.accesstrade.vn CNAME .
+*.content.accesstrade.vn CNAME .
 partner.accesstrade.vn CNAME .
 *.partner.accesstrade.vn CNAME .
 service-api.accesstrade.vn CNAME .
@@ -25306,6 +25412,8 @@ adsys.townnews.com CNAME .
 *.adsys.townnews.com CNAME .
 adsystem.simplemachines.org CNAME .
 *.adsystem.simplemachines.org CNAME .
+adtarget.org CNAME .
+*.adtarget.org CNAME .
 adtech.com CNAME .
 *.adtech.com CNAME .
 adtech.de CNAME .
@@ -27680,6 +27788,8 @@ easysitelabs.my CNAME .
 *.easysitelabs.my CNAME .
 eatablesquare.com CNAME .
 *.eatablesquare.com CNAME .
+eb.koaeunhairy.shop CNAME .
+*.eb.koaeunhairy.shop CNAME .
 ebayadvertising.com CNAME .
 *.ebayadvertising.com CNAME .
 ebetoni.com CNAME .
@@ -28800,6 +28910,12 @@ intrudefatherinlaw.com CNAME .
 *.intrudefatherinlaw.com CNAME .
 inuvi.com CNAME .
 *.inuvi.com CNAME .
+invl.me CNAME .
+*.invl.me CNAME .
+invl.us CNAME .
+*.invl.us CNAME .
+invle.co CNAME .
+*.invle.co CNAME .
 invol.co CNAME .
 *.invol.co CNAME .
 iodideeyebath.cam CNAME .
@@ -29012,6 +29128,8 @@ kiynew.com CNAME .
 *.kiynew.com CNAME .
 kjdvn1340-ads.blogspot.com CNAME .
 *.kjdvn1340-ads.blogspot.com CNAME .
+kkdeldurlxjjcz.com CNAME .
+*.kkdeldurlxjjcz.com CNAME .
 klclick1.com CNAME .
 *.klclick1.com CNAME .
 klik.blog CNAME .
@@ -29064,8 +29182,6 @@ ku2d3a7pa8mdi.com CNAME .
 *.ku2d3a7pa8mdi.com CNAME .
 ku42hjr2e.com CNAME .
 *.ku42hjr2e.com CNAME .
-kueezrtb.com CNAME .
-*.kueezrtb.com CNAME .
 kuno-gae.com CNAME .
 *.kuno-gae.com CNAME .
 kupona.de CNAME .
@@ -29108,6 +29224,8 @@ lbn.ru CNAME .
 *.lbn.ru CNAME .
 lby2kd27c.com CNAME .
 *.lby2kd27c.com CNAME .
+ldjsypolwypxy.space CNAME .
+*.ldjsypolwypxy.space CNAME .
 leadclick.com CNAME .
 *.leadclick.com CNAME .
 leadplace.fr CNAME .
@@ -33206,6 +33324,8 @@ zipazvzu.com CNAME .
 *.zipazvzu.com CNAME .
 zireemilsoude.net CNAME .
 *.zireemilsoude.net CNAME .
+zjdpabwmeb.com CNAME .
+*.zjdpabwmeb.com CNAME .
 zkyrzoqc.com CNAME .
 *.zkyrzoqc.com CNAME .
 zlp6s.pw CNAME .

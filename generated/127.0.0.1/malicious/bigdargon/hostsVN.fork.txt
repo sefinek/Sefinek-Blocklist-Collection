@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,025 domains
+# Entries: 18,087 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: 127.0.0.1 before each domain
 # Expires: 1 day
-# Last updated: June 30, 2026 at 3:54 PM UTC | 2026-06-30T15:54:05.350Z
+# Last updated: July 2, 2026 at 4:28 AM UTC | 2026-07-02T04:28:13.837Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -1822,6 +1822,7 @@
 127.0.0.1 sshowads.pubmatic.com
 127.0.0.1 t.pubmatic.com
 127.0.0.1 track.pubmatic.com
+127.0.0.1 ut.pubmatic.com
 127.0.0.1 vid.pubmatic.com
 127.0.0.1 www.pubmatic.com
 127.0.0.1 cdn.doubleverify.com
@@ -2937,6 +2938,7 @@
 127.0.0.1 www.jpush.io
 127.0.0.1 adasia-d.openx.net
 127.0.0.1 ads.openx.net
+127.0.0.1 apacdigital-d.openx.net
 127.0.0.1 bid.openx.net
 127.0.0.1 eu-u.openx.net
 127.0.0.1 google-bidout-d.openx.net
@@ -3305,9 +3307,10 @@
 127.0.0.1 edgecdn.bizible.com
 127.0.0.1 info.bizible.com
 127.0.0.1 www.bizible.com
-127.0.0.1 ads.adtarget.me
 127.0.0.1 ads-us.adtarget.me
+127.0.0.1 ads.adtarget.me
 127.0.0.1 adtarget.me
+127.0.0.1 cdn.adtarget.me
 127.0.0.1 socrates-1.adtarget.me
 127.0.0.1 socrates-6-1.adtarget.me
 127.0.0.1 staging-ads.adtarget.me
@@ -3317,6 +3320,37 @@
 127.0.0.1 system.adtarget.me
 127.0.0.1 trackers.adtarget.me
 127.0.0.1 www.adtarget.me
+127.0.0.1 z.cdn.adtarget.me
+127.0.0.1 adtarget.biz
+127.0.0.1 cdn.adtarget.biz
+127.0.0.1 static.cdn.adtarget.biz
+127.0.0.1 dsp-service.adtarget.biz
+127.0.0.1 prebid.adtarget.biz
+127.0.0.1 rtb.adtarget.biz
+127.0.0.1 adagio.rtb.adtarget.biz
+127.0.0.1 bidgear.rtb.adtarget.biz
+127.0.0.1 optima.rtb.adtarget.biz
+127.0.0.1 papayads.rtb.adtarget.biz
+127.0.0.1 weforads.rtb.adtarget.biz
+127.0.0.1 ssp-service.adtarget.biz
+127.0.0.1 www.adtarget.biz
+127.0.0.1 adtarget.com.tr
+127.0.0.1 cdn.adtarget.com.tr
+127.0.0.1 console.adtarget.com.tr
+127.0.0.1 adt-auxlog1-ec.console.adtarget.com.tr
+127.0.0.1 adt-auxlog2-wc.console.adtarget.com.tr
+127.0.0.1 ghb.console.adtarget.com.tr
+127.0.0.1 s.console.adtarget.com.tr
+127.0.0.1 sync.console.adtarget.com.tr
+127.0.0.1 adtarget.market
+127.0.0.1 at1.adtarget.market
+127.0.0.1 at2.adtarget.market
+127.0.0.1 at3.adtarget.market
+127.0.0.1 cdn.adtarget.market
+127.0.0.1 z.cdn.adtarget.market
+127.0.0.1 www.adtarget.market
+127.0.0.1 adtarget.tech
+127.0.0.1 ai.adtarget.tech
 127.0.0.1 ads.ayads.co
 127.0.0.1 antenna-apse.ayads.co
 127.0.0.1 antenna-us.ayads.co
@@ -4080,6 +4114,7 @@
 127.0.0.1 dp.33across.com
 127.0.0.1 dp1.33across.com
 127.0.0.1 dp2.33across.com
+127.0.0.1 et-c-ash.33across.com
 127.0.0.1 flamenipper.33across.com
 127.0.0.1 go.33across.com
 127.0.0.1 internal.33across.com
@@ -5740,7 +5775,9 @@
 127.0.0.1 rj.a-mo.net
 127.0.0.1 s.update.a-mo.net
 127.0.0.1 sdk.a-mo.net
+127.0.0.1 sea1-sync.a-mo.net
 127.0.0.1 static.a-mo.net
+127.0.0.1 sync.a-mo.net
 127.0.0.1 u.update.a-mo.net
 127.0.0.1 update.a-mo.net
 127.0.0.1 us-east-1.rtb.a-mo.net
@@ -7970,10 +8007,15 @@
 127.0.0.1 dmp.datawrkz.com
 127.0.0.1 serving.datawrkz.com
 127.0.0.1 www.datawrkz.com
+127.0.0.1 dl-adx.op-mobile.opera.com
 127.0.0.1 pps-log.op-mobile.opera.com
 127.0.0.1 s-adx.op-mobile.opera.com
 127.0.0.1 sdklog.tvstore.opera.com
+127.0.0.1 t-odx.op-mobile.opera.com
 127.0.0.1 adx.opera.com
+127.0.0.1 b-eu.adx.opera.com
+127.0.0.1 b-sg.adx.opera.com
+127.0.0.1 b-us.adx.opera.com
 127.0.0.1 px.adx.opera.com
 127.0.0.1 res.adx.opera.com
 127.0.0.1 s.adx.opera.com
@@ -8736,6 +8778,8 @@
 127.0.0.1 c.4dex.io
 127.0.0.1 mp.4dex.io
 127.0.0.1 script.4dex.io
+127.0.0.1 u-tyo.4dex.io
+127.0.0.1 u.4dex.io
 127.0.0.1 opt.ximad.com
 127.0.0.1 pls.ximad.com
 127.0.0.1 puzzlestore.ximad.com
@@ -8784,6 +8828,7 @@
 127.0.0.1 www.playstream.media
 127.0.0.1 ads.betweendigital.com
 127.0.0.1 betweendigital.com
+127.0.0.1 cache.betweendigital.com
 127.0.0.1 adwmg.com
 127.0.0.1 hb.adwmg.com
 127.0.0.1 rtb.adwmg.com
@@ -10369,6 +10414,7 @@
 127.0.0.1 w3-reporting.reddit.com
 127.0.0.1 richaudience.com
 127.0.0.1 shb.richaudience.com
+127.0.0.1 sync.richaudience.com
 127.0.0.1 adlogists.com
 127.0.0.1 engine.adlogists.com
 127.0.0.1 insights.rtgio.co
@@ -10798,6 +10844,14 @@
 127.0.0.1 click-eu-v4.junclikrmedi.com
 127.0.0.1 click-v4.junclikrmedi.com
 127.0.0.1 www.junclikrmedi.com
+127.0.0.1 conversionsapigateway.com
+127.0.0.1 demo-1.conversionsapigateway.com
+127.0.0.1 gw.conversionsapigateway.com
+127.0.0.1 sgw.conversionsapigateway.com
+127.0.0.1 sgw-alpha-1.conversionsapigateway.com
+127.0.0.1 kueezrtb.com
+127.0.0.1 exchange.kueezrtb.com
+127.0.0.1 sync.kueezrtb.com
 127.0.0.1 adtimaserver.vn
 127.0.0.1 api.adtimaserver.vn
 127.0.0.1 log.adtimaserver.vn
@@ -11777,6 +11831,7 @@
 127.0.0.1 mautic.vmax.vn
 127.0.0.1 piwik.rta.vn
 127.0.0.1 ad.accesstrade.vn
+127.0.0.1 content.accesstrade.vn
 127.0.0.1 partner.accesstrade.vn
 127.0.0.1 service-api.accesstrade.vn
 127.0.0.1 static.accesstrade.vn
@@ -13238,6 +13293,7 @@
 127.0.0.1 adsynergy.com
 127.0.0.1 adsys.townnews.com
 127.0.0.1 adsystem.simplemachines.org
+127.0.0.1 adtarget.org
 127.0.0.1 adtech.com
 127.0.0.1 adtech.de
 127.0.0.1 adtegrity.net
@@ -14425,6 +14481,7 @@
 127.0.0.1 easyhits4u.com
 127.0.0.1 easysitelabs.my
 127.0.0.1 eatablesquare.com
+127.0.0.1 eb.koaeunhairy.shop
 127.0.0.1 ebayadvertising.com
 127.0.0.1 ebetoni.com
 127.0.0.1 ec-optimizer.com
@@ -14985,6 +15042,9 @@
 127.0.0.1 intowow.com
 127.0.0.1 intrudefatherinlaw.com
 127.0.0.1 inuvi.com
+127.0.0.1 invl.me
+127.0.0.1 invl.us
+127.0.0.1 invle.co
 127.0.0.1 invol.co
 127.0.0.1 iodideeyebath.cam
 127.0.0.1 iogjhbnoypg.com
@@ -15091,6 +15151,7 @@
 127.0.0.1 king3rsc7ol9e3ge.com
 127.0.0.1 kiynew.com
 127.0.0.1 kjdvn1340-ads.blogspot.com
+127.0.0.1 kkdeldurlxjjcz.com
 127.0.0.1 klclick1.com
 127.0.0.1 klik.blog
 127.0.0.1 kliks.nl
@@ -15117,7 +15178,6 @@
 127.0.0.1 ktu.sv2.biz
 127.0.0.1 ku2d3a7pa8mdi.com
 127.0.0.1 ku42hjr2e.com
-127.0.0.1 kueezrtb.com
 127.0.0.1 kuno-gae.com
 127.0.0.1 kupona.de
 127.0.0.1 kuqfudazkn.com
@@ -15139,6 +15199,7 @@
 127.0.0.1 layer-ads.de
 127.0.0.1 lbn.ru
 127.0.0.1 lby2kd27c.com
+127.0.0.1 ldjsypolwypxy.space
 127.0.0.1 leadclick.com
 127.0.0.1 leadplace.fr
 127.0.0.1 leadzu.com
@@ -17254,6 +17315,7 @@
 127.0.0.1 zimpolo.com
 127.0.0.1 zipazvzu.com
 127.0.0.1 zireemilsoude.net
+127.0.0.1 zjdpabwmeb.com
 127.0.0.1 zkyrzoqc.com
 127.0.0.1 zlp6s.pw
 127.0.0.1 zm232.com
