@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026070210 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070212 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: StopForumSpam Toxic Domains
-; Entries: 74,558 domains
+; Entries: 74,560 domains
 ; Source: https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 2, 2026 at 10:05 AM UTC | 2026-07-02T10:05:48.740Z
+; Last updated: July 2, 2026 at 12:42 PM UTC | 2026-07-02T12:42:31.470Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -33802,6 +33802,8 @@ contactslbs.click CNAME .
 *.contactslbs.click CNAME .
 contactspp.click CNAME .
 *.contactspp.click CNAME .
+contactus.51tiemo.com CNAME .
+*.contactus.51tiemo.com CNAME .
 contactus.billieholidaylabs.click CNAME .
 *.contactus.billieholidaylabs.click CNAME .
 contactus.hikehq.click CNAME .
@@ -145894,6 +145896,8 @@ yaho.com.hk CNAME .
 *.yaho.com.hk CNAME .
 yaho.gr CNAME .
 *.yaho.gr CNAME .
+yaho.my.id CNAME .
+*.yaho.my.id CNAME .
 yahoa.top CNAME .
 *.yahoa.top CNAME .
 yaholo.cloud CNAME .
