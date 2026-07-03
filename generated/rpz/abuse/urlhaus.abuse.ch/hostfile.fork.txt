@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026070310 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070312 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 429 domains
+; Entries: 430 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 3, 2026 at 10:04 AM UTC | 2026-07-03T10:04:46.603Z
+; Last updated: July 3, 2026 at 12:41 PM UTC | 2026-07-03T12:41:35.061Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -130,6 +130,8 @@ cat.xiaoshabi.nl CNAME .
 *.cat.xiaoshabi.nl CNAME .
 catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
+cayif.hellokism.click CNAME .
+*.cayif.hellokism.click CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
 celebratingseniors.net CNAME .
@@ -462,10 +464,10 @@ manovingenieria.com CNAME .
 *.manovingenieria.com CNAME .
 mdftw8lo.btyek.website CNAME .
 *.mdftw8lo.btyek.website CNAME .
+mecsolpk.com CNAME .
+*.mecsolpk.com CNAME .
 meetvideogoogle.com CNAME .
 *.meetvideogoogle.com CNAME .
-metrics.gocloudmaps.com CNAME .
-*.metrics.gocloudmaps.com CNAME .
 mitreart.com CNAME .
 *.mitreart.com CNAME .
 mlvgwjn.1xforward.pro CNAME .
