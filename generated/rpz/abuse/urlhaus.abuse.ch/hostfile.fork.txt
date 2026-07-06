@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026070600 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070604 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 486 domains
+; Entries: 489 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 6, 2026 at 12:37 AM UTC | 2026-07-06T00:37:49.639Z
+; Last updated: July 6, 2026 at 4:32 AM UTC | 2026-07-06T04:32:25.056Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -60,6 +60,10 @@ $TTL 300
 *.9vxg256z.bazikeno.com CNAME .
 a7.wtf CNAME .
 *.a7.wtf CNAME .
+aaronart.com CNAME .
+*.aaronart.com CNAME .
+abdulahad.net CNAME .
+*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -108,6 +112,8 @@ baileyemas.com CNAME .
 *.baileyemas.com CNAME .
 balconyresidences.com.br CNAME .
 *.balconyresidences.com.br CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bip.priestsw.com CNAME .
@@ -150,8 +156,6 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
-cdn.file6.goodid.com CNAME .
-*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 ceohdvj.bonos.promo CNAME .
@@ -256,8 +260,6 @@ disk.accord1key.cn CNAME .
 *.disk.accord1key.cn CNAME .
 divvanews.com CNAME .
 *.divvanews.com CNAME .
-dl.1003b.56a.com CNAME .
-*.dl.1003b.56a.com CNAME .
 dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
 dl.natgo.cn CNAME .
@@ -272,6 +274,8 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
+down.qqfarmer.com.cn CNAME .
+*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
@@ -290,8 +294,8 @@ dowonline.ru CNAME .
 *.dowonline.ru CNAME .
 dqr7yibh.thevallartasrestaurants.com CNAME .
 *.dqr7yibh.thevallartasrestaurants.com CNAME .
-dreamwatchevent.com CNAME .
-*.dreamwatchevent.com CNAME .
+dreamapp.xyz CNAME .
+*.dreamapp.xyz CNAME .
 dusttv.com CNAME .
 *.dusttv.com CNAME .
 dynga.pl CNAME .
@@ -528,8 +532,6 @@ ms9amh2h.1xcart.vip CNAME .
 *.ms9amh2h.1xcart.vip CNAME .
 ms9datqz.953.games CNAME .
 *.ms9datqz.953.games CNAME .
-msedge.vg CNAME .
-*.msedge.vg CNAME .
 muaklekcoop.com CNAME .
 *.muaklekcoop.com CNAME .
 muledo.com CNAME .
@@ -558,8 +560,6 @@ nomadtrade.app CNAME .
 *.nomadtrade.app CNAME .
 ntqpkct.bahiscart.com CNAME .
 *.ntqpkct.bahiscart.com CNAME .
-nusatoyota.co.id CNAME .
-*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -606,8 +606,12 @@ planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 plasteredplayn.com CNAME .
 *.plasteredplayn.com CNAME .
+pns.org.pk CNAME .
+*.pns.org.pk CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
+powershell-storage.vg CNAME .
+*.powershell-storage.vg CNAME .
 preciosasjoyitas.com.mx CNAME .
 *.preciosasjoyitas.com.mx CNAME .
 primaflor-sby.com CNAME .
@@ -716,8 +720,6 @@ solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
-static.ilclock.com CNAME .
-*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
@@ -788,6 +790,8 @@ tu.feyhaum.com CNAME .
 *.tu.feyhaum.com CNAME .
 tuasesoriadigital.es CNAME .
 *.tuasesoriadigital.es CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 tzpfztp.90bet.org CNAME .
 *.tzpfztp.90bet.org CNAME .
 u9gcj5sd.oxiidbet.com CNAME .
@@ -948,6 +952,8 @@ yunczfkm.cyou CNAME .
 *.yunczfkm.cyou CNAME .
 yylcnvu.90jet.pro CNAME .
 *.yylcnvu.90jet.pro CNAME .
+zamatours.net CNAME .
+*.zamatours.net CNAME .
 zenglobalenerji.com CNAME .
 *.zenglobalenerji.com CNAME .
 zgfnygu.prozhe.download CNAME .
