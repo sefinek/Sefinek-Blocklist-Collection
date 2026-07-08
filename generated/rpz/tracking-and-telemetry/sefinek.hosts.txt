@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026041823 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070813 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -10,12 +10,12 @@ $TTL 300
 ;
 ; Title: Tracking & telemetry
 ; Description: Blocks domains used for tracking user behavior, analytics collection, and telemetry reporting.
-; Entries: 2 domains
+; Entries: 4 domains
 ; Author: Sefinek <contact@sefinek.net> (https://sefinek.net)
 ; License: CC BY-NC-ND 4.0
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: April 18, 2026 at 11:03 PM UTC | 2026-04-18T23:03:05.052Z
+; Last updated: July 8, 2026 at 1:57 PM UTC | 2026-07-08T13:57:35.870Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -25,3 +25,5 @@ sentry.medal.tv CNAME .
 *.sentry.medal.tv CNAME .
 devlog-upload.mihoyo.com CNAME .
 *.devlog-upload.mihoyo.com CNAME .
+jomesh.com CNAME .
+*.jomesh.com CNAME .
