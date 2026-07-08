@@ -34,6 +34,16 @@ if (!MONGODB_URL) throw new Error('Missing MongoDB connection URL');
 			cluster.fork();
 		}
 
+		let readyWorkers = 0;
+		let pm2Notified = false;
+		cluster.on('message', (worker, msg) => {
+			if (msg !== 'ready' || pm2Notified) return;
+			if (++readyWorkers >= numCPUs) {
+				pm2Notified = true;
+				if (process.send) process.send('ready');
+			}
+		});
+
 		// Auto-restart workers on crash
 		cluster.on('exit', (worker, code, signal) => {
 			console.error(`Worker ${worker.process.pid} died (code: ${code}, signal: ${signal}). Restarting...`);
