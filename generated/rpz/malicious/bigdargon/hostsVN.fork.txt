@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026070607 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026070910 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,121 domains
+; Entries: 18,168 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 6, 2026 at 7:36 AM UTC | 2026-07-06T07:36:06.245Z
+; Last updated: July 9, 2026 at 10:14 AM UTC | 2026-07-09T10:14:36.911Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2364,6 +2364,10 @@ alog.umeng.com CNAME .
 *.alog.umeng.com CNAME .
 alogs.umeng.com CNAME .
 *.alogs.umeng.com CNAME .
+alogsus.umeng.com CNAME .
+*.alogsus.umeng.com CNAME .
+alogus.umeng.com CNAME .
+*.alogus.umeng.com CNAME .
 api.umeng.com CNAME .
 *.api.umeng.com CNAME .
 ar.umeng.com CNAME .
@@ -2372,6 +2376,8 @@ at.umeng.com CNAME .
 *.at.umeng.com CNAME .
 errlog.umeng.com CNAME .
 *.errlog.umeng.com CNAME .
+errnewlogos.umeng.com CNAME .
+*.errnewlogos.umeng.com CNAME .
 oc.umeng.com CNAME .
 *.oc.umeng.com CNAME .
 ocx.umeng.com CNAME .
@@ -20720,6 +20726,76 @@ wbamedia.com CNAME .
 *.wbamedia.com CNAME .
 track.wbamedia.com CNAME .
 *.track.wbamedia.com CNAME .
+parklogic.com CNAME .
+*.parklogic.com CNAME .
+hickory02.parklogic.com CNAME .
+*.hickory02.parklogic.com CNAME .
+parking.parklogic.com CNAME .
+*.parking.parklogic.com CNAME .
+parking3.parklogic.com CNAME .
+*.parking3.parklogic.com CNAME .
+rd.parklogic.com CNAME .
+*.rd.parklogic.com CNAME .
+router.parklogic.com CNAME .
+*.router.parklogic.com CNAME .
+cfgc.zztfly.com CNAME .
+*.cfgc.zztfly.com CNAME .
+log-auth.zztfly.com CNAME .
+*.log-auth.zztfly.com CNAME .
+upc.zztfly.com CNAME .
+*.upc.zztfly.com CNAME .
+cfgc.flysleep.cn CNAME .
+*.cfgc.flysleep.cn CNAME .
+log-auth.flysleep.cn CNAME .
+*.log-auth.flysleep.cn CNAME .
+upc.flysleep.cn CNAME .
+*.upc.flysleep.cn CNAME .
+maticooads.com CNAME .
+*.maticooads.com CNAME .
+sdk-api.maticooads.com CNAME .
+*.sdk-api.maticooads.com CNAME .
+sdk-api-linode1.maticooads.com CNAME .
+*.sdk-api-linode1.maticooads.com CNAME .
+sdk-api-usa.maticooads.com CNAME .
+*.sdk-api-usa.maticooads.com CNAME .
+sdk-api-v3.maticooads.com CNAME .
+*.sdk-api-v3.maticooads.com CNAME .
+tracker.maticooads.com CNAME .
+*.tracker.maticooads.com CNAME .
+trackerus.maticooads.com CNAME .
+*.trackerus.maticooads.com CNAME .
+hiaiabc.com CNAME .
+*.hiaiabc.com CNAME .
+abroad-sdk-push.hiaiabc.com CNAME .
+*.abroad-sdk-push.hiaiabc.com CNAME .
+api-c.hiaiabc.com CNAME .
+*.api-c.hiaiabc.com CNAME .
+api-d.hiaiabc.com CNAME .
+*.api-d.hiaiabc.com CNAME .
+api-df.hiaiabc.com CNAME .
+*.api-df.hiaiabc.com CNAME .
+api-exc.hiaiabc.com CNAME .
+*.api-exc.hiaiabc.com CNAME .
+api-gd.hiaiabc.com CNAME .
+*.api-gd.hiaiabc.com CNAME .
+devs-data.hiaiabc.com CNAME .
+*.devs-data.hiaiabc.com CNAME .
+log-verify.hiaiabc.com CNAME .
+*.log-verify.hiaiabc.com CNAME .
+m-adnet.hiaiabc.com CNAME .
+*.m-adnet.hiaiabc.com CNAME .
+m-mpl.hiaiabc.com CNAME .
+*.m-mpl.hiaiabc.com CNAME .
+sdk-push.hiaiabc.com CNAME .
+*.sdk-push.hiaiabc.com CNAME .
+dutils.com CNAME .
+*.dutils.com CNAME .
+abroad-sdk-push.dutils.com CNAME .
+*.abroad-sdk-push.dutils.com CNAME .
+m-adnet.dutils.com CNAME .
+*.m-adnet.dutils.com CNAME .
+sdk-push.dutils.com CNAME .
+*.sdk-push.dutils.com CNAME .
 adtimaserver.vn CNAME .
 *.adtimaserver.vn CNAME .
 api.adtimaserver.vn CNAME .
@@ -27396,6 +27472,8 @@ d1nssfq3xl2t6b.cloudfront.net CNAME .
 *.d1nssfq3xl2t6b.cloudfront.net CNAME .
 d1pn3cn3ri604k.cloudfront.net CNAME .
 *.d1pn3cn3ri604k.cloudfront.net CNAME .
+d1tru86qrby720.cloudfront.net CNAME .
+*.d1tru86qrby720.cloudfront.net CNAME .
 d1u5ibtsigyagv.cloudfront.net CNAME .
 *.d1u5ibtsigyagv.cloudfront.net CNAME .
 d1ugiptma3cglb.cloudfront.net CNAME .
@@ -28676,6 +28754,8 @@ hixwwert.in CNAME .
 *.hixwwert.in CNAME .
 hj.combusteschel.shop CNAME .
 *.hj.combusteschel.shop CNAME .
+hnzjxjfepbpr.com CNAME .
+*.hnzjxjfepbpr.com CNAME .
 hockeyhavoc.com CNAME .
 *.hockeyhavoc.com CNAME .
 holahupa.com CNAME .
@@ -31718,6 +31798,8 @@ skullhalfway.com CNAME .
 *.skullhalfway.com CNAME .
 skylink.vn CNAME .
 *.skylink.vn CNAME .
+sl.maundysinon.cyou CNAME .
+*.sl.maundysinon.cyou CNAME .
 sleeknote.com CNAME .
 *.sleeknote.com CNAME .
 slicktext.com CNAME .
@@ -32262,6 +32344,8 @@ thoorest.com CNAME .
 *.thoorest.com CNAME .
 thripelbertie.website CNAME .
 *.thripelbertie.website CNAME .
+throbbingvagueforms.com CNAME .
+*.throbbingvagueforms.com CNAME .
 thruport.com CNAME .
 *.thruport.com CNAME .
 thubanoa.com CNAME .
@@ -32398,6 +32482,10 @@ tour.brazzers.com CNAME .
 *.tour.brazzers.com CNAME .
 tpnads.com CNAME .
 *.tpnads.com CNAME .
+tqgyzwquwu.com CNAME .
+*.tqgyzwquwu.com CNAME .
+tqvnfnotrhyfl.site CNAME .
+*.tqvnfnotrhyfl.site CNAME .
 trac.mediaiqdigital.com CNAME .
 *.trac.mediaiqdigital.com CNAME .
 track.acqvoluum.com CNAME .
@@ -32898,6 +32986,8 @@ vrs.cz CNAME .
 *.vrs.cz CNAME .
 vs.tucows.com CNAME .
 *.vs.tucows.com CNAME .
+vsgdodqfjpdws.space CNAME .
+*.vsgdodqfjpdws.space CNAME .
 vsgpxqdqk.com CNAME .
 *.vsgpxqdqk.com CNAME .
 vtacibqzopiw.com CNAME .
@@ -34082,8 +34172,6 @@ live-tv.top CNAME .
 *.live-tv.top CNAME .
 lngtd.com CNAME .
 *.lngtd.com CNAME .
-log-auth.zztfly.com CNAME .
-*.log-auth.zztfly.com CNAME .
 log-eap-sg.coloros.com CNAME .
 *.log-eap-sg.coloros.com CNAME .
 log-upload-eur.mihoyo.com CNAME .
