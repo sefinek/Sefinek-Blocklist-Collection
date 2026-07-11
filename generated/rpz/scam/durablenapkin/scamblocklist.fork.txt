@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071007 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071106 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Durablenapkin Scam Blocklist
-; Entries: 2,216 domains
+; Entries: 2,224 domains
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; License: MIT (https://mit-license.org/)
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 10, 2026 at 7:15 AM UTC | 2026-07-10T07:15:05.292Z
+; Last updated: July 11, 2026 at 6:49 AM UTC | 2026-07-11T06:49:52.509Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -132,6 +132,10 @@ store.altwi-zgs.com CNAME .
 *.store.altwi-zgs.com CNAME .
 amorpulse.com CNAME .
 *.amorpulse.com CNAME .
+animeshoppers.com CNAME .
+*.animeshoppers.com CNAME .
+store.animeshoppers.com CNAME .
+*.store.animeshoppers.com CNAME .
 anydebrid.com CNAME .
 *.anydebrid.com CNAME .
 aoptee.com CNAME .
@@ -1080,10 +1084,6 @@ indianimmigration.org CNAME .
 *.indianimmigration.org CNAME .
 indianonlinevisas.org CNAME .
 *.indianonlinevisas.org CNAME .
-indiantravelvisa.com CNAME .
-*.indiantravelvisa.com CNAME .
-store.indiantravelvisa.com CNAME .
-*.store.indiantravelvisa.com CNAME .
 indianvisa.online CNAME .
 *.indianvisa.online CNAME .
 indianvisagov.com CNAME .
@@ -1294,6 +1294,10 @@ luckyhomie.com CNAME .
 *.luckyhomie.com CNAME .
 store.luckyhomie.com CNAME .
 *.store.luckyhomie.com CNAME .
+lucysstyle.com CNAME .
+*.lucysstyle.com CNAME .
+store.lucysstyle.com CNAME .
+*.store.lucysstyle.com CNAME .
 luxsgear.com CNAME .
 *.luxsgear.com CNAME .
 store.luxsgear.com CNAME .
@@ -1426,6 +1430,8 @@ navi12.com CNAME .
 *.navi12.com CNAME .
 store.navi12.com CNAME .
 *.store.navi12.com CNAME .
+navi18.com CNAME .
+*.navi18.com CNAME .
 navi2.com CNAME .
 *.navi2.com CNAME .
 navi20.com CNAME .
@@ -1476,8 +1482,6 @@ navi38.ru CNAME .
 *.navi38.ru CNAME .
 navi39.ru CNAME .
 *.navi39.ru CNAME .
-navi42.ru CNAME .
-*.navi42.ru CNAME .
 store.navi42.ru CNAME .
 *.store.navi42.ru CNAME .
 navi5.com CNAME .
@@ -1636,6 +1640,8 @@ store.norgeshoes.com CNAME .
 *.store.norgeshoes.com CNAME .
 nosdaarte.com CNAME .
 *.nosdaarte.com CNAME .
+store.nosdaarte.com CNAME .
+*.store.nosdaarte.com CNAME .
 notify-user-adjustments.vercel.app CNAME .
 *.notify-user-adjustments.vercel.app CNAME .
 store.notify-user-adjustments.vercel.app CNAME .
@@ -1864,6 +1870,8 @@ store.robalmeister.workers.dev CNAME .
 *.store.robalmeister.workers.dev CNAME .
 robinmooreband.com CNAME .
 *.robinmooreband.com CNAME .
+robuxmenu.vip CNAME .
+*.robuxmenu.vip CNAME .
 rockchief.com CNAME .
 *.rockchief.com CNAME .
 rosateeshop.com CNAME .
@@ -2148,6 +2156,8 @@ tartannewzealand.myshopify.com CNAME .
 *.tartannewzealand.myshopify.com CNAME .
 store.tartannewzealand.myshopify.com CNAME .
 *.store.tartannewzealand.myshopify.com CNAME .
+tatatowers.com CNAME .
+*.tatatowers.com CNAME .
 tbao684tryo.com CNAME .
 *.tbao684tryo.com CNAME .
 teezill.com CNAME .
@@ -2316,8 +2326,6 @@ uniswap.ro CNAME .
 *.uniswap.ro CNAME .
 store.uniswap.ro CNAME .
 *.store.uniswap.ro CNAME .
-uniswap5.work CNAME .
-*.uniswap5.work CNAME .
 uniswapagent.com CNAME .
 *.uniswapagent.com CNAME .
 uniswapai.xyz CNAME .
@@ -2486,8 +2494,6 @@ store.visumbuitenland.nl CNAME .
 *.store.visumbuitenland.nl CNAME .
 vizjer-pl.pl CNAME .
 *.vizjer-pl.pl CNAME .
-store.vizjer-pl.pl CNAME .
-*.store.vizjer-pl.pl CNAME .
 vizjer.eu CNAME .
 *.vizjer.eu CNAME .
 store.vizjer.eu CNAME .
@@ -2556,6 +2562,8 @@ wpad.casa CNAME .
 *.wpad.casa CNAME .
 wpad.ru CNAME .
 *.wpad.ru CNAME .
+store.wpad.ru CNAME .
+*.store.wpad.ru CNAME .
 wpad.top CNAME .
 *.wpad.top CNAME .
 wpad.xyz CNAME .
