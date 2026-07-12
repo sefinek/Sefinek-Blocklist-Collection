@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071206 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071209 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 456 domains
+; Entries: 458 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 12, 2026 at 6:57 AM UTC | 2026-07-12T06:57:33.315Z
+; Last updated: July 12, 2026 at 9:39 AM UTC | 2026-07-12T09:39:51.822Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -22,6 +22,8 @@ $TTL 300
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
 0022a601.pphost.net CNAME .
 *.0022a601.pphost.net CNAME .
+123.ywxww.net CNAME .
+*.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
 1qvrznky.runtimebeacon.top CNAME .
@@ -58,8 +60,6 @@ alineeleuterio.com.br CNAME .
 *.alineeleuterio.com.br CNAME .
 allendostmen.com CNAME .
 *.allendostmen.com CNAME .
-alternativas.ru CNAME .
-*.alternativas.ru CNAME .
 app.appzcvb.com CNAME .
 *.app.appzcvb.com CNAME .
 archivoscrosoft.com CNAME .
@@ -214,6 +214,8 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
+down.qqfarmer.com.cn CNAME .
+*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
@@ -226,10 +228,14 @@ download.pdf00.cn CNAME .
 *.download.pdf00.cn CNAME .
 download.pdf00.com CNAME .
 *.download.pdf00.com CNAME .
+download.suxiazai.com CNAME .
+*.download.suxiazai.com CNAME .
 dowonline.ru CNAME .
 *.dowonline.ru CNAME .
 dreamapp.xyz CNAME .
 *.dreamapp.xyz CNAME .
+dreamwatchevent.com CNAME .
+*.dreamwatchevent.com CNAME .
 dusttv.com CNAME .
 *.dusttv.com CNAME .
 dynga.pl CNAME .
@@ -262,6 +268,8 @@ etoncwgd.behtarin-site-shartbandi-football.com CNAME .
 *.etoncwgd.behtarin-site-shartbandi-football.com CNAME .
 evangroup.ru CNAME .
 *.evangroup.ru CNAME .
+facanha.com.br CNAME .
+*.facanha.com.br CNAME .
 fakers.co.jp CNAME .
 *.fakers.co.jp CNAME .
 farschid.de CNAME .
@@ -304,8 +312,6 @@ genddos.st CNAME .
 *.genddos.st CNAME .
 genesis-softs.com CNAME .
 *.genesis-softs.com CNAME .
-geo-foundation.vg CNAME .
-*.geo-foundation.vg CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
 ggj2o3iw.zaribbala.bet CNAME .
@@ -400,6 +406,8 @@ jxiluxhf.radioshartbandi.chat CNAME .
 *.jxiluxhf.radioshartbandi.chat CNAME .
 jyothishmathi.in CNAME .
 *.jyothishmathi.in CNAME .
+kaleda.pro CNAME .
+*.kaleda.pro CNAME .
 kavacanada.ca CNAME .
 *.kavacanada.ca CNAME .
 kenwillzltd.com CNAME .
@@ -428,6 +436,8 @@ leconto.lol CNAME .
 *.leconto.lol CNAME .
 libss.0x504.com CNAME .
 *.libss.0x504.com CNAME .
+lindnerelektroanlagen.de CNAME .
+*.lindnerelektroanlagen.de CNAME .
 llgdqtat.betpublic.casino CNAME .
 *.llgdqtat.betpublic.casino CNAME .
 local-update.com CNAME .
@@ -442,6 +452,8 @@ luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
 m.jkoa.co.kr CNAME .
 *.m.jkoa.co.kr CNAME .
+m.meta-dm.com CNAME .
+*.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 meetvideogoogle.com CNAME .
@@ -462,6 +474,8 @@ muledo.com CNAME .
 *.muledo.com CNAME .
 mundocarnes.cl CNAME .
 *.mundocarnes.cl CNAME .
+mvd-2026.ru CNAME .
+*.mvd-2026.ru CNAME .
 mx9x.com CNAME .
 *.mx9x.com CNAME .
 n.vs108.com CNAME .
@@ -498,8 +512,6 @@ okhan.net CNAME .
 *.okhan.net CNAME .
 oknoplastik.sk CNAME .
 *.oknoplastik.sk CNAME .
-omani-disputes.com CNAME .
-*.omani-disputes.com CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
 orjrdtyn.site-shartbandi-khareji.com CNAME .
@@ -518,8 +530,6 @@ pay.aqiu6.com CNAME .
 *.pay.aqiu6.com CNAME .
 pbdb.bet303.site CNAME .
 *.pbdb.bet303.site CNAME .
-pcupd.com CNAME .
-*.pcupd.com CNAME .
 peachcity.si CNAME .
 *.peachcity.si CNAME .
 peniclean.com CNAME .
@@ -680,8 +690,6 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
-swiftfusion.tech CNAME .
-*.swiftfusion.tech CNAME .
 sydneyaffordablecremations.com.au CNAME .
 *.sydneyaffordablecremations.com.au CNAME .
 syqi.bahigo.casino CNAME .
@@ -742,6 +750,8 @@ tvcp.behtarin-site-shartbandi-football.bet CNAME .
 *.tvcp.behtarin-site-shartbandi-football.bet CNAME .
 tvzo.backgammon.download CNAME .
 *.tvzo.backgammon.download CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 u1n70yhl.behtarin-site-shartbandi.com CNAME .
 *.u1n70yhl.behtarin-site-shartbandi.com CNAME .
 ujniklzz.radioshartbandi.bet CNAME .
@@ -762,8 +772,6 @@ uyxg.behtarin-site-shartbandi-football.bet CNAME .
 *.uyxg.behtarin-site-shartbandi-football.bet CNAME .
 uzmapubv.behtarin-site-shartbandi-football.com CNAME .
 *.uzmapubv.behtarin-site-shartbandi-football.com CNAME .
-ventaslll.com CNAME .
-*.ventaslll.com CNAME .
 versaclean.com.br CNAME .
 *.versaclean.com.br CNAME .
 veryboys.com CNAME .
@@ -872,8 +880,6 @@ xn--on3b15m2lco2u.com CNAME .
 *.xn--on3b15m2lco2u.com CNAME .
 zamilgroups.com CNAME .
 *.zamilgroups.com CNAME .
-zhikey.com CNAME .
-*.zhikey.com CNAME .
 xb7ea3kq.betturkey.bet CNAME .
 *.xb7ea3kq.betturkey.bet CNAME .
 xbvj.bahigo90bet.com CNAME .
