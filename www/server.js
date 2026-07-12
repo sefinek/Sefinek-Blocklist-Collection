@@ -1,5 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
+const isProd = process.env.NODE_ENV === 'production';
 
 // Middleware imports
 const timeout = require('./middleware/timeout.js');
@@ -11,12 +12,12 @@ const { notFound, internalError } = require('./middleware/other/errors.js');
 // Create express instance
 const app = express();
 
-// App configuration
-if (process.env.NODE_ENV === 'production') app.set('trust proxy', 1);
+// Configure the app
+if (isProd) app.set('trust proxy', 1);
 app.set('view engine', 'ejs');
 app.set('views', './www/views');
 
-// Middleware configuration
+// Use middlewares
 app.use(helmet({
 	contentSecurityPolicy: {
 		directives: {
@@ -28,10 +29,10 @@ app.use(helmet({
 	crossOriginResourcePolicy: false,
 }));
 app.use(express.static('./www/public'));
-app.use(express.json({ limit: '16kb' }));
-app.use(express.urlencoded({ extended: false, limit: '16kb' }));
+app.use(express.json({ limit: '8kb' }));
+app.use(express.urlencoded({ extended: false, limit: '8kb' }));
 app.use(morgan);
-app.use(limiter);
+if (isProd) app.use(limiter);
 app.use(timeout());
 
 // Routes
