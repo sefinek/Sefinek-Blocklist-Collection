@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071304 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071504 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,413 domains
+; Entries: 40,416 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 13, 2026 at 4:18 AM UTC | 2026-07-13T04:18:08.292Z
+; Last updated: July 15, 2026 at 4:06 AM UTC | 2026-07-15T04:06:08.311Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -10560,6 +10560,8 @@ analytics.ihg.com CNAME .
 *.analytics.ihg.com CNAME .
 analytics.ikyu.com CNAME .
 *.analytics.ikyu.com CNAME .
+analytics.infraloods.nl CNAME .
+*.analytics.infraloods.nl CNAME .
 analytics.inquisitr.com CNAME .
 *.analytics.inquisitr.com CNAME .
 analytics.iraiser.eu CNAME .
@@ -16346,6 +16348,8 @@ cdn.net.elogia.net CNAME .
 *.cdn.net.elogia.net CNAME .
 cdn.polarbyte.com CNAME .
 *.cdn.polarbyte.com CNAME .
+cdn.prod.euid.eu CNAME .
+*.cdn.prod.euid.eu CNAME .
 cdn.ravm.tv CNAME .
 *.cdn.ravm.tv CNAME .
 cdn.sy-d.io CNAME .
@@ -28396,6 +28400,8 @@ greenjapan-cname.green-japan.com CNAME .
 *.greenjapan-cname.green-japan.com CNAME .
 greif.actonservice.com CNAME .
 *.greif.actonservice.com CNAME .
+gresrv.com CNAME .
+*.gresrv.com CNAME .
 grgnsht.nzxt.com CNAME .
 *.grgnsht.nzxt.com CNAME .
 grn.openapp.link CNAME .
