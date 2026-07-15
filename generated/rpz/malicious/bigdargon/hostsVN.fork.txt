@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071406 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071509 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,195 domains
+; Entries: 18,261 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 14, 2026 at 6:47 AM UTC | 2026-07-14T06:47:56.056Z
+; Last updated: July 15, 2026 at 9:42 AM UTC | 2026-07-15T09:42:13.559Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -19926,22 +19926,112 @@ log2.cmpassport.com CNAME .
 *.log2.cmpassport.com CNAME .
 ad.weibo.com CNAME .
 *.ad.weibo.com CNAME .
-adimg.uve.weibo.com CNAME .
-*.adimg.uve.weibo.com CNAME .
+alitui.weibo.com CNAME .
+*.alitui.weibo.com CNAME .
+biz.weibo.com CNAME .
+*.biz.weibo.com CNAME .
 adstrategy.biz.weibo.com CNAME .
 *.adstrategy.biz.weibo.com CNAME .
+boot.biz.weibo.com CNAME .
+*.boot.biz.weibo.com CNAME .
+brandvideo.biz.weibo.com CNAME .
+*.brandvideo.biz.weibo.com CNAME .
+kadmimage.biz.weibo.com CNAME .
+*.kadmimage.biz.weibo.com CNAME .
+sdkaction.biz.weibo.com CNAME .
+*.sdkaction.biz.weibo.com CNAME .
+sdkclick.biz.weibo.com CNAME .
+*.sdkclick.biz.weibo.com CNAME .
+sdkmonitor.biz.weibo.com CNAME .
+*.sdkmonitor.biz.weibo.com CNAME .
 vs.biz.weibo.com CNAME .
 *.vs.biz.weibo.com CNAME .
-log.tpns.tencent.com CNAME .
-*.log.tpns.tencent.com CNAME .
-log.tpns.gz2.tencent.com CNAME .
-*.log.tpns.gz2.tencent.com CNAME .
-stat.tpns.tencent.com CNAME .
-*.stat.tpns.tencent.com CNAME .
-stat.tpns.gz2.tencent.com CNAME .
-*.stat.tpns.gz2.tencent.com CNAME .
+uve.weibo.com CNAME .
+*.uve.weibo.com CNAME .
+adimg.uve.weibo.com CNAME .
+*.adimg.uve.weibo.com CNAME .
+api.uve.weibo.com CNAME .
+*.api.uve.weibo.com CNAME .
+bootpreload.uve.weibo.com CNAME .
+*.bootpreload.uve.weibo.com CNAME .
+bootrealtime.uve.weibo.com CNAME .
+*.bootrealtime.uve.weibo.com CNAME .
+datacollection.uve.weibo.com CNAME .
+*.datacollection.uve.weibo.com CNAME .
+sdkapp.uve.weibo.com CNAME .
+*.sdkapp.uve.weibo.com CNAME .
+wbapp.uve.weibo.com CNAME .
+*.wbapp.uve.weibo.com CNAME .
+beacon.tencent.com CNAME .
+*.beacon.tencent.com CNAME .
+ad.hunyuan.tencent.com CNAME .
+*.ad.hunyuan.tencent.com CNAME .
 tpstelemetry.tencent.com CNAME .
 *.tpstelemetry.tencent.com CNAME .
+android.bugly.tencent.com CNAME .
+*.android.bugly.tencent.com CNAME .
+ios.bugly.tencent.com CNAME .
+*.ios.bugly.tencent.com CNAME .
+galileotelemetry.tencent.com CNAME .
+*.galileotelemetry.tencent.com CNAME .
+sg.galileotelemetry.tencent.com CNAME .
+*.sg.galileotelemetry.tencent.com CNAME .
+guid.tpns.tencent.com CNAME .
+*.guid.tpns.tencent.com CNAME .
+log.tpns.tencent.com CNAME .
+*.log.tpns.tencent.com CNAME .
+mstat.tpns.tencent.com CNAME .
+*.mstat.tpns.tencent.com CNAME .
+stat.tpns.tencent.com CNAME .
+*.stat.tpns.tencent.com CNAME .
+guid.tpns.hk.tencent.com CNAME .
+*.guid.tpns.hk.tencent.com CNAME .
+log.tpns.hk.tencent.com CNAME .
+*.log.tpns.hk.tencent.com CNAME .
+stat.tpns.hk.tencent.com CNAME .
+*.stat.tpns.hk.tencent.com CNAME .
+log.tpns.gz2.tencent.com CNAME .
+*.log.tpns.gz2.tencent.com CNAME .
+stat.tpns.gz2.tencent.com CNAME .
+*.stat.tpns.gz2.tencent.com CNAME .
+guid.tpns.sgp.tencent.com CNAME .
+*.guid.tpns.sgp.tencent.com CNAME .
+log.tpns.sgp.tencent.com CNAME .
+*.log.tpns.sgp.tencent.com CNAME .
+stat.tpns.sgp.tencent.com CNAME .
+*.stat.tpns.sgp.tencent.com CNAME .
+guid.tpns.sh.tencent.com CNAME .
+*.guid.tpns.sh.tencent.com CNAME .
+log.tpns.sh.tencent.com CNAME .
+*.log.tpns.sh.tencent.com CNAME .
+mstat.tpns.sh.tencent.com CNAME .
+*.mstat.tpns.sh.tencent.com CNAME .
+stat.tpns.sh.tencent.com CNAME .
+*.stat.tpns.sh.tencent.com CNAME .
+log.sina.cn CNAME .
+*.log.sina.cn CNAME .
+log2.sina.cn CNAME .
+*.log2.sina.cn CNAME .
+ad.cj.sina.cn CNAME .
+*.ad.cj.sina.cn CNAME .
+statistic.cj.sina.cn CNAME .
+*.statistic.cj.sina.cn CNAME .
+adimg.mobile.sina.cn CNAME .
+*.adimg.mobile.sina.cn CNAME .
+u1.img.mobile.sina.cn CNAME .
+*.u1.img.mobile.sina.cn CNAME .
+ad.us.sinaimg.cn CNAME .
+*.ad.us.sinaimg.cn CNAME .
+ads.sina.com CNAME .
+*.ads.sina.com CNAME .
+beacon.sina.com.cn CNAME .
+*.beacon.sina.com.cn CNAME .
+counter.sina.com.cn CNAME .
+*.counter.sina.com.cn CNAME .
+log.mix.sina.com.cn CNAME .
+*.log.mix.sina.com.cn CNAME .
+sbeacon.sina.com.cn CNAME .
+*.sbeacon.sina.com.cn CNAME .
 privacy-policy.truste.com CNAME .
 *.privacy-policy.truste.com CNAME .
 trackerapi.truste.com CNAME .
@@ -20224,6 +20314,8 @@ fota5p.adups.cn CNAME .
 *.fota5p.adups.cn CNAME .
 fota5s.adups.cn CNAME .
 *.fota5s.adups.cn CNAME .
+fota5t.adups.cn CNAME .
+*.fota5t.adups.cn CNAME .
 adups.com CNAME .
 *.adups.com CNAME .
 ap.adups.com CNAME .
@@ -24540,8 +24632,6 @@ ad.tv2.no CNAME .
 *.ad.tv2.no CNAME .
 ad.unimhk.com CNAME .
 *.ad.unimhk.com CNAME .
-ad.us.sinaimg.cn CNAME .
-*.ad.us.sinaimg.cn CNAME .
 ad.usatoday.com CNAME .
 *.ad.usatoday.com CNAME .
 ad.virtual-nights.com CNAME .
@@ -25826,6 +25916,8 @@ agtcmuohbt.in CNAME .
 *.agtcmuohbt.in CNAME .
 ah-ha.com CNAME .
 *.ah-ha.com CNAME .
+ah.eyesnamda.cfd CNAME .
+*.ah.eyesnamda.cfd CNAME .
 ahalogy.com CNAME .
 *.ahalogy.com CNAME .
 ahdcrajmzbtvj.com CNAME .
@@ -28278,6 +28370,8 @@ flyingsquirellsmooch.com CNAME .
 *.flyingsquirellsmooch.com CNAME .
 fnbauniukvi.com CNAME .
 *.fnbauniukvi.com CNAME .
+fnzocmpkp.com CNAME .
+*.fnzocmpkp.com CNAME .
 footbathmockerpurse.com CNAME .
 *.footbathmockerpurse.com CNAME .
 for-j.com CNAME .
@@ -28528,6 +28622,8 @@ go.imkirh.com CNAME .
 *.go.imkirh.com CNAME .
 go.mavrtracktor.com CNAME .
 *.go.mavrtracktor.com CNAME .
+go.playlg.com CNAME .
+*.go.playlg.com CNAME .
 go.rmishe.com CNAME .
 *.go.rmishe.com CNAME .
 go.xlivrdr.com CNAME .
@@ -28812,6 +28908,16 @@ htlbid.com CNAME .
 *.htlbid.com CNAME .
 httpool.com CNAME .
 *.httpool.com CNAME .
+hue2n.com CNAME .
+*.hue2n.com CNAME .
+hue4c.com CNAME .
+*.hue4c.com CNAME .
+hueads.com CNAME .
+*.hueads.com CNAME .
+hueadsortb.com CNAME .
+*.hueadsortb.com CNAME .
+hueadsxml.com CNAME .
+*.hueadsxml.com CNAME .
 hugazdazst.com CNAME .
 *.hugazdazst.com CNAME .
 hugfromoctopus.com CNAME .
@@ -28942,6 +29048,8 @@ imimobile.com CNAME .
 *.imimobile.com CNAME .
 immensehoney.com CNAME .
 *.immensehoney.com CNAME .
+immizdgmacjvi.space CNAME .
+*.immizdgmacjvi.space CNAME .
 immoxdzdke.com CNAME .
 *.immoxdzdke.com CNAME .
 impactmobile.com CNAME .
@@ -29220,6 +29328,8 @@ jqvhnbxtwze.com CNAME .
 *.jqvhnbxtwze.com CNAME .
 jqyryzrbuqpfp.space CNAME .
 *.jqyryzrbuqpfp.space CNAME .
+jrmkpvntxat.com CNAME .
+*.jrmkpvntxat.com CNAME .
 js.mbidadm.com CNAME .
 *.js.mbidadm.com CNAME .
 js.wpncdn.com CNAME .
@@ -29552,6 +29662,12 @@ lzjl.com CNAME .
 *.lzjl.com CNAME .
 lzoazzruvkze.com CNAME .
 *.lzoazzruvkze.com CNAME .
+m.hue11.com CNAME .
+*.m.hue11.com CNAME .
+m.hue14.com CNAME .
+*.m.hue14.com CNAME .
+m.hue2b.com CNAME .
+*.m.hue2b.com CNAME .
 m.trb.com CNAME .
 *.m.trb.com CNAME .
 m0rsq075u.com CNAME .
@@ -30070,6 +30186,8 @@ navrcholu.cz CNAME .
 *.navrcholu.cz CNAME .
 nazarickol.com CNAME .
 *.nazarickol.com CNAME .
+nbnbewlhy.com CNAME .
+*.nbnbewlhy.com CNAME .
 nd.prosilyingles.cyou CNAME .
 *.nd.prosilyingles.cyou CNAME .
 ndha4sding6gf.com CNAME .
@@ -30498,6 +30616,8 @@ oriori.com CNAME .
 *.oriori.com CNAME .
 orlotalers.com CNAME .
 *.orlotalers.com CNAME .
+ormatenqron.com CNAME .
+*.ormatenqron.com CNAME .
 orqmimfug.in CNAME .
 *.orqmimfug.in CNAME .
 ortshk.tapas.net CNAME .
@@ -30916,6 +31036,8 @@ predictad.com CNAME .
 *.predictad.com CNAME .
 predictiondexchange.com CNAME .
 *.predictiondexchange.com CNAME .
+prefecturesuggestions.com CNAME .
+*.prefecturesuggestions.com CNAME .
 preferencenail.com CNAME .
 *.preferencenail.com CNAME .
 prefleks.com CNAME .
@@ -31024,6 +31146,8 @@ ps.bogymentracery.cyou CNAME .
 *.ps.bogymentracery.cyou CNAME .
 psaltauw.net CNAME .
 *.psaltauw.net CNAME .
+pshdo.com CNAME .
+*.pshdo.com CNAME .
 psoroumukr.com CNAME .
 *.psoroumukr.com CNAME .
 psstt.com CNAME .
@@ -31750,6 +31874,8 @@ sfiannzilgi.com CNAME .
 *.sfiannzilgi.com CNAME .
 sg-open-set-api.shenshiads.com CNAME .
 *.sg-open-set-api.shenshiads.com CNAME .
+sg.enwovenspences.cyou CNAME .
+*.sg.enwovenspences.cyou CNAME .
 shaiwourtijogno.net CNAME .
 *.shaiwourtijogno.net CNAME .
 shakingtacklingunpeeled.com CNAME .
@@ -32538,6 +32664,8 @@ track.anchorfree.com CNAME .
 *.track.anchorfree.com CNAME .
 track.buybestday.com CNAME .
 *.track.buybestday.com CNAME .
+track.catrck.net CNAME .
+*.track.catrck.net CNAME .
 track.contently.com CNAME .
 *.track.contently.com CNAME .
 track.flexlinks.com CNAME .
@@ -32548,6 +32676,8 @@ track.getmydeals.net CNAME .
 *.track.getmydeals.net CNAME .
 track.involvkgfr.com CNAME .
 *.track.involvkgfr.com CNAME .
+track.mddsp.info CNAME .
+*.track.mddsp.info CNAME .
 trackalyzer.com CNAME .
 *.trackalyzer.com CNAME .
 trackedlink.net CNAME .
@@ -33168,6 +33298,8 @@ werbung.meteoxpress.com CNAME .
 *.werbung.meteoxpress.com CNAME .
 wetrack.it CNAME .
 *.wetrack.it CNAME .
+wgkqywcf.com CNAME .
+*.wgkqywcf.com CNAME .
 wgtyvqbfkxg.com CNAME .
 *.wgtyvqbfkxg.com CNAME .
 whairtoa.com CNAME .
