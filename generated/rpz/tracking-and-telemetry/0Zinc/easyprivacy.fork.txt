@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071700 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071800 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,412 domains
+; Entries: 40,414 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 17, 2026 at 12:32 AM UTC | 2026-07-17T00:32:29.189Z
+; Last updated: July 18, 2026 at 12:29 AM UTC | 2026-07-18T00:29:31.726Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -4292,6 +4292,8 @@ beagle.prod.tda.link CNAME .
 *.beagle.prod.tda.link CNAME .
 blacktri-a.akamaihd.net CNAME .
 *.blacktri-a.akamaihd.net CNAME .
+c.uniten.io CNAME .
+*.c.uniten.io CNAME .
 cgicounter.onlinehome.de CNAME .
 *.cgicounter.onlinehome.de CNAME .
 click-performance.assets.rndtech.de CNAME .
@@ -80504,6 +80506,8 @@ stm.komplett.no CNAME .
 *.stm.komplett.no CNAME .
 telemetry.nav.no CNAME .
 *.telemetry.nav.no CNAME .
+ads.tvp.pl CNAME .
+*.ads.tvp.pl CNAME .
 analytics.gazeta.pl CNAME .
 *.analytics.gazeta.pl CNAME .
 collect.state.centrum24.pl CNAME .
