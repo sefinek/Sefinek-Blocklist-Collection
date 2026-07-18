@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071004 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071804 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: AdGuard Mobile Spyware Blocklist
-; Entries: 1,121 domains
+; Entries: 1,120 domains
 ; Source: https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 10, 2026 at 4:26 AM UTC | 2026-07-10T04:26:25.182Z
+; Last updated: July 18, 2026 at 4:03 AM UTC | 2026-07-18T04:03:31.090Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1392,8 +1392,6 @@ airlytics.airlock.twcmobile.weather.com CNAME .
 *.airlytics.airlock.twcmobile.weather.com CNAME .
 track.midway.run CNAME .
 *.track.midway.run CNAME .
-tdid.m.qq.com CNAME .
-*.tdid.m.qq.com CNAME .
 d.reddit.com CNAME .
 *.d.reddit.com CNAME .
 clog.mirrativ.com CNAME .
