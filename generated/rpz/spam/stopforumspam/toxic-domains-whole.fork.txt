@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071818 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071918 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: StopForumSpam Toxic Domains
-; Entries: 74,765 domains
+; Entries: 74,766 domains
 ; Source: https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 18, 2026 at 6:24 PM UTC | 2026-07-18T18:24:04.701Z
+; Last updated: July 19, 2026 at 6:21 PM UTC | 2026-07-19T18:21:56.531Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -86916,6 +86916,8 @@ maxpanel.id CNAME .
 *.maxpanel.id CNAME .
 maxpedia.cloud CNAME .
 *.maxpedia.cloud CNAME .
+maxpedia.web.id CNAME .
+*.maxpedia.web.id CNAME .
 maxpeedia.com CNAME .
 *.maxpeedia.com CNAME .
 maxpotencja.pl CNAME .
