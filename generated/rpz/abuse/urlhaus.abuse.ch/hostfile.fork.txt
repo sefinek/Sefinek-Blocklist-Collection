@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071900 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026071904 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 631 domains
+; Entries: 630 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 19, 2026 at 12:32 AM UTC | 2026-07-19T00:32:08.048Z
+; Last updated: July 19, 2026 at 4:12 AM UTC | 2026-07-19T04:12:48.382Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -22,6 +22,8 @@ $TTL 300
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
 0022a601.pphost.net CNAME .
 *.0022a601.pphost.net CNAME .
+123.ywxww.net CNAME .
+*.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
 2lob5o1r.betbuf90.com CNAME .
@@ -348,8 +350,6 @@ dowonline.ru CNAME .
 *.dowonline.ru CNAME .
 dows.sabad724.bio CNAME .
 *.dows.sabad724.bio CNAME .
-dreamapp.xyz CNAME .
-*.dreamapp.xyz CNAME .
 dreamwatchevent.com CNAME .
 *.dreamwatchevent.com CNAME .
 dsdvsvqgy.jetbet.download CNAME .
@@ -802,8 +802,6 @@ planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 plasteredplayn.com CNAME .
 *.plasteredplayn.com CNAME .
-pns.org.pk CNAME .
-*.pns.org.pk CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
 pouulacmu.phogoldencow.com CNAME .
@@ -960,6 +958,8 @@ stonecradle.com CNAME .
 *.stonecradle.com CNAME .
 stp12.zabanenglishanari.xyz CNAME .
 *.stp12.zabanenglishanari.xyz CNAME .
+streammobs.com CNAME .
+*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 subdermal-biometric-chip.garden CNAME .
@@ -1178,8 +1178,6 @@ newkey.co.kr CNAME .
 *.newkey.co.kr CNAME .
 notbak.com CNAME .
 *.notbak.com CNAME .
-rbcfort.com CNAME .
-*.rbcfort.com CNAME .
 saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 salonmarketing.ca CNAME .
