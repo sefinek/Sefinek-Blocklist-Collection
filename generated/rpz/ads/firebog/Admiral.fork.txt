@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071315 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072015 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Firebog Admiral Blocklist
-; Entries: 1,663 domains
+; Entries: 1,649 domains
 ; Source: https://v.firebog.net/hosts/Admiral.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 13, 2026 at 3:58 PM UTC | 2026-07-13T15:58:43.942Z
+; Last updated: July 20, 2026 at 3:40 PM UTC | 2026-07-20T15:40:46.725Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26,6 +26,8 @@ $TTL 300
 *.4jnzhl0d0.com CNAME .
 82o9v830.com CNAME .
 *.82o9v830.com CNAME .
+abilityscale.com CNAME .
+*.abilityscale.com CNAME .
 abjectattempt.com CNAME .
 *.abjectattempt.com CNAME .
 aboardamusement.com CNAME .
@@ -82,8 +84,6 @@ admiral.website CNAME .
 *.admiral.website CNAME .
 admiralcdn.com CNAME .
 *.admiralcdn.com CNAME .
-admiralexternal.com CNAME .
-*.admiralexternal.com CNAME .
 admlcdn.com CNAME .
 *.admlcdn.com CNAME .
 adorableanger.com CNAME .
@@ -672,8 +672,6 @@ crowdedmass.com CNAME .
 *.crowdedmass.com CNAME .
 crunchcontrol.com CNAME .
 *.crunchcontrol.com CNAME .
-cryptvalue.com CNAME .
-*.cryptvalue.com CNAME .
 crystalboulevard.com CNAME .
 *.crystalboulevard.com CNAME .
 cubchannel.com CNAME .
@@ -716,8 +714,6 @@ cutechin.com CNAME .
 *.cutechin.com CNAME .
 cyclopsdial.com CNAME .
 *.cyclopsdial.com CNAME .
-dailydivision.com CNAME .
-*.dailydivision.com CNAME .
 damagedadvice.com CNAME .
 *.damagedadvice.com CNAME .
 damageddistance.com CNAME .
@@ -1014,8 +1010,6 @@ farmergoldfish.com CNAME .
 *.farmergoldfish.com CNAME .
 farshake.com CNAME .
 *.farshake.com CNAME .
-farsnails.com CNAME .
-*.farsnails.com CNAME .
 fastenfather.com CNAME .
 *.fastenfather.com CNAME .
 fasterfineart.com CNAME .
@@ -1110,8 +1104,6 @@ flushingbeast.com CNAME .
 *.flushingbeast.com CNAME .
 flutteringfireman.com CNAME .
 *.flutteringfireman.com CNAME .
-foambench.com CNAME .
-*.foambench.com CNAME .
 foamyfood.com CNAME .
 *.foamyfood.com CNAME .
 followborder.com CNAME .
@@ -1306,8 +1298,6 @@ halcyoncanyon.com CNAME .
 *.halcyoncanyon.com CNAME .
 haltingbadge.com CNAME .
 *.haltingbadge.com CNAME .
-haltingdivision.com CNAME .
-*.haltingdivision.com CNAME .
 hammerhearing.com CNAME .
 *.hammerhearing.com CNAME .
 handleteeth.com CNAME .
@@ -1338,8 +1328,6 @@ harborcontrol.com CNAME .
 *.harborcontrol.com CNAME .
 harborcub.com CNAME .
 *.harborcub.com CNAME .
-hardtofindmilk.com CNAME .
-*.hardtofindmilk.com CNAME .
 harmonywing.com CNAME .
 *.harmonywing.com CNAME .
 headydegree.com CNAME .
@@ -1856,8 +1844,6 @@ nudgeduck.com CNAME .
 *.nudgeduck.com CNAME .
 nullnorth.com CNAME .
 *.nullnorth.com CNAME .
-numerousnest.com CNAME .
-*.numerousnest.com CNAME .
 oafishchance.com CNAME .
 *.oafishchance.com CNAME .
 oafishobservation.com CNAME .
@@ -2128,8 +2114,6 @@ punyplant.com CNAME .
 *.punyplant.com CNAME .
 purposepipe.com CNAME .
 *.purposepipe.com CNAME .
-pushypipe.com CNAME .
-*.pushypipe.com CNAME .
 quantumlagoon.com CNAME .
 *.quantumlagoon.com CNAME .
 quantumshine.com CNAME .
@@ -2226,8 +2210,6 @@ reconditerake.com CNAME .
 *.reconditerake.com CNAME .
 reconditerespect.com CNAME .
 *.reconditerespect.com CNAME .
-recordbutter.com CNAME .
-*.recordbutter.com CNAME .
 redbricksoap.com CNAME .
 *.redbricksoap.com CNAME .
 reflectpaint.com CNAME .
@@ -2338,8 +2320,6 @@ sablesmile.com CNAME .
 *.sablesmile.com CNAME .
 sablesong.com CNAME .
 *.sablesong.com CNAME .
-sadloaf.com CNAME .
-*.sadloaf.com CNAME .
 sadspacekitty.com CNAME .
 *.sadspacekitty.com CNAME .
 safetybrush.com CNAME .
@@ -2588,8 +2568,6 @@ slinksuggestion.com CNAME .
 *.slinksuggestion.com CNAME .
 slopesoap.com CNAME .
 *.slopesoap.com CNAME .
-sloppycalculator.com CNAME .
-*.sloppycalculator.com CNAME .
 smallershops.com CNAME .
 *.smallershops.com CNAME .
 smashquartz.com CNAME .
@@ -2728,8 +2706,6 @@ spuriousair.com CNAME .
 *.spuriousair.com CNAME .
 spurioussquirrel.com CNAME .
 *.spurioussquirrel.com CNAME .
-spurioussteam.com CNAME .
-*.spurioussteam.com CNAME .
 spuriousstranger.com CNAME .
 *.spuriousstranger.com CNAME .
 spysubstance.com CNAME .
@@ -3110,8 +3086,6 @@ ultraoranges.com CNAME .
 *.ultraoranges.com CNAME .
 ultravalid.com CNAME .
 *.ultravalid.com CNAME .
-unablehope.com CNAME .
-*.unablehope.com CNAME .
 unaccountablepie.com CNAME .
 *.unaccountablepie.com CNAME .
 unarmedindustry.com CNAME .
@@ -3276,8 +3250,6 @@ whymaze.com CNAME .
 *.whymaze.com CNAME .
 wildcommittee.com CNAME .
 *.wildcommittee.com CNAME .
-wildernesscamera.com CNAME .
-*.wildernesscamera.com CNAME .
 wildwoodavenue.com CNAME .
 *.wildwoodavenue.com CNAME .
 windflamesky.com CNAME .
