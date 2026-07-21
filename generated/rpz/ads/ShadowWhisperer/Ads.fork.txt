@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071904 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072115 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Ads Blocklist
-; Entries: 27,038 domains
+; Entries: 27,040 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 19, 2026 at 4:12 AM UTC | 2026-07-19T04:12:50.081Z
+; Last updated: July 21, 2026 at 3:37 PM UTC | 2026-07-21T15:37:48.879Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -34,6 +34,8 @@ $TTL 300
 *.05e6775b2e7e9fbe8ed69f85c04874dbf64236caa3f28638318868d0.com CNAME .
 06yahoo.com CNAME .
 *.06yahoo.com CNAME .
+073m.com CNAME .
+*.073m.com CNAME .
 079301eaff0975107716716fd1cb0dcd.com CNAME .
 *.079301eaff0975107716716fd1cb0dcd.com CNAME .
 07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com CNAME .
@@ -23408,6 +23410,8 @@ definemedia.de CNAME .
 *.definemedia.de CNAME .
 definite-bridge.pro CNAME .
 *.definite-bridge.pro CNAME .
+definite-discussion.pro CNAME .
+*.definite-discussion.pro CNAME .
 definiterise.pro CNAME .
 *.definiterise.pro CNAME .
 definitiveaccess.pro CNAME .
