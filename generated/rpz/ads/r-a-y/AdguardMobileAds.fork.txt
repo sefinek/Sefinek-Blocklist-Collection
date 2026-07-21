@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026060904 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072104 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: AdGuard Mobile Ads Blocklist
-; Entries: 922 domains
+; Entries: 923 domains
 ; Source: https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: June 9, 2026 at 4:29 AM UTC | 2026-06-09T04:29:00.220Z
+; Last updated: July 21, 2026 at 4:09 AM UTC | 2026-07-21T04:09:13.282Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -190,6 +190,8 @@ startup.mobile.webvisor.com CNAME .
 *.startup.mobile.webvisor.com CNAME .
 startup-mobile.ap.yandex-net.ru CNAME .
 *.startup-mobile.ap.yandex-net.ru CNAME .
+adhub.porcino-kinoko.workers.dev CNAME .
+*.adhub.porcino-kinoko.workers.dev CNAME .
 uibjh29vqc.com CNAME .
 *.uibjh29vqc.com CNAME .
 ads.heytapmobi.com CNAME .
