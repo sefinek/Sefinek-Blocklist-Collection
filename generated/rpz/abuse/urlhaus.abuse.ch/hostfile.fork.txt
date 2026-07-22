@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072200 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072204 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 477 domains
+; Entries: 480 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 22, 2026 at 12:30 AM UTC | 2026-07-22T00:30:32.728Z
+; Last updated: July 22, 2026 at 4:08 AM UTC | 2026-07-22T04:08:45.887Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -164,6 +164,8 @@ cglp.cleantruckchecksac.com CNAME .
 *.cglp.cleantruckchecksac.com CNAME .
 chat-server.maverickpreviews.com CNAME .
 *.chat-server.maverickpreviews.com CNAME .
+checkfivem.com CNAME .
+*.checkfivem.com CNAME .
 chinaapper.com CNAME .
 *.chinaapper.com CNAME .
 chiptune.com CNAME .
@@ -262,8 +264,6 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
-down.qqfarmer.com.cn CNAME .
-*.down.qqfarmer.com.cn CNAME .
 down.unicron-cdn.click CNAME .
 *.down.unicron-cdn.click CNAME .
 download.caihong.com CNAME .
@@ -368,6 +368,8 @@ g2o19aql.charmedanddangerousplush.com CNAME .
 *.g2o19aql.charmedanddangerousplush.com CNAME .
 gabyagozetim.com CNAME .
 *.gabyagozetim.com CNAME .
+galerisenimutiara.com CNAME .
+*.galerisenimutiara.com CNAME .
 gbgl.kafekarachi.com CNAME .
 *.gbgl.kafekarachi.com CNAME .
 gboutros.howto.rocks CNAME .
@@ -440,6 +442,8 @@ isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
+jawaratekno.com CNAME .
+*.jawaratekno.com CNAME .
 jb.mywwjj.xyz CNAME .
 *.jb.mywwjj.xyz CNAME .
 jenniferloeffler.com CNAME .
@@ -518,6 +522,8 @@ lvcrn.monicarobles.org CNAME .
 *.lvcrn.monicarobles.org CNAME .
 lxlwn.nextbahis.one CNAME .
 *.lxlwn.nextbahis.one CNAME .
+m.jkoa.co.kr CNAME .
+*.m.jkoa.co.kr CNAME .
 magnusworkspace.com CNAME .
 *.magnusworkspace.com CNAME .
 maidforyou1985.com CNAME .
@@ -558,6 +564,8 @@ nodemetrics9095.com CNAME .
 *.nodemetrics9095.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -626,6 +634,8 @@ records.dennisign.se CNAME .
 *.records.dennisign.se CNAME .
 redlk.com CNAME .
 *.redlk.com CNAME .
+refaccionesalma.com.mx CNAME .
+*.refaccionesalma.com.mx CNAME .
 reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 reutilizemais.co.mz CNAME .
@@ -686,18 +696,16 @@ solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
-static.ilclock.com CNAME .
-*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
-steam66.cn CNAME .
-*.steam66.cn CNAME .
 stonecradle.com CNAME .
 *.stonecradle.com CNAME .
+streammobs.com CNAME .
+*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 sunix-technology.com CNAME .
@@ -746,8 +754,6 @@ theoremaoliveoil.com CNAME .
 *.theoremaoliveoil.com CNAME .
 thepullmanfolkestone.com CNAME .
 *.thepullmanfolkestone.com CNAME .
-ths.lat CNAME .
-*.ths.lat CNAME .
 thtp2.volamngayxua.net CNAME .
 *.thtp2.volamngayxua.net CNAME .
 tiacreation.club CNAME .
