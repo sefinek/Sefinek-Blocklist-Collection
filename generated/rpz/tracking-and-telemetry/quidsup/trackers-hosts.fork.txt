@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026071315 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072212 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -10,12 +10,12 @@ $TTL 300
 ;
 ; Title: NoTrack Tracker Blocklist
 ; Description: Domains classified as tracking or advertising
-; Entries: 15,370 domains
+; Entries: 15,355 domains
 ; Source: https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts
 ; License: GNU General Public License v3.0
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 13, 2026 at 3:58 PM UTC | 2026-07-13T15:58:43.949Z
+; Last updated: July 22, 2026 at 12:36 PM UTC | 2026-07-22T12:36:34.206Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1863,8 +1863,6 @@ conviva.com CNAME .
 *.conviva.com CNAME .
 convrse.media CNAME .
 *.convrse.media CNAME .
-conyak.com CNAME .
-*.conyak.com CNAME .
 cookieinfoscript.com CNAME .
 *.cookieinfoscript.com CNAME .
 cookieless-data.com CNAME .
@@ -3287,8 +3285,6 @@ linkonclick.com CNAME .
 *.linkonclick.com CNAME .
 linksynergy.com CNAME .
 *.linksynergy.com CNAME .
-lipperhey.com CNAME .
-*.lipperhey.com CNAME .
 liqwid.net CNAME .
 *.liqwid.net CNAME .
 listrakbi.com CNAME .
@@ -3381,8 +3377,6 @@ log.quora.com CNAME .
 *.log.quora.com CNAME .
 log.showmax.com CNAME .
 *.log.showmax.com CNAME .
-log.spotify.com CNAME .
-*.log.spotify.com CNAME .
 log.strm.yandex.ru CNAME .
 *.log.strm.yandex.ru CNAME .
 log.tapatalk.com CNAME .
@@ -3421,8 +3415,6 @@ logs.psm.wmcdp.io CNAME .
 *.logs.psm.wmcdp.io CNAME .
 logs.roku.com CNAME .
 *.logs.roku.com CNAME .
-logs.unchecky.com CNAME .
-*.logs.unchecky.com CNAME .
 logservice-dra.platform.hicloud.com CNAME .
 *.logservice-dra.platform.hicloud.com CNAME .
 logservice-dre.platform.hicloud.com CNAME .
@@ -3489,8 +3481,6 @@ manalyticshub.com CNAME .
 *.manalyticshub.com CNAME .
 mandrillapp.com CNAME .
 *.mandrillapp.com CNAME .
-map2.ssl.hwcdn.net CNAME .
-*.map2.ssl.hwcdn.net CNAME .
 marchex.io CNAME .
 *.marchex.io CNAME .
 marfeel.com CNAME .
@@ -3613,8 +3603,6 @@ metric.ipv6test.com CNAME .
 *.metric.ipv6test.com CNAME .
 metric.ipv6test.net CNAME .
 *.metric.ipv6test.net CNAME .
-metricellcollect.tele2.ru CNAME .
-*.metricellcollect.tele2.ru CNAME .
 metricool.com CNAME .
 *.metricool.com CNAME .
 metrics.aetn.com CNAME .
@@ -3625,16 +3613,10 @@ metrics.asos.com CNAME .
 *.metrics.asos.com CNAME .
 metrics.beyondwords.io CNAME .
 *.metrics.beyondwords.io CNAME .
-metrics.cbc.ca CNAME .
-*.metrics.cbc.ca CNAME .
 metrics.claspws.tv CNAME .
 *.metrics.claspws.tv CNAME .
 metrics.data.hicloud.com CNAME .
 *.metrics.data.hicloud.com CNAME .
-metrics.dt.hicloud.com CNAME .
-*.metrics.dt.hicloud.com CNAME .
-metrics.fidelity.com CNAME .
-*.metrics.fidelity.com CNAME .
 metrics.foxnews.com CNAME .
 *.metrics.foxnews.com CNAME .
 metrics.hackerrank.com CNAME .
@@ -3647,16 +3629,12 @@ metrics.indazn.com CNAME .
 *.metrics.indazn.com CNAME .
 metrics.ionos.com CNAME .
 *.metrics.ionos.com CNAME .
-metrics.ionos.de CNAME .
-*.metrics.ionos.de CNAME .
 metrics.kmsmep.com CNAME .
 *.metrics.kmsmep.com CNAME .
 metrics.media-amazon.com CNAME .
 *.metrics.media-amazon.com CNAME .
 metrics.mzstatic.com CNAME .
 *.metrics.mzstatic.com CNAME .
-metrics.pico.tools CNAME .
-*.metrics.pico.tools CNAME .
 metrics.plex.tv CNAME .
 *.metrics.plex.tv CNAME .
 metrics.postoffice.co.uk CNAME .
@@ -3665,8 +3643,6 @@ metrics.raptr.com CNAME .
 *.metrics.raptr.com CNAME .
 metrics.roblox.com CNAME .
 *.metrics.roblox.com CNAME .
-metrics.royalmail.com CNAME .
-*.metrics.royalmail.com CNAME .
 metrics.sdkbox.com CNAME .
 *.metrics.sdkbox.com CNAME .
 metrics.ubuntu.com CNAME .
@@ -3679,8 +3655,6 @@ metrics2.data.hicloud.com CNAME .
 *.metrics2.data.hicloud.com CNAME .
 metricswpsh.com CNAME .
 *.metricswpsh.com CNAME .
-metrigo.com CNAME .
-*.metrigo.com CNAME .
 metrika.mos.ru CNAME .
 *.metrika.mos.ru CNAME .
 metrika.myseldon.com CNAME .
@@ -26591,8 +26565,6 @@ ml314.com CNAME .
 *.ml314.com CNAME .
 mlsend2.com CNAME .
 *.mlsend2.com CNAME .
-mmondi.com CNAME .
-*.mmondi.com CNAME .
 mmstat.com CNAME .
 *.mmstat.com CNAME .
 moatads.com CNAME .
@@ -26665,8 +26637,6 @@ mox.tv CNAME .
 *.mox.tv CNAME .
 mparticle.com CNAME .
 *.mparticle.com CNAME .
-mpianalytics.com CNAME .
-*.mpianalytics.com CNAME .
 mplxtms.com CNAME .
 *.mplxtms.com CNAME .
 mpstat.us CNAME .
