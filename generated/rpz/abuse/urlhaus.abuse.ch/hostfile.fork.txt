@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072404 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072406 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 609 domains
+; Entries: 614 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 24, 2026 at 4:06 AM UTC | 2026-07-24T04:06:45.200Z
+; Last updated: July 24, 2026 at 6:55 AM UTC | 2026-07-24T06:55:32.900Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -58,6 +58,8 @@ alsofillsoar.xyz CNAME .
 *.alsofillsoar.xyz CNAME .
 alternativas.ru CNAME .
 *.alternativas.ru CNAME .
+always-undetected.com CNAME .
+*.always-undetected.com CNAME .
 americanmanchester.org CNAME .
 *.americanmanchester.org CNAME .
 amid-darnsoul.xyz CNAME .
@@ -76,6 +78,8 @@ areyouready.co.za CNAME .
 *.areyouready.co.za CNAME .
 armsmead-bell.xyz CNAME .
 *.armsmead-bell.xyz CNAME .
+arromaseis.com.tr CNAME .
+*.arromaseis.com.tr CNAME .
 atasapka.com.tr CNAME .
 *.atasapka.com.tr CNAME .
 atom.freehosting.dev CNAME .
@@ -314,6 +318,8 @@ dowonline.ru CNAME .
 *.dowonline.ru CNAME .
 dramdare-shop.xyz CNAME .
 *.dramdare-shop.xyz CNAME .
+dreamapp.xyz CNAME .
+*.dreamapp.xyz CNAME .
 dreamwatchevent.com CNAME .
 *.dreamwatchevent.com CNAME .
 drug-arereef.xyz CNAME .
@@ -712,6 +718,8 @@ over-clapmolt.xyz CNAME .
 *.over-clapmolt.xyz CNAME .
 p3.zbjimg.com CNAME .
 *.p3.zbjimg.com CNAME .
+packetget.com CNAME .
+*.packetget.com CNAME .
 page-vest-lost.xyz CNAME .
 *.page-vest-lost.xyz CNAME .
 palharesinformatica.com.br CNAME .
@@ -1064,6 +1072,10 @@ uglyshop-mare.xyz CNAME .
 *.uglyshop-mare.xyz CNAME .
 un1rw11q4u.com CNAME .
 *.un1rw11q4u.com CNAME .
+undetected-always.com CNAME .
+*.undetected-always.com CNAME .
+universami.ge CNAME .
+*.universami.ge CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
@@ -1200,8 +1212,6 @@ xenon.studio CNAME .
 *.xenon.studio CNAME .
 xshop.com.tr CNAME .
 *.xshop.com.tr CNAME .
-xuezha.net CNAME .
-*.xuezha.net CNAME .
 your-duty-cube.xyz CNAME .
 *.your-duty-cube.xyz CNAME .
 youtransfer.net CNAME .
