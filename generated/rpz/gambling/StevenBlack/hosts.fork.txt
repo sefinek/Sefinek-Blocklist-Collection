@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072118 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072400 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: StevenBlack Gambling Extension
-; Entries: 6,374 domains
+; Entries: 6,389 domains
 ; Source: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 21, 2026 at 6:33 PM UTC | 2026-07-21T18:33:46.614Z
+; Last updated: July 24, 2026 at 12:30 AM UTC | 2026-07-24T00:30:26.221Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -254,6 +254,8 @@ $TTL 300
 *.3bet.ski CNAME .
 3bet.so CNAME .
 *.3bet.so CNAME .
+3bet.store CNAME .
+*.3bet.store CNAME .
 3bet.tech CNAME .
 *.3bet.tech CNAME .
 3bet.vc CNAME .
@@ -380,6 +382,8 @@ $TTL 300
 *.789club.gp CNAME .
 789club.ke CNAME .
 *.789club.ke CNAME .
+789club.mu CNAME .
+*.789club.mu CNAME .
 789club.org CNAME .
 *.789club.org CNAME .
 789club.sx CNAME .
@@ -1004,6 +1008,8 @@ ball88.lat CNAME .
 *.ball88.lat CNAME .
 ball88.llc CNAME .
 *.ball88.llc CNAME .
+ball88.love CNAME .
+*.ball88.love CNAME .
 ball88.ltd CNAME .
 *.ball88.ltd CNAME .
 ball88.men CNAME .
@@ -1012,6 +1018,8 @@ ball88.mobi CNAME .
 *.ball88.mobi CNAME .
 ball88.red CNAME .
 *.ball88.red CNAME .
+ball88.team CNAME .
+*.ball88.team CNAME .
 ball88.to CNAME .
 *.ball88.to CNAME .
 ball88.zone CNAME .
@@ -1188,6 +1196,8 @@ bom88.plus CNAME .
 *.bom88.plus CNAME .
 bom88.shop CNAME .
 *.bom88.shop CNAME .
+bom88.team CNAME .
+*.bom88.team CNAME .
 bong.thethaowin.net CNAME .
 *.bong.thethaowin.net CNAME .
 bong88.cam CNAME .
@@ -1690,6 +1700,8 @@ dp568bet.com CNAME .
 *.dp568bet.com CNAME .
 du88.art CNAME .
 *.du88.art CNAME .
+du88.blue CNAME .
+*.du88.blue CNAME .
 du88.cafe CNAME .
 *.du88.cafe CNAME .
 du88.care CNAME .
@@ -2370,6 +2382,8 @@ hbet.ac CNAME .
 *.hbet.ac CNAME .
 hbet.club CNAME .
 *.hbet.club CNAME .
+hbet.cz CNAME .
+*.hbet.cz CNAME .
 hbet.fm CNAME .
 *.hbet.fm CNAME .
 hbet.la CNAME .
@@ -2898,6 +2912,8 @@ k81206.com CNAME .
 *.k81206.com CNAME .
 k88.art CNAME .
 *.k88.art CNAME .
+k88.cam CNAME .
+*.k88.cam CNAME .
 k88.club CNAME .
 *.k88.club CNAME .
 k88.mobi CNAME .
@@ -3406,6 +3422,8 @@ lu88.gdn CNAME .
 *.lu88.gdn CNAME .
 lu88.kim CNAME .
 *.lu88.kim CNAME .
+lu88.lc CNAME .
+*.lu88.lc CNAME .
 lu88.mn CNAME .
 *.lu88.mn CNAME .
 lu88.nz CNAME .
@@ -3712,6 +3730,8 @@ man88.vc CNAME .
 *.man88.vc CNAME .
 man88.vip CNAME .
 *.man88.vip CNAME .
+man88.vu CNAME .
+*.man88.vu CNAME .
 man88.win CNAME .
 *.man88.win CNAME .
 manclub.live CNAME .
@@ -4754,6 +4774,8 @@ sk.ball88.men CNAME .
 *.sk.ball88.men CNAME .
 sk.ball88.mobi CNAME .
 *.sk.ball88.mobi CNAME .
+sk.ball88.team CNAME .
+*.sk.ball88.team CNAME .
 sk.ball88.to CNAME .
 *.sk.ball88.to CNAME .
 sk.ball88.zone CNAME .
@@ -4816,6 +4838,8 @@ sk.xibet.fun CNAME .
 *.sk.xibet.fun CNAME .
 sk.xibet.ing CNAME .
 *.sk.xibet.ing CNAME .
+sk.xibet.now CNAME .
+*.sk.xibet.now CNAME .
 sk.xibet.nz CNAME .
 *.sk.xibet.nz CNAME .
 sk.xibet.vu CNAME .
@@ -5508,6 +5532,8 @@ tx1.vip CNAME .
 *.tx1.vip CNAME .
 tx88.biz CNAME .
 *.tx88.biz CNAME .
+tx88.ch CNAME .
+*.tx88.ch CNAME .
 tx88.com CNAME .
 *.tx88.com CNAME .
 tx88.download CNAME .
@@ -5962,6 +5988,8 @@ vu88.ac CNAME .
 *.vu88.ac CNAME .
 vu88.com CNAME .
 *.vu88.com CNAME .
+vu88.cz CNAME .
+*.vu88.cz CNAME .
 vu88.de CNAME .
 *.vu88.de CNAME .
 vu88.in CNAME .
@@ -6420,6 +6448,8 @@ xibet.ing CNAME .
 *.xibet.ing CNAME .
 xibet.moi CNAME .
 *.xibet.moi CNAME .
+xibet.now CNAME .
+*.xibet.now CNAME .
 xibet.nz CNAME .
 *.xibet.nz CNAME .
 xibet.vg CNAME .
