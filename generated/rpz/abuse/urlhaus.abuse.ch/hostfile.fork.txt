@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072504 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072506 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 604 domains
+; Entries: 602 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 25, 2026 at 4:06 AM UTC | 2026-07-25T04:06:32.304Z
+; Last updated: July 25, 2026 at 6:50 AM UTC | 2026-07-25T06:50:30.074Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -200,6 +200,8 @@ cloudstorage-hub.com CNAME .
 *.cloudstorage-hub.com CNAME .
 clubdetiroelpicarcho.com CNAME .
 *.clubdetiroelpicarcho.com CNAME .
+cn.unionlever.com CNAME .
+*.cn.unionlever.com CNAME .
 co-emas.com CNAME .
 *.co-emas.com CNAME .
 coalfact-tear.xyz CNAME .
@@ -340,8 +342,6 @@ embedone.com CNAME .
 *.embedone.com CNAME .
 en.taichuan.com CNAME .
 *.en.taichuan.com CNAME .
-endpoint.project0.cc CNAME .
-*.endpoint.project0.cc CNAME .
 ends-fork-ores.xyz CNAME .
 *.ends-fork-ores.xyz CNAME .
 ends-pare-stow.xyz CNAME .
@@ -544,8 +544,6 @@ kgbhost.digital CNAME .
 *.kgbhost.digital CNAME .
 khavar.com CNAME .
 *.khavar.com CNAME .
-khoancatbetong89.vn CNAME .
-*.khoancatbetong89.vn CNAME .
 kiltwent-our.xyz CNAME .
 *.kiltwent-our.xyz CNAME .
 kimyen.net CNAME .
@@ -676,6 +674,8 @@ nine-edge-was.xyz CNAME .
 *.nine-edge-was.xyz CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -928,8 +928,6 @@ soonmuff-cob.xyz CNAME .
 *.soonmuff-cob.xyz CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
-static.ilclock.com CNAME .
-*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
@@ -1070,8 +1068,6 @@ verb-fowl-old.xyz CNAME .
 *.verb-fowl-old.xyz CNAME .
 verbsireblew.xyz CNAME .
 *.verbsireblew.xyz CNAME .
-versaclean.com.br CNAME .
-*.versaclean.com.br CNAME .
 veryboys.com CNAME .
 *.veryboys.com CNAME .
 vgd.vg CNAME .
