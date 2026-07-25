@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072421 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072500 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 614 domains
+; Entries: 610 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 24, 2026 at 9:27 PM UTC | 2026-07-24T21:27:59.073Z
+; Last updated: July 25, 2026 at 12:33 AM UTC | 2026-07-25T00:33:29.974Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26,6 +26,8 @@ $TTL 300
 *.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
+6ak-tehnik.si CNAME .
+*.6ak-tehnik.si CNAME .
 abdulahad.net CNAME .
 *.abdulahad.net CNAME .
 absshop-ping.xyz CNAME .
@@ -40,8 +42,6 @@ admin.gestroom.it CNAME .
 *.admin.gestroom.it CNAME .
 adodebtsole.xyz CNAME .
 *.adodebtsole.xyz CNAME .
-afonja.nfy.fyi CNAME .
-*.afonja.nfy.fyi CNAME .
 aftelecom.com.br CNAME .
 *.aftelecom.com.br CNAME .
 aidlifempowerment.com CNAME .
@@ -190,12 +190,8 @@ chiptune.com CNAME .
 *.chiptune.com CNAME .
 christophercheung.com CNAME .
 *.christophercheung.com CNAME .
-chrome-desktop.net CNAME .
-*.chrome-desktop.net CNAME .
 chrome-windows.ru CNAME .
 *.chrome-windows.ru CNAME .
-chrome.browserapp.ru CNAME .
-*.chrome.browserapp.ru CNAME .
 chuguadventures.co.tz CNAME .
 *.chuguadventures.co.tz CNAME .
 cl.ssouy.com CNAME .
@@ -204,6 +200,8 @@ claylikepilot.xyz CNAME .
 *.claylikepilot.xyz CNAME .
 cloud.pearlpeel.com CNAME .
 *.cloud.pearlpeel.com CNAME .
+cloudstorage-hub.com CNAME .
+*.cloudstorage-hub.com CNAME .
 clubdetiroelpicarcho.com CNAME .
 *.clubdetiroelpicarcho.com CNAME .
 co-emas.com CNAME .
@@ -502,6 +500,8 @@ hseda.com CNAME .
 *.hseda.com CNAME .
 hullmall-cool.xyz CNAME .
 *.hullmall-cool.xyz CNAME .
+hypercorevector9.lol CNAME .
+*.hypercorevector9.lol CNAME .
 icoffeecloud.com CNAME .
 *.icoffeecloud.com CNAME .
 iconropeknob.xyz CNAME .
@@ -554,8 +554,6 @@ khavar.com CNAME .
 *.khavar.com CNAME .
 khoancatbetong89.vn CNAME .
 *.khoancatbetong89.vn CNAME .
-kiabillc.online CNAME .
-*.kiabillc.online CNAME .
 kiltwent-our.xyz CNAME .
 *.kiltwent-our.xyz CNAME .
 kimyen.net CNAME .
@@ -622,8 +620,6 @@ m.meta-dm.com CNAME .
 *.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
-mailsonbelle.com.br CNAME .
-*.mailsonbelle.com.br CNAME .
 male-martloss.xyz CNAME .
 *.male-martloss.xyz CNAME .
 manyhaste-seat.xyz CNAME .
@@ -712,8 +708,6 @@ open-teem-test.xyz CNAME .
 *.open-teem-test.xyz CNAME .
 ores-font-form.xyz CNAME .
 *.ores-font-form.xyz CNAME .
-orienttaxtile.com CNAME .
-*.orienttaxtile.com CNAME .
 oryx-foryell.xyz CNAME .
 *.oryx-foryell.xyz CNAME .
 out-duct-till.xyz CNAME .
@@ -796,8 +790,6 @@ qiniuyunxz.yxflzs.com CNAME .
 *.qiniuyunxz.yxflzs.com CNAME .
 qv.co.ke CNAME .
 *.qv.co.ke CNAME .
-qvxzaetnb.vip CNAME .
-*.qvxzaetnb.vip CNAME .
 ramirex.ro CNAME .
 *.ramirex.ro CNAME .
 rank-idea-mass.xyz CNAME .
@@ -932,6 +924,8 @@ soft.110route.com CNAME .
 *.soft.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
+softwarecdn.net CNAME .
+*.softwarecdn.net CNAME .
 soilleafmain.xyz CNAME .
 *.soilleafmain.xyz CNAME .
 solar-sanat.net CNAME .
@@ -1130,8 +1124,6 @@ wittenhorst.eu CNAME .
 *.wittenhorst.eu CNAME .
 wolfbill-rope.xyz CNAME .
 *.wolfbill-rope.xyz CNAME .
-woorimart.vip CNAME .
-*.woorimart.vip CNAME .
 word-notcolt.xyz CNAME .
 *.word-notcolt.xyz CNAME .
 workmane-seem.xyz CNAME .
