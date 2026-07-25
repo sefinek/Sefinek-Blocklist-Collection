@@ -8,7 +8,7 @@ const isDev = process.env.NODE_ENV !== 'production';
 const CHUNK_SIZE = 100; // Process 100 keys in parallel
 const BULK_WRITE_CHUNK_SIZE = 1000; // Write 1000 documents per bulkWrite operation
 
-const scanAllKeys = async (pattern) => {
+const scanAllKeys = async pattern => {
 	const keys = [];
 	let cursor = '0';
 	do {
