@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072618 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072621 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 356 domains
+; Entries: 359 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 26, 2026 at 6:24 PM UTC | 2026-07-26T18:24:29.114Z
+; Last updated: July 26, 2026 at 9:22 PM UTC | 2026-07-26T21:22:31.027Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -128,6 +128,8 @@ chiptune.com CNAME .
 *.chiptune.com CNAME .
 christophercheung.com CNAME .
 *.christophercheung.com CNAME .
+chrome-windows.ru CNAME .
+*.chrome-windows.ru CNAME .
 chuguadventures.co.tz CNAME .
 *.chuguadventures.co.tz CNAME .
 cl.ssouy.com CNAME .
@@ -190,8 +192,6 @@ disk.accord1key.cn CNAME .
 *.disk.accord1key.cn CNAME .
 divvanews.com CNAME .
 *.divvanews.com CNAME .
-dl.1003b.56a.com CNAME .
-*.dl.1003b.56a.com CNAME .
 dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
 dl.natgo.cn CNAME .
@@ -206,6 +206,8 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
+down.qqfarmer.com.cn CNAME .
+*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
@@ -224,6 +226,8 @@ dowonline.ru CNAME .
 *.dowonline.ru CNAME .
 dreamapp.xyz CNAME .
 *.dreamapp.xyz CNAME .
+dreamwatchevent.com CNAME .
+*.dreamwatchevent.com CNAME .
 dusttv.com CNAME .
 *.dusttv.com CNAME .
 dynga.pl CNAME .
@@ -256,6 +260,8 @@ fesold.com CNAME .
 *.fesold.com CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -324,8 +330,6 @@ jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
 *.jessespridecharters.com CNAME .
-jlwz.cn CNAME .
-*.jlwz.cn CNAME .
 joyeriatauro.com CNAME .
 *.joyeriatauro.com CNAME .
 js.byxly.eu.cc CNAME .
@@ -338,8 +342,6 @@ kenwillzltd.com CNAME .
 *.kenwillzltd.com CNAME .
 khavar.com CNAME .
 *.khavar.com CNAME .
-khoancatbetong89.vn CNAME .
-*.khoancatbetong89.vn CNAME .
 kimyen.net CNAME .
 *.kimyen.net CNAME .
 kits.frog.tw CNAME .
@@ -392,8 +394,6 @@ molemole.my.id CNAME .
 *.molemole.my.id CNAME .
 mosselnet.co.za CNAME .
 *.mosselnet.co.za CNAME .
-msfconfig.icu CNAME .
-*.msfconfig.icu CNAME .
 muaklekcoop.com CNAME .
 *.muaklekcoop.com CNAME .
 mundocarnes.cl CNAME .
@@ -406,6 +406,8 @@ ncxps.com CNAME .
 *.ncxps.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -466,6 +468,8 @@ reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 reutilizemais.co.mz CNAME .
 *.reutilizemais.co.mz CNAME .
+rheddh.com CNAME .
+*.rheddh.com CNAME .
 riderspin.com CNAME .
 *.riderspin.com CNAME .
 robertrowe.com CNAME .
@@ -532,6 +536,8 @@ stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
 stonecradle.com CNAME .
 *.stonecradle.com CNAME .
+streammobs.com CNAME .
+*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 sunix-technology.com CNAME .
@@ -542,6 +548,8 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
+swiftfusion.tech CNAME .
+*.swiftfusion.tech CNAME .
 sydneyaffordablecremations.com.au CNAME .
 *.sydneyaffordablecremations.com.au CNAME .
 talentrecruitments.com CNAME .
@@ -576,6 +584,8 @@ tiacreation.club CNAME .
 *.tiacreation.club CNAME .
 toolshare.com.tr CNAME .
 *.toolshare.com.tr CNAME .
+top8onlinegame.com CNAME .
+*.top8onlinegame.com CNAME .
 tractor.trees4sale.net CNAME .
 *.tractor.trees4sale.net CNAME .
 transparenciacanaa.com.br CNAME .
@@ -684,8 +694,6 @@ ss-01.com CNAME .
 *.ss-01.com CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
-steamrub.com CNAME .
-*.steamrub.com CNAME .
 support-data.com CNAME .
 *.support-data.com CNAME .
 tdejb.com CNAME .
@@ -704,8 +712,6 @@ xshop.com.tr CNAME .
 *.xshop.com.tr CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
-zenglobalenerji.com CNAME .
-*.zenglobalenerji.com CNAME .
 zhigao5191.com CNAME .
 *.zhigao5191.com CNAME .
 zycdjz.com CNAME .
