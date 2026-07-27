@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072715 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072718 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 365 domains
+; Entries: 366 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 27, 2026 at 3:55 PM UTC | 2026-07-27T15:55:53.486Z
+; Last updated: July 27, 2026 at 6:35 PM UTC | 2026-07-27T18:35:20.944Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -382,6 +382,8 @@ mail.rarewingvm.blog CNAME .
 *.mail.rarewingvm.blog CNAME .
 mail.sandystudiogh.blog CNAME .
 *.mail.sandystudiogh.blog CNAME .
+mandarin.net.au CNAME .
+*.mandarin.net.au CNAME .
 meetvideogoogle.com CNAME .
 *.meetvideogoogle.com CNAME .
 metrics.gocloudmaps.com CNAME .
@@ -686,8 +688,6 @@ newkey.co.kr CNAME .
 *.newkey.co.kr CNAME .
 notbak.com CNAME .
 *.notbak.com CNAME .
-rbcfort.com CNAME .
-*.rbcfort.com CNAME .
 saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 salonmarketing.ca CNAME .
@@ -724,6 +724,8 @@ xshop.com.tr CNAME .
 *.xshop.com.tr CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
+zenglobalenerji.com CNAME .
+*.zenglobalenerji.com CNAME .
 zhigao5191.com CNAME .
 *.zhigao5191.com CNAME .
 zycdjz.com CNAME .
