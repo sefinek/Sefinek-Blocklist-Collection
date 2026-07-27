@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072713 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072715 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 362 domains
+; Entries: 365 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 27, 2026 at 1:06 PM UTC | 2026-07-27T13:06:09.761Z
+; Last updated: July 27, 2026 at 3:55 PM UTC | 2026-07-27T15:55:53.486Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -260,6 +260,8 @@ fesold.com CNAME .
 *.fesold.com CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -298,6 +300,8 @@ gutando.com CNAME .
 *.gutando.com CNAME .
 hasalltalent.com CNAME .
 *.hasalltalent.com CNAME .
+heroestales.com CNAME .
+*.heroestales.com CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
@@ -312,14 +316,14 @@ igra123.com CNAME .
 *.igra123.com CNAME .
 ijexgroup.com.br CNAME .
 *.ijexgroup.com.br CNAME .
+indusenterprises.co CNAME .
+*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -338,8 +342,6 @@ kenwillzltd.com CNAME .
 *.kenwillzltd.com CNAME .
 khavar.com CNAME .
 *.khavar.com CNAME .
-khoancatbetong89.vn CNAME .
-*.khoancatbetong89.vn CNAME .
 kimyen.net CNAME .
 *.kimyen.net CNAME .
 kits.frog.tw CNAME .
@@ -408,6 +410,8 @@ ncxps.com CNAME .
 *.ncxps.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -530,6 +534,8 @@ spgint.com CNAME .
 *.spgint.com CNAME .
 static.ilclock.com CNAME .
 *.static.ilclock.com CNAME .
+static.topxgun.com CNAME .
+*.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
@@ -548,6 +554,8 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
+swiftfusion.tech CNAME .
+*.swiftfusion.tech CNAME .
 sydneyaffordablecremations.com.au CNAME .
 *.sydneyaffordablecremations.com.au CNAME .
 talentrecruitments.com CNAME .
@@ -560,8 +568,6 @@ tanscarattorneys.co.tz CNAME .
 *.tanscarattorneys.co.tz CNAME .
 tapestryoftruth.com CNAME .
 *.tapestryoftruth.com CNAME .
-tecunonline.com CNAME .
-*.tecunonline.com CNAME .
 tehnomag.rs CNAME .
 *.tehnomag.rs CNAME .
 temirtau-adm.ru CNAME .
@@ -654,6 +660,8 @@ bratusferramentas.grupomoltz.com.br CNAME .
 *.bratusferramentas.grupomoltz.com.br CNAME .
 chenwangqiao.com CNAME .
 *.chenwangqiao.com CNAME .
+controliumbt.com CNAME .
+*.controliumbt.com CNAME .
 crazywickedaddiction.com CNAME .
 *.crazywickedaddiction.com CNAME .
 cutting-edge.in CNAME .
@@ -668,8 +676,6 @@ jozefinskiatelje.si CNAME .
 *.jozefinskiatelje.si CNAME .
 medises.co.kr CNAME .
 *.medises.co.kr CNAME .
-mobimpex.ro CNAME .
-*.mobimpex.ro CNAME .
 myvcart.com CNAME .
 *.myvcart.com CNAME .
 namuvpn.com CNAME .
@@ -680,6 +686,8 @@ newkey.co.kr CNAME .
 *.newkey.co.kr CNAME .
 notbak.com CNAME .
 *.notbak.com CNAME .
+rbcfort.com CNAME .
+*.rbcfort.com CNAME .
 saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 salonmarketing.ca CNAME .
@@ -700,6 +708,8 @@ support-data.com CNAME .
 *.support-data.com CNAME .
 tdejb.com CNAME .
 *.tdejb.com CNAME .
+tecunonline.com CNAME .
+*.tecunonline.com CNAME .
 vuelaviajero.com CNAME .
 *.vuelaviajero.com CNAME .
 xn--on3b15m2lco2u.com CNAME .
@@ -714,8 +724,6 @@ xshop.com.tr CNAME .
 *.xshop.com.tr CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
-zenglobalenerji.com CNAME .
-*.zenglobalenerji.com CNAME .
 zhigao5191.com CNAME .
 *.zhigao5191.com CNAME .
 zycdjz.com CNAME .
