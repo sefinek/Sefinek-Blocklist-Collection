@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072521 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072707 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Ads Blocklist
-; Entries: 27,062 domains
+; Entries: 27,063 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 25, 2026 at 9:22 PM UTC | 2026-07-25T21:22:03.385Z
+; Last updated: July 27, 2026 at 7:11 AM UTC | 2026-07-27T07:11:40.249Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -23640,6 +23640,8 @@ devhybrid.com CNAME .
 *.devhybrid.com CNAME .
 device9.com CNAME .
 *.device9.com CNAME .
+device.marketingcloudapis.com CNAME .
+*.device.marketingcloudapis.com CNAME .
 deviceseal.com CNAME .
 *.deviceseal.com CNAME .
 devopus.com CNAME .
