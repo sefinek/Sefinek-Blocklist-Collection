@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072721 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072800 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 365 domains
+; Entries: 367 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 27, 2026 at 9:29 PM UTC | 2026-07-27T21:29:38.708Z
+; Last updated: July 28, 2026 at 12:33 AM UTC | 2026-07-28T00:33:04.389Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -36,6 +36,8 @@ admin.byte.in.ua CNAME .
 *.admin.byte.in.ua CNAME .
 admin.gestroom.it CNAME .
 *.admin.gestroom.it CNAME .
+aethersyncmatrix5.lol CNAME .
+*.aethersyncmatrix5.lol CNAME .
 aftelecom.com.br CNAME .
 *.aftelecom.com.br CNAME .
 airtickts.com CNAME .
@@ -66,12 +68,16 @@ atom.freehosting.dev CNAME .
 *.atom.freehosting.dev CNAME .
 audicontadores.com CNAME .
 *.audicontadores.com CNAME .
+auth-clo-id.cc CNAME .
+*.auth-clo-id.cc CNAME .
 awarenessexhibition.com CNAME .
 *.awarenessexhibition.com CNAME .
 babydiapersinturkey.com CNAME .
 *.babydiapersinturkey.com CNAME .
 backupso.com CNAME .
 *.backupso.com CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bito.com.pk CNAME .
@@ -92,8 +98,6 @@ bombayonline.in CNAME .
 *.bombayonline.in CNAME .
 book.rollingvideogames.com CNAME .
 *.book.rollingvideogames.com CNAME .
-bore.pub CNAME .
-*.bore.pub CNAME .
 breakneckridgefarm.com CNAME .
 *.breakneckridgefarm.com CNAME .
 bridgeroad.maverickpreviews.com CNAME .
@@ -160,6 +164,8 @@ creativevoltage.com CNAME .
 *.creativevoltage.com CNAME .
 crimefreesoftware.com CNAME .
 *.crimefreesoftware.com CNAME .
+cryptefilea.infy.click CNAME .
+*.cryptefilea.infy.click CNAME .
 crystalpvp.ru CNAME .
 *.crystalpvp.ru CNAME .
 cs.go.kg CNAME .
@@ -324,8 +330,6 @@ isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -354,8 +358,6 @@ kokorostore.it CNAME .
 *.kokorostore.it CNAME .
 konsor.ru CNAME .
 *.konsor.ru CNAME .
-konterlink.hippamsas.com CNAME .
-*.konterlink.hippamsas.com CNAME .
 landonirwin.com CNAME .
 *.landonirwin.com CNAME .
 lapidorseposoalovbs2.com CNAME .
@@ -484,6 +486,8 @@ riderspin.com CNAME .
 *.riderspin.com CNAME .
 robertrowe.com CNAME .
 *.robertrowe.com CNAME .
+roblox-xeno.net CNAME .
+*.roblox-xeno.net CNAME .
 royalindiancurryclub.com CNAME .
 *.royalindiancurryclub.com CNAME .
 rxquickpay.com CNAME .
@@ -512,8 +516,6 @@ seismophonic.com CNAME .
 *.seismophonic.com CNAME .
 semencepourlavie.org CNAME .
 *.semencepourlavie.org CNAME .
-semprecardsecure.com CNAME .
-*.semprecardsecure.com CNAME .
 separadordecc.com CNAME .
 *.separadordecc.com CNAME .
 sg123.net CNAME .
@@ -608,6 +610,8 @@ trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 tuasesoriadigital.es CNAME .
 *.tuasesoriadigital.es CNAME .
+uafsoftware.in CNAME .
+*.uafsoftware.in CNAME .
 un1rw11q4u.com CNAME .
 *.un1rw11q4u.com CNAME .
 upaicdn.xinmei365.com CNAME .
