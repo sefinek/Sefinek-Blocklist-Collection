@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072804 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072806 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 371 domains
+; Entries: 368 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 28, 2026 at 4:05 AM UTC | 2026-07-28T04:05:50.833Z
+; Last updated: July 28, 2026 at 6:56 AM UTC | 2026-07-28T06:56:12.790Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -132,6 +132,8 @@ chiptune.com CNAME .
 *.chiptune.com CNAME .
 christophercheung.com CNAME .
 *.christophercheung.com CNAME .
+chrome-windows.ru CNAME .
+*.chrome-windows.ru CNAME .
 chuguadventures.co.tz CNAME .
 *.chuguadventures.co.tz CNAME .
 cl.ssouy.com CNAME .
@@ -166,6 +168,8 @@ cs.go.kg CNAME .
 *.cs.go.kg CNAME .
 customcreationsmaine.com CNAME .
 *.customcreationsmaine.com CNAME .
+cuttingedgefencing.ca CNAME .
+*.cuttingedgefencing.ca CNAME .
 d.14yaa.com CNAME .
 *.d.14yaa.com CNAME .
 d.wanyouxi7.com CNAME .
@@ -226,8 +230,6 @@ download.suxiazai.com CNAME .
 *.download.suxiazai.com CNAME .
 dowonline.ru CNAME .
 *.dowonline.ru CNAME .
-dreamapp.xyz CNAME .
-*.dreamapp.xyz CNAME .
 dreamwatchevent.com CNAME .
 *.dreamwatchevent.com CNAME .
 dsgagfsahkfsahfjs.shop CNAME .
@@ -328,16 +330,12 @@ isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
-ixirgroup.com CNAME .
-*.ixirgroup.com CNAME .
 jawaratekno.com CNAME .
 *.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
 *.jessespridecharters.com CNAME .
-jlwz.cn CNAME .
-*.jlwz.cn CNAME .
 joyeriatauro.com CNAME .
 *.joyeriatauro.com CNAME .
 js.byxly.eu.cc CNAME .
@@ -418,8 +416,6 @@ ncxps.com CNAME .
 *.ncxps.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
-nusatoyota.co.id CNAME .
-*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -714,8 +710,6 @@ ss-01.com CNAME .
 *.ss-01.com CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
-steamrub.com CNAME .
-*.steamrub.com CNAME .
 support-data.com CNAME .
 *.support-data.com CNAME .
 tdejb.com CNAME .
