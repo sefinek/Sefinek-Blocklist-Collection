@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072800 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026072900 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,426 domains
+; Entries: 40,432 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 28, 2026 at 12:33 AM UTC | 2026-07-28T00:33:05.825Z
+; Last updated: July 29, 2026 at 12:30 AM UTC | 2026-07-29T00:30:26.082Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -86,6 +86,8 @@ agkn.com CNAME .
 *.agkn.com CNAME .
 agma-analytics.de CNAME .
 *.agma-analytics.de CNAME .
+aisiteanalytics.com CNAME .
+*.aisiteanalytics.com CNAME .
 allvideometrika.com CNAME .
 *.allvideometrika.com CNAME .
 altopd.com CNAME .
@@ -608,6 +610,8 @@ ml-sys.xyz CNAME .
 *.ml-sys.xyz CNAME .
 mm-api.agency CNAME .
 *.mm-api.agency CNAME .
+mm-uxrv.com CNAME .
+*.mm-uxrv.com CNAME .
 mnbvpo8trk.com CNAME .
 *.mnbvpo8trk.com CNAME .
 mobildev.in CNAME .
@@ -1484,6 +1488,8 @@ analytics.vdo.ai CNAME .
 *.analytics.vdo.ai CNAME .
 analytics.vendemore.com CNAME .
 *.analytics.vendemore.com CNAME .
+analytics.veygo.co CNAME .
+*.analytics.veygo.co CNAME .
 analytics.vitalsignstracker.com CNAME .
 *.analytics.vitalsignstracker.com CNAME .
 analytics.vixcloud.co CNAME .
@@ -2774,6 +2780,8 @@ pixel.mtrcs.samba.tv CNAME .
 *.pixel.mtrcs.samba.tv CNAME .
 pixel.newscred.com CNAME .
 *.pixel.newscred.com CNAME .
+pixel.nudgify.com CNAME .
+*.pixel.nudgify.com CNAME .
 pixel.propublica.org CNAME .
 *.pixel.propublica.org CNAME .
 pixel.pub.lilyai.net CNAME .
@@ -4366,6 +4374,8 @@ met.vgwort.de CNAME .
 *.met.vgwort.de CNAME .
 nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
+nltcs.idfnet.net CNAME .
+*.nltcs.idfnet.net CNAME .
 nlytcs.idfnet.net CNAME .
 *.nlytcs.idfnet.net CNAME .
 orbidder.otto.de CNAME .
@@ -6180,6 +6190,8 @@ go.pardot.com CNAME .
 *.go.pardot.com CNAME .
 go.thegrocer.co.uk CNAME .
 *.go.thegrocer.co.uk CNAME .
+goatcounter.ssp.sh CNAME .
+*.goatcounter.ssp.sh CNAME .
 graylog.prod.cams.run CNAME .
 *.graylog.prod.cams.run CNAME .
 grgnsht.nzxt.com CNAME .
