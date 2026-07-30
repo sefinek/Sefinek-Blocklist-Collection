@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026073004 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026073006 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 382 domains
+; Entries: 380 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 30, 2026 at 4:06 AM UTC | 2026-07-30T04:06:23.725Z
+; Last updated: July 30, 2026 at 6:58 AM UTC | 2026-07-30T06:58:32.123Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -80,8 +80,6 @@ blankeyeo.com CNAME .
 *.blankeyeo.com CNAME .
 blessdayservices.org CNAME .
 *.blessdayservices.org CNAME .
-blogs.sokun.jp CNAME .
-*.blogs.sokun.jp CNAME .
 bmdcompany.com CNAME .
 *.bmdcompany.com CNAME .
 bnet-api.playm8ru.win CNAME .
@@ -182,6 +180,8 @@ deagroup-ks.com CNAME .
 *.deagroup-ks.com CNAME .
 deliverymailreport.co.za CNAME .
 *.deliverymailreport.co.za CNAME .
+delp-heizungsbau.de CNAME .
+*.delp-heizungsbau.de CNAME .
 dexios.co.za CNAME .
 *.dexios.co.za CNAME .
 dezcom.com CNAME .
@@ -208,12 +208,12 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
+down.qqfarmer.com.cn CNAME .
+*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
 *.download.doumaibiji.cn CNAME .
-download.haozip.com CNAME .
-*.download.haozip.com CNAME .
 download.kaobeitu.com CNAME .
 *.download.kaobeitu.com CNAME .
 download.pdf00.cn CNAME .
@@ -300,8 +300,6 @@ gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
-gobiotechpestcontrol.com CNAME .
-*.gobiotechpestcontrol.com CNAME .
 grantexx.com CNAME .
 *.grantexx.com CNAME .
 greenf.alexion.rs CNAME .
@@ -332,8 +330,6 @@ htdentshop.com CNAME .
 *.htdentshop.com CNAME .
 icoffeecloud.com CNAME .
 *.icoffeecloud.com CNAME .
-ignetwork.us CNAME .
-*.ignetwork.us CNAME .
 igra123.com CNAME .
 *.igra123.com CNAME .
 ijexgroup.com.br CNAME .
@@ -394,8 +390,6 @@ luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
 m.jkoa.co.kr CNAME .
 *.m.jkoa.co.kr CNAME .
-m.meta-dm.com CNAME .
-*.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 mail.fairgroovetr.blog CNAME .
@@ -404,6 +398,8 @@ mail.rarewingvm.blog CNAME .
 *.mail.rarewingvm.blog CNAME .
 malaysianpastrybakery.org CNAME .
 *.malaysianpastrybakery.org CNAME .
+mandarin.net.au CNAME .
+*.mandarin.net.au CNAME .
 meetvideogoogle.com CNAME .
 *.meetvideogoogle.com CNAME .
 metrics.gocloudmaps.com CNAME .
@@ -434,8 +430,6 @@ nobleshadebu.pro CNAME .
 *.nobleshadebu.pro CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
-nusatoyota.co.id CNAME .
-*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
@@ -538,6 +532,8 @@ semencepourlavie.org CNAME .
 *.semencepourlavie.org CNAME .
 separadordecc.com CNAME .
 *.separadordecc.com CNAME .
+seputartuban.com CNAME .
+*.seputartuban.com CNAME .
 sg123.net CNAME .
 *.sg123.net CNAME .
 shop.mediasova.ru CNAME .
@@ -564,8 +560,6 @@ spgint.com CNAME .
 *.spgint.com CNAME .
 ssc.nexajs.com CNAME .
 *.ssc.nexajs.com CNAME .
-static.ilclock.com CNAME .
-*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
@@ -640,12 +634,12 @@ ufavalkplus.com CNAME .
 *.ufavalkplus.com CNAME .
 un1rw11q4u.com CNAME .
 *.un1rw11q4u.com CNAME .
+upaicdn.xinmei365.com CNAME .
+*.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
 *.upchemicals.co.in CNAME .
 update.cg100iii.com CNAME .
 *.update.cg100iii.com CNAME .
-vcc-library.uk CNAME .
-*.vcc-library.uk CNAME .
 venom.rotero.vc CNAME .
 *.venom.rotero.vc CNAME .
 versaclean.com.br CNAME .
@@ -738,6 +732,8 @@ ss-01.com CNAME .
 *.ss-01.com CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
+steamrub.com CNAME .
+*.steamrub.com CNAME .
 support-data.com CNAME .
 *.support-data.com CNAME .
 tdejb.com CNAME .
@@ -758,6 +754,8 @@ xshop.com.tr CNAME .
 *.xshop.com.tr CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
+zenglobalenerji.com CNAME .
+*.zenglobalenerji.com CNAME .
 zhigao5191.com CNAME .
 *.zhigao5191.com CNAME .
 zycdjz.com CNAME .
