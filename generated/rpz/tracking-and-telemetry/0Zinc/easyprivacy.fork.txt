@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026072900 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026073000 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,432 domains
+; Entries: 40,435 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 29, 2026 at 12:30 AM UTC | 2026-07-29T00:30:26.082Z
+; Last updated: July 30, 2026 at 12:31 AM UTC | 2026-07-30T00:31:59.889Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1692,6 +1692,8 @@ c.live.com CNAME .
 *.c.live.com CNAME .
 c.mgid.com CNAME .
 *.c.mgid.com CNAME .
+c.trkn.it CNAME .
+*.c.trkn.it CNAME .
 c.wen.ru CNAME .
 *.c.wen.ru CNAME .
 c3metrics.medifast1.com CNAME .
@@ -1810,8 +1812,6 @@ collect.verify.lnearn.com CNAME .
 *.collect.verify.lnearn.com CNAME .
 collectfront.nector.io CNAME .
 *.collectfront.nector.io CNAME .
-collection.e-satisfaction.com CNAME .
-*.collection.e-satisfaction.com CNAME .
 collector-1.ex.co CNAME .
 *.collector-1.ex.co CNAME .
 collector-api.99designs.com CNAME .
@@ -2060,6 +2060,8 @@ eel.transistor.fm CNAME .
 *.eel.transistor.fm CNAME .
 enc-90128738.b-cdn.net CNAME .
 *.enc-90128738.b-cdn.net CNAME .
+ep.jamx.ai CNAME .
+*.ep.jamx.ai CNAME .
 epsilon.6sense.com CNAME .
 *.epsilon.6sense.com CNAME .
 eq.userneeds.com CNAME .
@@ -4796,6 +4798,8 @@ analytics.palitra.ge CNAME .
 *.analytics.palitra.ge CNAME .
 links.boom.ge CNAME .
 *.links.boom.ge CNAME .
+analytics.skroutz.gr CNAME .
+*.analytics.skroutz.gr CNAME .
 event-tracker-library.mediaownerscloud.com CNAME .
 *.event-tracker-library.mediaownerscloud.com CNAME .
 metrics.find.gr CNAME .
@@ -6470,6 +6474,8 @@ ocular.hotukdeals.com CNAME .
 *.ocular.hotukdeals.com CNAME .
 ohm-dot-hackster-io.appspot.com CNAME .
 *.ohm-dot-hackster-io.appspot.com CNAME .
+ol-collector.quillbot.com CNAME .
+*.ol-collector.quillbot.com CNAME .
 op.dragonfru.it CNAME .
 *.op.dragonfru.it CNAME .
 ophan.theguardian.com CNAME .
