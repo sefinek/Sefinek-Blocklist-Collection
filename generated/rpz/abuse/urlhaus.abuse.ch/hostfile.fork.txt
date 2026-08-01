@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080112 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080115 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 366 domains
+; Entries: 365 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 1, 2026 at 12:24 PM UTC | 2026-08-01T12:24:35.493Z
+; Last updated: August 1, 2026 at 3:28 PM UTC | 2026-08-01T15:28:09.219Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -114,6 +114,8 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -276,8 +278,6 @@ genddos.st CNAME .
 *.genddos.st CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 googletagamnager.com CNAME .
@@ -320,16 +320,12 @@ ijexgroup.com.br CNAME .
 *.ijexgroup.com.br CNAME .
 ikincielesyaciankara.com.tr CNAME .
 *.ikincielesyaciankara.com.tr CNAME .
-indusenterprises.co CNAME .
-*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
-ixirgroup.com CNAME .
-*.ixirgroup.com CNAME .
 jawaratekno.com CNAME .
 *.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
@@ -342,8 +338,6 @@ joyeriatauro.com CNAME .
 *.joyeriatauro.com CNAME .
 js.byxly.eu.cc CNAME .
 *.js.byxly.eu.cc CNAME .
-jyothishmathi.in CNAME .
-*.jyothishmathi.in CNAME .
 kavacanada.ca CNAME .
 *.kavacanada.ca CNAME .
 kenwillzltd.com CNAME .
@@ -364,6 +358,8 @@ lawfirm.paperbirdtech.com CNAME .
 *.lawfirm.paperbirdtech.com CNAME .
 libss.0x504.com CNAME .
 *.libss.0x504.com CNAME .
+lindnerelektroanlagen.de CNAME .
+*.lindnerelektroanlagen.de CNAME .
 local-update.com CNAME .
 *.local-update.com CNAME .
 lomejordesalamanca.es CNAME .
@@ -390,8 +386,6 @@ mitreart.com CNAME .
 *.mitreart.com CNAME .
 mogimall.com CNAME .
 *.mogimall.com CNAME .
-msedge.vg CNAME .
-*.msedge.vg CNAME .
 muaklekcoop.com CNAME .
 *.muaklekcoop.com CNAME .
 muledo.com CNAME .
@@ -420,6 +414,8 @@ o24o.ru CNAME .
 *.o24o.ru CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
+oknoplastik.sk CNAME .
+*.oknoplastik.sk CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
 outpost.co.ke CNAME .
@@ -444,8 +440,6 @@ planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
-powershell-storage.vg CNAME .
-*.powershell-storage.vg CNAME .
 preciosasjoyitas.com.mx CNAME .
 *.preciosasjoyitas.com.mx CNAME .
 public.demo.securecloudsandbox.com CNAME .
@@ -476,6 +470,8 @@ reservphotoinstay.one CNAME .
 *.reservphotoinstay.one CNAME .
 reservphotoinstaynow.shop CNAME .
 *.reservphotoinstaynow.shop CNAME .
+reutilizemais.co.mz CNAME .
+*.reutilizemais.co.mz CNAME .
 rheddh.com CNAME .
 *.rheddh.com CNAME .
 riderspin.com CNAME .
@@ -532,14 +528,16 @@ soft.110route.com CNAME .
 *.soft.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
+somautomotivorj.com.br CNAME .
+*.somautomotivorj.com.br CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
+static.ilclock.com CNAME .
+*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
-stdown.dinju.com CNAME .
-*.stdown.dinju.com CNAME .
 stonecradle.com CNAME .
 *.stonecradle.com CNAME .
 streammobs.com CNAME .
@@ -560,6 +558,8 @@ sydneyaffordablecremations.com.au CNAME .
 *.sydneyaffordablecremations.com.au CNAME .
 talentrecruitments.com CNAME .
 *.talentrecruitments.com CNAME .
+tangentwaves.com CNAME .
+*.tangentwaves.com CNAME .
 tanscarattorneys.co.tz CNAME .
 *.tanscarattorneys.co.tz CNAME .
 tapestryoftruth.com CNAME .
