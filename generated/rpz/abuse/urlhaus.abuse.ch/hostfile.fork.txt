@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080304 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080307 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 362 domains
+; Entries: 365 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 3, 2026 at 4:16 AM UTC | 2026-08-03T04:16:38.748Z
+; Last updated: August 3, 2026 at 7:10 AM UTC | 2026-08-03T07:10:18.555Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26,6 +26,8 @@ $TTL 300
 *.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
+abdulahad.net CNAME .
+*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -108,8 +110,6 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
-cdn.file6.goodid.com CNAME .
-*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -250,6 +250,8 @@ file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
 file.tugou.com.co CNAME .
 *.file.tugou.com.co CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -406,12 +408,16 @@ nf.boletos-notas.com CNAME .
 *.nf.boletos-notas.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
 *.o24o.ru CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
+oknoplastik.sk CNAME .
+*.oknoplastik.sk CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
 outpost.co.ke CNAME .
@@ -534,8 +540,6 @@ stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
 stonecradle.com CNAME .
 *.stonecradle.com CNAME .
-streammobs.com CNAME .
-*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 sunix-technology.com CNAME .
@@ -664,6 +668,8 @@ dra.com.ve CNAME .
 *.dra.com.ve CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 intelligradeeducation.vicentecisnerospub.com CNAME .
