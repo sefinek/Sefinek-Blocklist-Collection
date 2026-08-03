@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026073009 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080310 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,318 domains
+; Entries: 18,342 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 30, 2026 at 9:54 AM UTC | 2026-07-30T09:54:31.984Z
+; Last updated: August 3, 2026 at 10:20 AM UTC | 2026-08-03T10:20:59.706Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -16394,12 +16394,16 @@ req.appads.in CNAME .
 *.req.appads.in CNAME .
 sg-tracker.appads.in CNAME .
 *.sg-tracker.appads.in CNAME .
+bidmachine.io CNAME .
+*.bidmachine.io CNAME .
 api-apac.bidmachine.io CNAME .
 *.api-apac.bidmachine.io CNAME .
 api-eu.bidmachine.io CNAME .
 *.api-eu.bidmachine.io CNAME .
 api-us.bidmachine.io CNAME .
 *.api-us.bidmachine.io CNAME .
+api.bidmachine.io CNAME .
+*.api.bidmachine.io CNAME .
 deltadna.net CNAME .
 *.deltadna.net CNAME .
 balanced-collect.deltadna.net CNAME .
@@ -18650,18 +18654,46 @@ track.attributionapp.com CNAME .
 *.track.attributionapp.com CNAME .
 everestop.io CNAME .
 *.everestop.io CNAME .
+am.everestop.io CNAME .
+*.am.everestop.io CNAME .
 d.everestop.io CNAME .
 *.d.everestop.io CNAME .
 f.everestop.io CNAME .
 *.f.everestop.io CNAME .
 s.everestop.io CNAME .
 *.s.everestop.io CNAME .
-t.everestop.io CNAME .
-*.t.everestop.io CNAME .
 w.everestop.io CNAME .
 *.w.everestop.io CNAME .
 x.everestop.io CNAME .
 *.x.everestop.io CNAME .
+thecatmachine.com CNAME .
+*.thecatmachine.com CNAME .
+am.thecatmachine.com CNAME .
+*.am.thecatmachine.com CNAME .
+d.thecatmachine.com CNAME .
+*.d.thecatmachine.com CNAME .
+f.thecatmachine.com CNAME .
+*.f.thecatmachine.com CNAME .
+s.thecatmachine.com CNAME .
+*.s.thecatmachine.com CNAME .
+w.thecatmachine.com CNAME .
+*.w.thecatmachine.com CNAME .
+x.thecatmachine.com CNAME .
+*.x.thecatmachine.com CNAME .
+blueduckredapple.com CNAME .
+*.blueduckredapple.com CNAME .
+am.blueduckredapple.com CNAME .
+*.am.blueduckredapple.com CNAME .
+d.blueduckredapple.com CNAME .
+*.d.blueduckredapple.com CNAME .
+f.blueduckredapple.com CNAME .
+*.f.blueduckredapple.com CNAME .
+s.blueduckredapple.com CNAME .
+*.s.blueduckredapple.com CNAME .
+w.blueduckredapple.com CNAME .
+*.w.blueduckredapple.com CNAME .
+x.blueduckredapple.com CNAME .
+*.x.blueduckredapple.com CNAME .
 logs.insight.rapid7.com CNAME .
 *.logs.insight.rapid7.com CNAME .
 eu.data.logs.insight.rapid7.com CNAME .
@@ -20934,6 +20966,20 @@ api.enticecreep.com CNAME .
 *.api.enticecreep.com CNAME .
 tr.enticecreep.com CNAME .
 *.tr.enticecreep.com CNAME .
+consent.easybrain.com CNAME .
+*.consent.easybrain.com CNAME .
+cross-promo-provider.easybrain.com CNAME .
+*.cross-promo-provider.easybrain.com CNAME .
+ets.easybrain.com CNAME .
+*.ets.easybrain.com CNAME .
+gamestats.easybrain.com CNAME .
+*.gamestats.easybrain.com CNAME .
+s3-analytics-events.easybrain.com CNAME .
+*.s3-analytics-events.easybrain.com CNAME .
+s3-ca-liveops.easybrain.com CNAME .
+*.s3-ca-liveops.easybrain.com CNAME .
+s3-playable-ads.easybrain.com CNAME .
+*.s3-playable-ads.easybrain.com CNAME .
 adtimaserver.vn CNAME .
 *.adtimaserver.vn CNAME .
 api.adtimaserver.vn CNAME .
@@ -31568,6 +31614,8 @@ regnow.com CNAME .
 *.regnow.com CNAME .
 regulationprivilegescan.top CNAME .
 *.regulationprivilegescan.top CNAME .
+reinscreendecompose.com CNAME .
+*.reinscreendecompose.com CNAME .
 rel-s.com CNAME .
 *.rel-s.com CNAME .
 relationshipcourseably.com CNAME .
@@ -33550,10 +33598,6 @@ wynvalur.com CNAME .
 *.wynvalur.com CNAME .
 x-traceur.com CNAME .
 *.x-traceur.com CNAME .
-x.blueduckredapple.com CNAME .
-*.x.blueduckredapple.com CNAME .
-x.thecatmachine.com CNAME .
-*.x.thecatmachine.com CNAME .
 x2sfa.javgg.eu CNAME .
 *.x2sfa.javgg.eu CNAME .
 x7i0.com CNAME .
@@ -34812,8 +34856,6 @@ s.ntv.io CNAME .
 *.s.ntv.io CNAME .
 s.yjtag.jp CNAME .
 *.s.yjtag.jp CNAME .
-s3-analytics-events.easybrain.com CNAME .
-*.s3-analytics-events.easybrain.com CNAME .
 safegraph.com CNAME .
 *.safegraph.com CNAME .
 salecycle.com CNAME .
