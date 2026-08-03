@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080300 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080304 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 363 domains
+; Entries: 362 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 3, 2026 at 12:33 AM UTC | 2026-08-03T00:33:04.661Z
+; Last updated: August 3, 2026 at 4:16 AM UTC | 2026-08-03T04:16:38.748Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26,8 +26,6 @@ $TTL 300
 *.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
-abdulahad.net CNAME .
-*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -252,8 +250,6 @@ file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
 file.tugou.com.co CNAME .
 *.file.tugou.com.co CNAME .
-file.uhsea.com CNAME .
-*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -294,8 +290,6 @@ gutando.com CNAME .
 *.gutando.com CNAME .
 hasalltalent.com CNAME .
 *.hasalltalent.com CNAME .
-heavyhorses.com CNAME .
-*.heavyhorses.com CNAME .
 heroestales.com CNAME .
 *.heroestales.com CNAME .
 hindustanagency.com CNAME .
@@ -320,12 +314,16 @@ ijexgroup.com.br CNAME .
 *.ijexgroup.com.br CNAME .
 ikincielesyaciankara.com.tr CNAME .
 *.ikincielesyaciankara.com.tr CNAME .
+indusenterprises.co CNAME .
+*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
+ixirgroup.com CNAME .
+*.ixirgroup.com CNAME .
 jawaratekno.com CNAME .
 *.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
@@ -368,8 +366,12 @@ lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 m.jkoa.co.kr CNAME .
 *.m.jkoa.co.kr CNAME .
+m.meta-dm.com CNAME .
+*.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 mandarin.net.au CNAME .
@@ -410,8 +412,6 @@ o24o.ru CNAME .
 *.o24o.ru CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
-oknoplastik.sk CNAME .
-*.oknoplastik.sk CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
 outpost.co.ke CNAME .
@@ -518,10 +518,14 @@ smartermail.host CNAME .
 *.smartermail.host CNAME .
 smoking-hot.net CNAME .
 *.smoking-hot.net CNAME .
+soft.110route.com CNAME .
+*.soft.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
+static.ilclock.com CNAME .
+*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
@@ -542,6 +546,8 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
+swiftfusion.tech CNAME .
+*.swiftfusion.tech CNAME .
 sydneyaffordablecremations.com.au CNAME .
 *.sydneyaffordablecremations.com.au CNAME .
 talentrecruitments.com CNAME .
@@ -590,8 +596,6 @@ tuasesoriadigital.es CNAME .
 *.tuasesoriadigital.es CNAME .
 twitch.tj CNAME .
 *.twitch.tj CNAME .
-twu-hwt.org CNAME .
-*.twu-hwt.org CNAME .
 un1rw11q4u.com CNAME .
 *.un1rw11q4u.com CNAME .
 upaicdn.xinmei365.com CNAME .
@@ -604,8 +608,6 @@ v-k.com.ua CNAME .
 *.v-k.com.ua CNAME .
 vcc-library.uk CNAME .
 *.vcc-library.uk CNAME .
-vdsina.vg CNAME .
-*.vdsina.vg CNAME .
 versaclean.com.br CNAME .
 *.versaclean.com.br CNAME .
 veryboys.com CNAME .
@@ -662,8 +664,6 @@ dra.com.ve CNAME .
 *.dra.com.ve CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 intelligradeeducation.vicentecisnerospub.com CNAME .
