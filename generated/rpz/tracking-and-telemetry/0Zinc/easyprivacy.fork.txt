@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026073100 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080400 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,436 domains
+; Entries: 40,440 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 31, 2026 at 12:33 AM UTC | 2026-07-31T00:33:00.165Z
+; Last updated: August 4, 2026 at 12:34 AM UTC | 2026-08-04T00:34:52.064Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1382,6 +1382,8 @@ analytics.mailmunch.co CNAME .
 *.analytics.mailmunch.co CNAME .
 analytics.matchbin.com CNAME .
 *.analytics.matchbin.com CNAME .
+analytics.maxx53.com CNAME .
+*.analytics.maxx53.com CNAME .
 analytics.metriko.app CNAME .
 *.analytics.metriko.app CNAME .
 analytics.midwesternmac.com CNAME .
@@ -3142,6 +3144,8 @@ stats.edicy.com CNAME .
 *.stats.edicy.com CNAME .
 stats.esecured.net CNAME .
 *.stats.esecured.net CNAME .
+stats.externulls.com CNAME .
+*.stats.externulls.com CNAME .
 stats.flixhq.live CNAME .
 *.stats.flixhq.live CNAME .
 stats.fluorescent.co CNAME .
@@ -5196,6 +5200,8 @@ analytics.tufos.com.br CNAME .
 *.analytics.tufos.com.br CNAME .
 collect.chaordicsystems.com CNAME .
 *.collect.chaordicsystems.com CNAME .
+engagement.coremedia.cloud CNAME .
+*.engagement.coremedia.cloud CNAME .
 events.chaordicsystems.com CNAME .
 *.events.chaordicsystems.com CNAME .
 eventsourcing.ms.harmo.me CNAME .
@@ -5430,6 +5436,8 @@ ctx.citiservi.es CNAME .
 *.ctx.citiservi.es CNAME .
 datanoticias.prisasd.com CNAME .
 *.datanoticias.prisasd.com CNAME .
+el.siglo.mx CNAME .
+*.el.siglo.mx CNAME .
 g-stats.openhost.es CNAME .
 *.g-stats.openhost.es CNAME .
 llmometrics.b-cdn.net CNAME .
