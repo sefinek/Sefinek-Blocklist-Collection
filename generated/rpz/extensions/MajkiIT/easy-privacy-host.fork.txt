@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026073104 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080501 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,443 domains
+; Entries: 40,447 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: July 31, 2026 at 4:12 AM UTC | 2026-07-31T04:12:03.102Z
+; Last updated: August 5, 2026 at 1:57 AM UTC | 2026-08-05T01:57:59.189Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -10664,6 +10664,8 @@ analytics.matchbin.com CNAME .
 *.analytics.matchbin.com CNAME .
 analytics.maxroll.gg CNAME .
 *.analytics.maxroll.gg CNAME .
+analytics.maxx53.com CNAME .
+*.analytics.maxx53.com CNAME .
 analytics.mc500.info CNAME .
 *.analytics.mc500.info CNAME .
 analytics.media-proweb.de CNAME .
@@ -23108,6 +23110,8 @@ ekphpa.perfectlypriscilla.com CNAME .
 *.ekphpa.perfectlypriscilla.com CNAME .
 el.quizlet.com CNAME .
 *.el.quizlet.com CNAME .
+el.siglo.mx CNAME .
+*.el.siglo.mx CNAME .
 elastoproxy.actonservice.com CNAME .
 *.elastoproxy.actonservice.com CNAME .
 elconfidencialdigital.actonservice.com CNAME .
@@ -24406,6 +24410,8 @@ engagefront.meteomedia.com CNAME .
 *.engagefront.meteomedia.com CNAME .
 engagefront.theweathernetwork.com CNAME .
 *.engagefront.theweathernetwork.com CNAME .
+engagement.coremedia.cloud CNAME .
+*.engagement.coremedia.cloud CNAME .
 engagement.feedly.com CNAME .
 *.engagement.feedly.com CNAME .
 engagemetrics.cisco.com CNAME .
@@ -64460,6 +64466,8 @@ stats.exploratv.ca CNAME .
 *.stats.exploratv.ca CNAME .
 stats.extendedstayamerica.com CNAME .
 *.stats.extendedstayamerica.com CNAME .
+stats.externulls.com CNAME .
+*.stats.externulls.com CNAME .
 stats.extramilefloorcare.com CNAME .
 *.stats.extramilefloorcare.com CNAME .
 stats.eyehelp.co CNAME .
