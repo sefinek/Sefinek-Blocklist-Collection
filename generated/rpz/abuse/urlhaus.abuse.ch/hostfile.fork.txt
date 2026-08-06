@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080608 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080611 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 390 domains
+; Entries: 396 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 6, 2026 at 8:26 AM UTC | 2026-08-06T08:26:25.444Z
+; Last updated: August 6, 2026 at 11:18 AM UTC | 2026-08-06T11:18:46.991Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -32,8 +32,6 @@ $TTL 300
 *.176.65.149.168.ptr.pfcloud.network CNAME .
 45.135.194.70.ptr.pfcloud.network CNAME .
 *.45.135.194.70.ptr.pfcloud.network CNAME .
-abdulahad.net CNAME .
-*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -86,6 +84,8 @@ awarenessexhibition.com CNAME .
 *.awarenessexhibition.com CNAME .
 backupso.com CNAME .
 *.backupso.com CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bito.com.pk CNAME .
@@ -324,6 +324,8 @@ gutando.com CNAME .
 *.gutando.com CNAME .
 hasalltalent.com CNAME .
 *.hasalltalent.com CNAME .
+heajost.online CNAME .
+*.heajost.online CNAME .
 heroestales.com CNAME .
 *.heroestales.com CNAME .
 hindustanagency.com CNAME .
@@ -334,8 +336,6 @@ hitstation.nl CNAME .
 *.hitstation.nl CNAME .
 hjha.ao CNAME .
 *.hjha.ao CNAME .
-hobobot.net CNAME .
-*.hobobot.net CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 htdentshop.com CNAME .
@@ -358,6 +358,8 @@ isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
+ixirgroup.com CNAME .
+*.ixirgroup.com CNAME .
 jawaratekno.com CNAME .
 *.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
@@ -406,6 +408,8 @@ loosun.net CNAME .
 *.loosun.net CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 m.jkoa.co.kr CNAME .
 *.m.jkoa.co.kr CNAME .
 m.meta-dm.com CNAME .
@@ -450,8 +454,6 @@ o24o.ru CNAME .
 *.o24o.ru CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
-oknoplastik.sk CNAME .
-*.oknoplastik.sk CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
 outpost.co.ke CNAME .
@@ -524,14 +526,16 @@ sablayan.seasonshotelmindoro.com CNAME .
 *.sablayan.seasonshotelmindoro.com CNAME .
 safeuploadz.com CNAME .
 *.safeuploadz.com CNAME .
+sales.ifree.page CNAME .
+*.sales.ifree.page CNAME .
 samiksha.com.sg CNAME .
 *.samiksha.com.sg CNAME .
 savannahadventureslimited.com CNAME .
 *.savannahadventureslimited.com CNAME .
-scainseto.com.br CNAME .
-*.scainseto.com.br CNAME .
 scanbot.me CNAME .
 *.scanbot.me CNAME .
+scoala1gherla.ro CNAME .
+*.scoala1gherla.ro CNAME .
 sec.dashabi.in CNAME .
 *.sec.dashabi.in CNAME .
 sec.xiaojiji.nl CNAME .
@@ -586,6 +590,8 @@ streammobs.com CNAME .
 *.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
+sumiko.vu CNAME .
+*.sumiko.vu CNAME .
 sunix-technology.com CNAME .
 *.sunix-technology.com CNAME .
 support.clz.kr CNAME .
@@ -630,6 +636,8 @@ thtp2.volamngayxua.net CNAME .
 *.thtp2.volamngayxua.net CNAME .
 tiacreation.club CNAME .
 *.tiacreation.club CNAME .
+timestampasa.howto.rocks CNAME .
+*.timestampasa.howto.rocks CNAME .
 toolshare.com.tr CNAME .
 *.toolshare.com.tr CNAME .
 top8onlinegame.com CNAME .
@@ -710,6 +718,8 @@ dra.com.ve CNAME .
 *.dra.com.ve CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
@@ -776,5 +786,7 @@ zenglobalenerji.com CNAME .
 *.zenglobalenerji.com CNAME .
 zhigao5191.com CNAME .
 *.zhigao5191.com CNAME .
+zoredaye.com CNAME .
+*.zoredaye.com CNAME .
 zycdjz.com CNAME .
 *.zycdjz.com CNAME .
