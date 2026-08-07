@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080704 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080709 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 388 domains
+; Entries: 382 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 7, 2026 at 4:53 AM UTC | 2026-08-07T04:53:50.269Z
+; Last updated: August 7, 2026 at 9:59 AM UTC | 2026-08-07T09:59:58.464Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -124,6 +124,8 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -218,8 +220,6 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
-down.qqfarmer.com.cn CNAME .
-*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
@@ -270,8 +270,6 @@ fesold.com CNAME .
 *.fesold.com CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
-file.uhsea.com CNAME .
-*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -296,8 +294,6 @@ gboutros.howto.rocks CNAME .
 *.gboutros.howto.rocks CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 golvteametvarberg.se CNAME .
@@ -340,6 +336,8 @@ ignetwork.us CNAME .
 *.ignetwork.us CNAME .
 igra123.com CNAME .
 *.igra123.com CNAME .
+indusenterprises.co CNAME .
+*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
@@ -348,6 +346,8 @@ itssprout.com CNAME .
 *.itssprout.com CNAME .
 ixirgroup.com CNAME .
 *.ixirgroup.com CNAME .
+jawaratekno.com CNAME .
+*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -372,10 +372,10 @@ konsor.ru CNAME .
 *.konsor.ru CNAME .
 landonirwin.com CNAME .
 *.landonirwin.com CNAME .
+lawfirm.paperbirdtech.com CNAME .
+*.lawfirm.paperbirdtech.com CNAME .
 lenotecadiarqua.it CNAME .
 *.lenotecadiarqua.it CNAME .
-lindnerelektroanlagen.de CNAME .
-*.lindnerelektroanlagen.de CNAME .
 linktrap.co CNAME .
 *.linktrap.co CNAME .
 lion44.net CNAME .
@@ -432,12 +432,8 @@ ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 o24o.ru CNAME .
 *.o24o.ru CNAME .
-oim.doganltd.com.tr CNAME .
-*.oim.doganltd.com.tr CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
-oknoplastik.sk CNAME .
-*.oknoplastik.sk CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
 orienttaxtile.com CNAME .
@@ -532,8 +528,6 @@ sec.xiaoshabi.nl CNAME .
 *.sec.xiaoshabi.nl CNAME .
 seismophonic.com CNAME .
 *.seismophonic.com CNAME .
-semencepourlavie.org CNAME .
-*.semencepourlavie.org CNAME .
 separadordecc.com CNAME .
 *.separadordecc.com CNAME .
 seputartuban.com CNAME .
@@ -636,8 +630,6 @@ trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 tuasesoriadigital.es CNAME .
 *.tuasesoriadigital.es CNAME .
-twu-hwt.org CNAME .
-*.twu-hwt.org CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
@@ -740,8 +732,6 @@ ss-01.com CNAME .
 *.ss-01.com CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
-steamrub.com CNAME .
-*.steamrub.com CNAME .
 support-data.com CNAME .
 *.support-data.com CNAME .
 tdejb.com CNAME .
