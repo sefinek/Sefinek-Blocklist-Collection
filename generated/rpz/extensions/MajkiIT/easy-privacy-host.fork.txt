@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080702 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026080901 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,449 domains
+; Entries: 40,451 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 7, 2026 at 2:23 AM UTC | 2026-08-07T02:23:27.329Z
+; Last updated: August 9, 2026 at 1:13 AM UTC | 2026-08-09T01:13:52.896Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -22164,6 +22164,8 @@ dt.xfyun.cn CNAME .
 *.dt.xfyun.cn CNAME .
 dtag.breadfinancial.com CNAME .
 *.dtag.breadfinancial.com CNAME .
+dtasrvr.com CNAME .
+*.dtasrvr.com CNAME .
 dtestpromo.fiat.it CNAME .
 *.dtestpromo.fiat.it CNAME .
 dtmssl.bobcat.com CNAME .
@@ -49496,6 +49498,8 @@ pulse.delta.com CNAME .
 *.pulse.delta.com CNAME .
 pulse.ecmapps.com CNAME .
 *.pulse.ecmapps.com CNAME .
+pulse.genki.world CNAME .
+*.pulse.genki.world CNAME .
 pulse.munsonhealthcare.org CNAME .
 *.pulse.munsonhealthcare.org CNAME .
 pulse.shopflo.com CNAME .
