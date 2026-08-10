@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026080415 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081015 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -10,12 +10,12 @@ $TTL 300
 ;
 ; Title: NoTrack Tracker Blocklist
 ; Description: Domains classified as tracking or advertising
-; Entries: 15,337 domains
+; Entries: 15,307 domains
 ; Source: https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts
 ; License: GNU General Public License v3.0
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 4, 2026 at 3:50 PM UTC | 2026-08-04T15:50:50.232Z
+; Last updated: August 10, 2026 at 3:58 PM UTC | 2026-08-10T15:58:05.801Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -3641,8 +3641,6 @@ metrics.raptr.com CNAME .
 *.metrics.raptr.com CNAME .
 metrics.roblox.com CNAME .
 *.metrics.roblox.com CNAME .
-metrics.sdkbox.com CNAME .
-*.metrics.sdkbox.com CNAME .
 metrics.ubuntu.com CNAME .
 *.metrics.ubuntu.com CNAME .
 metrics.vinted.lt CNAME .
@@ -27553,8 +27551,6 @@ rev.contractoruk.com CNAME .
 *.rev.contractoruk.com CNAME .
 revcontent.com CNAME .
 *.revcontent.com CNAME .
-revenue.com CNAME .
-*.revenue.com CNAME .
 revenueflex.com CNAME .
 *.revenueflex.com CNAME .
 revenuehits.com CNAME .
@@ -27615,8 +27611,6 @@ ro-up.vivoglobal.com CNAME .
 *.ro-up.vivoglobal.com CNAME .
 rockabox.co CNAME .
 *.rockabox.co CNAME .
-roia.biz CNAME .
-*.roia.biz CNAME .
 roistat.com CNAME .
 *.roistat.com CNAME .
 rollmeout.xyz CNAME .
@@ -27635,8 +27629,6 @@ rtactivate.com CNAME .
 *.rtactivate.com CNAME .
 rtbanalytics.com CNAME .
 *.rtbanalytics.com CNAME .
-rtbidder.net CNAME .
-*.rtbidder.net CNAME .
 rtmark.net CNAME .
 *.rtmark.net CNAME .
 rts.mobula.sdk.duapps.com CNAME .
@@ -27653,8 +27645,6 @@ rudderlabs.com CNAME .
 *.rudderlabs.com CNAME .
 rudderstack.com CNAME .
 *.rudderstack.com CNAME .
-rum.layer0.co CNAME .
-*.rum.layer0.co CNAME .
 rum.ngenix.net CNAME .
 *.rum.ngenix.net CNAME .
 runative-syndicate.com CNAME .
@@ -27671,8 +27661,6 @@ s.deepl.com CNAME .
 *.s.deepl.com CNAME .
 s3xified.com CNAME .
 *.s3xified.com CNAME .
-sa.api.intl.miui.com CNAME .
-*.sa.api.intl.miui.com CNAME .
 saa.paramountplus.com CNAME .
 *.saa.paramountplus.com CNAME .
 sabavision.com CNAME .
@@ -27743,8 +27731,6 @@ se07.biz CNAME .
 *.se07.biz CNAME .
 search-log-1.tapatalk.com CNAME .
 *.search-log-1.tapatalk.com CNAME .
-searchlinks.com CNAME .
-*.searchlinks.com CNAME .
 searchmarketing.com CNAME .
 *.searchmarketing.com CNAME .
 seat.it CNAME .
@@ -27765,8 +27751,6 @@ segment.io CNAME .
 *.segment.io CNAME .
 sekindo.com CNAME .
 *.sekindo.com CNAME .
-sele.co CNAME .
-*.sele.co CNAME .
 semasio.net CNAME .
 *.semasio.net CNAME .
 sematext.com CNAME .
@@ -27787,12 +27771,6 @@ sentifi.com CNAME .
 *.sentifi.com CNAME .
 sentry-api.sberdevices.ru CNAME .
 *.sentry-api.sberdevices.ru CNAME .
-sentry-do.x5.ru CNAME .
-*.sentry-do.x5.ru CNAME .
-sentry-dsn-customers.megamarket.tech CNAME .
-*.sentry-dsn-customers.megamarket.tech CNAME .
-sentry.archive.org CNAME .
-*.sentry.archive.org CNAME .
 sentry.ozon.ru CNAME .
 *.sentry.ozon.ru CNAME .
 sentry.platform24.tv CNAME .
@@ -27837,12 +27815,8 @@ shepherd.ff.avast.com CNAME .
 *.shepherd.ff.avast.com CNAME .
 shinystat.com CNAME .
 *.shinystat.com CNAME .
-shop2market.com CNAME .
-*.shop2market.com CNAME .
 shoppingshadow.com CNAME .
 *.shoppingshadow.com CNAME .
-shore.uno CNAME .
-*.shore.uno CNAME .
 shukriya90.com CNAME .
 *.shukriya90.com CNAME .
 sibautomation.com CNAME .
@@ -27855,34 +27829,18 @@ sidekickopen06.com CNAME .
 *.sidekickopen06.com CNAME .
 sidekickopen07.com CNAME .
 *.sidekickopen07.com CNAME .
-sidekickopen08.com CNAME .
-*.sidekickopen08.com CNAME .
 sidekickopen10.com CNAME .
 *.sidekickopen10.com CNAME .
-sidekickopen13.com CNAME .
-*.sidekickopen13.com CNAME .
-sidekickopen24.com CNAME .
-*.sidekickopen24.com CNAME .
 sidekickopen25.com CNAME .
 *.sidekickopen25.com CNAME .
 sidekickopen68.com CNAME .
 *.sidekickopen68.com CNAME .
 sidekickopen69.com CNAME .
 *.sidekickopen69.com CNAME .
-sidekickopen70.com CNAME .
-*.sidekickopen70.com CNAME .
-sidekickopen72.com CNAME .
-*.sidekickopen72.com CNAME .
-sidekickopen78.com CNAME .
-*.sidekickopen78.com CNAME .
 sidekickopen80.com CNAME .
 *.sidekickopen80.com CNAME .
-sidekickopen81.com CNAME .
-*.sidekickopen81.com CNAME .
 sidekickopen84.com CNAME .
 *.sidekickopen84.com CNAME .
-sidekickopen87.com CNAME .
-*.sidekickopen87.com CNAME .
 sidekickopen90.com CNAME .
 *.sidekickopen90.com CNAME .
 siftscience.com CNAME .
@@ -28005,10 +27963,6 @@ smetrics.abercrombie.com CNAME .
 *.smetrics.abercrombie.com CNAME .
 smetrics.accaglobal.com CNAME .
 *.smetrics.accaglobal.com CNAME .
-smetrics.active.com CNAME .
-*.smetrics.active.com CNAME .
-smetrics.activecommunities.com CNAME .
-*.smetrics.activecommunities.com CNAME .
 smetrics.aem.playstation.com CNAME .
 *.smetrics.aem.playstation.com CNAME .
 smetrics.aetn.com CNAME .
@@ -28025,8 +27979,6 @@ smetrics.aircanada.com CNAME .
 *.smetrics.aircanada.com CNAME .
 smetrics.alka.dk CNAME .
 *.smetrics.alka.dk CNAME .
-smetrics.allegion.com CNAME .
-*.smetrics.allegion.com CNAME .
 smetrics.allenedmonds.com CNAME .
 *.smetrics.allenedmonds.com CNAME .
 smetrics.allianzlife.com CNAME .
@@ -28053,8 +28005,6 @@ smetrics.anixter.com CNAME .
 *.smetrics.anixter.com CNAME .
 smetrics.anntaylor.com CNAME .
 *.smetrics.anntaylor.com CNAME .
-smetrics.ansible.com CNAME .
-*.smetrics.ansible.com CNAME .
 smetrics.antena3.com CNAME .
 *.smetrics.antena3.com CNAME .
 smetrics.anthem.com CNAME .
@@ -28155,8 +28105,6 @@ smetrics.bet.com CNAME .
 *.smetrics.bet.com CNAME .
 smetrics.beterhoren.nl CNAME .
 *.smetrics.beterhoren.nl CNAME .
-smetrics.binge.com.au CNAME .
-*.smetrics.binge.com.au CNAME .
 smetrics.bingle.com.au CNAME .
 *.smetrics.bingle.com.au CNAME .
 smetrics.bjs.com CNAME .
@@ -28183,8 +28131,6 @@ smetrics.britishgas.co.uk CNAME .
 *.smetrics.britishgas.co.uk CNAME .
 smetrics.bt.com CNAME .
 *.smetrics.bt.com CNAME .
-smetrics.buffalotracedistillery.com CNAME .
-*.smetrics.buffalotracedistillery.com CNAME .
 smetrics.bupa.com.au CNAME .
 *.smetrics.bupa.com.au CNAME .
 smetrics.buyagift.co.uk CNAME .
@@ -28193,8 +28139,6 @@ smetrics.caesars.com CNAME .
 *.smetrics.caesars.com CNAME .
 smetrics.cahealthwellness.com CNAME .
 *.smetrics.cahealthwellness.com CNAME .
-smetrics.caleres.com CNAME .
-*.smetrics.caleres.com CNAME .
 smetrics.calvinklein.us CNAME .
 *.smetrics.calvinklein.us CNAME .
 smetrics.capitalone.com CNAME .
@@ -28219,10 +28163,6 @@ smetrics.casio.jp CNAME .
 *.smetrics.casio.jp CNAME .
 smetrics.cbc.ca CNAME .
 *.smetrics.cbc.ca CNAME .
-smetrics.cbn.com CNAME .
-*.smetrics.cbn.com CNAME .
-smetrics.cdiscount.com CNAME .
-*.smetrics.cdiscount.com CNAME .
 smetrics.cdw.com CNAME .
 *.smetrics.cdw.com CNAME .
 smetrics.cedars-sinai.org CNAME .
