@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081109 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081112 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 360 domains
+; Entries: 365 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 11, 2026 at 9:57 AM UTC | 2026-08-11T09:57:33.065Z
+; Last updated: August 11, 2026 at 12:51 PM UTC | 2026-08-11T12:51:26.327Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26,6 +26,8 @@ $TTL 300
 *.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
+2goelectricity.co.za CNAME .
+*.2goelectricity.co.za CNAME .
 abdulahad.net CNAME .
 *.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
@@ -50,12 +52,16 @@ allendaltonproduction.com CNAME .
 *.allendaltonproduction.com CNAME .
 allendostmen.com CNAME .
 *.allendostmen.com CNAME .
+alphalkenya.com CNAME .
+*.alphalkenya.com CNAME .
 alternativas.ru CNAME .
 *.alternativas.ru CNAME .
 americanmanchester.org CNAME .
 *.americanmanchester.org CNAME .
 antleds.com CNAME .
 *.antleds.com CNAME .
+api.mineblack.lol CNAME .
+*.api.mineblack.lol CNAME .
 app.appzcvb.com CNAME .
 *.app.appzcvb.com CNAME .
 archivoscrosoft.com CNAME .
@@ -492,6 +498,8 @@ seismophonic.com CNAME .
 *.seismophonic.com CNAME .
 semencepourlavie.org CNAME .
 *.semencepourlavie.org CNAME .
+seniorsushi.com CNAME .
+*.seniorsushi.com CNAME .
 separadordecc.com CNAME .
 *.separadordecc.com CNAME .
 seputartuban.com CNAME .
@@ -614,6 +622,8 @@ vizyonuniversitesi.com.tr CNAME .
 *.vizyonuniversitesi.com.tr CNAME .
 vizyonuniversitesi.web.tr CNAME .
 *.vizyonuniversitesi.web.tr CNAME .
+voltagec2.tech CNAME .
+*.voltagec2.tech CNAME .
 vrajras.com CNAME .
 *.vrajras.com CNAME .
 waf.proxytunnel.co CNAME .
