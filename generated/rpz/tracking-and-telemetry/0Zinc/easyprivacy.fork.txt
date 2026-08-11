@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081101 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,445 domains
+; Entries: 40,450 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 10, 2026 at 1:15 AM UTC | 2026-08-10T01:15:46.822Z
+; Last updated: August 11, 2026 at 1:14 AM UTC | 2026-08-11T01:14:10.061Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -490,6 +490,8 @@ id-ward.com CNAME .
 *.id-ward.com CNAME .
 identitypxl.app CNAME .
 *.identitypxl.app CNAME .
+idsequoia.ai CNAME .
+*.idsequoia.ai CNAME .
 idx.lat CNAME .
 *.idx.lat CNAME .
 ilius.net CNAME .
@@ -6218,6 +6220,8 @@ graylog.prod.cams.run CNAME .
 *.graylog.prod.cams.run CNAME .
 grgnsht.nzxt.com CNAME .
 *.grgnsht.nzxt.com CNAME .
+grow.urbandictionary.network CNAME .
+*.grow.urbandictionary.network CNAME .
 gtm.lercio.it CNAME .
 *.gtm.lercio.it CNAME .
 gtm.wise.com CNAME .
@@ -80682,6 +80686,10 @@ a.pikabu.ru CNAME .
 *.a.pikabu.ru CNAME .
 a.ria.ru CNAME .
 *.a.ria.ru CNAME .
+a.wb.ru CNAME .
+*.a.wb.ru CNAME .
+acollector.wb.ru CNAME .
+*.acollector.wb.ru CNAME .
 ad7.bigmir.net CNAME .
 *.ad7.bigmir.net CNAME .
 affilate.hh.ru CNAME .
@@ -80690,6 +80698,8 @@ alloy-web.zvuk.com CNAME .
 *.alloy-web.zvuk.com CNAME .
 analytics.carambatv.ru CNAME .
 *.analytics.carambatv.ru CNAME .
+antibot.wildberries.ru CNAME .
+*.antibot.wildberries.ru CNAME .
 api-metric.gosweb.gosuslugi.ru CNAME .
 *.api-metric.gosweb.gosuslugi.ru CNAME .
 booster.osnova.io CNAME .
