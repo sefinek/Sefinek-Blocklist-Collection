@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081207 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081209 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 370 domains
+; Entries: 374 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 12, 2026 at 7:17 AM UTC | 2026-08-12T07:17:40.579Z
+; Last updated: August 12, 2026 at 9:58 AM UTC | 2026-08-12T09:58:51.267Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -28,8 +28,6 @@ $TTL 300
 *.1717.1000uc.com CNAME .
 2goelectricity.co.za CNAME .
 *.2goelectricity.co.za CNAME .
-abdulahad.net CNAME .
-*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -60,6 +58,8 @@ alternativas.ru CNAME .
 *.alternativas.ru CNAME .
 americanmanchester.org CNAME .
 *.americanmanchester.org CNAME .
+antleds.com CNAME .
+*.antleds.com CNAME .
 api.mineblack.lol CNAME .
 *.api.mineblack.lol CNAME .
 app.appzcvb.com CNAME .
@@ -80,8 +80,6 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 bapak178.org CNAME .
 *.bapak178.org CNAME .
-beak.in CNAME .
-*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bito.com.pk CNAME .
@@ -238,10 +236,16 @@ elisans.novayonetim.com CNAME .
 *.elisans.novayonetim.com CNAME .
 embedone.com CNAME .
 *.embedone.com CNAME .
+en.taichuan.com CNAME .
+*.en.taichuan.com CNAME .
 endpoint.project0.cc CNAME .
 *.endpoint.project0.cc CNAME .
 epanpano.com CNAME .
 *.epanpano.com CNAME .
+essizs.com CNAME .
+*.essizs.com CNAME .
+explorer.vg CNAME .
+*.explorer.vg CNAME .
 fakers.co.jp CNAME .
 *.fakers.co.jp CNAME .
 farschid.de CNAME .
@@ -250,8 +254,6 @@ fd.v2downf.shop CNAME .
 *.fd.v2downf.shop CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
-file.uhsea.com CNAME .
-*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -332,6 +334,8 @@ jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
 *.jessespridecharters.com CNAME .
+jlwz.cn CNAME .
+*.jlwz.cn CNAME .
 joker.aec944b68370194a50.link CNAME .
 *.joker.aec944b68370194a50.link CNAME .
 joyeriatauro.com CNAME .
@@ -362,6 +366,8 @@ lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 m.jkoa.co.kr CNAME .
 *.m.jkoa.co.kr CNAME .
 m.meta-dm.com CNAME .
@@ -370,6 +376,8 @@ maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 mail.quietsurfwi.help CNAME .
 *.mail.quietsurfwi.help CNAME .
+mandarin.net.au CNAME .
+*.mandarin.net.au CNAME .
 metrics.gocloudmaps.com CNAME .
 *.metrics.gocloudmaps.com CNAME .
 miriamgualda.com.br CNAME .
@@ -418,8 +426,6 @@ palharesinformatica.com.br CNAME .
 *.palharesinformatica.com.br CNAME .
 parquelosencinos.cl CNAME .
 *.parquelosencinos.cl CNAME .
-pay.aqiu6.com CNAME .
-*.pay.aqiu6.com CNAME .
 pcupd.com CNAME .
 *.pcupd.com CNAME .
 pfatrivandrum.org CNAME .
@@ -438,6 +444,8 @@ purmed.ro CNAME .
 *.purmed.ro CNAME .
 pvsa.gxfugy.cn CNAME .
 *.pvsa.gxfugy.cn CNAME .
+qiniuyunxz.yxflzs.com CNAME .
+*.qiniuyunxz.yxflzs.com CNAME .
 quietsurfwi.help CNAME .
 *.quietsurfwi.help CNAME .
 qv.co.ke CNAME .
@@ -532,14 +540,10 @@ spgint.com CNAME .
 *.spgint.com CNAME .
 static.ilclock.com CNAME .
 *.static.ilclock.com CNAME .
-static.topxgun.com CNAME .
-*.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
-streammobs.com CNAME .
-*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 suavasua.vn CNAME .
@@ -596,6 +600,8 @@ top8onlinegame.com CNAME .
 *.top8onlinegame.com CNAME .
 transparenciacanaa.com.br CNAME .
 *.transparenciacanaa.com.br CNAME .
+triflackcom.com CNAME .
+*.triflackcom.com CNAME .
 trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 tuasesoriadigital.es CNAME .
@@ -662,6 +668,8 @@ blackhattoolz.com CNAME .
 *.blackhattoolz.com CNAME .
 bratusferramentas.grupomoltz.com.br CNAME .
 *.bratusferramentas.grupomoltz.com.br CNAME .
+chenwangqiao.com CNAME .
+*.chenwangqiao.com CNAME .
 controliumbt.com CNAME .
 *.controliumbt.com CNAME .
 crazywickedaddiction.com CNAME .
