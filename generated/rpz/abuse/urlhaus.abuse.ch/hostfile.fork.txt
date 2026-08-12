@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081212 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081215 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 373 domains
+; Entries: 372 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 12, 2026 at 12:56 PM UTC | 2026-08-12T12:56:26.385Z
+; Last updated: August 12, 2026 at 3:56 PM UTC | 2026-08-12T15:56:49.808Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -28,6 +28,8 @@ $TTL 300
 *.1717.1000uc.com CNAME .
 2goelectricity.co.za CNAME .
 *.2goelectricity.co.za CNAME .
+abdulahad.net CNAME .
+*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -80,6 +82,8 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 bapak178.org CNAME .
 *.bapak178.org CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bito.com.pk CNAME .
@@ -224,8 +228,6 @@ dreamwatchevent.com CNAME .
 *.dreamwatchevent.com CNAME .
 duct-master.com CNAME .
 *.duct-master.com CNAME .
-durakutihs.com CNAME .
-*.durakutihs.com CNAME .
 dusttv.com CNAME .
 *.dusttv.com CNAME .
 dynga.pl CNAME .
@@ -242,10 +244,6 @@ endpoint.project0.cc CNAME .
 *.endpoint.project0.cc CNAME .
 epanpano.com CNAME .
 *.epanpano.com CNAME .
-essizs.com CNAME .
-*.essizs.com CNAME .
-explorer.vg CNAME .
-*.explorer.vg CNAME .
 fakers.co.jp CNAME .
 *.fakers.co.jp CNAME .
 farschid.de CNAME .
@@ -254,6 +252,8 @@ fd.v2downf.shop CNAME .
 *.fd.v2downf.shop CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -278,8 +278,6 @@ genddos.st CNAME .
 *.genddos.st CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 golvteametvarberg.se CNAME .
@@ -288,8 +286,6 @@ grantexx.com CNAME .
 *.grantexx.com CNAME .
 greenf.alexion.rs CNAME .
 *.greenf.alexion.rs CNAME .
-grupohenry1.com CNAME .
-*.grupohenry1.com CNAME .
 grupomcperu.com CNAME .
 *.grupomcperu.com CNAME .
 gutando.com CNAME .
@@ -334,6 +330,8 @@ jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
 *.jessespridecharters.com CNAME .
+jlwz.cn CNAME .
+*.jlwz.cn CNAME .
 joker.aec944b68370194a50.link CNAME .
 *.joker.aec944b68370194a50.link CNAME .
 joyeriatauro.com CNAME .
@@ -424,6 +422,8 @@ palharesinformatica.com.br CNAME .
 *.palharesinformatica.com.br CNAME .
 parquelosencinos.cl CNAME .
 *.parquelosencinos.cl CNAME .
+pay.aqiu6.com CNAME .
+*.pay.aqiu6.com CNAME .
 pcupd.com CNAME .
 *.pcupd.com CNAME .
 pfatrivandrum.org CNAME .
@@ -542,6 +542,8 @@ static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
+streammobs.com CNAME .
+*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 suavasua.vn CNAME .
@@ -598,8 +600,6 @@ top8onlinegame.com CNAME .
 *.top8onlinegame.com CNAME .
 transparenciacanaa.com.br CNAME .
 *.transparenciacanaa.com.br CNAME .
-triflackcom.com CNAME .
-*.triflackcom.com CNAME .
 trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 tuasesoriadigital.es CNAME .
@@ -666,8 +666,6 @@ blackhattoolz.com CNAME .
 *.blackhattoolz.com CNAME .
 bratusferramentas.grupomoltz.com.br CNAME .
 *.bratusferramentas.grupomoltz.com.br CNAME .
-chenwangqiao.com CNAME .
-*.chenwangqiao.com CNAME .
 controliumbt.com CNAME .
 *.controliumbt.com CNAME .
 crazywickedaddiction.com CNAME .
@@ -678,6 +676,8 @@ dra.com.ve CNAME .
 *.dra.com.ve CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
