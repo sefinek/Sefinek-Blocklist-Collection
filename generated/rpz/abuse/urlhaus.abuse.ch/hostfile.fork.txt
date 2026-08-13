@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081304 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081307 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 366 domains
+; Entries: 363 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 13, 2026 at 4:49 AM UTC | 2026-08-13T04:49:56.268Z
+; Last updated: August 13, 2026 at 7:20 AM UTC | 2026-08-13T07:20:09.260Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -84,8 +84,6 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 bapak178.org CNAME .
 *.bapak178.org CNAME .
-beak.in CNAME .
-*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bito.com.pk CNAME .
@@ -282,8 +280,6 @@ genddos.st CNAME .
 *.genddos.st CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 golvteametvarberg.se CNAME .
@@ -434,8 +430,6 @@ purmed.ro CNAME .
 *.purmed.ro CNAME .
 pvsa.gxfugy.cn CNAME .
 *.pvsa.gxfugy.cn CNAME .
-qiniuyunxz.yxflzs.com CNAME .
-*.qiniuyunxz.yxflzs.com CNAME .
 qv.co.ke CNAME .
 *.qv.co.ke CNAME .
 ramirex.ro CNAME .
@@ -526,12 +520,16 @@ solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
+static.ilclock.com CNAME .
+*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
+streammobs.com CNAME .
+*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 suavasua.vn CNAME .
@@ -562,8 +560,6 @@ tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
 *.tehnomag.rs CNAME .
-tengfeidn.cn CNAME .
-*.tengfeidn.cn CNAME .
 tenis-team-km.com CNAME .
 *.tenis-team-km.com CNAME .
 test.peperoncinochepassione.it CNAME .
@@ -588,8 +584,6 @@ transparenciacanaa.com.br CNAME .
 *.transparenciacanaa.com.br CNAME .
 triflackcom.com CNAME .
 *.triflackcom.com CNAME .
-trtmyanmar.com CNAME .
-*.trtmyanmar.com CNAME .
 trueinggrik.com CNAME .
 *.trueinggrik.com CNAME .
 tuasesoriadigital.es CNAME .
@@ -666,6 +660,8 @@ dra.com.ve CNAME .
 *.dra.com.ve CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
