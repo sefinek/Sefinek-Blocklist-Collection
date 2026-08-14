@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081201 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081401 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,461 domains
+; Entries: 40,463 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 12, 2026 at 1:21 AM UTC | 2026-08-12T01:21:57.484Z
+; Last updated: August 14, 2026 at 1:22 AM UTC | 2026-08-14T01:22:56.570Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -20014,6 +20014,8 @@ data.guest.princess.com CNAME .
 *.data.guest.princess.com CNAME .
 data.guide.photobucket.com CNAME .
 *.data.guide.photobucket.com CNAME .
+data.hailuo.ai CNAME .
+*.data.hailuo.ai CNAME .
 data.hardrock.palladiumhotelgroup.com CNAME .
 *.data.hardrock.palladiumhotelgroup.com CNAME .
 data.hello.consumercellular.com CNAME .
@@ -51254,6 +51256,8 @@ rum-collector.leaderint.workers.dev CNAME .
 *.rum-collector.leaderint.workers.dev CNAME .
 rum-ingress-coralogix.com CNAME .
 *.rum-ingress-coralogix.com CNAME .
+rum-openway.guance.com CNAME .
+*.rum-openway.guance.com CNAME .
 rum.aliyuncs.com CNAME .
 *.rum.aliyuncs.com CNAME .
 rum.api.intuit.com CNAME .
