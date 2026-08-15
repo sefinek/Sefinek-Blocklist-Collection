@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081301 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081500 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,455 domains
+; Entries: 40,458 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 13, 2026 at 1:23 AM UTC | 2026-08-13T01:23:43.846Z
+; Last updated: August 15, 2026 at 12:55 AM UTC | 2026-08-15T00:55:09.146Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1624,6 +1624,8 @@ beacon.errorception.com CNAME .
 *.beacon.errorception.com CNAME .
 beacon.flow.io CNAME .
 *.beacon.flow.io CNAME .
+beacon.joinlede.com CNAME .
+*.beacon.joinlede.com CNAME .
 beacon.klm.com CNAME .
 *.beacon.klm.com CNAME .
 beacon.peakhour.io CNAME .
@@ -2394,6 +2396,8 @@ infinityid.condenastdigital.com CNAME .
 *.infinityid.condenastdigital.com CNAME .
 informer.yandex.ru CNAME .
 *.informer.yandex.ru CNAME .
+ingest.in.signoz.cloud CNAME .
+*.ingest.in.signoz.cloud CNAME .
 ingest.make.rvapps.io CNAME .
 *.ingest.make.rvapps.io CNAME .
 ingesteer.services-prod.nsvcs.net CNAME .
@@ -6908,6 +6912,8 @@ t.av.st CNAME .
 *.t.av.st CNAME .
 t.birchlane.com CNAME .
 *.t.birchlane.com CNAME .
+t.dailydot.com CNAME .
+*.t.dailydot.com CNAME .
 t.dailymail.co.uk CNAME .
 *.t.dailymail.co.uk CNAME .
 t.deepnote.com CNAME .
