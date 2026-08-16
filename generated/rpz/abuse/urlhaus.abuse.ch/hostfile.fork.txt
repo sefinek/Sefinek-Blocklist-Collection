@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081521 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081600 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 366 domains
+; Entries: 352 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 15, 2026 at 9:17 PM UTC | 2026-08-15T21:17:55.367Z
+; Last updated: August 16, 2026 at 12:57 AM UTC | 2026-08-16T00:57:37.416Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -36,8 +36,6 @@ admin.byte.in.ua CNAME .
 *.admin.byte.in.ua CNAME .
 admin.gestroom.it CNAME .
 *.admin.gestroom.it CNAME .
-aeplled.cfd CNAME .
-*.aeplled.cfd CNAME .
 aftelecom.com.br CNAME .
 *.aftelecom.com.br CNAME .
 airtickts.com CNAME .
@@ -86,8 +84,6 @@ bombayonline.in CNAME .
 *.bombayonline.in CNAME .
 book.rollingvideogames.com CNAME .
 *.book.rollingvideogames.com CNAME .
-botnet.botnet.xd.67.flightleaks.xyz CNAME .
-*.botnet.botnet.xd.67.flightleaks.xyz CNAME .
 bridgeroad.maverickpreviews.com CNAME .
 *.bridgeroad.maverickpreviews.com CNAME .
 brightworks.cz CNAME .
@@ -154,8 +150,6 @@ d.wanyouxi7.com CNAME .
 *.d.wanyouxi7.com CNAME .
 damiancollier.com CNAME .
 *.damiancollier.com CNAME .
-dasberlinerhotel.com CNAME .
-*.dasberlinerhotel.com CNAME .
 data.yhydl.com CNAME .
 *.data.yhydl.com CNAME .
 dcrun.co.uk CNAME .
@@ -248,8 +242,6 @@ flyingmutts.com CNAME .
 *.flyingmutts.com CNAME .
 fmrio.com CNAME .
 *.fmrio.com CNAME .
-frtkvnpa.xyz CNAME .
-*.frtkvnpa.xyz CNAME .
 fukt.link CNAME .
 *.fukt.link CNAME .
 fullstacknir.com CNAME .
@@ -264,8 +256,6 @@ galerisenimutiara.com CNAME .
 *.galerisenimutiara.com CNAME .
 genddos.st CNAME .
 *.genddos.st CNAME .
-glbeletronica.com.br CNAME .
-*.glbeletronica.com.br CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 grantexx.com CNAME .
@@ -354,24 +344,16 @@ m.meta-dm.com CNAME .
 *.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
-malaysianpastrybakery.org CNAME .
-*.malaysianpastrybakery.org CNAME .
 mandarin.net.au CNAME .
 *.mandarin.net.au CNAME .
 mbcasesores.com CNAME .
 *.mbcasesores.com CNAME .
-medicosantiagomarrero.com CNAME .
-*.medicosantiagomarrero.com CNAME .
 metrics.gocloudmaps.com CNAME .
 *.metrics.gocloudmaps.com CNAME .
-midle-eastcompany.com CNAME .
-*.midle-eastcompany.com CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
 *.mitreart.com CNAME .
-mnurlogistics.az CNAME .
-*.mnurlogistics.az CNAME .
 mogimall.com CNAME .
 *.mogimall.com CNAME .
 muaklekcoop.com CNAME .
@@ -468,8 +450,6 @@ sales.ifree.page CNAME .
 *.sales.ifree.page CNAME .
 samiksha.com.sg CNAME .
 *.samiksha.com.sg CNAME .
-sarafinance.in CNAME .
-*.sarafinance.in CNAME .
 scainseto.com.br CNAME .
 *.scainseto.com.br CNAME .
 scanbot.me CNAME .
@@ -528,8 +508,6 @@ static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
-stratagemzw.com CNAME .
-*.stratagemzw.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 sumiko.vu CNAME .
@@ -560,8 +538,6 @@ tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
 *.tehnomag.rs CNAME .
-ten.devurek.xyz CNAME .
-*.ten.devurek.xyz CNAME .
 tengfeidn.cn CNAME .
 *.tengfeidn.cn CNAME .
 tenis-team-km.com CNAME .
@@ -592,8 +568,6 @@ trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 twu-hwt.org CNAME .
 *.twu-hwt.org CNAME .
-u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz CNAME .
-*.u87yy3f87b23f8293bfg83bgu94.bombamodzik.xyz CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
