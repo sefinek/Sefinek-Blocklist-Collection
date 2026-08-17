@@ -39,6 +39,13 @@ albahost.net abuse/blocklistproject/hosts.fork.txt
 # American Girl (toy company)
 americangirl.com porn/blocklistproject/porn.fork.txt
 
+# Archive Genocide (Gaza/West Bank war crimes documentation archive)
+archivegenocide.com porn/blocklistproject/porn.fork.txt
+archivegenocide.com porn/hagezi/nsfw-onlydomains.fork.txt
+
+# Armored Turtle (open source automated filament changer for 3D printers)
+armoredturtle.xyz malicious/blocklistproject/malware.fork.txt
+
 # Arquivo.pt (Portuguese web archive)
 arquivo.pt phishing/blocklistproject/phishing.fork.txt
 
@@ -79,6 +86,9 @@ s8802.chomikuj.pl malicious/blocklistproject/malware.fork.txt
 
 # CIS Security (cybersecurity resources)
 learn.cisecurity.org tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt
+
+# Cloudflare Radar (internet traffic trends and insights)
+radar.cloudflare.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
 
 # CloudFront (Amazon CDN)
 cloudfront.net phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
@@ -145,6 +155,8 @@ www.g2a.com fraud/blocklistproject/hosts.fork.txt
 scholar.google.com ads/jerryn70/GoodbyeAds.fork.txt
 lh7-rt.googleusercontent.com spam/RPiList/spam-mails.fork.txt
 storage.googleapis.com gambling/TrustPositif/gambling-indonesia.fork.txt
+t1.gstatic.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
+t2.gstatic.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
 
 # Hatch (customer loyalty platform)
 gethatch.com ads/ShadowWhisperer/Ads.fork.txt
@@ -155,8 +167,12 @@ api.hh.ru ads/blocklistproject/hosts.fork.txt
 # Hugging Face (AI and machine learning platform)
 huggingface.co malicious/RPiList/Malware.fork.txt
 
+# Icons8 (icon and illustration resources)
+img.icons8.com spam/RPiList/spam-mails.fork.txt
+
 # ImgBB (image hosting service)
 i.ibb.co gambling/TrustPositif/gambling-indonesia.fork.txt
+ibb.co spam/RPiList/spam-mails.fork.txt
 
 # Intercom (customer messaging platform)
 js.intercomcdn.com ads/craiu/mobiletrackers.fork.txt
@@ -192,6 +208,9 @@ kucoin.com crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt
 
 # Kwai (short-form video platform)
 img.kwcdn.com spam/RPiList/spam-mails.fork.txt
+
+# Leboncoin (French online classifieds marketplace)
+leboncoin.fr extensions/deathbybandaid/CountryCodesLists-France.fork.txt
 
 # LiveChat (customer service software)
 secure.livechatinc.com gambling/TrustPositif/gambling-indonesia.fork.txt
@@ -235,9 +254,6 @@ poczta.o2.pl porn/Sinfonietta/pornography-hosts.fork.txt
 
 # OneTrust (cookie consent management)
 cdn.cookielaw.org other/polish-blocklists/MajkiIT/hostfile.fork.txt
-
-# Orca Slicer (3D printing slicer software)
-orca-slicer.com extensions/hagezi/pro.fork.txt
 
 # Outbyte (PC optimization software)
 email.mg.outbyte.com malicious/RPiList/Malware.fork.txt
@@ -300,6 +316,9 @@ m.stripe.com extensions/MajkiIT/adguard-host.fork.txt
 # SwiftMail (email service)
 swiftmail.cc scam/jarelllama/scam.fork.txt
 
+# Tailwind CSS (utility-first CSS framework CDN)
+cdn.tailwindcss.com malicious/RPiList/Malware.fork.txt
+
 # Taobao (Chinese e-commerce platform)
 ae-alimelog.taobao.com extensions/hagezi/pro.fork.txt
 
@@ -317,6 +336,8 @@ theannoyingsite.com tracking-and-telemetry/neodevpro/host.fork.txt
 # Trustpilot (customer review platform)
 widget.trustpilot.com ads/blocklistproject/hosts.fork.txt
 widget.trustpilot.com ads/ShadowWhisperer/Ads.fork.txt
+www.trustpilot.com phishing/blocklistproject/phishing.fork.txt
+www.trustpilot.com scam/blocklistproject/scam.fork.txt
 
 # TryHackMe (cybersecurity learning platform)
 tryhackme.com spam/RPiList/spam-mails.fork.txt
@@ -364,30 +385,3 @@ email.mail.zapier.com malicious/RPiList/Malware.fork.txt
 
 # Ziff Media (digital media company)
 cdn.ziffstatic.com ads/blocklistproject/hosts.fork.txt
-
-# cdn.tailwindcss.com
-cdn.tailwindcss.com malicious/RPiList/Malware.fork.txt
-
-# img.icons8.com
-img.icons8.com spam/RPiList/spam-mails.fork.txt
-
-# leboncoin.fr
-leboncoin.fr extensions/deathbybandaid/CountryCodesLists-France.fork.txt
-
-# ibb.co
-ibb.co spam/RPiList/spam-mails.fork.txt
-
-# www.trustpilot.com
-www.trustpilot.com phishing/blocklistproject/phishing.fork.txt
-www.trustpilot.com scam/blocklistproject/scam.fork.txt
-
-## Google
-t1.gstatic.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
-t2.gstatic.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
-
-# archivegenocide.com
-archivegenocide.com porn/blocklistproject/porn.fork.txt
-archivegenocide.com porn/hagezi/nsfw-onlydomains.fork.txt
-
-# radar.cloudflare.com
-radar.cloudflare.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
