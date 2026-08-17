@@ -102,6 +102,14 @@ const getCachedFiles = async (dirPath, validExtensions, sortByDate = false) => {
 
 const extractMatch = (regex, content) => regex.exec(content)?.[1] ?? null;
 
+const sendFile = (res, filePath) => {
+	res.sendFile(filePath, err => {
+		if (!err || res.headersSent) return;
+		if (err.status !== 416) console.error(err);
+		res.status(err.status || 500).end();
+	});
+};
+
 const handleRequest = async (req, res, baseDir, basePath, validExtensions, template, sortByDate = false) => {
 	const relative = (req.params[0] || '').replace(/\/$/, '');
 	const filePath = path.join(baseDir, relative);
@@ -129,7 +137,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 		const stats = cached.stats;
 		if (stats.isFile()) {
 			const ext = path.extname(filePath);
-			if (SENDFILE_EXTENSIONS.has(ext)) return res.sendFile(filePath);
+			if (SENDFILE_EXTENSIONS.has(ext)) return sendFile(res, filePath);
 
 			if (ext === '.md') {
 				const markdown = await fs.readFile(filePath, 'utf-8');
@@ -137,7 +145,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 				return res.render('markdown-viewer.ejs', { html, title: extractMatch(/#\s(.+)/, markdown) || '', canonical: markdown.match(CANONICAL_REGEX)?.[1] });
 			}
 
-			return res.sendFile(filePath);
+			return sendFile(res, filePath);
 		}
 
 		if (stats.isDirectory()) {
@@ -148,7 +156,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 			return res.render(template, { files, currentPath });
 		}
 
-		res.sendFile(filePath);
+		sendFile(res, filePath);
 	} catch (err) {
 		if (err.code !== 'ENOENT' && err.code !== 'ENAMETOOLONG') console.error(err);
 		const status = err.code === 'ENOENT' ? 404 : err.code === 'ENAMETOOLONG' ? 414 : 500;
