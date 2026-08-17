@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081709 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081712 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 348 domains
+; Entries: 349 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 17, 2026 at 9:37 AM UTC | 2026-08-17T09:37:51.125Z
+; Last updated: August 17, 2026 at 12:33 PM UTC | 2026-08-17T12:33:23.526Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -196,6 +196,8 @@ download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
 *.download.doumaibiji.cn CNAME .
+download.haozip.com CNAME .
+*.download.haozip.com CNAME .
 download.kaobeitu.com CNAME .
 *.download.kaobeitu.com CNAME .
 download.pdf00.cn CNAME .
