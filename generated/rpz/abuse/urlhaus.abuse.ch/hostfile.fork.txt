@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081718 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081721 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 342 domains
+; Entries: 344 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 17, 2026 at 6:31 PM UTC | 2026-08-17T18:31:32.804Z
+; Last updated: August 17, 2026 at 9:22 PM UTC | 2026-08-17T21:22:49.500Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26,8 +26,6 @@ $TTL 300
 *.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
-abdulahad.net CNAME .
-*.abdulahad.net CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -64,6 +62,8 @@ awarenessexhibition.com CNAME .
 *.awarenessexhibition.com CNAME .
 backupso.com CNAME .
 *.backupso.com CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 bito.com.pk CNAME .
@@ -184,8 +184,6 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
-down.qqfarmer.com.cn CNAME .
-*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
@@ -226,6 +224,8 @@ fd.v2downf.shop CNAME .
 *.fd.v2downf.shop CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -250,6 +250,8 @@ galerisenimutiara.com CNAME .
 *.galerisenimutiara.com CNAME .
 game.dualuoilocphu.com CNAME .
 *.game.dualuoilocphu.com CNAME .
+garogradba.mk CNAME .
+*.garogradba.mk CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 grapemundo.com CNAME .
@@ -270,6 +272,8 @@ hobobot.net CNAME .
 *.hobobot.net CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
+htdentshop.com CNAME .
+*.htdentshop.com CNAME .
 icoffeecloud.com CNAME .
 *.icoffeecloud.com CNAME .
 ignetwork.us CNAME .
@@ -278,8 +282,6 @@ igra123.com CNAME .
 *.igra123.com CNAME .
 ikincielesyaciankara.com.tr CNAME .
 *.ikincielesyaciankara.com.tr CNAME .
-indusenterprises.co CNAME .
-*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
@@ -326,6 +328,8 @@ lomeqpe.com CNAME .
 *.lomeqpe.com CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 luxcar-24.com CNAME .
 *.luxcar-24.com CNAME .
 m.jkoa.co.kr CNAME .
@@ -336,8 +340,8 @@ maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 mandarin.net.au CNAME .
 *.mandarin.net.au CNAME .
-mbcasesores.com CNAME .
-*.mbcasesores.com CNAME .
+metrics.gocloudmaps.com CNAME .
+*.metrics.gocloudmaps.com CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
@@ -362,8 +366,6 @@ noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
-ojang.pe.kr CNAME .
-*.ojang.pe.kr CNAME .
 oknoplastik.sk CNAME .
 *.oknoplastik.sk CNAME .
 onfiltre.com.tr CNAME .
@@ -486,6 +488,10 @@ solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
+static.ilclock.com CNAME .
+*.static.ilclock.com CNAME .
+static.topxgun.com CNAME .
+*.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
@@ -494,8 +500,6 @@ streammobs.com CNAME .
 *.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
-sunix-technology.com CNAME .
-*.sunix-technology.com CNAME .
 support.clz.kr CNAME .
 *.support.clz.kr CNAME .
 sutterpoint.com CNAME .
@@ -550,6 +554,8 @@ transparenciacanaa.com.br CNAME .
 *.transparenciacanaa.com.br CNAME .
 trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
