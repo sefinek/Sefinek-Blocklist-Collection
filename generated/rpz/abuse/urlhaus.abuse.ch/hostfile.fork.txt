@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081815 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081818 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 345 domains
+; Entries: 347 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 18, 2026 at 3:30 PM UTC | 2026-08-18T15:30:08.023Z
+; Last updated: August 18, 2026 at 6:31 PM UTC | 2026-08-18T18:31:40.032Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -182,6 +182,8 @@ dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
 dl.faster-cdn-hk.click CNAME .
 *.dl.faster-cdn-hk.click CNAME .
+dl.natgo.cn CNAME .
+*.dl.natgo.cn CNAME .
 doc.e-statements.app CNAME .
 *.doc.e-statements.app CNAME .
 donkeytourscroatia.com CNAME .
@@ -272,6 +274,8 @@ gutando.com CNAME .
 *.gutando.com CNAME .
 hasalltalent.com CNAME .
 *.hasalltalent.com CNAME .
+hewadexchange.com CNAME .
+*.hewadexchange.com CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
