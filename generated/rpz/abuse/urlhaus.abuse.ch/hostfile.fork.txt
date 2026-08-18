@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081721 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081800 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 344 domains
+; Entries: 346 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 17, 2026 at 9:22 PM UTC | 2026-08-17T21:22:49.500Z
+; Last updated: August 18, 2026 at 12:54 AM UTC | 2026-08-18T00:54:19.451Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -172,6 +172,8 @@ dl.1003b.56a.com CNAME .
 *.dl.1003b.56a.com CNAME .
 dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
+dl.faster-cdn-hk.click CNAME .
+*.dl.faster-cdn-hk.click CNAME .
 dl.natgo.cn CNAME .
 *.dl.natgo.cn CNAME .
 doc.e-statements.app CNAME .
@@ -252,6 +254,8 @@ game.dualuoilocphu.com CNAME .
 *.game.dualuoilocphu.com CNAME .
 garogradba.mk CNAME .
 *.garogradba.mk CNAME .
+genddos.st CNAME .
+*.genddos.st CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 grapemundo.com CNAME .
@@ -364,6 +368,8 @@ newstan.online CNAME .
 *.newstan.online CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 oknoplastik.sk CNAME .
@@ -390,8 +396,6 @@ postelnini.mk CNAME .
 *.postelnini.mk CNAME .
 preciosasjoyitas.com.mx CNAME .
 *.preciosasjoyitas.com.mx CNAME .
-protherapycenter.com CNAME .
-*.protherapycenter.com CNAME .
 prtsscr.com CNAME .
 *.prtsscr.com CNAME .
 public.demo.securecloudsandbox.com CNAME .
@@ -466,6 +470,8 @@ seputartuban.com CNAME .
 *.seputartuban.com CNAME .
 sg123.net CNAME .
 *.sg123.net CNAME .
+share.dovgertz.com CNAME .
+*.share.dovgertz.com CNAME .
 shipminttracking.net CNAME .
 *.shipminttracking.net CNAME .
 shqdown.ggzuhao.com CNAME .
@@ -630,8 +636,6 @@ jozefinskiatelje.si CNAME .
 *.jozefinskiatelje.si CNAME .
 knockknock.top CNAME .
 *.knockknock.top CNAME .
-krypton-client.net CNAME .
-*.krypton-client.net CNAME .
 medises.co.kr CNAME .
 *.medises.co.kr CNAME .
 myvcart.com CNAME .
