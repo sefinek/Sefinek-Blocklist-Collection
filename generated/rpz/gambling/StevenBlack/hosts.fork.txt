@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081401 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081815 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: StevenBlack Gambling Extension
-; Entries: 6,528 domains
+; Entries: 6,550 domains
 ; Source: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 14, 2026 at 1:23 AM UTC | 2026-08-14T01:23:01.324Z
+; Last updated: August 18, 2026 at 3:30 PM UTC | 2026-08-18T15:30:10.743Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -84,6 +84,10 @@ $TTL 300
 *.11betvnd.com CNAME .
 11win.beer CNAME .
 *.11win.beer CNAME .
+11win.casa CNAME .
+*.11win.casa CNAME .
+11win.free CNAME .
+*.11win.free CNAME .
 11win.link CNAME .
 *.11win.link CNAME .
 11win.llc CNAME .
@@ -402,6 +406,10 @@ $TTL 300
 *.789club.ke CNAME .
 789club.kn CNAME .
 *.789club.kn CNAME .
+789club.mba CNAME .
+*.789club.mba CNAME .
+789club.men CNAME .
+*.789club.men CNAME .
 789club.mu CNAME .
 *.789club.mu CNAME .
 789club.mw CNAME .
@@ -648,6 +656,8 @@ $TTL 300
 *.9bet.blue CNAME .
 9bet.care CNAME .
 *.9bet.care CNAME .
+9bet.fund CNAME .
+*.9bet.fund CNAME .
 9bet.green CNAME .
 *.9bet.green CNAME .
 9bet.mobi CNAME .
@@ -656,6 +666,8 @@ $TTL 300
 *.9bet.net CNAME .
 9bet.photo CNAME .
 *.9bet.photo CNAME .
+9bet.pink CNAME .
+*.9bet.pink CNAME .
 9bet.rest CNAME .
 *.9bet.rest CNAME .
 9bet.win CNAME .
@@ -852,6 +864,8 @@ api.9bet.band CNAME .
 *.api.9bet.band CNAME .
 api.9bet.care CNAME .
 *.api.9bet.care CNAME .
+api.9bet.fund CNAME .
+*.api.9bet.fund CNAME .
 api.9bet.green CNAME .
 *.api.9bet.green CNAME .
 api.9bet.mobi CNAME .
@@ -1774,6 +1788,8 @@ du88.com CNAME .
 *.du88.com CNAME .
 du88.fashion CNAME .
 *.du88.fashion CNAME .
+du88.football CNAME .
+*.du88.football CNAME .
 du88.guru CNAME .
 *.du88.guru CNAME .
 du88.health CNAME .
@@ -2336,6 +2352,8 @@ go8.pw CNAME .
 *.go8.pw CNAME .
 go88-vn.com CNAME .
 *.go88-vn.com CNAME .
+go88.adqc.net CNAME .
+*.go88.adqc.net CNAME .
 go88.bayern CNAME .
 *.go88.bayern CNAME .
 go88.ca CNAME .
@@ -2350,6 +2368,8 @@ go88.food CNAME .
 *.go88.food CNAME .
 go88.live CNAME .
 *.go88.live CNAME .
+go88.ls CNAME .
+*.go88.ls CNAME .
 go88.luxury CNAME .
 *.go88.luxury CNAME .
 go88.md CNAME .
@@ -2464,6 +2484,10 @@ hb88vn.co CNAME .
 *.hb88vn.co CNAME .
 hbet.ac CNAME .
 *.hbet.ac CNAME .
+hbet.art CNAME .
+*.hbet.art CNAME .
+hbet.bar CNAME .
+*.hbet.bar CNAME .
 hbet.bio CNAME .
 *.hbet.bio CNAME .
 hbet.club CNAME .
@@ -3018,10 +3042,16 @@ k88.moe CNAME .
 *.k88.moe CNAME .
 k88.mov CNAME .
 *.k88.mov CNAME .
+k88.nz CNAME .
+*.k88.nz CNAME .
 k88.pro CNAME .
 *.k88.pro CNAME .
+k88.sx CNAME .
+*.k88.sx CNAME .
 k88.tel CNAME .
 *.k88.tel CNAME .
+k88.vc CNAME .
+*.k88.vc CNAME .
 k88.win CNAME .
 *.k88.win CNAME .
 k89bet.com CNAME .
@@ -3536,6 +3566,8 @@ lu88.pro CNAME .
 *.lu88.pro CNAME .
 lu88.pw CNAME .
 *.lu88.pw CNAME .
+lu88.tv CNAME .
+*.lu88.tv CNAME .
 lu88.tw CNAME .
 *.lu88.tw CNAME .
 lu88.vg CNAME .
@@ -4512,6 +4544,10 @@ prok8.com CNAME .
 *.prok8.com CNAME .
 pt1.fabet.win CNAME .
 *.pt1.fabet.win CNAME .
+pub88.camera CNAME .
+*.pub88.camera CNAME .
+pub88.channel CNAME .
+*.pub88.channel CNAME .
 pub88.com CNAME .
 *.pub88.com CNAME .
 pub88.day CNAME .
@@ -5064,6 +5100,8 @@ socket.9bet.band CNAME .
 *.socket.9bet.band CNAME .
 socket.9bet.care CNAME .
 *.socket.9bet.care CNAME .
+socket.9bet.fund CNAME .
+*.socket.9bet.fund CNAME .
 socket.9bet.green CNAME .
 *.socket.9bet.green CNAME .
 socket.9bet.mobi CNAME .
@@ -5742,6 +5780,8 @@ tx88.photo CNAME .
 *.tx88.photo CNAME .
 tx88.pink CNAME .
 *.tx88.pink CNAME .
+tx88.rest CNAME .
+*.tx88.rest CNAME .
 tx88.top CNAME .
 *.tx88.top CNAME .
 tx88.vet CNAME .
@@ -6542,6 +6582,8 @@ wp.9bet.band CNAME .
 *.wp.9bet.band CNAME .
 wp.9bet.care CNAME .
 *.wp.9bet.care CNAME .
+wp.9bet.fund CNAME .
+*.wp.9bet.fund CNAME .
 wp.9bet.green CNAME .
 *.wp.9bet.green CNAME .
 wp.9bet.mobi CNAME .
@@ -6848,6 +6890,8 @@ zowin.esq CNAME .
 *.zowin.esq CNAME .
 zowin.fan CNAME .
 *.zowin.fan CNAME .
+zowin.fm CNAME .
+*.zowin.fm CNAME .
 zowin.im CNAME .
 *.zowin.im CNAME .
 zowin.is CNAME .
