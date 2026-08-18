@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026081721 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026081803 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Ads Blocklist
-; Entries: 27,345 domains
+; Entries: 27,355 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 17, 2026 at 9:22 PM UTC | 2026-08-17T21:22:51.169Z
+; Last updated: August 18, 2026 at 3:42 AM UTC | 2026-08-18T03:42:00.631Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -3358,6 +3358,8 @@ adcreative.ai CNAME .
 *.adcreative.ai CNAME .
 adcreativemarketing.com CNAME .
 *.adcreativemarketing.com CNAME .
+ad-creatives-public.commondatastorage.googleapis.com CNAME .
+*.ad-creatives-public.commondatastorage.googleapis.com CNAME .
 adcreator.mobpro.com CNAME .
 *.adcreator.mobpro.com CNAME .
 adcreta.com CNAME .
@@ -21514,6 +21516,24 @@ consent.gameforge.com CNAME .
 *.consent.gameforge.com CNAME .
 consent.gardenersworld.com CNAME .
 *.consent.gardenersworld.com CNAME .
+consent.google.com CNAME .
+*.consent.google.com CNAME .
+consent.google.com.af CNAME .
+*.consent.google.com.af CNAME .
+consent.google.com.ag CNAME .
+*.consent.google.com.ag CNAME .
+consent.google.com.ai CNAME .
+*.consent.google.com.ai CNAME .
+consent.google.com.ar CNAME .
+*.consent.google.com.ar CNAME .
+consent.google.com.au CNAME .
+*.consent.google.com.au CNAME .
+consent.google.com.bd CNAME .
+*.consent.google.com.bd CNAME .
+consent.google.com.mm CNAME .
+*.consent.google.com.mm CNAME .
+consent.google.com.pk CNAME .
+*.consent.google.com.pk CNAME .
 consent.ladbible.com CNAME .
 *.consent.ladbible.com CNAME .
 consent.liberation.fr CNAME .
@@ -45956,8 +45976,6 @@ silo27.p7cloud.net CNAME .
 *.silo27.p7cloud.net CNAME .
 silo49.p7cloud.net CNAME .
 *.silo49.p7cloud.net CNAME .
-siloh-ns1.plutotv.net CNAME .
-*.siloh-ns1.plutotv.net CNAME .
 silveraddition.pro CNAME .
 *.silveraddition.pro CNAME .
 silveradv.com CNAME .
@@ -47728,6 +47746,8 @@ striking-fly.pro CNAME .
 *.striking-fly.pro CNAME .
 stringads.com CNAME .
 *.stringads.com CNAME .
+stripchat.beeg.com CNAME .
+*.stripchat.beeg.com CNAME .
 striped-permit.com CNAME .
 *.striped-permit.com CNAME .
 stripedstudy.com CNAME .
