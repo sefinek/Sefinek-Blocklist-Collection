@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082100 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082103 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 401 domains
+; Entries: 399 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 21, 2026 at 12:59 AM UTC | 2026-08-21T00:59:00.576Z
+; Last updated: August 21, 2026 at 3:47 AM UTC | 2026-08-21T03:47:40.158Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -274,6 +274,8 @@ fdrv.beeyuskincare.co.nz CNAME .
 *.fdrv.beeyuskincare.co.nz CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -304,8 +306,6 @@ galerisenimutiara.com CNAME .
 *.galerisenimutiara.com CNAME .
 genddos.st CNAME .
 *.genddos.st CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 grantexx.com CNAME .
@@ -342,6 +342,8 @@ igra123.com CNAME .
 *.igra123.com CNAME .
 ikincielesyaciankara.com.tr CNAME .
 *.ikincielesyaciankara.com.tr CNAME .
+indusenterprises.co CNAME .
+*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
@@ -350,6 +352,8 @@ itsmystik.com CNAME .
 *.itsmystik.com CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
+ixirgroup.com CNAME .
+*.ixirgroup.com CNAME .
 jawaratekno.com CNAME .
 *.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
@@ -388,6 +392,8 @@ lomeqpe.com CNAME .
 *.lomeqpe.com CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 luxcar-24.com CNAME .
 *.luxcar-24.com CNAME .
 m.jkoa.co.kr CNAME .
@@ -424,6 +430,8 @@ mundocarnes.cl CNAME .
 *.mundocarnes.cl CNAME .
 mx9x.com CNAME .
 *.mx9x.com CNAME .
+mysura.it CNAME .
+*.mysura.it CNAME .
 n.vs108.com CNAME .
 *.n.vs108.com CNAME .
 ncxps.com CNAME .
@@ -436,6 +444,8 @@ nusatoyota.co.id CNAME .
 *.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
+oim.doganltd.com.tr CNAME .
+*.oim.doganltd.com.tr CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
 oknoplastik.sk CNAME .
@@ -456,8 +466,6 @@ paularavanelli.com.br CNAME .
 *.paularavanelli.com.br CNAME .
 pay.aqiu6.com CNAME .
 *.pay.aqiu6.com CNAME .
-pcupd.com CNAME .
-*.pcupd.com CNAME .
 pic.li CNAME .
 *.pic.li CNAME .
 planetariumobil.ro CNAME .
@@ -542,6 +550,8 @@ semencepourlavie.org CNAME .
 *.semencepourlavie.org CNAME .
 separadordecc.com CNAME .
 *.separadordecc.com CNAME .
+seputartuban.com CNAME .
+*.seputartuban.com CNAME .
 sg123.net CNAME .
 *.sg123.net CNAME .
 shqdown.ggzuhao.com CNAME .
@@ -570,18 +580,12 @@ somostask.co CNAME .
 *.somostask.co CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
-srsorvete.com.br CNAME .
-*.srsorvete.com.br CNAME .
-static.ilclock.com CNAME .
-*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
-streammobs.com CNAME .
-*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
 suavasua.vn CNAME .
@@ -614,8 +618,6 @@ tattinamecheap.com CNAME .
 *.tattinamecheap.com CNAME .
 teakivo.com CNAME .
 *.teakivo.com CNAME .
-tecunonline.com CNAME .
-*.tecunonline.com CNAME .
 tehnomag.rs CNAME .
 *.tehnomag.rs CNAME .
 tengfeidn.cn CNAME .
@@ -652,8 +654,6 @@ twitch.tj CNAME .
 *.twitch.tj CNAME .
 twu-hwt.org CNAME .
 *.twu-hwt.org CNAME .
-upaicdn.xinmei365.com CNAME .
-*.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
 *.upchemicals.co.in CNAME .
 update.cg100iii.com CNAME .
@@ -664,8 +664,6 @@ vcc-library.uk CNAME .
 *.vcc-library.uk CNAME .
 verifyidentify.com CNAME .
 *.verifyidentify.com CNAME .
-versaclean.com.br CNAME .
-*.versaclean.com.br CNAME .
 veryboys.com CNAME .
 *.veryboys.com CNAME .
 vgd.vg CNAME .
@@ -768,6 +766,8 @@ support-data.com CNAME .
 *.support-data.com CNAME .
 tdejb.com CNAME .
 *.tdejb.com CNAME .
+tecunonline.com CNAME .
+*.tecunonline.com CNAME .
 vuelaviajero.com CNAME .
 *.vuelaviajero.com CNAME .
 xn--on3b15m2lco2u.com CNAME .
