@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082203 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082218 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Ads Blocklist
-; Entries: 27,482 domains
+; Entries: 27,483 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 22, 2026 at 3:39 AM UTC | 2026-08-22T03:39:27.255Z
+; Last updated: August 22, 2026 at 6:22 PM UTC | 2026-08-22T18:22:57.828Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -26660,6 +26660,8 @@ fetchmediaandmarketing.com CNAME .
 *.fetchmediaandmarketing.com CNAME .
 fetchphoenix.com CNAME .
 *.fetchphoenix.com CNAME .
+fetch.streaming-1.workers.dev CNAME .
+*.fetch.streaming-1.workers.dev CNAME .
 fetishdollars.net CNAME .
 *.fetishdollars.net CNAME .
 few-bird.com CNAME .
