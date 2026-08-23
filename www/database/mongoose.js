@@ -12,7 +12,6 @@ const connectToDatabase = async () => {
 		console.log('MongoDB connected successfully');
 	} catch (err) {
 		console.error('Failed to connect to MongoDB:', err);
-		process.exit(1);
 	}
 };
 
@@ -25,7 +24,6 @@ connection.on('connected', async () => {
 		console.info('RequestStats collection initialized successfully');
 	} catch (err) {
 		console.error('Failed to initialize `RequestStats`', err);
-		process.exit(1);
 	}
 });
 
