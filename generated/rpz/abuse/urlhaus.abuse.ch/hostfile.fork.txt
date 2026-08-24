@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082415 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082418 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 353 domains
+; Entries: 355 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 24, 2026 at 3:36 PM UTC | 2026-08-24T15:36:51.307Z
+; Last updated: August 24, 2026 at 6:34 PM UTC | 2026-08-24T18:34:30.835Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -156,6 +156,8 @@ d.wanyouxi7.com CNAME .
 *.d.wanyouxi7.com CNAME .
 damiancollier.com CNAME .
 *.damiancollier.com CNAME .
+data.yhydl.com CNAME .
+*.data.yhydl.com CNAME .
 dcrun.co.uk CNAME .
 *.dcrun.co.uk CNAME .
 dcwblida.dz CNAME .
@@ -336,6 +338,10 @@ lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
 lomeqpe.com CNAME .
 *.lomeqpe.com CNAME .
+luizmatoso.com.br CNAME .
+*.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 luxcar-24.com CNAME .
 *.luxcar-24.com CNAME .
 m.jkoa.co.kr CNAME .
@@ -396,8 +402,6 @@ pcupd.com CNAME .
 *.pcupd.com CNAME .
 pic.li CNAME .
 *.pic.li CNAME .
-pixelnoased.com CNAME .
-*.pixelnoased.com CNAME .
 planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 postelnini.mk CNAME .
