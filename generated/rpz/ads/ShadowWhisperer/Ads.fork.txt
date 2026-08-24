@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082415 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082421 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Ads Blocklist
-; Entries: 27,526 domains
+; Entries: 27,537 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 24, 2026 at 3:36 PM UTC | 2026-08-24T15:36:52.910Z
+; Last updated: August 24, 2026 at 9:26 PM UTC | 2026-08-24T21:26:28.469Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -5642,6 +5642,8 @@ adpacked.com CNAME .
 *.adpacked.com CNAME .
 adpacks.com CNAME .
 *.adpacks.com CNAME .
+ad.parkvv.com CNAME .
+*.ad.parkvv.com CNAME .
 adparlor.com CNAME .
 *.adparlor.com CNAME .
 adparlour.com CNAME .
@@ -24846,6 +24848,8 @@ dtcbarre.com CNAME .
 *.dtcbarre.com CNAME .
 dth.org.ng CNAME .
 *.dth.org.ng CNAME .
+dtiadb.com CNAME .
+*.dtiadb.com CNAME .
 dticash.com CNAME .
 *.dticash.com CNAME .
 dtmpub.com CNAME .
@@ -37620,8 +37624,28 @@ onepush.app CNAME .
 *.onepush.app CNAME .
 onerprincesstationra.life CNAME .
 *.onerprincesstationra.life CNAME .
+onesignal.biz CNAME .
+*.onesignal.biz CNAME .
 onesignal.com CNAME .
 *.onesignal.com CNAME .
+onesignal.email CNAME .
+*.onesignal.email CNAME .
+onesignal.info CNAME .
+*.onesignal.info CNAME .
+onesignal.mobi CNAME .
+*.onesignal.mobi CNAME .
+onesignal.org CNAME .
+*.onesignal.org CNAME .
+onesignal.plus CNAME .
+*.onesignal.plus CNAME .
+onesignal.pro CNAME .
+*.onesignal.pro CNAME .
+onesignal.pub CNAME .
+*.onesignal.pub CNAME .
+onesignal.tech CNAME .
+*.onesignal.tech CNAME .
+onesignal.zone CNAME .
+*.onesignal.zone CNAME .
 onesocailse.com CNAME .
 *.onesocailse.com CNAME .
 onespecify.com CNAME .
@@ -47132,8 +47156,6 @@ spherexx.com CNAME .
 *.spherexx.com CNAME .
 spherical-brilliant.com CNAME .
 *.spherical-brilliant.com CNAME .
-spicecash.com CNAME .
-*.spicecash.com CNAME .
 spicesonwheels.com CNAME .
 *.spicesonwheels.com CNAME .
 spicevikings.com CNAME .
