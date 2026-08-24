@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082400 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082406 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: StopForumSpam Toxic Domains
-; Entries: 75,304 domains
+; Entries: 75,305 domains
 ; Source: https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 24, 2026 at 12:56 AM UTC | 2026-08-24T00:56:46.880Z
+; Last updated: August 24, 2026 at 6:45 AM UTC | 2026-08-24T06:45:48.985Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -123598,6 +123598,8 @@ solution.turnonhub.click CNAME .
 *.solution.turnonhub.click CNAME .
 solution.turnonly.click CNAME .
 *.solution.turnonly.click CNAME .
+solution.usewisetransfer.click CNAME .
+*.solution.usewisetransfer.click CNAME .
 solution.wisetransfer.click CNAME .
 *.solution.wisetransfer.click CNAME .
 solutions.fliplabs.click CNAME .
