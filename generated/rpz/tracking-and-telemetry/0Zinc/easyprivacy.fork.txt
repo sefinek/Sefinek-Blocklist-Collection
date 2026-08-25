@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082400 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082500 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,428 domains
+; Entries: 40,434 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 24, 2026 at 12:56 AM UTC | 2026-08-24T00:56:49.694Z
+; Last updated: August 25, 2026 at 12:56 AM UTC | 2026-08-25T00:56:57.999Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1330,6 +1330,8 @@ analytics.formstack.com CNAME .
 *.analytics.formstack.com CNAME .
 analytics.genial.ly CNAME .
 *.analytics.genial.ly CNAME .
+analytics.getlimy.ai CNAME .
+*.analytics.getlimy.ai CNAME .
 analytics.getsnworks.com CNAME .
 *.analytics.getsnworks.com CNAME .
 analytics.gokwik.co CNAME .
@@ -1474,6 +1476,8 @@ analytics.unibuddy.co CNAME .
 *.analytics.unibuddy.co CNAME .
 analytics.unilogcorp.com CNAME .
 *.analytics.unilogcorp.com CNAME .
+analytics.upress.io CNAME .
+*.analytics.upress.io CNAME .
 analytics.vanillaforums.com CNAME .
 *.analytics.vanillaforums.com CNAME .
 analytics.vdo.ai CNAME .
@@ -7212,8 +7216,12 @@ gj.mmstat.com CNAME .
 *.gj.mmstat.com CNAME .
 oneid.mmstat.com CNAME .
 *.oneid.mmstat.com CNAME .
+bcdn-16c9d93d.bankofscotland.co.uk CNAME .
+*.bcdn-16c9d93d.bankofscotland.co.uk CNAME .
 cfa.fidelity.com CNAME .
 *.cfa.fidelity.com CNAME .
+check2.bankofscotland.co.uk CNAME .
+*.check2.bankofscotland.co.uk CNAME .
 check3.tiaa.org CNAME .
 *.check3.tiaa.org CNAME .
 clear.wallapop.com CNAME .
@@ -7264,6 +7272,8 @@ tmx.td.com CNAME .
 *.tmx.td.com CNAME .
 u46.pnc.com CNAME .
 *.u46.pnc.com CNAME .
+u47.pnc.com CNAME .
+*.u47.pnc.com CNAME .
 w-profiling.simplii.com CNAME .
 *.w-profiling.simplii.com CNAME .
 wup-185a61e7.bendigobank.com.au CNAME .
@@ -80244,6 +80254,8 @@ ds.haaretz.co.il CNAME .
 *.ds.haaretz.co.il CNAME .
 stats.mako.co.il CNAME .
 *.stats.mako.co.il CNAME .
+track.wesell.co.il CNAME .
+*.track.wesell.co.il CNAME .
 adat.borsonline.hu CNAME .
 *.adat.borsonline.hu CNAME .
 adat.ingatlanbazar.hu CNAME .
