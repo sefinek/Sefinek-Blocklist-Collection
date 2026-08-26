@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082403 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026082603 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,436 domains
+; Entries: 40,444 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 24, 2026 at 3:51 AM UTC | 2026-08-24T03:51:45.132Z
+; Last updated: August 26, 2026 at 3:51 AM UTC | 2026-08-26T03:51:14.471Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -10492,6 +10492,8 @@ analytics.geoutletstore.com CNAME .
 *.analytics.geoutletstore.com CNAME .
 analytics.gestore.com CNAME .
 *.analytics.gestore.com CNAME .
+analytics.getlimy.ai CNAME .
+*.analytics.getlimy.ai CNAME .
 analytics.getshogun.com CNAME .
 *.analytics.getshogun.com CNAME .
 analytics.getsnworks.com CNAME .
@@ -11110,6 +11112,8 @@ analytics.unilogcorp.com CNAME .
 *.analytics.unilogcorp.com CNAME .
 analytics.unive.nl CNAME .
 *.analytics.unive.nl CNAME .
+analytics.upress.io CNAME .
+*.analytics.upress.io CNAME .
 analytics.uwindsor.ca CNAME .
 *.analytics.uwindsor.ca CNAME .
 analytics.uxmetrics.com CNAME .
@@ -14552,6 +14556,8 @@ bcc-ltd.actonservice.com CNAME .
 *.bcc-ltd.actonservice.com CNAME .
 bcdllh.esprit.co.uk CNAME .
 *.bcdllh.esprit.co.uk CNAME .
+bcdn-16c9d93d.bankofscotland.co.uk CNAME .
+*.bcdn-16c9d93d.bankofscotland.co.uk CNAME .
 bcfgwi.skidxb.com CNAME .
 *.bcfgwi.skidxb.com CNAME .
 bcfhva.tradingpost.com.au CNAME .
@@ -16498,6 +16504,8 @@ chat.forddirectdealers.com CNAME .
 *.chat.forddirectdealers.com CNAME .
 check.frbservices.org CNAME .
 *.check.frbservices.org CNAME .
+check2.bankofscotland.co.uk CNAME .
+*.check2.bankofscotland.co.uk CNAME .
 check2.lloydsbank.co.uk CNAME .
 *.check2.lloydsbank.co.uk CNAME .
 check3.tiaa.org CNAME .
@@ -41288,6 +41296,8 @@ me.sigsauer.com CNAME .
 *.me.sigsauer.com CNAME .
 meanwellaustralia.actonservice.com CNAME .
 *.meanwellaustralia.actonservice.com CNAME .
+meas.join-stories.com CNAME .
+*.meas.join-stories.com CNAME .
 measure.ameblo.jp CNAME .
 *.measure.ameblo.jp CNAME .
 measure.refinery89.com CNAME .
@@ -62192,6 +62202,8 @@ sra-px.cdn-fileserver.com CNAME .
 *.sra-px.cdn-fileserver.com CNAME .
 src.freshmarketer.in CNAME .
 *.src.freshmarketer.in CNAME .
+src.fwusercontent.com CNAME .
+*.src.fwusercontent.com CNAME .
 srd1-pdx.net.jumia.ci CNAME .
 *.srd1-pdx.net.jumia.ci CNAME .
 srepdata.12newsnow.com CNAME .
@@ -72246,6 +72258,8 @@ track.venatusmedia.com CNAME .
 *.track.venatusmedia.com CNAME .
 track.vscash.com CNAME .
 *.track.vscash.com CNAME .
+track.wesell.co.il CNAME .
+*.track.wesell.co.il CNAME .
 track.workframe.com CNAME .
 *.track.workframe.com CNAME .
 track.workfusion.com CNAME .
@@ -75050,6 +75064,8 @@ u299.libelle-lekker.be CNAME .
 *.u299.libelle-lekker.be CNAME .
 u46.pnc.com CNAME .
 *.u46.pnc.com CNAME .
+u47.pnc.com CNAME .
+*.u47.pnc.com CNAME .
 u652.myplainview.com CNAME .
 *.u652.myplainview.com CNAME .
 u927.sfgate.com CNAME .
