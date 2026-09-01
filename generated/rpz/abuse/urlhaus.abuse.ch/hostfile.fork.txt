@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090100 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090108 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 374 domains
+; Entries: 375 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 1, 2026 at 12:20 AM UTC | 2026-09-01T00:20:58.664Z
+; Last updated: September 1, 2026 at 8:15 AM UTC | 2026-09-01T08:15:30.054Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -24,8 +24,6 @@ $TTL 300
 *.0022a601.pphost.net CNAME .
 0following.com CNAME .
 *.0following.com CNAME .
-123.ywxww.net CNAME .
-*.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
 198348.gl CNAME .
@@ -50,6 +48,8 @@ admin.gestroom.it CNAME .
 *.admin.gestroom.it CNAME .
 aftelecom.com.br CNAME .
 *.aftelecom.com.br CNAME .
+aidlifempowerment.com CNAME .
+*.aidlifempowerment.com CNAME .
 airtickts.com CNAME .
 *.airtickts.com CNAME .
 alarmline.com.br CNAME .
@@ -80,8 +80,6 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
-beak.in CNAME .
-*.beak.in CNAME .
 bito.com.pk CNAME .
 *.bito.com.pk CNAME .
 blankeyeo.com CNAME .
@@ -118,6 +116,8 @@ cat.xiaoshabi.nl CNAME .
 *.cat.xiaoshabi.nl CNAME .
 catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -152,8 +152,6 @@ coralasargetia.ro CNAME .
 *.coralasargetia.ro CNAME .
 cpc188.day CNAME .
 *.cpc188.day CNAME .
-cpofficial.com CNAME .
-*.cpofficial.com CNAME .
 crazy2cdn.com CNAME .
 *.crazy2cdn.com CNAME .
 crystalpvp.ru CNAME .
@@ -268,8 +266,6 @@ fullstacknir.com CNAME .
 *.fullstacknir.com CNAME .
 funneldiy.com CNAME .
 *.funneldiy.com CNAME .
-furystaff.tech CNAME .
-*.furystaff.tech CNAME .
 fz.tiansys.cn CNAME .
 *.fz.tiansys.cn CNAME .
 gaiadeqi.com CNAME .
@@ -278,8 +274,12 @@ galerisenimutiara.com CNAME .
 *.galerisenimutiara.com CNAME .
 gd.ozzhlb.net CNAME .
 *.gd.ozzhlb.net CNAME .
+geoxsecurity.ro CNAME .
+*.geoxsecurity.ro CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 ghanioilandgas.com CNAME .
 *.ghanioilandgas.com CNAME .
 github-software.su CNAME .
@@ -312,8 +312,6 @@ hotelmate.asia CNAME .
 *.hotelmate.asia CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
-htdentshop.com CNAME .
-*.htdentshop.com CNAME .
 icoffeecloud.com CNAME .
 *.icoffeecloud.com CNAME .
 ignetwork.us CNAME .
@@ -364,6 +362,8 @@ landonirwin.com CNAME .
 *.landonirwin.com CNAME .
 lawfirm.paperbirdtech.com CNAME .
 *.lawfirm.paperbirdtech.com CNAME .
+leanmaestro.com CNAME .
+*.leanmaestro.com CNAME .
 lindnerelektroanlagen.de CNAME .
 *.lindnerelektroanlagen.de CNAME .
 local-update.com CNAME .
@@ -376,8 +376,6 @@ lp.afonsonobreadv.com.br CNAME .
 *.lp.afonsonobreadv.com.br CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
-lumacrea.com CNAME .
-*.lumacrea.com CNAME .
 luminouspower.com.pk CNAME .
 *.luminouspower.com.pk CNAME .
 m.jkoa.co.kr CNAME .
@@ -386,8 +384,6 @@ m.meta-dm.com CNAME .
 *.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
-metrics.gocloudmaps.com CNAME .
-*.metrics.gocloudmaps.com CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
@@ -404,6 +400,8 @@ mundocarnes.cl CNAME .
 *.mundocarnes.cl CNAME .
 munihuacho.gob.pe CNAME .
 *.munihuacho.gob.pe CNAME .
+muriaspetin.es CNAME .
+*.muriaspetin.es CNAME .
 mx9x.com CNAME .
 *.mx9x.com CNAME .
 mysura.it CNAME .
@@ -480,6 +478,8 @@ reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 reservphotoinstay.one CNAME .
 *.reservphotoinstay.one CNAME .
+reservphotoinstaynow.shop CNAME .
+*.reservphotoinstaynow.shop CNAME .
 reutilizemais.co.mz CNAME .
 *.reutilizemais.co.mz CNAME .
 rheddh.com CNAME .
@@ -526,8 +526,6 @@ sg123.net CNAME .
 *.sg123.net CNAME .
 shqdown.ggzuhao.com CNAME .
 *.shqdown.ggzuhao.com CNAME .
-shreesaiseva.org CNAME .
-*.shreesaiseva.org CNAME .
 signageinsignia.co.za CNAME .
 *.signageinsignia.co.za CNAME .
 sk-comtel.com CNAME .
@@ -536,6 +534,8 @@ smartermail.host CNAME .
 *.smartermail.host CNAME .
 sochibeer.ru CNAME .
 *.sochibeer.ru CNAME .
+soft.110route.com CNAME .
+*.soft.110route.com CNAME .
 solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 somostask.co CNAME .
@@ -574,8 +574,6 @@ tarkioweb.com CNAME .
 *.tarkioweb.com CNAME .
 taunahi.st CNAME .
 *.taunahi.st CNAME .
-techbud.ro CNAME .
-*.techbud.ro CNAME .
 tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
@@ -642,6 +640,8 @@ vizyonuniversitesi.web.tr CNAME .
 *.vizyonuniversitesi.web.tr CNAME .
 vrajras.com CNAME .
 *.vrajras.com CNAME .
+w.zhzy999.net CNAME .
+*.w.zhzy999.net CNAME .
 website.mypetapp.co.za CNAME .
 *.website.mypetapp.co.za CNAME .
 widexenmexico.com.mx CNAME .
@@ -680,8 +680,6 @@ cutting-edge.in CNAME .
 *.cutting-edge.in CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
@@ -744,5 +742,7 @@ yakult-hk.com CNAME .
 *.yakult-hk.com CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
+zhigao5191.com CNAME .
+*.zhigao5191.com CNAME .
 zycdjz.com CNAME .
 *.zycdjz.com CNAME .
