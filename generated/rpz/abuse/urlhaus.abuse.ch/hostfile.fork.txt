@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026083118 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090100 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 371 domains
+; Entries: 374 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 31, 2026 at 6:38 PM UTC | 2026-08-31T18:38:52.279Z
+; Last updated: September 1, 2026 at 12:20 AM UTC | 2026-09-01T00:20:58.664Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -238,6 +238,8 @@ elisans.novayonetim.com CNAME .
 *.elisans.novayonetim.com CNAME .
 embedone.com CNAME .
 *.embedone.com CNAME .
+en.taichuan.com CNAME .
+*.en.taichuan.com CNAME .
 endpoint.project0.cc CNAME .
 *.endpoint.project0.cc CNAME .
 epanpano.com CNAME .
@@ -248,12 +250,10 @@ farschid.de CNAME .
 *.farschid.de CNAME .
 fd.v2downf.shop CNAME .
 *.fd.v2downf.shop CNAME .
-fdstat.vip CNAME .
-*.fdstat.vip CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
-filequanticore.com CNAME .
-*.filequanticore.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -280,16 +280,16 @@ gd.ozzhlb.net CNAME .
 *.gd.ozzhlb.net CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 ghanioilandgas.com CNAME .
 *.ghanioilandgas.com CNAME .
 github-software.su CNAME .
 *.github-software.su CNAME .
+gla.ge CNAME .
+*.gla.ge CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
-gobiotechpestcontrol.com CNAME .
-*.gobiotechpestcontrol.com CNAME .
+goododeqvip.com CNAME .
+*.goododeqvip.com CNAME .
 grantexx.com CNAME .
 *.grantexx.com CNAME .
 grupomcperu.com CNAME .
@@ -308,6 +308,8 @@ hitstation.nl CNAME .
 *.hitstation.nl CNAME .
 hobobot.net CNAME .
 *.hobobot.net CNAME .
+hotelmate.asia CNAME .
+*.hotelmate.asia CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 htdentshop.com CNAME .
@@ -370,6 +372,8 @@ lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
 lomeqpe.com CNAME .
 *.lomeqpe.com CNAME .
+lp.afonsonobreadv.com.br CNAME .
+*.lp.afonsonobreadv.com.br CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
 lumacrea.com CNAME .
@@ -388,14 +392,10 @@ miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
 *.mitreart.com CNAME .
-mkconstructions.net CNAME .
-*.mkconstructions.net CNAME .
 mnurlogistics.az CNAME .
 *.mnurlogistics.az CNAME .
 mogimall.com CNAME .
 *.mogimall.com CNAME .
-mon-xxx-02.cfd CNAME .
-*.mon-xxx-02.cfd CNAME .
 muaklekcoop.com CNAME .
 *.muaklekcoop.com CNAME .
 muledo.com CNAME .
@@ -440,6 +440,8 @@ planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 plutotvshow.biz CNAME .
 *.plutotvshow.biz CNAME .
+porterneuman.mx CNAME .
+*.porterneuman.mx CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
 practisingcertificateprotection.com CNAME .
@@ -448,6 +450,8 @@ preciosasjoyitas.com.mx CNAME .
 *.preciosasjoyitas.com.mx CNAME .
 profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev CNAME .
 *.profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev CNAME .
+promnet.jp CNAME .
+*.promnet.jp CNAME .
 public.demo.securecloudsandbox.com CNAME .
 *.public.demo.securecloudsandbox.com CNAME .
 pvsa.gxfugy.cn CNAME .
@@ -474,12 +478,8 @@ refaccionesalma.com.mx CNAME .
 *.refaccionesalma.com.mx CNAME .
 reifenquick.de CNAME .
 *.reifenquick.de CNAME .
-render-6.com CNAME .
-*.render-6.com CNAME .
 reservphotoinstay.one CNAME .
 *.reservphotoinstay.one CNAME .
-reservphotoinstaynow.shop CNAME .
-*.reservphotoinstaynow.shop CNAME .
 reutilizemais.co.mz CNAME .
 *.reutilizemais.co.mz CNAME .
 rheddh.com CNAME .
@@ -526,6 +526,8 @@ sg123.net CNAME .
 *.sg123.net CNAME .
 shqdown.ggzuhao.com CNAME .
 *.shqdown.ggzuhao.com CNAME .
+shreesaiseva.org CNAME .
+*.shreesaiseva.org CNAME .
 signageinsignia.co.za CNAME .
 *.signageinsignia.co.za CNAME .
 sk-comtel.com CNAME .
@@ -534,8 +536,6 @@ smartermail.host CNAME .
 *.smartermail.host CNAME .
 sochibeer.ru CNAME .
 *.sochibeer.ru CNAME .
-soft.110route.com CNAME .
-*.soft.110route.com CNAME .
 solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 somostask.co CNAME .
@@ -572,6 +572,10 @@ tapestryoftruth.com CNAME .
 *.tapestryoftruth.com CNAME .
 tarkioweb.com CNAME .
 *.tarkioweb.com CNAME .
+taunahi.st CNAME .
+*.taunahi.st CNAME .
+techbud.ro CNAME .
+*.techbud.ro CNAME .
 tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
@@ -604,8 +608,6 @@ tr.zhzy999.net CNAME .
 *.tr.zhzy999.net CNAME .
 transparenciacanaa.com.br CNAME .
 *.transparenciacanaa.com.br CNAME .
-trekworkshop3.com CNAME .
-*.trekworkshop3.com CNAME .
 trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 twitch.tj CNAME .
@@ -620,6 +622,8 @@ update.cg100iii.com CNAME .
 *.update.cg100iii.com CNAME .
 us.wind0ws.net CNAME .
 *.us.wind0ws.net CNAME .
+usertunelaccount1.royalbnkmail.com CNAME .
+*.usertunelaccount1.royalbnkmail.com CNAME .
 vcc-library.uk CNAME .
 *.vcc-library.uk CNAME .
 versaclean.com.br CNAME .
@@ -650,6 +654,8 @@ wordtax.ink CNAME .
 *.wordtax.ink CNAME .
 www-connect-secure-wellcfargo.sekolahkejarpaket.com CNAME .
 *.www-connect-secure-wellcfargo.sekolahkejarpaket.com CNAME .
+agcestksa.com CNAME .
+*.agcestksa.com CNAME .
 ardguisser.com CNAME .
 *.ardguisser.com CNAME .
 astenterprises.com.pk CNAME .
@@ -674,6 +680,8 @@ cutting-edge.in CNAME .
 *.cutting-edge.in CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
@@ -736,7 +744,5 @@ yakult-hk.com CNAME .
 *.yakult-hk.com CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
-zhigao5191.com CNAME .
-*.zhigao5191.com CNAME .
 zycdjz.com CNAME .
 *.zycdjz.com CNAME .
