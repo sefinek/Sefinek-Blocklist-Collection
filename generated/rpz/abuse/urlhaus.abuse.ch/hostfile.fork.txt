@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090118 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090122 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 380 domains
+; Entries: 376 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 1, 2026 at 6:10 PM UTC | 2026-09-01T18:10:34.150Z
+; Last updated: September 1, 2026 at 10:59 PM UTC | 2026-09-01T22:59:25.010Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -32,6 +32,8 @@ $TTL 300
 *.198348.gl CNAME .
 1h.vuregyy1.ru CNAME .
 *.1h.vuregyy1.ru CNAME .
+1h.xeteloi4.ru CNAME .
+*.1h.xeteloi4.ru CNAME .
 3.zhzy999.net CNAME .
 *.3.zhzy999.net CNAME .
 3.zhzy999.net3.zhzy999.net CNAME .
@@ -196,10 +198,6 @@ disk.accord1key.cn CNAME .
 *.disk.accord1key.cn CNAME .
 divvanews.com CNAME .
 *.divvanews.com CNAME .
-dl.1003b.56a.com CNAME .
-*.dl.1003b.56a.com CNAME .
-dl.dzqzd.com CNAME .
-*.dl.dzqzd.com CNAME .
 dl.natgo.cn CNAME .
 *.dl.natgo.cn CNAME .
 doc.e-statements.app CNAME .
@@ -240,10 +238,10 @@ dynga.pl CNAME .
 *.dynga.pl CNAME .
 electri.billregulator.com CNAME .
 *.electri.billregulator.com CNAME .
-elisans.novayonetim.com CNAME .
-*.elisans.novayonetim.com CNAME .
 embedone.com CNAME .
 *.embedone.com CNAME .
+en.taichuan.com CNAME .
+*.en.taichuan.com CNAME .
 endpoint.project0.cc CNAME .
 *.endpoint.project0.cc CNAME .
 epanpano.com CNAME .
@@ -266,6 +264,8 @@ flyingmutts.com CNAME .
 *.flyingmutts.com CNAME .
 fmrio.com CNAME .
 *.fmrio.com CNAME .
+fotosdepuebla.org CNAME .
+*.fotosdepuebla.org CNAME .
 fukt.link CNAME .
 *.fukt.link CNAME .
 fullstacknir.com CNAME .
@@ -334,8 +334,6 @@ itssprout.com CNAME .
 *.itssprout.com CNAME .
 ixirgroup.com CNAME .
 *.ixirgroup.com CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -358,12 +356,12 @@ kokorostore.it CNAME .
 *.kokorostore.it CNAME .
 konsor.ru CNAME .
 *.konsor.ru CNAME .
-kramersmarionnettes.com CNAME .
-*.kramersmarionnettes.com CNAME .
 landonirwin.com CNAME .
 *.landonirwin.com CNAME .
 lawfirm.paperbirdtech.com CNAME .
 *.lawfirm.paperbirdtech.com CNAME .
+lindnerelektroanlagen.de CNAME .
+*.lindnerelektroanlagen.de CNAME .
 local-update.com CNAME .
 *.local-update.com CNAME .
 lomejordesalamanca.es CNAME .
@@ -384,6 +382,8 @@ m.meta-dm.com CNAME .
 *.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
+metrics.gocloudmaps.com CNAME .
+*.metrics.gocloudmaps.com CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
@@ -428,8 +428,6 @@ outpost.co.ke CNAME .
 *.outpost.co.ke CNAME .
 p3.zbjimg.com CNAME .
 *.p3.zbjimg.com CNAME .
-palharesinformatica.com.br CNAME .
-*.palharesinformatica.com.br CNAME .
 pay.aqiu6.com CNAME .
 *.pay.aqiu6.com CNAME .
 pcupd.com CNAME .
@@ -544,14 +542,8 @@ smartermail.host CNAME .
 *.smartermail.host CNAME .
 sochibeer.ru CNAME .
 *.sochibeer.ru CNAME .
-soft.110route.com CNAME .
-*.soft.110route.com CNAME .
 solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
-somostask.co CNAME .
-*.somostask.co CNAME .
-spgint.com CNAME .
-*.spgint.com CNAME .
 sportssurgeon.org.pk CNAME .
 *.sportssurgeon.org.pk CNAME .
 static.ilclock.com CNAME .
@@ -622,8 +614,8 @@ trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 twitch.tj CNAME .
 *.twitch.tj CNAME .
-upaicdn.xinmei365.com CNAME .
-*.upaicdn.xinmei365.com CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 upchemicals.co.in CNAME .
 *.upchemicals.co.in CNAME .
 update.cg100iii.com CNAME .
@@ -652,8 +644,6 @@ vrajras.com CNAME .
 *.vrajras.com CNAME .
 w.zhzy999.net CNAME .
 *.w.zhzy999.net CNAME .
-webcstore.pw CNAME .
-*.webcstore.pw CNAME .
 website.mypetapp.co.za CNAME .
 *.website.mypetapp.co.za CNAME .
 widexenmexico.com.mx CNAME .
