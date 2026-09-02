@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090122 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090202 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 376 domains
+; Entries: 377 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 1, 2026 at 10:59 PM UTC | 2026-09-01T22:59:25.010Z
+; Last updated: September 2, 2026 at 2:24 AM UTC | 2026-09-02T02:24:47.917Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -86,6 +86,8 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
+beacon.ltdglobal.co.uk CNAME .
+*.beacon.ltdglobal.co.uk CNAME .
 beak.in CNAME .
 *.beak.in CNAME .
 bito.com.pk CNAME .
@@ -172,8 +174,6 @@ d.wanyouxi7.com CNAME .
 *.d.wanyouxi7.com CNAME .
 damiancollier.com CNAME .
 *.damiancollier.com CNAME .
-dasgems.com CNAME .
-*.dasgems.com CNAME .
 data.yhydl.com CNAME .
 *.data.yhydl.com CNAME .
 dcrun.co.uk CNAME .
@@ -260,12 +260,12 @@ filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
 *.first-security-verden.de CNAME .
+flint-32.com CNAME .
+*.flint-32.com CNAME .
 flyingmutts.com CNAME .
 *.flyingmutts.com CNAME .
 fmrio.com CNAME .
 *.fmrio.com CNAME .
-fotosdepuebla.org CNAME .
-*.fotosdepuebla.org CNAME .
 fukt.link CNAME .
 *.fukt.link CNAME .
 fullstacknir.com CNAME .
@@ -284,8 +284,6 @@ geoxsecurity.ro CNAME .
 *.geoxsecurity.ro CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-github-software.su CNAME .
-*.github-software.su CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 goododeqvip.com CNAME .
@@ -506,6 +504,8 @@ sales.ifree.page CNAME .
 *.sales.ifree.page CNAME .
 samiksha.com.sg CNAME .
 *.samiksha.com.sg CNAME .
+satinmaple4.com CNAME .
+*.satinmaple4.com CNAME .
 scainseto.com.br CNAME .
 *.scainseto.com.br CNAME .
 scanbot.me CNAME .
@@ -696,6 +696,8 @@ knockknock.top CNAME .
 *.knockknock.top CNAME .
 medises.co.kr CNAME .
 *.medises.co.kr CNAME .
+movy.bz CNAME .
+*.movy.bz CNAME .
 myvcart.com CNAME .
 *.myvcart.com CNAME .
 namuvpn.com CNAME .
