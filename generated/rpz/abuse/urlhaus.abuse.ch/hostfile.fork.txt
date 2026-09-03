@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090302 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090307 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 377 domains
+; Entries: 375 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 3, 2026 at 2:31 AM UTC | 2026-09-03T02:31:36.973Z
+; Last updated: September 3, 2026 at 7:40 AM UTC | 2026-09-03T07:40:29.254Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -40,6 +40,8 @@ $TTL 300
 *.3.zhzy999.net3.zhzy999.net CNAME .
 31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net CNAME .
 *.31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net CNAME .
+abonent-app.ru CNAME .
+*.abonent-app.ru CNAME .
 acc.jiangsujiaxue.com CNAME .
 *.acc.jiangsujiaxue.com CNAME .
 acms.saleseos.com CNAME .
@@ -88,6 +90,8 @@ balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 beacon.ltdglobal.co.uk CNAME .
 *.beacon.ltdglobal.co.uk CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 benotrobot.online CNAME .
 *.benotrobot.online CNAME .
 bito.com.pk CNAME .
@@ -106,14 +110,10 @@ bnet.playm8ru.win CNAME .
 *.bnet.playm8ru.win CNAME .
 book.rollingvideogames.com CNAME .
 *.book.rollingvideogames.com CNAME .
-booking.captcha-message-extranet.com CNAME .
-*.booking.captcha-message-extranet.com CNAME .
 bridgeroad.maverickpreviews.com CNAME .
 *.bridgeroad.maverickpreviews.com CNAME .
 brightroseax.blog CNAME .
 *.brightroseax.blog CNAME .
-brightworks.cz CNAME .
-*.brightworks.cz CNAME .
 bserail.com CNAME .
 *.bserail.com CNAME .
 bvaco.com CNAME .
@@ -134,6 +134,8 @@ celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
 *.chat-server.maverickpreviews.com CNAME .
+cheatclients.com CNAME .
+*.cheatclients.com CNAME .
 checkfivem.com CNAME .
 *.checkfivem.com CNAME .
 chiptune.com CNAME .
@@ -184,8 +186,6 @@ dcwblida.dz CNAME .
 *.dcwblida.dz CNAME .
 deagroup-ks.com CNAME .
 *.deagroup-ks.com CNAME .
-deliciassobencomenda.com.br CNAME .
-*.deliciassobencomenda.com.br CNAME .
 delii.icu CNAME .
 *.delii.icu CNAME .
 deliverymailreport.co.za CNAME .
@@ -202,6 +202,8 @@ disk.accord1key.cn CNAME .
 *.disk.accord1key.cn CNAME .
 divvanews.com CNAME .
 *.divvanews.com CNAME .
+dl.1003b.56a.com CNAME .
+*.dl.1003b.56a.com CNAME .
 dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
 dl.natgo.cn CNAME .
@@ -266,6 +268,8 @@ fd.v2downf.shop CNAME .
 *.fd.v2downf.shop CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -332,14 +336,10 @@ ircftp.net CNAME .
 *.ircftp.net CNAME .
 isiore.com.co CNAME .
 *.isiore.com.co CNAME .
-ita-airwaysva.com CNAME .
-*.ita-airwaysva.com CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
 ixirgroup.com CNAME .
 *.ixirgroup.com CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -354,6 +354,8 @@ kenwillzltd.com CNAME .
 *.kenwillzltd.com CNAME .
 khavar.com CNAME .
 *.khavar.com CNAME .
+kimyen.net CNAME .
+*.kimyen.net CNAME .
 kits.frog.tw CNAME .
 *.kits.frog.tw CNAME .
 kokorostore.it CNAME .
@@ -372,6 +374,8 @@ lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 luminouspower.com.pk CNAME .
 *.luminouspower.com.pk CNAME .
 m.jkoa.co.kr CNAME .
@@ -384,8 +388,8 @@ mail.brightroseax.blog CNAME .
 *.mail.brightroseax.blog CNAME .
 mail.emeraldstonegc.blog CNAME .
 *.mail.emeraldstonegc.blog CNAME .
-mailify.cc CNAME .
-*.mailify.cc CNAME .
+metrics.gocloudmaps.com CNAME .
+*.metrics.gocloudmaps.com CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
@@ -412,6 +416,8 @@ n.vs108.com CNAME .
 *.n.vs108.com CNAME .
 ncxps.com CNAME .
 *.ncxps.com CNAME .
+neilshairdressers.co.uk CNAME .
+*.neilshairdressers.co.uk CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
 nusatoyota.co.id CNAME .
@@ -420,6 +426,8 @@ ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 odinclient.dev CNAME .
 *.odinclient.dev CNAME .
+oim.doganltd.com.tr CNAME .
+*.oim.doganltd.com.tr CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
 oknoplastik.sk CNAME .
@@ -430,8 +438,6 @@ outpost.co.ke CNAME .
 *.outpost.co.ke CNAME .
 p3.zbjimg.com CNAME .
 *.p3.zbjimg.com CNAME .
-palharesinformatica.com.br CNAME .
-*.palharesinformatica.com.br CNAME .
 pay.aqiu6.com CNAME .
 *.pay.aqiu6.com CNAME .
 pcupd.com CNAME .
@@ -506,6 +512,8 @@ samiksha.com.sg CNAME .
 *.samiksha.com.sg CNAME .
 satinmaple4.com CNAME .
 *.satinmaple4.com CNAME .
+scainseto.com.br CNAME .
+*.scainseto.com.br CNAME .
 scanbot.me CNAME .
 *.scanbot.me CNAME .
 scoala1gherla.ro CNAME .
@@ -546,18 +554,16 @@ solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
+static.ilclock.com CNAME .
+*.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
 *.stdown.dinju.com CNAME .
-streammobs.com CNAME .
-*.streammobs.com CNAME .
 studiogioeli.it CNAME .
 *.studiogioeli.it CNAME .
-support.clz.kr CNAME .
-*.support.clz.kr CNAME .
 sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
@@ -576,8 +582,6 @@ taskerempresascol.co CNAME .
 *.taskerempresascol.co CNAME .
 taunahi.st CNAME .
 *.taunahi.st CNAME .
-techbud.ro CNAME .
-*.techbud.ro CNAME .
 tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
@@ -598,8 +602,6 @@ theoremaoliveoil.com CNAME .
 *.theoremaoliveoil.com CNAME .
 theservice4u.com CNAME .
 *.theservice4u.com CNAME .
-thtp2.volamngayxua.net CNAME .
-*.thtp2.volamngayxua.net CNAME .
 tiacreation.club CNAME .
 *.tiacreation.club CNAME .
 toolshare.com.tr CNAME .
@@ -618,8 +620,6 @@ trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 twitch.tj CNAME .
 *.twitch.tj CNAME .
-twu-hwt.org CNAME .
-*.twu-hwt.org CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
@@ -638,12 +638,12 @@ veryboys.com CNAME .
 *.veryboys.com CNAME .
 vgd.vg CNAME .
 *.vgd.vg CNAME .
+vintageeventos.com.mx CNAME .
+*.vintageeventos.com.mx CNAME .
 visam.info CNAME .
 *.visam.info CNAME .
 vizyonuniversitesi.com.tr CNAME .
 *.vizyonuniversitesi.com.tr CNAME .
-vizyonuniversitesi.web.tr CNAME .
-*.vizyonuniversitesi.web.tr CNAME .
 vrajras.com CNAME .
 *.vrajras.com CNAME .
 w.zhzy999.net CNAME .
