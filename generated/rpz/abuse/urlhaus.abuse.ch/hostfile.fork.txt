@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090222 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090302 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 384 domains
+; Entries: 377 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 2, 2026 at 10:59 PM UTC | 2026-09-02T22:59:56.444Z
+; Last updated: September 3, 2026 at 2:31 AM UTC | 2026-09-03T02:31:36.973Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -88,6 +88,8 @@ balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 beacon.ltdglobal.co.uk CNAME .
 *.beacon.ltdglobal.co.uk CNAME .
+benotrobot.online CNAME .
+*.benotrobot.online CNAME .
 bito.com.pk CNAME .
 *.bito.com.pk CNAME .
 blankeyeo.com CNAME .
@@ -182,6 +184,8 @@ dcwblida.dz CNAME .
 *.dcwblida.dz CNAME .
 deagroup-ks.com CNAME .
 *.deagroup-ks.com CNAME .
+deliciassobencomenda.com.br CNAME .
+*.deliciassobencomenda.com.br CNAME .
 delii.icu CNAME .
 *.delii.icu CNAME .
 deliverymailreport.co.za CNAME .
@@ -292,8 +296,6 @@ gestroom.it CNAME .
 *.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
-goododeqvip.com CNAME .
-*.goododeqvip.com CNAME .
 grantexx.com CNAME .
 *.grantexx.com CNAME .
 grupomcperu.com CNAME .
@@ -304,16 +306,12 @@ harmeetmotors.com CNAME .
 *.harmeetmotors.com CNAME .
 hasalltalent.com CNAME .
 *.hasalltalent.com CNAME .
-hindustancargologistic.com CNAME .
-*.hindustancargologistic.com CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
 *.hitstation.nl CNAME .
 hobobot.net CNAME .
 *.hobobot.net CNAME .
-hotelmate.asia CNAME .
-*.hotelmate.asia CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 htdentshop.com CNAME .
@@ -372,8 +370,6 @@ local-update.com CNAME .
 *.local-update.com CNAME .
 lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
-lp.afonsonobreadv.com.br CNAME .
-*.lp.afonsonobreadv.com.br CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
 luminouspower.com.pk CNAME .
@@ -452,8 +448,6 @@ planetariumobil.ro CNAME .
 *.planetariumobil.ro CNAME .
 plutotvshow.biz CNAME .
 *.plutotvshow.biz CNAME .
-porterneuman.mx CNAME .
-*.porterneuman.mx CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
 practisingcertificateprotection.com CNAME .
@@ -462,8 +456,6 @@ preciosasjoyitas.com.mx CNAME .
 *.preciosasjoyitas.com.mx CNAME .
 profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev CNAME .
 *.profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev CNAME .
-promnet.jp CNAME .
-*.promnet.jp CNAME .
 public.demo.securecloudsandbox.com CNAME .
 *.public.demo.securecloudsandbox.com CNAME .
 pvsa.gxfugy.cn CNAME .
@@ -506,8 +498,6 @@ royalindiancurryclub.com CNAME .
 *.royalindiancurryclub.com CNAME .
 rxquickpay.com CNAME .
 *.rxquickpay.com CNAME .
-safeifm.com CNAME .
-*.safeifm.com CNAME .
 safeuploadz.com CNAME .
 *.safeuploadz.com CNAME .
 sales.ifree.page CNAME .
@@ -556,8 +546,6 @@ solar-sanat.net CNAME .
 *.solar-sanat.net CNAME .
 spgint.com CNAME .
 *.spgint.com CNAME .
-sportssurgeon.org.pk CNAME .
-*.sportssurgeon.org.pk CNAME .
 static.topxgun.com CNAME .
 *.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
@@ -640,10 +628,10 @@ update.cg100iii.com CNAME .
 *.update.cg100iii.com CNAME .
 us.wind0ws.net CNAME .
 *.us.wind0ws.net CNAME .
-usertunelaccount1.royalbnkmail.com CNAME .
-*.usertunelaccount1.royalbnkmail.com CNAME .
 vcc-library.uk CNAME .
 *.vcc-library.uk CNAME .
+verification-process.com CNAME .
+*.verification-process.com CNAME .
 versaclean.com.br CNAME .
 *.versaclean.com.br CNAME .
 veryboys.com CNAME .
@@ -672,8 +660,6 @@ wordtax.ink CNAME .
 *.wordtax.ink CNAME .
 www-connect-secure-wellcfargo.sekolahkejarpaket.com CNAME .
 *.www-connect-secure-wellcfargo.sekolahkejarpaket.com CNAME .
-agcestksa.com CNAME .
-*.agcestksa.com CNAME .
 ardguisser.com CNAME .
 *.ardguisser.com CNAME .
 astenterprises.com.pk CNAME .
