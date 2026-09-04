@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090402 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090407 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 383 domains
+; Entries: 385 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 4, 2026 at 2:32 AM UTC | 2026-09-04T02:32:21.783Z
+; Last updated: September 4, 2026 at 7:44 AM UTC | 2026-09-04T07:44:49.002Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -28,6 +28,8 @@ $TTL 300
 *.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
+198348.gl CNAME .
+*.198348.gl CNAME .
 1h.vuregyy1.ru CNAME .
 *.1h.vuregyy1.ru CNAME .
 1h.xeteloi4.ru CNAME .
@@ -92,8 +94,6 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
-beak.in CNAME .
-*.beak.in CNAME .
 benotrobot.online CNAME .
 *.benotrobot.online CNAME .
 bito.com.pk CNAME .
@@ -148,6 +148,8 @@ checkfivem.com CNAME .
 *.checkfivem.com CNAME .
 chiptune.com CNAME .
 *.chiptune.com CNAME .
+chiroartist.com CNAME .
+*.chiroartist.com CNAME .
 chuguadventures.co.tz CNAME .
 *.chuguadventures.co.tz CNAME .
 cl.ssouy.com CNAME .
@@ -274,8 +276,6 @@ fern-plume.com CNAME .
 *.fern-plume.com CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
-file.uhsea.com CNAME .
-*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -344,6 +344,8 @@ isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
+jawaratekno.com CNAME .
+*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -392,6 +394,8 @@ mail.brightroseax.blog CNAME .
 *.mail.brightroseax.blog CNAME .
 mail.emeraldstonegc.blog CNAME .
 *.mail.emeraldstonegc.blog CNAME .
+metrics.gocloudmaps.com CNAME .
+*.metrics.gocloudmaps.com CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
@@ -420,8 +424,6 @@ node-slate.com CNAME .
 *.node-slate.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
-nusatoyota.co.id CNAME .
-*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 odinclient.dev CNAME .
@@ -542,6 +544,8 @@ sg123.net CNAME .
 *.sg123.net CNAME .
 shqdown.ggzuhao.com CNAME .
 *.shqdown.ggzuhao.com CNAME .
+shreesaiseva.org CNAME .
+*.shreesaiseva.org CNAME .
 siaasesoria.com.mx CNAME .
 *.siaasesoria.com.mx CNAME .
 signageinsignia.co.za CNAME .
@@ -594,8 +598,6 @@ tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 tehnomag.rs CNAME .
 *.tehnomag.rs CNAME .
-tengfeidn.cn CNAME .
-*.tengfeidn.cn CNAME .
 tenis-team-km.com CNAME .
 *.tenis-team-km.com CNAME .
 test.peperoncinochepassione.it CNAME .
@@ -702,6 +704,8 @@ cutting-edge.in CNAME .
 *.cutting-edge.in CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
@@ -716,6 +720,8 @@ myvcart.com CNAME .
 *.myvcart.com CNAME .
 namuvpn.com CNAME .
 *.namuvpn.com CNAME .
+nccommunication.be CNAME .
+*.nccommunication.be CNAME .
 newkey.co.kr CNAME .
 *.newkey.co.kr CNAME .
 notbak.com CNAME .
@@ -760,7 +766,5 @@ yakult-hk.com CNAME .
 *.yakult-hk.com CNAME .
 youtransfer.net CNAME .
 *.youtransfer.net CNAME .
-zhigao5191.com CNAME .
-*.zhigao5191.com CNAME .
 zycdjz.com CNAME .
 *.zycdjz.com CNAME .
