@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090323 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090502 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,445 domains
+; Entries: 40,447 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 3, 2026 at 11:04 PM UTC | 2026-09-03T23:04:07.166Z
+; Last updated: September 5, 2026 at 2:29 AM UTC | 2026-09-05T02:29:43.458Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -274,6 +274,8 @@ doublestat.info CNAME .
 *.doublestat.info CNAME .
 dspx.tv CNAME .
 *.dspx.tv CNAME .
+dsspn.com CNAME .
+*.dsspn.com CNAME .
 dtasrvr.com CNAME .
 *.dtasrvr.com CNAME .
 dttrk.com CNAME .
@@ -400,6 +402,8 @@ g594253006.co CNAME .
 *.g594253006.co CNAME .
 g792337340.co CNAME .
 *.g792337340.co CNAME .
+g792337341.co CNAME .
+*.g792337341.co CNAME .
 g792337342.co CNAME .
 *.g792337342.co CNAME .
 g792337343.co CNAME .
@@ -1552,8 +1556,6 @@ aplus.alibaba.com CNAME .
 *.aplus.alibaba.com CNAME .
 app.optibase.io CNAME .
 *.app.optibase.io CNAME .
-app.partnerboost.com CNAME .
-*.app.partnerboost.com CNAME .
 apple.www.letv.com CNAME .
 *.apple.www.letv.com CNAME .
 applets.ebxcdn.com CNAME .
@@ -11688,6 +11690,8 @@ stats.erikinthekitchen.com CNAME .
 *.stats.erikinthekitchen.com CNAME .
 stats.erlef.org CNAME .
 *.stats.erlef.org CNAME .
+stats.estrema.it CNAME .
+*.stats.estrema.it CNAME .
 stats.evenchilada.com CNAME .
 *.stats.evenchilada.com CNAME .
 stats.executebig.org CNAME .
