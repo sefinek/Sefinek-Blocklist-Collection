@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090612 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090617 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 371 domains
+; Entries: 373 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 6, 2026 at 12:35 PM UTC | 2026-09-06T12:35:14.382Z
+; Last updated: September 6, 2026 at 5:30 PM UTC | 2026-09-06T17:30:33.817Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -32,8 +32,6 @@ $TTL 300
 *.198348.gl CNAME .
 1h.vuregyy1.ru CNAME .
 *.1h.vuregyy1.ru CNAME .
-1h.xeteloi4.ru CNAME .
-*.1h.xeteloi4.ru CNAME .
 3.zhzy999.net CNAME .
 *.3.zhzy999.net CNAME .
 3.zhzy999.net3.zhzy999.net CNAME .
@@ -90,6 +88,8 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 bito.com.pk CNAME .
 *.bito.com.pk CNAME .
 blankeyeo.com CNAME .
@@ -106,6 +106,8 @@ bnet.playm8ru.win CNAME .
 *.bnet.playm8ru.win CNAME .
 book.rollingvideogames.com CNAME .
 *.book.rollingvideogames.com CNAME .
+booking.captcha-message-extranet.com CNAME .
+*.booking.captcha-message-extranet.com CNAME .
 bridgeroad.maverickpreviews.com CNAME .
 *.bridgeroad.maverickpreviews.com CNAME .
 brightworks.cz CNAME .
@@ -126,10 +128,14 @@ cat.xiaoshabi.nl CNAME .
 *.cat.xiaoshabi.nl CNAME .
 catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
+ccn.fdstat.vip CNAME .
+*.ccn.fdstat.vip CNAME .
 ccoffice.site CNAME .
 *.ccoffice.site CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -174,8 +180,6 @@ cs.go.kg CNAME .
 *.cs.go.kg CNAME .
 d.14yaa.com CNAME .
 *.d.14yaa.com CNAME .
-d.wanyouxi7.com CNAME .
-*.d.wanyouxi7.com CNAME .
 damiancollier.com CNAME .
 *.damiancollier.com CNAME .
 data.yhydl.com CNAME .
@@ -216,6 +220,8 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
+down.qqfarmer.com.cn CNAME .
+*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
@@ -244,8 +250,6 @@ elisans.novayonetim.com CNAME .
 *.elisans.novayonetim.com CNAME .
 embedone.com CNAME .
 *.embedone.com CNAME .
-en.taichuan.com CNAME .
-*.en.taichuan.com CNAME .
 endpoint.project0.cc CNAME .
 *.endpoint.project0.cc CNAME .
 envs.sh CNAME .
@@ -310,8 +314,6 @@ hobobot.net CNAME .
 *.hobobot.net CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
-htdentshop.com CNAME .
-*.htdentshop.com CNAME .
 icoffeecloud.com CNAME .
 *.icoffeecloud.com CNAME .
 ignetwork.us CNAME .
@@ -330,8 +332,6 @@ isiore.com.co CNAME .
 *.isiore.com.co CNAME .
 itssprout.com CNAME .
 *.itssprout.com CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -366,6 +366,8 @@ lomejordesalamanca.es CNAME .
 *.lomejordesalamanca.es CNAME .
 luizmatoso.com.br CNAME .
 *.luizmatoso.com.br CNAME .
+lumacrea.com CNAME .
+*.lumacrea.com CNAME .
 luminouspower.com.pk CNAME .
 *.luminouspower.com.pk CNAME .
 m.jkoa.co.kr CNAME .
@@ -374,8 +376,8 @@ m.meta-dm.com CNAME .
 *.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
-metrics.gocloudmaps.com CNAME .
-*.metrics.gocloudmaps.com CNAME .
+mailify.cc CNAME .
+*.mailify.cc CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
 mitreart.com CNAME .
@@ -406,6 +408,8 @@ ncxps.com CNAME .
 *.ncxps.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 ojang.pe.kr CNAME .
@@ -414,8 +418,6 @@ oknoplastik.sk CNAME .
 *.oknoplastik.sk CNAME .
 one-graup.com CNAME .
 *.one-graup.com CNAME .
-onfiltre.com.tr CNAME .
-*.onfiltre.com.tr CNAME .
 outpost.co.ke CNAME .
 *.outpost.co.ke CNAME .
 p3.zbjimg.com CNAME .
@@ -608,6 +610,8 @@ trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
 twitch.tj CNAME .
 *.twitch.tj CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
