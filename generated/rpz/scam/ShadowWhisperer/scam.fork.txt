@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090519 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090607 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,19 +9,17 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Scam Blocklist
-; Entries: 7,310 domains
+; Entries: 7,311 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 5, 2026 at 7:50 PM UTC | 2026-09-05T19:50:55.583Z
+; Last updated: September 6, 2026 at 7:33 AM UTC | 2026-09-06T07:33:07.504Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
 ; Report false positives: https://blocklist.sefinek.net/false-positives
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
-daryl.lol CNAME .
-*.daryl.lol CNAME .
 007-dvd.com CNAME .
 *.007-dvd.com CNAME .
 0-google.com CNAME .
@@ -3356,6 +3354,8 @@ darkwebmarketbuyer.com CNAME .
 *.darkwebmarketbuyer.com CNAME .
 darlingtonhomepuppies.co.za CNAME .
 *.darlingtonhomepuppies.co.za CNAME .
+daryl.lol CNAME .
+*.daryl.lol CNAME .
 daschnundadopt.shop CNAME .
 *.daschnundadopt.shop CNAME .
 dasilia.com CNAME .
@@ -6024,6 +6024,8 @@ gymnasiumk.com CNAME .
 *.gymnasiumk.com CNAME .
 habittees.com CNAME .
 *.habittees.com CNAME .
+hack-email.org CNAME .
+*.hack-email.org CNAME .
 hackerslist.co CNAME .
 *.hackerslist.co CNAME .
 hadmodest.com CNAME .
