@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026082603 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090602 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish AdGuard Mobile Host Filter
-; Entries: 912 domains
+; Entries: 913 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: August 26, 2026 at 3:51 AM UTC | 2026-08-26T03:51:16.479Z
+; Last updated: September 6, 2026 at 2:23 AM UTC | 2026-09-06T02:23:52.920Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -272,6 +272,8 @@ ads-interfaces.sc-cdn.net CNAME .
 *.ads-interfaces.sc-cdn.net CNAME .
 ads-leaseweb.appsgeyser.com CNAME .
 *.ads-leaseweb.appsgeyser.com CNAME .
+ads-m.rustore.ru CNAME .
+*.ads-m.rustore.ru CNAME .
 ads-resources.waze.com CNAME .
 *.ads-resources.waze.com CNAME .
 ads-router-noneu.truecaller.com CNAME .
