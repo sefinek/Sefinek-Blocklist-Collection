@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090313 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090714 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -10,12 +10,12 @@ $TTL 300
 ;
 ; Title: NoTrack Tracker Blocklist
 ; Description: Domains classified as tracking or advertising
-; Entries: 15,260 domains
+; Entries: 15,241 domains
 ; Source: https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts
 ; License: GNU General Public License v3.0
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 3, 2026 at 1:14 PM UTC | 2026-09-03T13:14:05.231Z
+; Last updated: September 7, 2026 at 2:43 PM UTC | 2026-09-07T14:43:57.135Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1887,6 +1887,8 @@ counter.lifesitenews.com CNAME .
 *.counter.lifesitenews.com CNAME .
 counter.nv.ua CNAME .
 *.counter.nv.ua CNAME .
+counter.powr.io CNAME .
+*.counter.powr.io CNAME .
 counter.pushauction.com CNAME .
 *.counter.pushauction.com CNAME .
 counter.rambler.ru CNAME .
@@ -3631,6 +3633,8 @@ metrics.kmsmep.com CNAME .
 *.metrics.kmsmep.com CNAME .
 metrics.media-amazon.com CNAME .
 *.metrics.media-amazon.com CNAME .
+metrics.mentimeter.com CNAME .
+*.metrics.mentimeter.com CNAME .
 metrics.mzstatic.com CNAME .
 *.metrics.mzstatic.com CNAME .
 metrics.plex.tv CNAME .
@@ -28851,18 +28855,12 @@ smetrics.sharekhan.com CNAME .
 *.smetrics.sharekhan.com CNAME .
 smetrics.shell.co.uk CNAME .
 *.smetrics.shell.co.uk CNAME .
-smetrics.shopmyexchange.com CNAME .
-*.smetrics.shopmyexchange.com CNAME .
-smetrics.shoppremiumoutlets.com CNAME .
-*.smetrics.shoppremiumoutlets.com CNAME .
 smetrics.singlife.com CNAME .
 *.smetrics.singlife.com CNAME .
 smetrics.siriusxm.com CNAME .
 *.smetrics.siriusxm.com CNAME .
 smetrics.sivasdescalzo.com CNAME .
 *.smetrics.sivasdescalzo.com CNAME .
-smetrics.sj.se CNAME .
-*.smetrics.sj.se CNAME .
 smetrics.skipton.co.uk CNAME .
 *.smetrics.skipton.co.uk CNAME .
 smetrics.sky.com CNAME .
@@ -28877,8 +28875,6 @@ smetrics.smartmove.us CNAME .
 *.smetrics.smartmove.us CNAME .
 smetrics.smbcnikko.co.jp CNAME .
 *.smetrics.smbcnikko.co.jp CNAME .
-smetrics.softwareag.com CNAME .
-*.smetrics.softwareag.com CNAME .
 smetrics.solarwinds.com CNAME .
 *.smetrics.solarwinds.com CNAME .
 smetrics.solinst.com CNAME .
@@ -28925,8 +28921,6 @@ smetrics.sunlife.ca CNAME .
 *.smetrics.sunlife.ca CNAME .
 smetrics.sunlife.com CNAME .
 *.smetrics.sunlife.com CNAME .
-smetrics.sunlifeglobalinvestments.com CNAME .
-*.smetrics.sunlifeglobalinvestments.com CNAME .
 smetrics.swinburne.edu.au CNAME .
 *.smetrics.swinburne.edu.au CNAME .
 smetrics.synergy.net.au CNAME .
@@ -28951,8 +28945,6 @@ smetrics.telegraph.co.uk CNAME .
 *.smetrics.telegraph.co.uk CNAME .
 smetrics.tesco.com CNAME .
 *.smetrics.tesco.com CNAME .
-smetrics.textbooks.com CNAME .
-*.smetrics.textbooks.com CNAME .
 smetrics.tfl.gov.uk CNAME .
 *.smetrics.tfl.gov.uk CNAME .
 smetrics.tgw.com CNAME .
@@ -28961,8 +28953,6 @@ smetrics.theathletesfoot.com.au CNAME .
 *.smetrics.theathletesfoot.com.au CNAME .
 smetrics.thelawyer.com CNAME .
 *.smetrics.thelawyer.com CNAME .
-smetrics.theweathernetwork.com CNAME .
-*.smetrics.theweathernetwork.com CNAME .
 smetrics.thewhitecompany.com CNAME .
 *.smetrics.thewhitecompany.com CNAME .
 smetrics.thingspeak.com CNAME .
@@ -28985,16 +28975,12 @@ smetrics.tiendamonge.com CNAME .
 *.smetrics.tiendamonge.com CNAME .
 smetrics.time.com CNAME .
 *.smetrics.time.com CNAME .
-smetrics.timeout.com CNAME .
-*.smetrics.timeout.com CNAME .
 smetrics.tmz.com CNAME .
 *.smetrics.tmz.com CNAME .
 smetrics.tommy.com CNAME .
 *.smetrics.tommy.com CNAME .
 smetrics.tommybahama.com CNAME .
 *.smetrics.tommybahama.com CNAME .
-smetrics.toofab.com CNAME .
-*.smetrics.toofab.com CNAME .
 smetrics.totalwine.com CNAME .
 *.smetrics.totalwine.com CNAME .
 smetrics.toyota.com CNAME .
@@ -29021,16 +29007,12 @@ smetrics.tudorwatch.com CNAME .
 *.smetrics.tudorwatch.com CNAME .
 smetrics.tv2.dk CNAME .
 *.smetrics.tv2.dk CNAME .
-smetrics.tyro.com CNAME .
-*.smetrics.tyro.com CNAME .
 smetrics.ubi.com CNAME .
 *.smetrics.ubi.com CNAME .
 smetrics.uhc.com CNAME .
 *.smetrics.uhc.com CNAME .
 smetrics.unipolsai.it CNAME .
 *.smetrics.unipolsai.it CNAME .
-smetrics.uol.com.br CNAME .
-*.smetrics.uol.com.br CNAME .
 smetrics.ups.com CNAME .
 *.smetrics.ups.com CNAME .
 smetrics.usbank.com CNAME .
@@ -29039,8 +29021,6 @@ smetrics.usopen.org CNAME .
 *.smetrics.usopen.org CNAME .
 smetrics.vcm.com CNAME .
 *.smetrics.vcm.com CNAME .
-smetrics.verisign.com CNAME .
-*.smetrics.verisign.com CNAME .
 smetrics.vermontcountrystore.com CNAME .
 *.smetrics.vermontcountrystore.com CNAME .
 smetrics.viega.us CNAME .
@@ -29051,22 +29031,14 @@ smetrics.virginmediabusiness.co.uk CNAME .
 *.smetrics.virginmediabusiness.co.uk CNAME .
 smetrics.virginmoney.com.au CNAME .
 *.smetrics.virginmoney.com.au CNAME .
-smetrics.vitacost.com CNAME .
-*.smetrics.vitacost.com CNAME .
 smetrics.vitamix.com CNAME .
 *.smetrics.vitamix.com CNAME .
 smetrics.vodafone.co.uk CNAME .
 *.smetrics.vodafone.co.uk CNAME .
 smetrics.vodafone.com.tr CNAME .
 *.smetrics.vodafone.com.tr CNAME .
-smetrics.vodafone.es CNAME .
-*.smetrics.vodafone.es CNAME .
 smetrics.vodafone.gr CNAME .
 *.smetrics.vodafone.gr CNAME .
-smetrics.vodafone.in CNAME .
-*.smetrics.vodafone.in CNAME .
-smetrics.volusion.com CNAME .
-*.smetrics.volusion.com CNAME .
 smetrics.vonage.com CNAME .
 *.smetrics.vonage.com CNAME .
 smetrics.vw.com CNAME .
@@ -29115,8 +29087,6 @@ smetrics.yaencontre.com CNAME .
 *.smetrics.yaencontre.com CNAME .
 smetrics.ybs.co.uk CNAME .
 *.smetrics.ybs.co.uk CNAME .
-smetrics.yellowpages.com.au CNAME .
-*.smetrics.yellowpages.com.au CNAME .
 smetrics.zales.com CNAME .
 *.smetrics.zales.com CNAME .
 smetrics.zalesoutlet.com CNAME .
@@ -29285,10 +29255,6 @@ stats.bbc.co.uk CNAME .
 *.stats.bbc.co.uk CNAME .
 stats.brave.com CNAME .
 *.stats.brave.com CNAME .
-stats.ctvnews.ca CNAME .
-*.stats.ctvnews.ca CNAME .
-stats.ebay.com CNAME .
-*.stats.ebay.com CNAME .
 stats.gc.apple.com CNAME .
 *.stats.gc.apple.com CNAME .
 stats.gcp.smartmailcloud.com CNAME .
@@ -29317,8 +29283,6 @@ stats.mos.ru CNAME .
 *.stats.mos.ru CNAME .
 stats.newsweek.com CNAME .
 *.stats.newsweek.com CNAME .
-stats.nextcloud.com CNAME .
-*.stats.nextcloud.com CNAME .
 stats.norton.com CNAME .
 *.stats.norton.com CNAME .
 stats.paypal.com CNAME .
@@ -29371,8 +29335,6 @@ stocks-analytics-events.apple.com CNAME .
 *.stocks-analytics-events.apple.com CNAME .
 storeen.ldmnq.com CNAME .
 *.storeen.ldmnq.com CNAME .
-stores-counters.wix.com CNAME .
-*.stores-counters.wix.com CNAME .
 stormiq.com CNAME .
 *.stormiq.com CNAME .
 storygize.net CNAME .

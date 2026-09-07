@@ -7,12 +7,12 @@
 #
 # Title: NoTrack Tracker Blocklist
 # Description: Domains classified as tracking or advertising
-# Entries: 15,260 domains
+# Entries: 15,241 domains
 # Source: https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts
 # License: GNU General Public License v3.0
 # Format: Dnsmasq
 # Expires: 1 day
-# Last updated: September 3, 2026 at 1:14 PM UTC | 2026-09-03T13:14:04.601Z
+# Last updated: September 7, 2026 at 2:43 PM UTC | 2026-09-07T14:43:56.840Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -951,6 +951,7 @@ server=/counter.dsp.groupminteraction.ru/
 server=/counter.insales.com/
 server=/counter.lifesitenews.com/
 server=/counter.nv.ua/
+server=/counter.powr.io/
 server=/counter.pushauction.com/
 server=/counter.rambler.ru/
 server=/counter.simplybook.me/
@@ -1823,6 +1824,7 @@ server=/metrics.indazn.com/
 server=/metrics.ionos.com/
 server=/metrics.kmsmep.com/
 server=/metrics.media-amazon.com/
+server=/metrics.mentimeter.com/
 server=/metrics.mzstatic.com/
 server=/metrics.plex.tv/
 server=/metrics.postoffice.co.uk/
@@ -14433,12 +14435,9 @@ server=/smetrics.shannons.com.au/
 server=/smetrics.sharecare.com/
 server=/smetrics.sharekhan.com/
 server=/smetrics.shell.co.uk/
-server=/smetrics.shopmyexchange.com/
-server=/smetrics.shoppremiumoutlets.com/
 server=/smetrics.singlife.com/
 server=/smetrics.siriusxm.com/
 server=/smetrics.sivasdescalzo.com/
-server=/smetrics.sj.se/
 server=/smetrics.skipton.co.uk/
 server=/smetrics.sky.com/
 server=/smetrics.sky.it/
@@ -14446,7 +14445,6 @@ server=/smetrics.sleepnumber.com/
 server=/smetrics.sling.com/
 server=/smetrics.smartmove.us/
 server=/smetrics.smbcnikko.co.jp/
-server=/smetrics.softwareag.com/
 server=/smetrics.solarwinds.com/
 server=/smetrics.solinst.com/
 server=/smetrics.sony.jp/
@@ -14470,7 +14468,6 @@ server=/smetrics.suncorp.com.au/
 server=/smetrics.sunglasshut.com/
 server=/smetrics.sunlife.ca/
 server=/smetrics.sunlife.com/
-server=/smetrics.sunlifeglobalinvestments.com/
 server=/smetrics.swinburne.edu.au/
 server=/smetrics.synergy.net.au/
 server=/smetrics.synopsys.com/
@@ -14483,12 +14480,10 @@ server=/smetrics.td.com/
 server=/smetrics.te.com/
 server=/smetrics.telegraph.co.uk/
 server=/smetrics.tesco.com/
-server=/smetrics.textbooks.com/
 server=/smetrics.tfl.gov.uk/
 server=/smetrics.tgw.com/
 server=/smetrics.theathletesfoot.com.au/
 server=/smetrics.thelawyer.com/
-server=/smetrics.theweathernetwork.com/
 server=/smetrics.thewhitecompany.com/
 server=/smetrics.thingspeak.com/
 server=/smetrics.thoughtworks.com/
@@ -14500,11 +14495,9 @@ server=/smetrics.ticketsatwork.com/
 server=/smetrics.tienda.telcel.com/
 server=/smetrics.tiendamonge.com/
 server=/smetrics.time.com/
-server=/smetrics.timeout.com/
 server=/smetrics.tmz.com/
 server=/smetrics.tommy.com/
 server=/smetrics.tommybahama.com/
-server=/smetrics.toofab.com/
 server=/smetrics.totalwine.com/
 server=/smetrics.toyota.com/
 server=/smetrics.traction.com/
@@ -14518,29 +14511,22 @@ server=/smetrics.tsc.ca/
 server=/smetrics.ttiinc.com/
 server=/smetrics.tudorwatch.com/
 server=/smetrics.tv2.dk/
-server=/smetrics.tyro.com/
 server=/smetrics.ubi.com/
 server=/smetrics.uhc.com/
 server=/smetrics.unipolsai.it/
-server=/smetrics.uol.com.br/
 server=/smetrics.ups.com/
 server=/smetrics.usbank.com/
 server=/smetrics.usopen.org/
 server=/smetrics.vcm.com/
-server=/smetrics.verisign.com/
 server=/smetrics.vermontcountrystore.com/
 server=/smetrics.viega.us/
 server=/smetrics.virginatlantic.com/
 server=/smetrics.virginmediabusiness.co.uk/
 server=/smetrics.virginmoney.com.au/
-server=/smetrics.vitacost.com/
 server=/smetrics.vitamix.com/
 server=/smetrics.vodafone.co.uk/
 server=/smetrics.vodafone.com.tr/
-server=/smetrics.vodafone.es/
 server=/smetrics.vodafone.gr/
-server=/smetrics.vodafone.in/
-server=/smetrics.volusion.com/
 server=/smetrics.vonage.com/
 server=/smetrics.vw.com/
 server=/smetrics.vwfs-service-plans.io/
@@ -14565,7 +14551,6 @@ server=/smetrics.wradio.com.mx/
 server=/smetrics.wyndhamhotels.com/
 server=/smetrics.yaencontre.com/
 server=/smetrics.ybs.co.uk/
-server=/smetrics.yellowpages.com.au/
 server=/smetrics.zales.com/
 server=/smetrics.zalesoutlet.com/
 server=/smetrics1.experian.com/
@@ -14650,8 +14635,6 @@ server=/stats.adobe.com/
 server=/stats.avito.ru/
 server=/stats.bbc.co.uk/
 server=/stats.brave.com/
-server=/stats.ctvnews.ca/
-server=/stats.ebay.com/
 server=/stats.gc.apple.com/
 server=/stats.gcp.smartmailcloud.com/
 server=/stats.glb.paypal.com/
@@ -14666,7 +14649,6 @@ server=/stats.medium.build/
 server=/stats.merriam-webster.com/
 server=/stats.mos.ru/
 server=/stats.newsweek.com/
-server=/stats.nextcloud.com/
 server=/stats.norton.com/
 server=/stats.paypal.com/
 server=/stats.pusher.com/
@@ -14693,7 +14675,6 @@ server=/steepto.com/
 server=/stickyadstv.com/
 server=/stocks-analytics-events.apple.com/
 server=/storeen.ldmnq.com/
-server=/stores-counters.wix.com/
 server=/stormiq.com/
 server=/storygize.net/
 server=/storyly.io/
