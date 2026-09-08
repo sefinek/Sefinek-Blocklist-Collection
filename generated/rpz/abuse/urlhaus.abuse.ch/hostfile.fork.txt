@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026090802 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026090807 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 381 domains
+; Entries: 382 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 8, 2026 at 2:32 AM UTC | 2026-09-08T02:32:49.353Z
+; Last updated: September 8, 2026 at 7:44 AM UTC | 2026-09-08T07:44:19.021Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -112,12 +112,16 @@ bnet.playm8ru.win CNAME .
 *.bnet.playm8ru.win CNAME .
 book.rollingvideogames.com CNAME .
 *.book.rollingvideogames.com CNAME .
+booking.captcha-message-extranet.com CNAME .
+*.booking.captcha-message-extranet.com CNAME .
 bridgeroad.maverickpreviews.com CNAME .
 *.bridgeroad.maverickpreviews.com CNAME .
 brightworks.cz CNAME .
 *.brightworks.cz CNAME .
 bserail.com CNAME .
 *.bserail.com CNAME .
+c2.mc-live.online CNAME .
+*.c2.mc-live.online CNAME .
 cambodiatouristservice.com CNAME .
 *.cambodiatouristservice.com CNAME .
 casasmediterraneas.com CNAME .
@@ -132,6 +136,8 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -166,8 +172,6 @@ coralasargetia.ro CNAME .
 *.coralasargetia.ro CNAME .
 cpc188.day CNAME .
 *.cpc188.day CNAME .
-cpofficial.com CNAME .
-*.cpofficial.com CNAME .
 crystalpvp.ru CNAME .
 *.crystalpvp.ru CNAME .
 cs.go.kg CNAME .
@@ -202,8 +206,6 @@ dfd.zhzy999.net CNAME .
 *.dfd.zhzy999.net CNAME .
 dinamikakargo.com CNAME .
 *.dinamikakargo.com CNAME .
-disk.accord1key.cn CNAME .
-*.disk.accord1key.cn CNAME .
 divvanews.com CNAME .
 *.divvanews.com CNAME .
 dl.1003b.56a.com CNAME .
@@ -252,8 +254,6 @@ electri.billregulator.com CNAME .
 *.electri.billregulator.com CNAME .
 elisans.novayonetim.com CNAME .
 *.elisans.novayonetim.com CNAME .
-embedone.com CNAME .
-*.embedone.com CNAME .
 en.taichuan.com CNAME .
 *.en.taichuan.com CNAME .
 endpoint.project0.cc CNAME .
@@ -296,8 +296,6 @@ geoxsecurity.ro CNAME .
 *.geoxsecurity.ro CNAME .
 gestionycobranzas.com CNAME .
 *.gestionycobranzas.com CNAME .
-gestroom.it CNAME .
-*.gestroom.it CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 grantexx.com CNAME .
@@ -332,6 +330,8 @@ iloveboats.st CNAME .
 *.iloveboats.st CNAME .
 impectorinternational.com CNAME .
 *.impectorinternational.com CNAME .
+indusenterprises.co CNAME .
+*.indusenterprises.co CNAME .
 ircftp.net CNAME .
 *.ircftp.net CNAME .
 itssprout.com CNAME .
@@ -362,6 +362,8 @@ landonirwin.com CNAME .
 *.landonirwin.com CNAME .
 lawfirm.paperbirdtech.com CNAME .
 *.lawfirm.paperbirdtech.com CNAME .
+leanmaestro.com CNAME .
+*.leanmaestro.com CNAME .
 local-update.com CNAME .
 *.local-update.com CNAME .
 lomejordesalamanca.es CNAME .
@@ -378,8 +380,6 @@ maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 mail.quietsurfwi.help CNAME .
 *.mail.quietsurfwi.help CNAME .
-mailify.cc CNAME .
-*.mailify.cc CNAME .
 malupieng.com.br CNAME .
 *.malupieng.com.br CNAME .
 miriamgualda.com.br CNAME .
@@ -402,8 +402,6 @@ multiplay.at CNAME .
 *.multiplay.at CNAME .
 munihuacho.gob.pe CNAME .
 *.munihuacho.gob.pe CNAME .
-mx9x.com CNAME .
-*.mx9x.com CNAME .
 mysura.it CNAME .
 *.mysura.it CNAME .
 n.vs108.com CNAME .
@@ -412,6 +410,8 @@ ncxps.com CNAME .
 *.ncxps.com CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 oim.doganltd.com.tr CNAME .
@@ -420,10 +420,10 @@ ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
 oknoplastik.sk CNAME .
 *.oknoplastik.sk CNAME .
-one-graup.com CNAME .
-*.one-graup.com CNAME .
 onfiltre.com.tr CNAME .
 *.onfiltre.com.tr CNAME .
+opalcraftsmp.com CNAME .
+*.opalcraftsmp.com CNAME .
 outpost.co.ke CNAME .
 *.outpost.co.ke CNAME .
 p3.zbjimg.com CNAME .
@@ -452,8 +452,6 @@ plutotvshow.biz CNAME .
 *.plutotvshow.biz CNAME .
 postelnini.mk CNAME .
 *.postelnini.mk CNAME .
-powershell-storage.vg CNAME .
-*.powershell-storage.vg CNAME .
 practisingcertificateprotection.com CNAME .
 *.practisingcertificateprotection.com CNAME .
 preciosasjoyitas.com.mx CNAME .
@@ -550,6 +548,8 @@ sk-comtel.com CNAME .
 *.sk-comtel.com CNAME .
 smartermail.host CNAME .
 *.smartermail.host CNAME .
+snowproject.lol CNAME .
+*.snowproject.lol CNAME .
 sochibeer.ru CNAME .
 *.sochibeer.ru CNAME .
 soft.110route.com CNAME .
@@ -574,8 +574,6 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
-swiftfusion.tech CNAME .
-*.swiftfusion.tech CNAME .
 tangentwaves.com CNAME .
 *.tangentwaves.com CNAME .
 tanscarattorneys.co.tz CNAME .
@@ -626,6 +624,8 @@ twitch.tj CNAME .
 *.twitch.tj CNAME .
 twu-hwt.org CNAME .
 *.twu-hwt.org CNAME .
+universami.ge CNAME .
+*.universami.ge CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .
@@ -692,6 +692,8 @@ cutting-edge.in CNAME .
 *.cutting-edge.in CNAME .
 drgenov.com CNAME .
 *.drgenov.com CNAME .
+gestroom.it CNAME .
+*.gestroom.it CNAME .
 hostingcloud.science CNAME .
 *.hostingcloud.science CNAME .
 hqsblog.com CNAME .
