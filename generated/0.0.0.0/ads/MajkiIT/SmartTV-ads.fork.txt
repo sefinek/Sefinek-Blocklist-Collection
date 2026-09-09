@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: Polish Smart TV Ads Blocklist
-# Entries: 245 domains
+# Entries: 252 domains
 # Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt | https://www.certyficate.it/
 # License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 # Format: 0.0.0.0 before each domain
 # Expires: 1 day
-# Last updated: April 18, 2026 at 11:03 PM UTC | 2026-04-18T23:03:12.416Z
+# Last updated: September 9, 2026 at 2:35 AM UTC | 2026-09-09T02:35:29.808Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -97,6 +97,12 @@
 0.0.0.0 us.recommend.lgtvcommon.com
 0.0.0.0 us.lgsmartad.com
 0.0.0.0 us.service.lgtvcommon.com
+0.0.0.0 aic.cdpsvc.lgtvcommon.com
+0.0.0.0 aic.cdpbeacon.lgtvcommon.com
+0.0.0.0 us.nextlgsdp.com
+0.0.0.0 ngfts.nextlgsdp.com
+0.0.0.0 aic.rdl.lgtvcommon.com
+0.0.0.0 aic-gfts.nextlgsdp.com
 0.0.0.0 legacyportal.nettvservices.com
 0.0.0.0 nettv.corio.com
 0.0.0.0 ad.nettvservices.com
@@ -261,4 +267,5 @@
 0.0.0.0 data.mistat.intl.xiaomi.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
 0.0.0.0 androidtvchannels-pa.googleapis.com
+0.0.0.0 androidtvlauncherxfe-pa.googleapis.com
 0.0.0.0 androidtvwatsonfe-pa.googleapis.com
