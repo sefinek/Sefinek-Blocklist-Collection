@@ -6,10 +6,10 @@ const GOODBOT_TTL_SECONDS = 24 * 60 * 60;
 
 const resolveGoodBots = async () => {
 	const { GOODBOT_WS_URL, GOODBOT_WS_SECRET } = process.env;
-	if (!GOODBOT_WS_URL || !GOODBOT_WS_SECRET) return console.log('GOODBOT_WS_URL/GOODBOT_WS_SECRET not configured, skipping.');
+	if (!GOODBOT_WS_URL || !GOODBOT_WS_SECRET) return console.log('GOODBOT_WS_URL/GOODBOT_WS_SECRET not configured, skipping');
 
 	const pending = await RedisClient.sMembers('goodbot:pending');
-	if (!pending.length) return console.log('No pending IPs to resolve.');
+	if (!pending.length) return console.log('No pending IPs to resolve');
 
 	const results = await checkGoodBotsBulk(pending, { url: GOODBOT_WS_URL, secret: GOODBOT_WS_SECRET });
 
@@ -21,7 +21,7 @@ const resolveGoodBots = async () => {
 	}
 	await pipeline.exec();
 
-	console.log(`Resolved ${pending.length} IP(s) against the good-bots list.`);
+	console.log(`Resolved ${pending.length} IP(s) against the good-bots list`);
 };
 
 module.exports = resolveGoodBots;

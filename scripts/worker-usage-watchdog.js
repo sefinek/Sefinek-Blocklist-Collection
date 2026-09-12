@@ -134,7 +134,7 @@ const attemptRecovery = async state => {
 
 	if (!state.paths.length) {
 		const recovered = await attemptRecovery(state);
-		if (!recovered) console.log('No routes currently selected, nothing to watch.');
+		if (!recovered) console.log('No routes currently selected, nothing to watch');
 		process.exit(0);
 	}
 
@@ -144,7 +144,7 @@ const attemptRecovery = async state => {
 	console.log(`Worker invocations (last 24h): ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct.toFixed(1)}%)`);
 
 	if (usage >= CRITICAL_THRESHOLD) {
-		console.error('CRITICAL threshold exceeded, removing Worker routes immediately.');
+		console.error('CRITICAL threshold exceeded, removing Worker routes immediately');
 		const { removedCount, failedCount, totalCount } = await emergencyRemoveRoutes(paths);
 		const partialWarning = failedCount
 			? `<p><b>Warning:</b> ${failedCount} of ${totalCount} route(s) failed to remove (see cron logs) - they're still live and still counted in <code>cloudflare/routes.json</code>/<code>wrangler.toml</code>. Investigate and re-run the watchdog or remove them manually.</p>`
@@ -160,7 +160,7 @@ ${partialWarning}
 	}
 
 	if (usage >= WARNING_THRESHOLD) {
-		console.warn('WARNING threshold exceeded.');
+		console.warn('WARNING threshold exceeded');
 		await sendAlertEmail(
 			`[WARNING] Worker route usage at ${pct.toFixed(1)}% of daily cap`,
 			`<p>Worker route usage for <code>${WORKER_SCRIPT_NAME}</code> reached ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct.toFixed(1)}%) in the last 24h.</p>

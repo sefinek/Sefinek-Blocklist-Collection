@@ -39,7 +39,7 @@ const purgeBatch = async batch => {
 
 (async () => {
 	const files = await getAllFiles(GENERATED_DIR, ['.txt', '.conf']);
-	if (!files.length) return console.log('No generated files found, nothing to purge.');
+	if (!files.length) return console.log('No generated files found, nothing to purge');
 
 	const urls = files.map(file => `${ORIGIN}/generated/v1/${relative(GENERATED_DIR, file).replace(/\\/g, '/')}`);
 	const batches = chunk(urls, CHUNK_SIZE);
@@ -58,7 +58,7 @@ const purgeBatch = async batch => {
 		if (i < batches.length - 1) await sleep(BATCH_DELAY_MS);
 	}
 
-	console.log(`Done. Purged ${purgedCount}/${urls.length} URLs (${failedBatches} batch(es) failed).`);
+	console.log(`Done. Purged ${purgedCount}/${urls.length} URLs (${failedBatches} batch(es) failed)`);
 	if (failedBatches) process.exit(1);
 })().catch(err => {
 	console.error('Cloudflare cache purge failed:', err.response?.data || err.message);

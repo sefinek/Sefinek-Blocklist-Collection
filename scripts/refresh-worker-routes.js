@@ -116,7 +116,7 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 		RedisClient.exists(keys),
 	]);
 	const observedDays = Math.max(1, existingDays);
-	if (existingDays < ROLLING_DAYS) console.log(`Only ${existingDays}/${ROLLING_DAYS} days of history so far - averaging over ${observedDays} instead.`);
+	if (existingDays < ROLLING_DAYS) console.log(`Only ${existingDays}/${ROLLING_DAYS} days of history so far - averaging over ${observedDays} instead`);
 
 	const avgByPath = new Map();
 	for (const { value, score } of unionRows) avgByPath.set(value, score / observedDays);
@@ -129,7 +129,7 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 	console.log(`Added: ${added.length}, removed: ${removed.length}, overflow-dropped: ${overflowDropped.length}`);
 
 	if (!added.length && !removed.length && !overflowDropped.length) {
-		console.log('No change, skipping.');
+		console.log('No change, skipping');
 		process.exit(0);
 	}
 
@@ -139,7 +139,7 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 	const actualUsage = await fetchActualUsage(selectedPaths);
 	await sendSummaryEmail({ added, removed, overflowDropped, budgetUsed, actualUsage });
 
-	console.log('Done. cloudflare/routes.json and cloudflare/wrangler.toml updated, summary emailed.');
+	console.log('Done. cloudflare/routes.json and cloudflare/wrangler.toml updated, summary emailed');
 	process.exit(0);
 })().catch(err => {
 	console.error('refresh-worker-routes failed:', err);
