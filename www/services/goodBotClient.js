@@ -4,10 +4,12 @@ const { GOODBOT_WS_URL, GOODBOT_WS_SECRET } = process.env;
 const RECONNECT_BASE_MS = 1000;
 const RECONNECT_MAX_MS = 30000;
 const REQUEST_TIMEOUT_MS = 5000;
+const PING_INTERVAL_MS = 30000;
 
 let ws = null;
 let reconnectDelay = RECONNECT_BASE_MS;
 let reqCounter = 0;
+let pingTimer = null;
 const pending = new Map();
 let readyWaiters = [];
 
@@ -21,6 +23,7 @@ const connect = () => {
 
 	ws.on('open', () => {
 		reconnectDelay = RECONNECT_BASE_MS;
+		pingTimer = setInterval(() => ws.send(JSON.stringify({ type: 'ping' })), PING_INTERVAL_MS).unref();
 		readyWaiters.forEach(({ resolve, timer }) => {
 			clearTimeout(timer);
 			resolve();
@@ -36,6 +39,8 @@ const connect = () => {
 			return;
 		}
 
+		if (msg.type === 'pong') return;
+
 		const entry = pending.get(msg.reqId);
 		if (!entry) return;
 
@@ -45,6 +50,7 @@ const connect = () => {
 	});
 
 	ws.on('close', () => {
+		clearInterval(pingTimer);
 		ws = null;
 		setTimeout(connect, reconnectDelay).unref();
 		reconnectDelay = Math.min(reconnectDelay * 2, RECONNECT_MAX_MS);
