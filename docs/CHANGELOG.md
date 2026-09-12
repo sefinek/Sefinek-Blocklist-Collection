@@ -7,6 +7,14 @@ It is also the place where you can suggest new lists, report bugs or false posit
 The project follows semantic versioning. Thank you for using Sefinek Blocklists!
 
 
+## Version 0.24.0 from 12.09.2026
+1. Enabled edge caching on Cloudflare for the most popular blocklist files (`/generated/v1/*.txt`/`.conf`) - typical, smaller lists now download **~80% faster** (about 5x), especially for users geographically far from the main server (New York). Very large files (70-100 MB) benefit too, though less noticeably, since at that size client bandwidth becomes the bottleneck rather than distance to the origin.
+2. Download statistics remain 100% accurate regardless of whether a file was served from the edge cache or directly from the origin.
+3. Added verification of known good bots (Googlebot, Bingbot, etc.) by IP address, instead of relying solely on the User-Agent header.
+4. Introduced automatic monitoring of the Cloudflare Workers daily request cap - if usage approaches the limit, some routes are temporarily removed from the cache and gradually restored on their own the next day.
+5. Numerous performance and stability improvements to the cache management pipeline.
+
+
 ## Version 0.23.0 from 19.04.2026
 1. Optimized the list generation workflow, resulting in faster performance and more consistent outputs. Additional improvements were introduced to enhance overall system reliability.
 2. From now on, every list (including external ones) includes a header at the very top. It contains key information such as title, description, license, and other relevant data.
