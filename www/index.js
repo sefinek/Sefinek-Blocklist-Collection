@@ -4,7 +4,6 @@ const cluster = require('node:cluster');
 const numCPUs = require('node:os').availableParallelism();
 const connectToDatabase = require('./database/mongoose.js');
 const { startAggregationJob } = require('./services/aggregateStats.js');
-const { startCronJobs } = require('./cron/index.js');
 
 const { NODE_ENV, DOMAIN, PORT, MONGODB_URL } = process.env;
 if (!NODE_ENV || !DOMAIN || !PORT) throw new Error('Missing basic environment variables');
@@ -16,7 +15,7 @@ if (!MONGODB_URL) throw new Error('Missing MongoDB connection URL');
 		await connectToDatabase();
 		require('./services/redis.js');
 		startAggregationJob();
-		startCronJobs();
+		require('./cron/index.js').startCronJobs();
 		require('./server.js');
 		require('./websocket.js');
 		return;
@@ -30,7 +29,7 @@ if (!MONGODB_URL) throw new Error('Missing MongoDB connection URL');
 
 		// Start Redis → MongoDB aggregation job (runs every 5 minutes)
 		startAggregationJob();
-		startCronJobs();
+		require('./cron/index.js').startCronJobs();
 
 		// Fork workers (one per CPU core)
 		for (let i = 0; i < numCPUs; i++) {
