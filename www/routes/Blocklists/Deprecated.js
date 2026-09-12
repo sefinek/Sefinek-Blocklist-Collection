@@ -170,4 +170,6 @@ router.get(new RegExp(`^\\/generated\\/(${FMT})(\\/.*)?$`), (req, res) => {
 	res.redirect(301, url);
 });
 
+router.REDIRECT_PATHS = new Set(REDIRECT_MAP.keys());
+
 module.exports = router;

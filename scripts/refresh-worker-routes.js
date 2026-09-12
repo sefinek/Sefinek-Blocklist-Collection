@@ -5,6 +5,7 @@ const RedisClient = require('../www/services/redis.js');
 const mailer = require('../www/services/mailer.js');
 const fetchWorkerUsage = require('./utils/fetchWorkerUsage.js');
 const writeWranglerToml = require('./utils/writeWranglerToml.js');
+const { REDIRECT_PATHS } = require('../www/routes/Blocklists/Deprecated.js');
 
 const ROLLING_DAYS = 7;
 const ENTRY_AVG_THRESHOLD = 100; // req/day avg required for a new path to be added
@@ -28,9 +29,9 @@ const getFilepopKeys = () => {
 
 const readRoutesJson = async () => {
 	try {
-		return JSON.parse(await readFile(ROUTES_JSON_PATH, 'utf-8')).paths || [];
+		return JSON.parse(await readFile(ROUTES_JSON_PATH, 'utf-8'));
 	} catch {
-		return [];
+		return { paths: [] };
 	}
 };
 
@@ -119,9 +120,15 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 	if (existingDays < ROLLING_DAYS) console.log(`Only ${existingDays}/${ROLLING_DAYS} days of history so far - averaging over ${observedDays} instead`);
 
 	const avgByPath = new Map();
-	for (const { value, score } of unionRows) avgByPath.set(value, score / observedDays);
+	for (const { value, score } of unionRows) {
+		// Deprecated redirect URLs always answer 301, so the Worker never gets a cacheable
+		// 200 for them - selecting one just burns a Workers invocation on every hit forever.
+		if (REDIRECT_PATHS.has(value)) continue;
+		avgByPath.set(value, score / observedDays);
+	}
 
-	const previousPaths = await readRoutesJson();
+	const previousState = await readRoutesJson();
+	const previousPaths = previousState.paths || [];
 	const { selected, added, removed, overflowDropped, budgetUsed } = selectPaths(avgByPath, previousPaths);
 	const selectedPaths = selected.map(r => r.path);
 
@@ -133,7 +140,14 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 		process.exit(0);
 	}
 
-	await writeFile(ROUTES_JSON_PATH, JSON.stringify({ paths: selectedPaths, updatedAt: new Date().toISOString() }, null, '\t') + '\n');
+	// Preserve any in-progress emergency-recovery bookkeeping - a weekly refresh shouldn't
+	// silently erase what worker-usage-watchdog.js is still working through restoring.
+	const { emergencyStoppedAt, lastRecoveryAt, emergencyRemovedPaths } = previousState;
+	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
+		paths: selectedPaths,
+		updatedAt: new Date().toISOString(),
+		...(emergencyRemovedPaths?.length ? { emergencyStoppedAt, lastRecoveryAt, emergencyRemovedPaths } : {}),
+	}, null, '\t') + '\n');
 	await writeWranglerToml(selectedPaths);
 
 	const actualUsage = await fetchActualUsage(selectedPaths);
