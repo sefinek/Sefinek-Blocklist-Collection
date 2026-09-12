@@ -19,6 +19,24 @@ const FROM = `Sefinek Blocklists <${process.env.MAILER_AUTH_USER}>`;
 const { CLOUDFLARE_API_TOKEN, CLOUDFLARE_ZONE_ID } = process.env;
 if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID) throw new Error('Missing CLOUDFLARE_API_TOKEN or CLOUDFLARE_ZONE_ID environment variable');
 
+const MAX_RETRIES = 3;
+const RETRY_BASE_MS = 500;
+
+// Firing 150+ route mutations at once against the Workers Routes API reliably draws a handful
+// of transient 503s - retry with backoff instead of treating those as permanent failures.
+const isRetryable = err => [429, 503].includes(err.response?.status);
+
+const withRetry = async fn => {
+	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+		try {
+			return await fn();
+		} catch (err) {
+			if (!isRetryable(err) || attempt === MAX_RETRIES) throw err;
+			await new Promise(resolve => setTimeout(resolve, RETRY_BASE_MS * 2 ** attempt));
+		}
+	}
+};
+
 const readState = async () => {
 	try {
 		return JSON.parse(await readFile(ROUTES_JSON_PATH, 'utf-8'));
@@ -33,7 +51,7 @@ const emergencyRemoveRoutes = async popularityRankedPaths => {
 	const ours = (list.data.result || []).filter(r => r.script === WORKER_SCRIPT_NAME);
 
 	const results = await Promise.allSettled(
-		ours.map(route => axios.delete(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes/${route.id}`, { headers }))
+		ours.map(route => withRetry(() => axios.delete(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes/${route.id}`, { headers })))
 	);
 
 	const stillActivePaths = [];
@@ -66,10 +84,10 @@ const emergencyRemoveRoutes = async popularityRankedPaths => {
 const addRoutes = async paths => {
 	const headers = { Authorization: `Bearer ${CLOUDFLARE_API_TOKEN}` };
 	const results = await Promise.allSettled(
-		paths.map(path => axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes`, {
+		paths.map(path => withRetry(() => axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes`, {
 			pattern: `${HOST}${path}`,
 			script: WORKER_SCRIPT_NAME,
-		}, { headers }))
+		}, { headers })))
 	);
 
 	const restored = [];
