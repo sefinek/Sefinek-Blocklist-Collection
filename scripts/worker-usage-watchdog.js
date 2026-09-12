@@ -9,6 +9,7 @@ const writeWranglerToml = require('./utils/writeWranglerToml.js');
 const WORKERS_FREE_CAP = 100000;
 const WARNING_THRESHOLD = 0.8 * WORKERS_FREE_CAP;
 const CRITICAL_THRESHOLD = 0.95 * WORKERS_FREE_CAP;
+const RECOVERY_FRACTION = 0.5; // restore only the top half (most popular) of what was emergency-removed
 
 const HOST = 'blocklist.sefinek.net';
 const WORKER_SCRIPT_NAME = 'sefinek-blocklist-edge-cache';
@@ -18,15 +19,15 @@ const FROM = `Sefinek Blocklists <${process.env.MAILER_AUTH_USER}>`;
 const { CLOUDFLARE_API_TOKEN, CLOUDFLARE_ZONE_ID } = process.env;
 if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID) throw new Error('Missing CLOUDFLARE_API_TOKEN or CLOUDFLARE_ZONE_ID environment variable');
 
-const readSelectedPaths = async () => {
+const readState = async () => {
 	try {
-		return JSON.parse(await readFile(ROUTES_JSON_PATH, 'utf-8')).paths || [];
+		return JSON.parse(await readFile(ROUTES_JSON_PATH, 'utf-8'));
 	} catch {
-		return [];
+		return { paths: [] };
 	}
 };
 
-const emergencyRemoveRoutes = async () => {
+const emergencyRemoveRoutes = async popularityRankedPaths => {
 	const headers = { Authorization: `Bearer ${CLOUDFLARE_API_TOKEN}` };
 	const list = await axios.get(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes`, { headers });
 	const ours = (list.data.result || []).filter(r => r.script === WORKER_SCRIPT_NAME);
@@ -46,31 +47,87 @@ const emergencyRemoveRoutes = async () => {
 		stillActivePaths.push(ours[i].pattern.replace(HOST, ''));
 	});
 
+	// Keep the pre-removal, popularity-ranked list around so a later recovery run knows
+	// what to restore and in what priority order - minus whatever failed to remove just now.
+	const emergencyRemovedPaths = popularityRankedPaths.filter(p => !stillActivePaths.includes(p));
+
 	// Reflect only what was actually removed - never claim a clean sweep that didn't happen
-	await writeFile(ROUTES_JSON_PATH, JSON.stringify({ paths: stillActivePaths, updatedAt: new Date().toISOString(), emergencyStoppedAt: new Date().toISOString() }, null, '\t') + '\n');
+	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
+		paths: stillActivePaths,
+		updatedAt: new Date().toISOString(),
+		emergencyStoppedAt: new Date().toISOString(),
+		emergencyRemovedPaths,
+	}, null, '\t') + '\n');
 	await writeWranglerToml(stillActivePaths);
 
 	return { removedCount, failedCount: stillActivePaths.length, totalCount: ours.length };
 };
 
+const addRoutes = async paths => {
+	const headers = { Authorization: `Bearer ${CLOUDFLARE_API_TOKEN}` };
+	const results = await Promise.allSettled(
+		paths.map(path => axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes`, {
+			pattern: `${HOST}${path}`,
+			script: WORKER_SCRIPT_NAME,
+		}, { headers }))
+	);
+
+	const restored = [];
+	results.forEach((result, i) => {
+		if (result.status === 'fulfilled') restored.push(paths[i]);
+		else console.error(`Failed to restore route for ${paths[i]}:`, result.reason?.message);
+	});
+	return restored;
+};
+
+const isNewUtcDaySince = isoTimestamp => new Date(isoTimestamp).toISOString().slice(0, 10) !== new Date().toISOString().slice(0, 10);
+
 const sendAlertEmail = async (subject, html) => {
 	await mailer.sendMail({ from: FROM, to: process.env.MAILER_AUTH_USER, subject, html });
 };
 
+const attemptRecovery = async state => {
+	if (state.paths.length || !state.emergencyStoppedAt || !state.emergencyRemovedPaths?.length) return false;
+	if (!isNewUtcDaySince(state.emergencyStoppedAt)) return false;
+
+	const cutoff = Math.max(1, Math.ceil(state.emergencyRemovedPaths.length * RECOVERY_FRACTION));
+	const toRestore = state.emergencyRemovedPaths.slice(0, cutoff);
+	const restored = await addRoutes(toRestore);
+
+	const remaining = state.emergencyRemovedPaths.filter(p => !restored.includes(p));
+	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
+		paths: restored,
+		updatedAt: new Date().toISOString(),
+		emergencyRemovedPaths: remaining.length ? remaining : undefined,
+	}, null, '\t') + '\n');
+	await writeWranglerToml(restored);
+
+	await sendAlertEmail(
+		`[RECOVERY] Restored ${restored.length}/${toRestore.length} Worker routes after daily cap reset`,
+		`<p>The Workers Free daily cap reset since the last emergency stop (${state.emergencyStoppedAt}), so the watchdog restored the top ${(RECOVERY_FRACTION * 100).toFixed(0)}% most popular routes from what was removed (${restored.length}/${toRestore.length} succeeded${remaining.length ? `, ${remaining.length} failed and stay excluded for now` : ''}).</p>
+<p>This is a conservative restore, not the full previous list, to reduce the chance of immediately hitting the cap again. Normal usage monitoring resumes from here - the next check runs in up to 3h.</p>`
+	);
+
+	return true;
+};
+
 (async () => {
-	const paths = await readSelectedPaths();
-	if (!paths.length) {
-		console.log('No routes currently selected, nothing to watch.');
+	const state = await readState();
+
+	if (!state.paths.length) {
+		const recovered = await attemptRecovery(state);
+		if (!recovered) console.log('No routes currently selected, nothing to watch.');
 		process.exit(0);
 	}
 
+	const paths = state.paths;
 	const usage = await fetchPathUsage(paths, { token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
 	const pct = (usage / WORKERS_FREE_CAP) * 100;
 	console.log(`Worker route usage (last 24h): ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct.toFixed(1)}%)`);
 
 	if (usage >= CRITICAL_THRESHOLD) {
 		console.error('CRITICAL threshold exceeded, removing Worker routes immediately.');
-		const { removedCount, failedCount, totalCount } = await emergencyRemoveRoutes();
+		const { removedCount, failedCount, totalCount } = await emergencyRemoveRoutes(paths);
 		const partialWarning = failedCount
 			? `<p><b>Warning:</b> ${failedCount} of ${totalCount} route(s) failed to remove (see cron logs) - they're still live and still counted in <code>cloudflare/routes.json</code>/<code>wrangler.toml</code>. Investigate and re-run the watchdog or remove them manually.</p>`
 			: '';
