@@ -2,6 +2,7 @@ process.loadEnvFile();
 const { join, relative } = require('node:path');
 const axios = require('../www/services/axios.js');
 const getAllFiles = require('./utils/getAllFiles.js');
+const withRetry = require('./utils/withRetry.js');
 
 const GENERATED_DIR = join(__dirname, '..', 'blocklists', 'generated');
 const CHUNK_SIZE = 30;
@@ -16,25 +17,29 @@ if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID) throw new Error('Missing CLOUD
 const chunk = (arr, size) => Array.from({ length: Math.ceil(arr.length / size) }, (_, i) => arr.slice(i * size, i * size + size));
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
+// Retry Cloudflare's own rate limit (1134) as well as generic transient failures - a bare
+// network error (timeout, ECONNRESET) has no err.response at all and was previously treated
+// as permanent, aborting the whole batch on the first hiccup despite the retry scaffolding.
+const isRetryable = err => {
+	if (err.response?.data?.errors?.some(e => e.code === RATE_LIMIT_ERROR_CODE)) return true;
+	return !err.response || err.response.status >= 500;
+};
+
 const purgeBatch = async batch => {
-	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-		try {
-			await axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache`, { files: batch }, {
-				headers: { 'Authorization': `Bearer ${CLOUDFLARE_API_TOKEN}` },
-			});
-			return true;
-		} catch (err) {
-			const isRateLimit = err.response?.data?.errors?.some(e => e.code === RATE_LIMIT_ERROR_CODE);
-			if (!isRateLimit || attempt === MAX_RETRIES) {
-				console.error(`Failed to purge batch (attempt ${attempt}/${MAX_RETRIES}):`, err.response?.data || err.message);
-				return false;
-			}
-			const backoffMs = BATCH_DELAY_MS * 2 ** attempt;
-			console.warn(`Rate limited, retrying in ${backoffMs}ms (attempt ${attempt}/${MAX_RETRIES})`);
-			await sleep(backoffMs);
-		}
+	try {
+		await withRetry(() => axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache`, { files: batch }, {
+			headers: { 'Authorization': `Bearer ${CLOUDFLARE_API_TOKEN}` },
+		}), {
+			maxRetries: MAX_RETRIES,
+			baseMs: BATCH_DELAY_MS,
+			isRetryable,
+			onRetry: (err, attempt, delay) => console.warn(`Purge batch failed, retrying in ${delay}ms (attempt ${attempt}/${MAX_RETRIES}):`, err.response?.data || err.message),
+		});
+		return true;
+	} catch (err) {
+		console.error('Failed to purge batch:', err.response?.data || err.message);
+		return false;
 	}
-	return false;
 };
 
 (async () => {
