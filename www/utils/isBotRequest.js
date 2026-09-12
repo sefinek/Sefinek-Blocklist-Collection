@@ -11,13 +11,18 @@ module.exports = async (userAgent, ip) => {
 	if (isBot(userAgent)) return true;
 	if (!ip) return false;
 
-	const cached = await RedisClient.get(`goodbot:${ip}`);
-	if (cached !== null) return cached === '1';
+	try {
+		const cached = await RedisClient.get(`goodbot:${ip}`);
+		if (cached !== null) return cached === '1';
 
-	const pipeline = RedisClient.multi();
-	pipeline.sAdd('goodbot:pending', ip);
-	pipeline.expire('goodbot:pending', PENDING_SET_TTL_SECONDS);
-	await pipeline.exec();
+		const pipeline = RedisClient.multi();
+		pipeline.sAdd('goodbot:pending', ip);
+		pipeline.expire('goodbot:pending', PENDING_SET_TTL_SECONDS);
+		await pipeline.exec();
+	} catch (err) {
+		// Silent fail - don't crash the request pipeline if Redis has issues
+		console.error('goodbot Redis lookup failed:', err.message);
+	}
 
 	return false;
 };
