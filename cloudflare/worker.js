@@ -10,6 +10,7 @@ const reportEdgeHit = (origin, path, userAgent, secret) => fetch(`${origin}/api/
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',
+		'User-Agent': 'Cloudflare-Worker/sefinek-blocklist-edge-cache',
 		'X-Edge-Stats-Secret': secret,
 	},
 	body: JSON.stringify({ path, userAgent }),
