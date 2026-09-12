@@ -1,6 +1,7 @@
 const cron = require('node-cron');
 const { execFile } = require('node:child_process');
 const path = require('node:path');
+const resolveGoodBots = require('../../scripts/resolve-good-bots.js');
 
 const TIMEZONE = 'Europe/Warsaw';
 const SCRIPTS_DIR = path.join(__dirname, '..', '..', 'scripts');
@@ -20,8 +21,9 @@ const startCronJobs = () => {
 	// Every 3 hours - watch Workers Free daily usage, emergency-remove routes if close to the cap
 	cron.schedule('0 */3 * * *', () => runScript('worker-usage-watchdog.js'), { timezone: TIMEZONE, name: 'worker-usage-watchdog', noOverlap: true });
 
-	// Every 2 minutes - resolve newly-seen IPs against tcpdata-server's good-bots list in bulk
-	cron.schedule('*/2 * * * *', () => runScript('resolve-good-bots.js'), { timezone: TIMEZONE, name: 'resolve-good-bots', noOverlap: true });
+	// Every 2 minutes - resolve newly-seen IPs against tcpdata-server's good-bots list in bulk.
+	// Runs in-process (not via runScript) to reuse the already-open Redis connection at this frequency.
+	cron.schedule('*/2 * * * *', () => resolveGoodBots().catch(err => console.error('[cron:resolve-good-bots]', err.message)), { timezone: TIMEZONE, name: 'resolve-good-bots', noOverlap: true });
 };
 
 module.exports = { startCronJobs };
