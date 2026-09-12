@@ -6,14 +6,14 @@ const getExtension = pathname => {
 	return dot === -1 ? '' : pathname.slice(dot).toLowerCase();
 };
 
-const reportEdgeHit = (origin, path, userAgent, secret) => fetch(`${origin}/api/v1/stats/edge-hit`, {
+const reportEdgeHit = (origin, path, userAgent, ip, secret) => fetch(`${origin}/api/v1/stats/edge-hit`, {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',
 		'User-Agent': 'Cloudflare-Worker/sefinek-blocklist-edge-cache',
 		'X-Edge-Stats-Secret': secret,
 	},
-	body: JSON.stringify({ path, userAgent }),
+	body: JSON.stringify({ path, userAgent, ip }),
 }).catch(() => undefined);
 
 export default {
@@ -27,7 +27,7 @@ export default {
 		const cache = caches.default;
 		const cached = await cache.match(request);
 		if (cached) {
-			ctx.waitUntil(reportEdgeHit(url.origin, url.pathname, request.headers.get('user-agent'), env.EDGE_STATS_SECRET));
+			ctx.waitUntil(reportEdgeHit(url.origin, url.pathname, request.headers.get('user-agent'), request.headers.get('cf-connecting-ip'), env.EDGE_STATS_SECRET));
 			return cached;
 		}
 

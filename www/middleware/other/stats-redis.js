@@ -1,6 +1,6 @@
 const RedisClient = require('../../services/redis.js');
 const parseCategoryFromLink = require('../../utils/parseCategoryFromLink.js');
-const isBot = require('../../utils/isBot.js');
+const isBotRequest = require('../../utils/isBotRequest.js');
 
 const FILEPOP_TTL_SECONDS = 14 * 24 * 60 * 60;
 
@@ -44,8 +44,9 @@ const incrementBlocklistStats = async (url, statusCode) => {
 	}
 };
 
-const updateStats = (req, res) => {
-	if (req.method !== 'GET' || isBot(req.headers['user-agent'])) return;
+const updateStats = async (req, res) => {
+	if (req.method !== 'GET') return;
+	if (await isBotRequest(req.headers['user-agent'], req.ip)) return;
 
 	const url = req.originalUrl || req.url;
 	const statusCode = res?.statusCode ?? 'unknown';

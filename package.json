@@ -20,7 +20,9 @@
     "pull:blocklists": "git -C blocklists fetch origin +refs/heads/blocklists:refs/remotes/origin/blocklists && git -C blocklists reset --hard origin/blocklists",
     "pullsh": "bash bash/pull.sh",
     "test": "node scripts/test-urls.js",
-    "update": "npm run pull && npm run pull:blocklists && npm ci --omit=dev && pm2 restart blocklist && node scripts/purge-cloudflare-cache.js"
+    "update": "npm run pull && npm run pull:blocklists && npm ci --omit=dev && pm2 restart blocklist && node scripts/purge-cloudflare-cache.js",
+    "cf:logs": "cd cloudflare && wrangler tail sefinek-blocklist-edge-cache",
+    "cf:deploy": "cd cloudflare && wrangler deploy"
   },
   "dependencies": {
     "axios": "^1.20.0",

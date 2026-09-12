@@ -3,7 +3,7 @@ const router = require('express').Router();
 const MinuteStats = require('../database/models/minute-stats.model.js');
 const RequestStats = require('../database/models/request-stats.model.js');
 const withCache = require('../utils/withCache.js');
-const isBot = require('../utils/isBot.js');
+const isBotRequest = require('../utils/isBotRequest.js');
 const { incrementBlocklistStats } = require('../middleware/other/stats-redis.js');
 const { edgeHit: edgeHitLimiter } = require('../middleware/ratelimit.js');
 
@@ -154,9 +154,9 @@ router.post('/api/v1/stats/edge-hit', edgeHitLimiter, async (req, res) => {
 		return res.status(403).json({ success: false, status: 403, message: 'Forbidden' });
 	}
 
-	const { path, userAgent } = req.body || {};
+	const { path, userAgent, ip } = req.body || {};
 	if (typeof path !== 'string' || !path) return res.status(400).json({ success: false, status: 400, message: 'Missing "path"' });
-	if (isBot(userAgent)) return res.json({ success: true, status: 200, message: 'Ignored (bot)' });
+	if (await isBotRequest(userAgent, ip)) return res.json({ success: true, status: 200, message: 'Ignored (bot)' });
 
 	await incrementBlocklistStats(path, 200);
 	res.json({ success: true, status: 200, message: 'OK' });
