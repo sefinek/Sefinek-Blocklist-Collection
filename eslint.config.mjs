@@ -70,4 +70,14 @@ export default [
 			'no-redeclare': ['error', { builtinGlobals: false }],
 		},
 	},
+	{
+		files: ['cloudflare/**/*.js'],
+		languageOptions: {
+			sourceType: 'module',
+			globals: {
+				...globals.worker,
+				caches: 'readonly',
+			},
+		},
+	},
 ];

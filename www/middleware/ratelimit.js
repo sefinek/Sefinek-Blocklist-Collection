@@ -29,9 +29,15 @@ const falsePositiveSubmit = makeLimit(15 * 60 * 1000, 5, 'ratelimit:falsePositiv
 	message: { success: false, status: 429, message: 'Too many reports submitted. Please try again later.' },
 });
 
-const edgeHit = makeLimit(60 * 1000, 500, 'ratelimit:edgeHit:', {
+// Worker subrequests all originate from a small pool of Cloudflare colo IPs shared by every
+// user hitting that PoP, so this needs a much higher ceiling than a per-user limiter - it's
+// mainly an abuse backstop, not a security boundary (the endpoint is already gated by the secret).
+const edgeHit = makeLimit(60 * 1000, 5000, 'ratelimit:edgeHit:', {
 	skip: () => process.env.NODE_ENV === 'development',
-	message: { success: false, status: 429, message: 'Too many edge-hit reports.' },
+	handler: (req, res) => {
+		console.warn(`edge-hit rate limit exceeded for ${req.ip}`);
+		res.status(429).json({ success: false, status: 429, message: 'Too many edge-hit reports.' });
+	},
 });
 
 module.exports = { global, blocklistCheck, falsePositiveSubmit, edgeHit };

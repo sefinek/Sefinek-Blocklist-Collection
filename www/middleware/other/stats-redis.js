@@ -1,7 +1,8 @@
 const RedisClient = require('../../services/redis.js');
 const parseCategoryFromLink = require('../../utils/parseCategoryFromLink.js');
+const isBot = require('../../utils/isBot.js');
 
-const BOT_REGEX = /netcraftsurveyagent|domainsproject\.org|f(?:reepublicapis|acebook)|screaming frog|i(?:a_archiv|ndex)er|s(?:istrix|crapy|lurp)|scraper|(?:s(?:cann|pid)|fetch)er|lychee\/|crawl|yahoo|jest\/|bot/i;
+const FILEPOP_TTL_SECONDS = 14 * 24 * 60 * 60;
 
 const getMinuteKey = () => {
 	const now = new Date();
@@ -9,12 +10,11 @@ const getMinuteKey = () => {
 	return `stats:minute:${iso.slice(0, 10)}:${iso.slice(11, 13)}:${iso.slice(14, 16)}`;
 };
 
-const updateStats = async (req, res) => {
-	if (req.method !== 'GET' || BOT_REGEX.test(req.headers['user-agent'])) return;
+const getFilepopKey = () => `stats:filepop:${new Date().toISOString().slice(0, 10)}`;
 
+const incrementBlocklistStats = async (url, statusCode) => {
 	try {
-		const { type } = parseCategoryFromLink(req.originalUrl || req.url);
-		const statusCode = res?.statusCode ?? 'unknown';
+		const { type } = parseCategoryFromLink(url);
 		const minuteKey = getMinuteKey();
 
 		const pipeline = RedisClient.multi();
@@ -24,10 +24,14 @@ const updateStats = async (req, res) => {
 		pipeline.hIncrBy(minuteKey, `responses:${statusCode}`, 1);
 
 		// Track blocklist requests
-		const url = req.originalUrl || req.url;
 		if (type && statusCode >= 200 && statusCode <= 304 && (url.includes('.txt') || url.includes('.conf'))) {
 			pipeline.hIncrBy(minuteKey, 'blocklists', 1);
 			pipeline.hIncrBy(minuteKey, `categories:${type}`, 1);
+
+			// Per-file popularity, used by scripts/refresh-worker-routes.js to pick edge-cache candidates
+			const filepopKey = getFilepopKey();
+			pipeline.zIncrBy(filepopKey, 1, url.split('?')[0]);
+			pipeline.expire(filepopKey, FILEPOP_TTL_SECONDS);
 		}
 
 		// Set TTL to 48 hours as backup (keys are deleted after aggregation, but kept if server is down)
@@ -40,7 +44,17 @@ const updateStats = async (req, res) => {
 	}
 };
 
+const updateStats = (req, res) => {
+	if (req.method !== 'GET' || isBot(req.headers['user-agent'])) return;
+
+	const url = req.originalUrl || req.url;
+	const statusCode = res?.statusCode ?? 'unknown';
+	return incrementBlocklistStats(url, statusCode);
+};
+
 module.exports = (req, res, next) => {
 	res.on('finish', () => updateStats(req, res));
 	next();
 };
+
+module.exports.incrementBlocklistStats = incrementBlocklistStats;
