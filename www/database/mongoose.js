@@ -12,6 +12,7 @@ const connectToDatabase = async () => {
 		console.log('MongoDB connected successfully');
 	} catch (err) {
 		console.error('Failed to connect to MongoDB:', err);
+		process.exit(1);
 	}
 };
 
@@ -33,6 +34,7 @@ connection.on('disconnected', () => {
 
 connection.on('error', err => {
 	console.error('MongoDB connection error:', err);
+	process.exit(1);
 });
 
 module.exports = connectToDatabase;

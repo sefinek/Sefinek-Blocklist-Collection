@@ -251,63 +251,6 @@ const getCommonChartOptions = (showLegend = true) => ({
 	},
 });
 
-const emptyCategories = {
-	hosts: 0,
-	localhost: 0,
-	adguard: 0,
-	dnsmasq: 0,
-	noip: 0,
-	rpz: 0,
-	unbound: 0,
-};
-
-const aggregateByInterval = (data, intervalMinutes) => {
-	if (intervalMinutes === 1) return data;
-
-	const aggregated = {};
-	const intervalMs = intervalMinutes * 60 * 1000;
-
-	for (const item of data) {
-		const timestamp = new Date(item.timestamp);
-		const timestampMs = timestamp.getTime();
-		const roundedMs = Math.floor(timestampMs / intervalMs) * intervalMs;
-		const roundedTimestamp = new Date(roundedMs);
-
-		const key = roundedTimestamp.toISOString();
-		if (!aggregated[key]) {
-			const dateStr = memoizedFormatToYYYYMMDD(roundedTimestamp);
-			const timeStr = `${String(roundedTimestamp.getUTCHours()).padStart(2, '0')}:${String(roundedTimestamp.getUTCMinutes()).padStart(2, '0')}`;
-
-			aggregated[key] = {
-				timestamp: key,
-				date: dateStr,
-				time: timeStr,
-				total: 0,
-				blocklists: 0,
-				categories: { ...emptyCategories },
-				responses: {},
-			};
-		}
-
-		aggregated[key].total += item.total || 0;
-		aggregated[key].blocklists += item.blocklists || 0;
-
-		if (item.categories) {
-			for (const [cat, val] of Object.entries(item.categories)) {
-				aggregated[key].categories[cat] = (aggregated[key].categories[cat] || 0) + (val || 0);
-			}
-		}
-
-		if (item.responses) {
-			for (const [code, count] of Object.entries(item.responses)) {
-				aggregated[key].responses[code] = (aggregated[key].responses[code] || 0) + (count || 0);
-			}
-		}
-	}
-
-	return Object.values(aggregated).sort((a, b) => a.timestamp < b.timestamp ? -1 : 1);
-};
-
 const calculateSuccessRate = (responses, total) => {
 	if (!total) return '0.00';
 	const successCount = SUCCESS_CODES.reduce((sum, code) => sum + (responses[code] || 0), 0);
@@ -1173,13 +1116,12 @@ const loadData = async () => {
 		return;
 	}
 
-	const rawData = await fetchMetrics(from, to);
-	if (!rawData.length) {
+	const data = await fetchMetrics(from, to);
+	if (!data.length) {
 		alert('No data available for selected date range');
 		return;
 	}
 
-	const data = aggregateByInterval(rawData, currentInterval);
 	const aggregated = aggregateData(data);
 	updateSummary(aggregated);
 
