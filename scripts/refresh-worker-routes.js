@@ -3,7 +3,7 @@ const { readFile, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
 const RedisClient = require('../www/services/redis.js');
 const mailer = require('../www/services/mailer.js');
-const fetchPathUsage = require('./utils/fetchPathUsage.js');
+const fetchWorkerUsage = require('./utils/fetchWorkerUsage.js');
 const writeWranglerToml = require('./utils/writeWranglerToml.js');
 
 const ROLLING_DAYS = 7;
@@ -77,7 +77,7 @@ const fetchActualUsage = async paths => {
 	if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID || !paths.length) return null;
 
 	try {
-		return await fetchPathUsage(paths, { token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
+		return await fetchWorkerUsage({ token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
 	} catch (err) {
 		console.error('Analytics usage check failed:', err.message);
 		return null;
@@ -91,7 +91,7 @@ const renderList = rows => rows.length
 const sendSummaryEmail = async ({ added, removed, overflowDropped, budgetUsed, actualUsage }) => {
 	const usageLine = actualUsage === null
 		? '<p><i>Actual Workers usage check unavailable (missing token or API error).</i></p>'
-		: `<p><b>Actual requests to selected paths (last 24h):</b> ${actualUsage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} Workers Free daily cap (${((actualUsage / WORKERS_FREE_CAP) * 100).toFixed(1)}%)</p>`;
+		: `<p><b>Actual Worker invocations (last 24h):</b> ${actualUsage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} Workers Free daily cap (${((actualUsage / WORKERS_FREE_CAP) * 100).toFixed(1)}%)</p>`;
 
 	await mailer.sendMail({
 		from: FROM,

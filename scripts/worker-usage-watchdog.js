@@ -3,7 +3,7 @@ const { readFile, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
 const axios = require('../www/services/axios.js');
 const mailer = require('../www/services/mailer.js');
-const fetchPathUsage = require('./utils/fetchPathUsage.js');
+const fetchWorkerUsage = require('./utils/fetchWorkerUsage.js');
 const writeWranglerToml = require('./utils/writeWranglerToml.js');
 
 const WORKERS_FREE_CAP = 100000;
@@ -139,9 +139,9 @@ const attemptRecovery = async state => {
 	}
 
 	const paths = state.paths;
-	const usage = await fetchPathUsage(paths, { token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
+	const usage = await fetchWorkerUsage({ token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
 	const pct = (usage / WORKERS_FREE_CAP) * 100;
-	console.log(`Worker route usage (last 24h): ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct.toFixed(1)}%)`);
+	console.log(`Worker invocations (last 24h): ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct.toFixed(1)}%)`);
 
 	if (usage >= CRITICAL_THRESHOLD) {
 		console.error('CRITICAL threshold exceeded, removing Worker routes immediately.');
