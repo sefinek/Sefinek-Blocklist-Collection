@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-12T05:25:06.010Z",
+  "label": "test1",
+  "host": "https://blocklist.sefinek.net",
+  "runs": 5,
+  "results": [
+    {
+      "label": "small",
+      "url": "https://blocklist.sefinek.net/generated/v1/noip/test.txt",
+      "runs": 5,
+      "min_ms": 29.56,
+      "avg_ms": 65.97,
+      "median_ms": 30.45,
+      "max_ms": 208.29,
+      "size_bytes": 1644,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "medium-adguard",
+      "url": "https://blocklist.sefinek.net/generated/v1/adguard/ads/kboghdady/youtubelist.fork.txt",
+      "runs": 5,
+      "min_ms": 33.76,
+      "avg_ms": 154.96,
+      "median_ms": 35.22,
+      "max_ms": 635.72,
+      "size_bytes": 603213,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "medium-hosts",
+      "url": "https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt",
+      "runs": 5,
+      "min_ms": 51.47,
+      "avg_ms": 184.69,
+      "median_ms": 52.81,
+      "max_ms": 696.78,
+      "size_bytes": 1001665,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "medium-firebog",
+      "url": "https://blocklist.sefinek.net/generated/v1/127.0.0.1/ads/firebog/Easylist.fork.txt",
+      "runs": 5,
+      "min_ms": 71.09,
+      "avg_ms": 211.14,
+      "median_ms": 74.04,
+      "max_ms": 757.25,
+      "size_bytes": 1339259,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "large-rpz-malware",
+      "url": "https://blocklist.sefinek.net/generated/v1/rpz/malicious/blocklistproject/malware.fork.txt",
+      "runs": 5,
+      "min_ms": 1902.98,
+      "avg_ms": 2264.7,
+      "median_ms": 1946.14,
+      "max_ms": 3562.19,
+      "size_bytes": 104856142,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "large-unbound-porn",
+      "url": "https://blocklist.sefinek.net/generated/v1/unbound/porn/chadmayfield/pi-blocklist-porn-all.fork.conf",
+      "runs": 5,
+      "min_ms": 928.08,
+      "avg_ms": 1589.51,
+      "median_ms": 1121.61,
+      "max_ms": 3514.32,
+      "size_bytes": 104847200,
+      "cache_status": "DYNAMIC/HIT"
+    }
+  ]
+}

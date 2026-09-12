@@ -1,9 +1,7 @@
 # Benchmark
-
 Measures download speed of blocklist files from `blocklist.sefinek.net`.
 
 ## Usage
-
 ```bash
 node benchmark/speedtest.js before-worker
 # ... wrangler deploy ...

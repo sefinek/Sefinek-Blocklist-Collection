@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-09-12T05:04:48.761Z",
+  "label": "before-worker",
+  "host": "https://blocklist.sefinek.net",
+  "runs": 5,
+  "results": [
+    {
+      "label": "small",
+      "url": "https://blocklist.sefinek.net/generated/v1/noip/test.txt",
+      "runs": 5,
+      "min_ms": 123.1,
+      "avg_ms": 195.62,
+      "median_ms": 123.85,
+      "max_ms": 482.76,
+      "size_bytes": 1644,
+      "cache_status": "DYNAMIC"
+    },
+    {
+      "label": "medium-adguard",
+      "url": "https://blocklist.sefinek.net/generated/v1/adguard/ads/kboghdady/youtubelist.fork.txt",
+      "runs": 5,
+      "min_ms": 129.04,
+      "avg_ms": 224.55,
+      "median_ms": 131.13,
+      "max_ms": 599.96,
+      "size_bytes": 603213,
+      "cache_status": "DYNAMIC"
+    },
+    {
+      "label": "medium-hosts",
+      "url": "https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt",
+      "runs": 5,
+      "min_ms": 144.3,
+      "avg_ms": 162.76,
+      "median_ms": 149.56,
+      "max_ms": 220.9,
+      "size_bytes": 1001665,
+      "cache_status": "DYNAMIC"
+    },
+    {
+      "label": "medium-firebog",
+      "url": "https://blocklist.sefinek.net/generated/v1/127.0.0.1/ads/firebog/Easylist.fork.txt",
+      "runs": 5,
+      "min_ms": 159.38,
+      "avg_ms": 164.58,
+      "median_ms": 161.86,
+      "max_ms": 177.14,
+      "size_bytes": 1339259,
+      "cache_status": "DYNAMIC"
+    },
+    {
+      "label": "large-rpz-malware",
+      "url": "https://blocklist.sefinek.net/generated/v1/rpz/malicious/blocklistproject/malware.fork.txt",
+      "runs": 5,
+      "min_ms": 2693.74,
+      "avg_ms": 2704.88,
+      "median_ms": 2702.16,
+      "max_ms": 2719.62,
+      "size_bytes": 104856142,
+      "cache_status": "DYNAMIC"
+    },
+    {
+      "label": "large-unbound-porn",
+      "url": "https://blocklist.sefinek.net/generated/v1/unbound/porn/chadmayfield/pi-blocklist-porn-all.fork.conf",
+      "runs": 5,
+      "min_ms": 2603.96,
+      "avg_ms": 2689.1,
+      "median_ms": 2675.04,
+      "max_ms": 2812.12,
+      "size_bytes": 104847200,
+      "cache_status": "DYNAMIC"
+    }
+  ]
+}

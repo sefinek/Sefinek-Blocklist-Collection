@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-09-12T20:29:06.418Z",
+  "label": "after-goodbots",
+  "host": "https://blocklist.sefinek.net",
+  "runs": 10,
+  "results": [
+    {
+      "label": "small-cached",
+      "url": "https://blocklist.sefinek.net/generated/v1/0.0.0.0/test.txt",
+      "runs": 10,
+      "min_ms": 32.01,
+      "avg_ms": 89.52,
+      "median_ms": 34.03,
+      "max_ms": 590.85,
+      "size_bytes": 1674,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "medium-cached",
+      "url": "https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/craiu/mobiletrackers.fork.txt",
+      "runs": 10,
+      "min_ms": 33.23,
+      "avg_ms": 83.59,
+      "median_ms": 34.87,
+      "max_ms": 520.73,
+      "size_bytes": 27339,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "large-cached",
+      "url": "https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/blocklistproject/malware.fork.txt",
+      "runs": 10,
+      "min_ms": 1942.73,
+      "avg_ms": 2258.12,
+      "median_ms": 2210.22,
+      "max_ms": 2957.95,
+      "size_bytes": 72149880,
+      "cache_status": "DYNAMIC/HIT"
+    },
+    {
+      "label": "large-NOT-cached (control)",
+      "url": "https://blocklist.sefinek.net/generated/v1/rpz/malicious/blocklistproject/malware.fork.txt",
+      "runs": 10,
+      "min_ms": 3363.48,
+      "avg_ms": 3444.99,
+      "median_ms": 3428.13,
+      "max_ms": 3523.11,
+      "size_bytes": 104856142,
+      "cache_status": "DYNAMIC"
+    }
+  ]
+}
