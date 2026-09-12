@@ -11,6 +11,7 @@ const ROLLING_DAYS = 7;
 const ENTRY_AVG_THRESHOLD = 100; // req/day avg required for a new path to be added
 const EXIT_AVG_THRESHOLD = 60; // req/day avg below which an already-included path is dropped
 const BUDGET_DAILY = 60000; // target avg req/day across selected paths (Workers Free cap is 100k/day)
+const MAX_ROUTES = 100; // hard ceiling regardless of budget math
 const WORKERS_FREE_CAP = 100000;
 
 const ROUTES_JSON_PATH = join(__dirname, '..', 'cloudflare', 'routes.json');
@@ -52,7 +53,7 @@ const selectPaths = (avgByPath, previousPaths) => {
 	let budgetUsed = 0;
 
 	for (const r of retained) {
-		if (budgetUsed + r.avg <= BUDGET_DAILY) {
+		if (selected.length < MAX_ROUTES && budgetUsed + r.avg <= BUDGET_DAILY) {
 			selected.push(r);
 			budgetUsed += r.avg;
 		} else {
@@ -62,7 +63,7 @@ const selectPaths = (avgByPath, previousPaths) => {
 
 	const added = [];
 	for (const c of candidates) {
-		if (budgetUsed + c.avg > BUDGET_DAILY) continue;
+		if (selected.length >= MAX_ROUTES || budgetUsed + c.avg > BUDGET_DAILY) continue;
 		selected.push(c);
 		budgetUsed += c.avg;
 		added.push(c);
