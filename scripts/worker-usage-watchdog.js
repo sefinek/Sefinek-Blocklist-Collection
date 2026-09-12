@@ -20,8 +20,6 @@ const FROM = `Sefinek Blocklists <${process.env.MAILER_AUTH_USER}>`;
 const { CLOUDFLARE_API_TOKEN, CLOUDFLARE_ZONE_ID } = process.env;
 if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID) throw new Error('Missing CLOUDFLARE_API_TOKEN or CLOUDFLARE_ZONE_ID environment variable');
 
-// Firing 150+ route mutations at once against the Workers Routes API reliably draws a handful
-// of transient 503s - retry with backoff instead of treating those as permanent failures.
 const isRetryableRouteError = err => [429, 503].includes(err.response?.status);
 const retryRouteRequest = fn => withRetry(fn, { isRetryable: isRetryableRouteError });
 
@@ -53,16 +51,13 @@ const emergencyRemoveRoutes = async popularityRankedPaths => {
 		stillActivePaths.push(ours[i].pattern.replace(HOST, ''));
 	});
 
-	// Base this on the routes that were actually live on Cloudflare (not the caller's local
-	// path list, which can drift from it - e.g. routes.json updated but never `wrangler deploy`ed)
-	// so nothing removed here is ever lost from recovery bookkeeping. Popularity only decides order.
+	// Based on the routes actually live on Cloudflare, not the caller's local path list (can drift)
 	const popularityIndex = new Map(popularityRankedPaths.map((p, i) => [p, i]));
 	const emergencyRemovedPaths = ours
 		.map(r => r.pattern.replace(HOST, ''))
 		.filter(p => !stillActivePaths.includes(p))
 		.sort((a, b) => (popularityIndex.get(a) ?? Infinity) - (popularityIndex.get(b) ?? Infinity));
 
-	// Reflect only what was actually removed - never claim a clean sweep that didn't happen
 	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
 		paths: stillActivePaths,
 		updatedAt: new Date().toISOString(),
@@ -97,9 +92,7 @@ const sendAlertEmail = async (subject, html) => {
 	await mailer.sendMail({ from: FROM, to: process.env.MAILER_AUTH_USER, subject, html });
 };
 
-// Runs once per UTC day, regardless of how many routes are currently active - a previous
-// partial recovery (some routes restored, some still pending) must not permanently block
-// this from resuming, so it's gated on emergencyRemovedPaths alone, not state.paths.length.
+// Gated on emergencyRemovedPaths, not state.paths.length, so a partial recovery can resume next day
 const attemptRecovery = async state => {
 	if (!state.emergencyRemovedPaths?.length) return false;
 	if (!isNewUtcDaySince(state.lastRecoveryAt || state.emergencyStoppedAt)) return false;

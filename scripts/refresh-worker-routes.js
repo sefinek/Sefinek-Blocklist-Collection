@@ -121,9 +121,7 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 
 	const avgByPath = new Map();
 	for (const { value, score } of unionRows) {
-		// Deprecated redirect URLs always answer 301, so the Worker never gets a cacheable
-		// 200 for them - selecting one just burns a Workers invocation on every hit forever.
-		if (REDIRECT_PATHS.has(value)) continue;
+		if (REDIRECT_PATHS.has(value)) continue; // redirects always 301, never cacheable
 		avgByPath.set(value, score / observedDays);
 	}
 
@@ -140,8 +138,6 @@ ${overflowDropped.length ? `<h3>Dropped due to budget overflow, not popularity (
 		process.exit(0);
 	}
 
-	// Preserve any in-progress emergency-recovery bookkeeping - a weekly refresh shouldn't
-	// silently erase what worker-usage-watchdog.js is still working through restoring.
 	const { emergencyStoppedAt, lastRecoveryAt, emergencyRemovedPaths } = previousState;
 	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
 		paths: selectedPaths,

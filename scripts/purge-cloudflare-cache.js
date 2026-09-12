@@ -17,9 +17,6 @@ if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID) throw new Error('Missing CLOUD
 const chunk = (arr, size) => Array.from({ length: Math.ceil(arr.length / size) }, (_, i) => arr.slice(i * size, i * size + size));
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-// Retry Cloudflare's own rate limit (1134) as well as generic transient failures - a bare
-// network error (timeout, ECONNRESET) has no err.response at all and was previously treated
-// as permanent, aborting the whole batch on the first hiccup despite the retry scaffolding.
 const isRetryable = err => {
 	if (err.response?.data?.errors?.some(e => e.code === RATE_LIMIT_ERROR_CODE)) return true;
 	return !err.response || err.response.status >= 500;
