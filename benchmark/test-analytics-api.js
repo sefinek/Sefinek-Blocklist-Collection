@@ -80,7 +80,7 @@ const query = `
 	}
 
 	const zone = res.data.data.viewer.zones[0];
-	if (!zone) return console.error('No zone data returned - check CLOUDFLARE_ZONE_ID / token scope.');
+	if (!zone) return console.error('No zone data returned - check CLOUDFLARE_ZONE_ID / token scope');
 
 	console.log(`Total /generated/v1/* requests on ${HOST} in window:`, zone.totals[0]?.count ?? 0);
 	console.log('Same, but only edgeResponseStatus 200-304:', zone.totalsSuccessOnly[0]?.count ?? 0);
