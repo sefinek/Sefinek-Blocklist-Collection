@@ -29,4 +29,9 @@ const falsePositiveSubmit = makeLimit(15 * 60 * 1000, 5, 'ratelimit:falsePositiv
 	message: { success: false, status: 429, message: 'Too many reports submitted. Please try again later.' },
 });
 
-module.exports = { global, blocklistCheck, falsePositiveSubmit };
+const edgeHit = makeLimit(60 * 1000, 500, 'ratelimit:edgeHit:', {
+	skip: () => process.env.NODE_ENV === 'development',
+	message: { success: false, status: 429, message: 'Too many edge-hit reports.' },
+});
+
+module.exports = { global, blocklistCheck, falsePositiveSubmit, edgeHit };
