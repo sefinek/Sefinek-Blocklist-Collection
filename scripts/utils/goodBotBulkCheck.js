@@ -5,7 +5,12 @@ const TIMEOUT_MS = 5000;
 module.exports = (ips, { url, secret }) => new Promise((resolve, reject) => {
 	if (!ips.length) return resolve({});
 
-	const ws = new WebSocket(url, { headers: { 'X-GoodBot-Secret': secret } });
+	const ws = new WebSocket(url, {
+		headers: {
+			'User-Agent': 'Sefinek-Blocklist-Collection/resolve-good-bots',
+			'X-GoodBot-Secret': secret,
+		},
+	});
 	const reqId = `bulk-${Date.now()}`;
 
 	const timer = setTimeout(() => {
