@@ -5,6 +5,7 @@ const axios = require('../www/services/axios.js');
 const mailer = require('../www/services/mailer.js');
 const fetchWorkerUsage = require('./utils/fetchWorkerUsage.js');
 const writeWranglerToml = require('./utils/writeWranglerToml.js');
+const withRetry = require('./utils/withRetry.js');
 
 const WORKERS_FREE_CAP = 100000;
 const WARNING_THRESHOLD = 0.8 * WORKERS_FREE_CAP;
@@ -19,23 +20,10 @@ const FROM = `Sefinek Blocklists <${process.env.MAILER_AUTH_USER}>`;
 const { CLOUDFLARE_API_TOKEN, CLOUDFLARE_ZONE_ID } = process.env;
 if (!CLOUDFLARE_API_TOKEN || !CLOUDFLARE_ZONE_ID) throw new Error('Missing CLOUDFLARE_API_TOKEN or CLOUDFLARE_ZONE_ID environment variable');
 
-const MAX_RETRIES = 3;
-const RETRY_BASE_MS = 500;
-
 // Firing 150+ route mutations at once against the Workers Routes API reliably draws a handful
 // of transient 503s - retry with backoff instead of treating those as permanent failures.
-const isRetryable = err => [429, 503].includes(err.response?.status);
-
-const withRetry = async fn => {
-	for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
-		try {
-			return await fn();
-		} catch (err) {
-			if (!isRetryable(err) || attempt === MAX_RETRIES) throw err;
-			await new Promise(resolve => setTimeout(resolve, RETRY_BASE_MS * 2 ** attempt));
-		}
-	}
-};
+const isRetryableRouteError = err => [429, 503].includes(err.response?.status);
+const retryRouteRequest = fn => withRetry(fn, { isRetryable: isRetryableRouteError });
 
 const readState = async () => {
 	try {
@@ -51,7 +39,7 @@ const emergencyRemoveRoutes = async popularityRankedPaths => {
 	const ours = (list.data.result || []).filter(r => r.script === WORKER_SCRIPT_NAME);
 
 	const results = await Promise.allSettled(
-		ours.map(route => withRetry(() => axios.delete(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes/${route.id}`, { headers })))
+		ours.map(route => retryRouteRequest(() => axios.delete(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes/${route.id}`, { headers })))
 	);
 
 	const stillActivePaths = [];
@@ -65,9 +53,14 @@ const emergencyRemoveRoutes = async popularityRankedPaths => {
 		stillActivePaths.push(ours[i].pattern.replace(HOST, ''));
 	});
 
-	// Keep the pre-removal, popularity-ranked list around so a later recovery run knows
-	// what to restore and in what priority order - minus whatever failed to remove just now.
-	const emergencyRemovedPaths = popularityRankedPaths.filter(p => !stillActivePaths.includes(p));
+	// Base this on the routes that were actually live on Cloudflare (not the caller's local
+	// path list, which can drift from it - e.g. routes.json updated but never `wrangler deploy`ed)
+	// so nothing removed here is ever lost from recovery bookkeeping. Popularity only decides order.
+	const popularityIndex = new Map(popularityRankedPaths.map((p, i) => [p, i]));
+	const emergencyRemovedPaths = ours
+		.map(r => r.pattern.replace(HOST, ''))
+		.filter(p => !stillActivePaths.includes(p))
+		.sort((a, b) => (popularityIndex.get(a) ?? Infinity) - (popularityIndex.get(b) ?? Infinity));
 
 	// Reflect only what was actually removed - never claim a clean sweep that didn't happen
 	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
@@ -84,7 +77,7 @@ const emergencyRemoveRoutes = async popularityRankedPaths => {
 const addRoutes = async paths => {
 	const headers = { Authorization: `Bearer ${CLOUDFLARE_API_TOKEN}` };
 	const results = await Promise.allSettled(
-		paths.map(path => withRetry(() => axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes`, {
+		paths.map(path => retryRouteRequest(() => axios.post(`https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/workers/routes`, {
 			pattern: `${HOST}${path}`,
 			script: WORKER_SCRIPT_NAME,
 		}, { headers })))
@@ -104,25 +97,29 @@ const sendAlertEmail = async (subject, html) => {
 	await mailer.sendMail({ from: FROM, to: process.env.MAILER_AUTH_USER, subject, html });
 };
 
+// Runs once per UTC day, regardless of how many routes are currently active - a previous
+// partial recovery (some routes restored, some still pending) must not permanently block
+// this from resuming, so it's gated on emergencyRemovedPaths alone, not state.paths.length.
 const attemptRecovery = async state => {
-	if (state.paths.length || !state.emergencyStoppedAt || !state.emergencyRemovedPaths?.length) return false;
-	if (!isNewUtcDaySince(state.emergencyStoppedAt)) return false;
+	if (!state.emergencyRemovedPaths?.length) return false;
+	if (!isNewUtcDaySince(state.lastRecoveryAt || state.emergencyStoppedAt)) return false;
 
 	const cutoff = Math.max(1, Math.ceil(state.emergencyRemovedPaths.length * RECOVERY_FRACTION));
 	const toRestore = state.emergencyRemovedPaths.slice(0, cutoff);
 	const restored = await addRoutes(toRestore);
 
 	const remaining = state.emergencyRemovedPaths.filter(p => !restored.includes(p));
+	const activePaths = [...state.paths, ...restored];
 	await writeFile(ROUTES_JSON_PATH, JSON.stringify({
-		paths: restored,
+		paths: activePaths,
 		updatedAt: new Date().toISOString(),
-		emergencyRemovedPaths: remaining.length ? remaining : undefined,
+		...(remaining.length ? { emergencyStoppedAt: state.emergencyStoppedAt, lastRecoveryAt: new Date().toISOString(), emergencyRemovedPaths: remaining } : {}),
 	}, null, '\t') + '\n');
-	await writeWranglerToml(restored);
+	await writeWranglerToml(activePaths);
 
 	await sendAlertEmail(
 		`[RECOVERY] Restored ${restored.length}/${toRestore.length} Worker routes after daily cap reset`,
-		`<p>The Workers Free daily cap reset since the last emergency stop (${state.emergencyStoppedAt}), so the watchdog restored the top ${(RECOVERY_FRACTION * 100).toFixed(0)}% most popular routes from what was removed (${restored.length}/${toRestore.length} succeeded${remaining.length ? `, ${remaining.length} failed and stay excluded for now` : ''}).</p>
+		`<p>The Workers Free daily cap reset since the last emergency stop (${state.emergencyStoppedAt}), so the watchdog restored the top ${(RECOVERY_FRACTION * 100).toFixed(0)}% most popular routes from what was removed (${restored.length}/${toRestore.length} succeeded${remaining.length ? `, ${remaining.length} still pending and will resume tomorrow` : ''}).</p>
 <p>This is a conservative restore, not the full previous list, to reduce the chance of immediately hitting the cap again. Normal usage monitoring resumes from here - the next check runs in up to 3h.</p>`
 	);
 
@@ -130,11 +127,12 @@ const attemptRecovery = async state => {
 };
 
 (async () => {
-	const state = await readState();
+	let state = await readState();
+
+	if (await attemptRecovery(state)) state = await readState();
 
 	if (!state.paths.length) {
-		const recovered = await attemptRecovery(state);
-		if (!recovered) console.log('No routes currently selected, nothing to watch');
+		console.log('No routes currently selected, nothing to watch');
 		process.exit(0);
 	}
 
