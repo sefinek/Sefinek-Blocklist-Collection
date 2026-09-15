@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026091502 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026091508 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 389 domains
+; Entries: 390 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 15, 2026 at 2:55 AM UTC | 2026-09-15T02:55:26.609Z
+; Last updated: September 15, 2026 at 8:20 AM UTC | 2026-09-15T08:20:29.700Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -28,8 +28,6 @@ $TTL 300
 *.1717.1000uc.com CNAME .
 198348.gl CNAME .
 *.198348.gl CNAME .
-4eclient.com CNAME .
-*.4eclient.com CNAME .
 abilityindisabilityindia.org CNAME .
 *.abilityindisabilityindia.org CNAME .
 acc.jiangsujiaxue.com CNAME .
@@ -126,6 +124,8 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -152,6 +152,8 @@ coconutoficial.com.br CNAME .
 *.coconutoficial.com.br CNAME .
 compuserviceonline.com.br CNAME .
 *.compuserviceonline.com.br CNAME .
+contididit.conti.pk CNAME .
+*.contididit.conti.pk CNAME .
 continentalgroup.net.in CNAME .
 *.continentalgroup.net.in CNAME .
 coolairesgroup.com CNAME .
@@ -200,6 +202,8 @@ dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
 dl.natgo.cn CNAME .
 *.dl.natgo.cn CNAME .
+dnswwt.club CNAME .
+*.dnswwt.club CNAME .
 doc.e-statements.app CNAME .
 *.doc.e-statements.app CNAME .
 donkeytourscroatia.com CNAME .
@@ -290,22 +294,32 @@ get.acrivated.win CNAME .
 *.get.acrivated.win CNAME .
 get.actiated.win CNAME .
 *.get.actiated.win CNAME .
+get.actiavted.win CNAME .
+*.get.actiavted.win CNAME .
 get.activaed.win CNAME .
 *.get.activaed.win CNAME .
 get.activatd.win CNAME .
 *.get.activatd.win CNAME .
+get.activatde.win CNAME .
+*.get.activatde.win CNAME .
 get.activatedd.win CNAME .
 *.get.activatedd.win CNAME .
 get.activates.win CNAME .
 *.get.activates.win CNAME .
+get.activeted.win CNAME .
+*.get.activeted.win CNAME .
 get.activtaed.win CNAME .
 *.get.activtaed.win CNAME .
 get.activted.win CNAME .
 *.get.activted.win CNAME .
+get.actrivated.win CNAME .
+*.get.actrivated.win CNAME .
 get.acttivated.win CNAME .
 *.get.acttivated.win CNAME .
 get.actvated.win CNAME .
 *.get.actvated.win CNAME .
+get.atcivated.win CNAME .
+*.get.atcivated.win CNAME .
 get.ativated.win CNAME .
 *.get.ativated.win CNAME .
 get.cativated.win CNAME .
@@ -314,8 +328,6 @@ get.ctivated.win CNAME .
 *.get.ctivated.win CNAME .
 get.sctivated.win CNAME .
 *.get.sctivated.win CNAME .
-glbeletronica.com.br CNAME .
-*.glbeletronica.com.br CNAME .
 globalbank.us CNAME .
 *.globalbank.us CNAME .
 grantexx.com CNAME .
@@ -406,6 +418,8 @@ maidforyou1985.com CNAME .
 *.maidforyou1985.com CNAME .
 malupieng.com.br CNAME .
 *.malupieng.com.br CNAME .
+mandarin.net.au CNAME .
+*.mandarin.net.au CNAME .
 massgravel.dev CNAME .
 *.massgravel.dev CNAME .
 meteorrejects.net CNAME .
@@ -440,14 +454,10 @@ ndigitals.in CNAME .
 *.ndigitals.in CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
-northernvirginiaeyeassociates.com CNAME .
-*.northernvirginiaeyeassociates.com CNAME .
 nusatoyota.co.id CNAME .
 *.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
-oim.doganltd.com.tr CNAME .
-*.oim.doganltd.com.tr CNAME .
 ojang.pe.kr CNAME .
 *.ojang.pe.kr CNAME .
 okhan.net CNAME .
@@ -544,8 +554,6 @@ screenconnect.pro CNAME .
 *.screenconnect.pro CNAME .
 scrroeder.com CNAME .
 *.scrroeder.com CNAME .
-sdufkghdfshds.cfd CNAME .
-*.sdufkghdfshds.cfd CNAME .
 sec.dashabi.in CNAME .
 *.sec.dashabi.in CNAME .
 sec.xiaojiji.nl CNAME .
@@ -556,14 +564,14 @@ seismophonic.com CNAME .
 *.seismophonic.com CNAME .
 semencepourlavie.org CNAME .
 *.semencepourlavie.org CNAME .
+seputartuban.com CNAME .
+*.seputartuban.com CNAME .
 server.miranarts-top.cc CNAME .
 *.server.miranarts-top.cc CNAME .
 sg123.net CNAME .
 *.sg123.net CNAME .
 shqdown.ggzuhao.com CNAME .
 *.shqdown.ggzuhao.com CNAME .
-shreesaiseva.org CNAME .
-*.shreesaiseva.org CNAME .
 signageinsignia.co.za CNAME .
 *.signageinsignia.co.za CNAME .
 sk-comtel.com CNAME .
@@ -584,8 +592,6 @@ statementreaderdownload.com CNAME .
 *.statementreaderdownload.com CNAME .
 static.ilclock.com CNAME .
 *.static.ilclock.com CNAME .
-static.topxgun.com CNAME .
-*.static.topxgun.com CNAME .
 static.youdm.cn CNAME .
 *.static.youdm.cn CNAME .
 stdown.dinju.com CNAME .
@@ -680,16 +686,12 @@ website.mypetapp.co.za CNAME .
 *.website.mypetapp.co.za CNAME .
 widexenmexico.com.mx CNAME .
 *.widexenmexico.com.mx CNAME .
-windomstatetheater.com CNAME .
-*.windomstatetheater.com CNAME .
 wir.consultingics.com CNAME .
 *.wir.consultingics.com CNAME .
 wittenhorst.eu CNAME .
 *.wittenhorst.eu CNAME .
 workerstats.net CNAME .
 *.workerstats.net CNAME .
-www-connect-secure-wellcfargo.sekolahkejarpaket.com CNAME .
-*.www-connect-secure-wellcfargo.sekolahkejarpaket.com CNAME .
 0akw8w.com CNAME .
 *.0akw8w.com CNAME .
 ardguisser.com CNAME .
