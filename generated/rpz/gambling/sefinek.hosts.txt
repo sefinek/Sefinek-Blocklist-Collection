@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026041823 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026091507 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -10,12 +10,12 @@ $TTL 300
 ;
 ; Title: Block gambling websites
 ; Description: This blocklist is specifically designed to block access to gambling websites, which can be addictive and harmful. The domains on the list mostly originate from posts on Facebook.
-; Entries: 72 domains
+; Entries: 77 domains
 ; Author: Sefinek <contact@sefinek.net> (https://sefinek.net)
 ; License: CC BY-NC-ND 4.0
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: April 18, 2026 at 11:03 PM UTC | 2026-04-18T23:03:05.001Z
+; Last updated: September 15, 2026 at 7:03 AM UTC | 2026-09-15T07:03:49.875Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -105,3 +105,9 @@ playio-1272.com CNAME .
 *.playio-1272.com CNAME .
 gambamax.com CNAME .
 *.gambamax.com CNAME .
+kasyno-twindor.com CNAME .
+*.kasyno-twindor.com CNAME .
+kasyn0vegas.base44.app CNAME .
+*.kasyn0vegas.base44.app CNAME .
+twindor777.com CNAME .
+*.twindor777.com CNAME .
