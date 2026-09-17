@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026091714 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026091718 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 416 domains
+; Entries: 421 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 17, 2026 at 2:05 PM UTC | 2026-09-17T14:05:32.576Z
+; Last updated: September 17, 2026 at 6:48 PM UTC | 2026-09-17T18:48:04.346Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -22,8 +22,6 @@ $TTL 300
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
 0following.com CNAME .
 *.0following.com CNAME .
-123.ywxww.net CNAME .
-*.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
 198-macros.com CNAME .
@@ -80,6 +78,8 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 bito.com.pk CNAME .
 *.bito.com.pk CNAME .
 blankeyeo.com CNAME .
@@ -106,6 +106,8 @@ bserail.com CNAME .
 *.bserail.com CNAME .
 cambodiatouristservice.com CNAME .
 *.cambodiatouristservice.com CNAME .
+casasmediterraneas.com CNAME .
+*.casasmediterraneas.com CNAME .
 cat.dashabi.in CNAME .
 *.cat.dashabi.in CNAME .
 cat.xiaojiji.nl CNAME .
@@ -116,6 +118,8 @@ catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
+cdn.file6.goodid.com CNAME .
+*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -172,6 +176,8 @@ damiancollier.com CNAME .
 *.damiancollier.com CNAME .
 data.yhydl.com CNAME .
 *.data.yhydl.com CNAME .
+dcfpp.com CNAME .
+*.dcfpp.com CNAME .
 dcrun.co.uk CNAME .
 *.dcrun.co.uk CNAME .
 dcwblida.dz CNAME .
@@ -216,8 +222,8 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
-down.qqfarmer.com.cn CNAME .
-*.down.qqfarmer.com.cn CNAME .
+download.caihong.com CNAME .
+*.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
 *.download.doumaibiji.cn CNAME .
 download.haozip.com CNAME .
@@ -250,8 +256,12 @@ envs.sh CNAME .
 *.envs.sh CNAME .
 epanpano.com CNAME .
 *.epanpano.com CNAME .
+epibenie.dz CNAME .
+*.epibenie.dz CNAME .
 epsinf.com CNAME .
 *.epsinf.com CNAME .
+eventourarte.cl CNAME .
+*.eventourarte.cl CNAME .
 fakers.co.jp CNAME .
 *.fakers.co.jp CNAME .
 familyaddons.com CNAME .
@@ -274,8 +284,6 @@ flyingmutts.com CNAME .
 *.flyingmutts.com CNAME .
 fmrio.com CNAME .
 *.fmrio.com CNAME .
-foundrysourcings.co.uk CNAME .
-*.foundrysourcings.co.uk CNAME .
 fukt.link CNAME .
 *.fukt.link CNAME .
 fullstacknir.com CNAME .
@@ -370,8 +378,6 @@ igra123.com CNAME .
 *.igra123.com CNAME .
 impectorinternational.com CNAME .
 *.impectorinternational.com CNAME .
-indonesias.me CNAME .
-*.indonesias.me CNAME .
 indusenterprises.co CNAME .
 *.indusenterprises.co CNAME .
 invmove.com CNAME .
@@ -624,6 +630,8 @@ srsorvete.com.br CNAME .
 *.srsorvete.com.br CNAME .
 srv.conti.pk CNAME .
 *.srv.conti.pk CNAME .
+star.zcnet.net CNAME .
+*.star.zcnet.net CNAME .
 static.ilclock.com CNAME .
 *.static.ilclock.com CNAME .
 static.topxgun.com CNAME .
@@ -644,6 +652,8 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
+swiftfusion.tech CNAME .
+*.swiftfusion.tech CNAME .
 tangentwaves.com CNAME .
 *.tangentwaves.com CNAME .
 tanscarattorneys.co.tz CNAME .
@@ -652,6 +662,8 @@ tapestryoftruth.com CNAME .
 *.tapestryoftruth.com CNAME .
 taunahi.st CNAME .
 *.taunahi.st CNAME .
+tecunonline.com CNAME .
+*.tecunonline.com CNAME .
 tehnomag.rs CNAME .
 *.tehnomag.rs CNAME .
 tengfeidn.cn CNAME .
@@ -800,8 +812,6 @@ starcountry.net CNAME .
 *.starcountry.net CNAME .
 tdejb.com CNAME .
 *.tdejb.com CNAME .
-tecunonline.com CNAME .
-*.tecunonline.com CNAME .
 vuelaviajero.com CNAME .
 *.vuelaviajero.com CNAME .
 xn--on3b15m2lco2u.com CNAME .
