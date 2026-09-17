@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026091718 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026091723 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 421 domains
+; Entries: 422 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 17, 2026 at 6:48 PM UTC | 2026-09-17T18:48:04.346Z
+; Last updated: September 17, 2026 at 11:23 PM UTC | 2026-09-17T23:23:39.246Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -22,6 +22,8 @@ $TTL 300
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
 0following.com CNAME .
 *.0following.com CNAME .
+123.ywxww.net CNAME .
+*.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
 198-macros.com CNAME .
@@ -34,10 +36,12 @@ $TTL 300
 *.4eclient.com CNAME .
 abilityindisabilityindia.org CNAME .
 *.abilityindisabilityindia.org CNAME .
-acc.jiangsujiaxue.com CNAME .
-*.acc.jiangsujiaxue.com CNAME .
+accesstelematics.com CNAME .
+*.accesstelematics.com CNAME .
 acms.saleseos.com CNAME .
 *.acms.saleseos.com CNAME .
+acrilicoporto.pt CNAME .
+*.acrilicoporto.pt CNAME .
 addurltogoogle.com CNAME .
 *.addurltogoogle.com CNAME .
 admin.byte.in.ua CNAME .
@@ -96,6 +100,8 @@ bnet.playm8ru.win CNAME .
 *.bnet.playm8ru.win CNAME .
 book.rollingvideogames.com CNAME .
 *.book.rollingvideogames.com CNAME .
+booking.captcha-message-extranet.com CNAME .
+*.booking.captcha-message-extranet.com CNAME .
 breezeclient.com CNAME .
 *.breezeclient.com CNAME .
 bridgeroad.maverickpreviews.com CNAME .
@@ -116,10 +122,10 @@ cat.xiaoshabi.nl CNAME .
 *.cat.xiaoshabi.nl CNAME .
 catbaparadisehotel.com.vn CNAME .
 *.catbaparadisehotel.com.vn CNAME .
+ccleaner.gl CNAME .
+*.ccleaner.gl CNAME .
 cdaonline.com.ar CNAME .
 *.cdaonline.com.ar CNAME .
-cdn.file6.goodid.com CNAME .
-*.cdn.file6.goodid.com CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
 chat-server.maverickpreviews.com CNAME .
@@ -130,8 +136,6 @@ cheetoclient.com CNAME .
 *.cheetoclient.com CNAME .
 chiptune.com CNAME .
 *.chiptune.com CNAME .
-chiroartist.com CNAME .
-*.chiroartist.com CNAME .
 chuguadventures.co.tz CNAME .
 *.chuguadventures.co.tz CNAME .
 cid.gov.so CNAME .
@@ -274,6 +278,8 @@ ficus.in CNAME .
 *.ficus.in CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -284,6 +290,8 @@ flyingmutts.com CNAME .
 *.flyingmutts.com CNAME .
 fmrio.com CNAME .
 *.fmrio.com CNAME .
+fonij.cm CNAME .
+*.fonij.cm CNAME .
 fukt.link CNAME .
 *.fukt.link CNAME .
 fullstacknir.com CNAME .
@@ -378,8 +386,6 @@ igra123.com CNAME .
 *.igra123.com CNAME .
 impectorinternational.com CNAME .
 *.impectorinternational.com CNAME .
-indusenterprises.co CNAME .
-*.indusenterprises.co CNAME .
 invmove.com CNAME .
 *.invmove.com CNAME .
 ircftp.net CNAME .
@@ -390,8 +396,6 @@ itssprout.com CNAME .
 *.itssprout.com CNAME .
 iyn4ce9o.casero.store CNAME .
 *.iyn4ce9o.casero.store CNAME .
-jawaratekno.com CNAME .
-*.jawaratekno.com CNAME .
 jenniferloeffler.com CNAME .
 *.jenniferloeffler.com CNAME .
 jessespridecharters.com CNAME .
@@ -484,8 +488,6 @@ noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
 nova-client.com CNAME .
 *.nova-client.com CNAME .
-nusatoyota.co.id CNAME .
-*.nusatoyota.co.id CNAME .
 ny.lshdw.cc CNAME .
 *.ny.lshdw.cc CNAME .
 odinclient.com CNAME .
@@ -588,8 +590,6 @@ screenconnect.pro CNAME .
 *.screenconnect.pro CNAME .
 scrroeder.com CNAME .
 *.scrroeder.com CNAME .
-sdufkghdfshds.cfd CNAME .
-*.sdufkghdfshds.cfd CNAME .
 sec.dashabi.in CNAME .
 *.sec.dashabi.in CNAME .
 sec.xiaojiji.nl CNAME .
@@ -654,6 +654,8 @@ svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
 swiftfusion.tech CNAME .
 *.swiftfusion.tech CNAME .
+take-care.africa CNAME .
+*.take-care.africa CNAME .
 tangentwaves.com CNAME .
 *.tangentwaves.com CNAME .
 tanscarattorneys.co.tz CNAME .
@@ -782,8 +784,6 @@ intelligradeeducation.vicentecisnerospub.com CNAME .
 *.intelligradeeducation.vicentecisnerospub.com CNAME .
 jozefinskiatelje.si CNAME .
 *.jozefinskiatelje.si CNAME .
-kryptonclient.lol CNAME .
-*.kryptonclient.lol CNAME .
 medises.co.kr CNAME .
 *.medises.co.kr CNAME .
 myvcart.com CNAME .
