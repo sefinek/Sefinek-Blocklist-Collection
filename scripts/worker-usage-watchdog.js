@@ -93,9 +93,18 @@ const sendAlertEmail = async (subject, html) => {
 };
 
 // Gated on emergencyRemovedPaths, not state.paths.length, so a partial recovery can resume next day
-const attemptRecovery = async state => {
+const attemptRecovery = async (state, usage) => {
 	if (!state.emergencyRemovedPaths?.length) return false;
 	if (!isNewUtcDaySince(state.lastRecoveryAt || state.emergencyStoppedAt)) return false;
+
+	// A new UTC day only means the daily cap *may* have reset - the usage figure itself is a trailing
+	// 24h window, so it can still be elevated from before the emergency removal. Restoring routes on
+	// date alone (no usage check) caused back-to-back CRITICAL hits (2026-09-12/13). Wait for usage to
+	// actually clear the warning zone; the 3h cron retries this check every run until it does.
+	if (usage >= WARNING_THRESHOLD) {
+		console.log(`Recovery postponed: usage still at ${((usage / WORKERS_FREE_CAP) * 100).toFixed(1)}% (>= ${(WARNING_THRESHOLD / WORKERS_FREE_CAP * 100).toFixed(0)}% safety threshold), retrying next run`);
+		return false;
+	}
 
 	const cutoff = Math.max(1, Math.ceil(state.emergencyRemovedPaths.length * RECOVERY_FRACTION));
 	const toRestore = state.emergencyRemovedPaths.slice(0, cutoff);
@@ -122,7 +131,14 @@ const attemptRecovery = async state => {
 (async () => {
 	let state = await readState();
 
-	if (await attemptRecovery(state)) state = await readState();
+	if (!state.paths.length && !state.emergencyRemovedPaths?.length) {
+		console.log('No routes currently selected, nothing to watch');
+		process.exit(0);
+	}
+
+	const usage = await fetchWorkerUsage({ token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
+
+	if (await attemptRecovery(state, usage)) state = await readState();
 
 	if (!state.paths.length) {
 		console.log('No routes currently selected, nothing to watch');
@@ -130,7 +146,6 @@ const attemptRecovery = async state => {
 	}
 
 	const paths = state.paths;
-	const usage = await fetchWorkerUsage({ token: CLOUDFLARE_API_TOKEN, zoneId: CLOUDFLARE_ZONE_ID });
 	const pct = (usage / WORKERS_FREE_CAP) * 100;
 	console.log(`Worker invocations (last 24h): ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct.toFixed(1)}%)`);
 
