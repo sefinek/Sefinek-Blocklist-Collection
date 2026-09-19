@@ -1,11 +1,7 @@
-const crypto = require('node:crypto');
 const router = require('express').Router();
 const MinuteStats = require('../database/models/minute-stats.model.js');
 const RequestStats = require('../database/models/request-stats.model.js');
 const withCache = require('../utils/withCache.js');
-const isBotRequest = require('../utils/isBotRequest.js');
-const { incrementBlocklistStats } = require('../middleware/other/stats-redis.js');
-const { edgeHit: edgeHitLimiter } = require('../middleware/ratelimit.js');
 
 const DATE_REGEX = /^\d{4}-\d{2}-\d{2}$/;
 const MAX_RANGE_DAYS = 365;
@@ -140,26 +136,6 @@ router.get('/api/v1/stats/minute', async (req, res) => {
 		console.error('Error fetching minute stats:', err);
 		res.status(500).json({ success: false, status: 500, message: 'Internal server error' });
 	}
-});
-
-const timingSafeEqual = (a, b) => {
-	const bufA = Buffer.from(String(a));
-	const bufB = Buffer.from(String(b));
-	return bufA.length === bufB.length && crypto.timingSafeEqual(bufA, bufB);
-};
-
-router.post('/api/v1/stats/edge-hit', edgeHitLimiter, async (req, res) => {
-	const secret = process.env.EDGE_STATS_SECRET;
-	if (!secret || !timingSafeEqual(req.headers['x-edge-stats-secret'] || '', secret)) {
-		return res.status(403).json({ success: false, status: 403, message: 'Forbidden' });
-	}
-
-	const { path, userAgent, ip } = req.body || {};
-	if (typeof path !== 'string' || !path) return res.status(400).json({ success: false, status: 400, message: 'Missing "path"' });
-	if (await isBotRequest(userAgent, ip)) return res.json({ success: true, status: 200, message: 'Ignored (bot)' });
-
-	await incrementBlocklistStats(path, 200);
-	res.json({ success: true, status: 200, message: 'OK' });
 });
 
 module.exports = router;

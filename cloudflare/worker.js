@@ -6,7 +6,7 @@ const getExtension = pathname => {
 	return dot === -1 ? '' : pathname.slice(dot).toLowerCase();
 };
 
-const reportEdgeHit = (origin, path, userAgent, ip, secret) => fetch(`${origin}/api/v1/stats/edge-hit`, {
+const reportEdgeHit = (origin, path, userAgent, ip, secret) => fetch(`${origin}/api/v1/edge/hit`, {
 	method: 'POST',
 	headers: {
 		'Content-Type': 'application/json',

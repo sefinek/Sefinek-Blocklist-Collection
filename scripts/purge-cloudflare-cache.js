@@ -1,10 +1,10 @@
 process.loadEnvFile();
-const { join, relative } = require('node:path');
+const { readFile } = require('node:fs/promises');
+const { join } = require('node:path');
 const axios = require('../www/services/axios.js');
-const getAllFiles = require('./utils/getAllFiles.js');
 const withRetry = require('./utils/withRetry.js');
 
-const GENERATED_DIR = join(__dirname, '..', 'blocklists', 'generated');
+const ROUTES_JSON_PATH = join(__dirname, '..', 'cloudflare', 'routes.json');
 const CHUNK_SIZE = 30;
 const BATCH_DELAY_MS = 750;
 const RATE_LIMIT_ERROR_CODE = 1134;
@@ -40,10 +40,14 @@ const purgeBatch = async batch => {
 };
 
 (async () => {
-	const files = await getAllFiles(GENERATED_DIR, ['.txt', '.conf']);
-	if (!files.length) return console.log('No generated files found, nothing to purge');
+	// Only the Worker-cached routes (cloudflare/routes.json) hold anything to invalidate - every other
+	// /generated/v1/* response is served with Cache-Control: public, max-age=0 (express.static default),
+	// which Cloudflare's zone cache never stores (confirmed via CF-Cache-Status: DYNAMIC), so purging
+	// them would be a no-op.
+	const { paths } = await readFile(ROUTES_JSON_PATH, 'utf-8').then(JSON.parse).catch(() => ({ paths: [] }));
+	if (!paths.length) return console.log('No Worker-cached routes, nothing to purge');
 
-	const urls = files.map(file => `${ORIGIN}/generated/v1/${relative(GENERATED_DIR, file).replace(/\\/g, '/')}`);
+	const urls = paths.map(path => `${ORIGIN}${path}`);
 	const batches = chunk(urls, CHUNK_SIZE);
 
 	let purgedCount = 0;

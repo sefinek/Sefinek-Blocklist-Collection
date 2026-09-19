@@ -40,6 +40,7 @@ const IndexRouter = require('./routes/Index.js');
 const FalsePositivesRouter = require('./routes/FalsePositives.js');
 const BlocklistsRouter = require('./routes/Blocklists/Index.js');
 const StatsRouter = require('./routes/Stats.js');
+const EdgeRouter = require('./routes/Edge.js');
 const DeprecatedListsRouter = require('./routes/Blocklists/Deprecated.js');
 
 app.use(updateStats);
@@ -50,6 +51,7 @@ app.use(FalsePositivesRouter);
 app.use(DeprecatedListsRouter);
 app.use(BlocklistsRouter);
 app.use(StatsRouter);
+app.use(EdgeRouter);
 
 
 // Error handling
