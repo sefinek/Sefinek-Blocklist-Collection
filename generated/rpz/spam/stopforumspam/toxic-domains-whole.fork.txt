@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026092008 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092013 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: StopForumSpam Toxic Domains
-; Entries: 76,108 domains
+; Entries: 76,109 domains
 ; Source: https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 20, 2026 at 8:15 AM UTC | 2026-09-20T08:15:55.085Z
+; Last updated: September 20, 2026 at 1:28 PM UTC | 2026-09-20T13:28:37.572Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -64404,6 +64404,8 @@ hivemetrics.com CNAME .
 *.hivemetrics.com CNAME .
 hiverun.io CNAME .
 *.hiverun.io CNAME .
+hivu.grok-mail.co CNAME .
+*.hivu.grok-mail.co CNAME .
 hiwave.org CNAME .
 *.hiwave.org CNAME .
 hiwin777login.com CNAME .

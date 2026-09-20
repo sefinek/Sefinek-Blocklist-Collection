@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026091813 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092013 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: MVPS Hosts / Yoyo Ads & Trackers
-; Entries: 3,542 domains
+; Entries: 3,543 domains
 ; Source: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 18, 2026 at 1:23 PM UTC | 2026-09-18T13:23:35.601Z
+; Last updated: September 20, 2026 at 1:28 PM UTC | 2026-09-20T13:28:39.648Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1752,6 +1752,8 @@ analytics.momentum-institut.at CNAME .
 *.analytics.momentum-institut.at CNAME .
 analytics.myfinance.com CNAME .
 *.analytics.myfinance.com CNAME .
+analytics.org.coveo.com CNAME .
+*.analytics.org.coveo.com CNAME .
 analytics.ostr.io CNAME .
 *.analytics.ostr.io CNAME .
 analytics.phando.com CNAME .
