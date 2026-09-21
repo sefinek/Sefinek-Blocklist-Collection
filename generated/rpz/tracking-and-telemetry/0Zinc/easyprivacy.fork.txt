@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026092002 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092102 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,467 domains
+; Entries: 40,470 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 20, 2026 at 2:54 AM UTC | 2026-09-20T02:54:27.675Z
+; Last updated: September 21, 2026 at 2:51 AM UTC | 2026-09-21T02:51:06.272Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -3944,6 +3944,8 @@ x.disq.us CNAME .
 *.x.disq.us CNAME .
 x.weather.com CNAME .
 *.x.weather.com CNAME .
+xp.atlassian.com CNAME .
+*.xp.atlassian.com CNAME .
 xp2023-pix.s3.amazonaws.com CNAME .
 *.xp2023-pix.s3.amazonaws.com CNAME .
 yotrack.cdn.ybn.io CNAME .
@@ -80038,6 +80040,10 @@ jcmonitor.xcar.com.cn CNAME .
 *.jcmonitor.xcar.com.cn CNAME .
 l.web.huya.com CNAME .
 *.l.web.huya.com CNAME .
+lego-tech.zhuanzhuan.com CNAME .
+*.lego-tech.zhuanzhuan.com CNAME .
+lego.zhuanzhuan.com CNAME .
+*.lego.zhuanzhuan.com CNAME .
 log-h5.imdada.cn CNAME .
 *.log-h5.imdada.cn CNAME .
 log-upload-os.hoyolab.com CNAME .
