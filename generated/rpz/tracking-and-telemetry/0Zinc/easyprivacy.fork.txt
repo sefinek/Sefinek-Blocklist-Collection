@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026092202 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092223 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,475 domains
+; Entries: 40,495 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 22, 2026 at 2:52 AM UTC | 2026-09-22T02:52:54.605Z
+; Last updated: September 22, 2026 at 11:30 PM UTC | 2026-09-22T23:30:07.462Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -242,6 +242,8 @@ cr-relay.com CNAME .
 *.cr-relay.com CNAME .
 crossengage.io CNAME .
 *.crossengage.io CNAME .
+ctxcollect.com CNAME .
+*.ctxcollect.com CNAME .
 cvlb.dev CNAME .
 *.cvlb.dev CNAME .
 cybba.solutions CNAME .
@@ -966,6 +968,8 @@ veozn3f.com CNAME .
 *.veozn3f.com CNAME .
 veradata.network CNAME .
 *.veradata.network CNAME .
+veselchaga.link CNAME .
+*.veselchaga.link CNAME .
 vfghe.com CNAME .
 *.vfghe.com CNAME .
 vhit.io CNAME .
@@ -2378,6 +2382,8 @@ i.viafoura.co CNAME .
 *.i.viafoura.co CNAME .
 iabusprivacy.pmc.com CNAME .
 *.iabusprivacy.pmc.com CNAME .
+ichnaea-web.netflix.com CNAME .
+*.ichnaea-web.netflix.com CNAME .
 id.a-mx.com CNAME .
 *.id.a-mx.com CNAME .
 id.nbcuni.com CNAME .
@@ -2620,6 +2626,8 @@ mm-sdk-analytics.api.cx.metamask.io CNAME .
 *.mm-sdk-analytics.api.cx.metamask.io CNAME .
 mmi.bemobile.ua CNAME .
 *.mmi.bemobile.ua CNAME .
+mon-sg.byteintlapi.com CNAME .
+*.mon-sg.byteintlapi.com CNAME .
 mon.domdog.io CNAME .
 *.mon.domdog.io CNAME .
 monitor-api.blackcrow.ai CNAME .
@@ -3518,6 +3526,8 @@ trace.swaven.com CNAME .
 *.trace.swaven.com CNAME .
 track-dark-bz.b-cdn.net CNAME .
 *.track-dark-bz.b-cdn.net CNAME .
+track-na2.hubspot.com CNAME .
+*.track-na2.hubspot.com CNAME .
 track.360playvid.info CNAME .
 *.track.360playvid.info CNAME .
 track.91app.io CNAME .
@@ -3910,6 +3920,8 @@ web1.51.la CNAME .
 *.web1.51.la CNAME .
 webevents.kayzen.io CNAME .
 *.webevents.kayzen.io CNAME .
+webpushstat-sgp.engagelab.com CNAME .
+*.webpushstat-sgp.engagelab.com CNAME .
 websdk.appsflyer.com CNAME .
 *.websdk.appsflyer.com CNAME .
 websdk.appsflyersdk.com CNAME .
@@ -4424,6 +4436,8 @@ statistics.klicktel.de CNAME .
 *.statistics.klicktel.de CNAME .
 statistik.simaja.de CNAME .
 *.statistik.simaja.de CNAME .
+stats.betternet.de CNAME .
+*.stats.betternet.de CNAME .
 stats.blogoscoop.net CNAME .
 *.stats.blogoscoop.net CNAME .
 stats.clickforknowledge.com CNAME .
@@ -4590,6 +4604,8 @@ ws3.smartp.com CNAME .
 *.ws3.smartp.com CNAME .
 freshatl.azurewebsites.net CNAME .
 *.freshatl.azurewebsites.net CNAME .
+4399logs.4399doc.com CNAME .
+*.4399logs.4399doc.com CNAME .
 66hao.cc CNAME .
 *.66hao.cc CNAME .
 adv-sv-stat.focus.cn CNAME .
@@ -4638,6 +4654,8 @@ event.tagtoo.co CNAME .
 *.event.tagtoo.co CNAME .
 experiments.sparanoid.net CNAME .
 *.experiments.sparanoid.net CNAME .
+fourier.alibaba.com CNAME .
+*.fourier.alibaba.com CNAME .
 fourier.taobao.com CNAME .
 *.fourier.taobao.com CNAME .
 g.yccdn.com CNAME .
@@ -4670,8 +4688,14 @@ mcs.zijieapi.com CNAME .
 *.mcs.zijieapi.com CNAME .
 mon.zijieapi.com CNAME .
 *.mon.zijieapi.com CNAME .
+ms.xunyou.com CNAME .
+*.ms.xunyou.com CNAME .
 msg.71.am CNAME .
 *.msg.71.am CNAME .
+opt.doubao.com CNAME .
+*.opt.doubao.com CNAME .
+oss.weread.qq.com CNAME .
+*.oss.weread.qq.com CNAME .
 p.aty.sohu.com CNAME .
 *.p.aty.sohu.com CNAME .
 p.tencentmind.com CNAME .
@@ -4694,6 +4718,8 @@ ssac.suning.com CNAME .
 *.ssac.suning.com CNAME .
 stat.ws.126.net CNAME .
 *.stat.ws.126.net CNAME .
+stat.youpin.mi.com CNAME .
+*.stat.youpin.mi.com CNAME .
 stats.hanmaker.com CNAME .
 *.stats.hanmaker.com CNAME .
 sugs.m.sm.cn CNAME .
@@ -4724,6 +4750,8 @@ trail.71baomu.com CNAME .
 *.trail.71baomu.com CNAME .
 ts-analysis.shoalter.com CNAME .
 *.ts-analysis.shoalter.com CNAME .
+umini.shujupie.com CNAME .
+*.umini.shujupie.com CNAME .
 videostats.kakao.com CNAME .
 *.videostats.kakao.com CNAME .
 web-trace.ksapisrv.com CNAME .
@@ -5382,6 +5410,8 @@ statistics.fppressa.ru CNAME .
 *.statistics.fppressa.ru CNAME .
 stats.tazeros.com CNAME .
 *.stats.tazeros.com CNAME .
+stats.temptcdn.com CNAME .
+*.stats.temptcdn.com CNAME .
 stats2.videonow.ru CNAME .
 *.stats2.videonow.ru CNAME .
 t1.trex.media CNAME .
@@ -79994,6 +80024,10 @@ count5.pconline.com.cn CNAME .
 *.count5.pconline.com.cn CNAME .
 counter.people.cn CNAME .
 *.counter.people.cn CNAME .
+countly.mail.163.com CNAME .
+*.countly.mail.163.com CNAME .
+cstaticdun.126.net CNAME .
+*.cstaticdun.126.net CNAME .
 cstm.baidu.com CNAME .
 *.cstm.baidu.com CNAME .
 data.bilibili.com CNAME .
@@ -80138,6 +80172,8 @@ s.360.cn CNAME .
 *.s.360.cn CNAME .
 sbeacon.sina.com.cn CNAME .
 *.sbeacon.sina.com.cn CNAME .
+sdata.chatglm.cn CNAME .
+*.sdata.chatglm.cn CNAME .
 sentry.music.163.com CNAME .
 *.sentry.music.163.com CNAME .
 sfp.safe.baidu.com CNAME .
@@ -80186,8 +80222,12 @@ tj.img4399.com CNAME .
 *.tj.img4399.com CNAME .
 tk.d.mi.com CNAME .
 *.tk.d.mi.com CNAME .
+tongji.duote.com CNAME .
+*.tongji.duote.com CNAME .
 tongji.mafengwo.cn CNAME .
 *.tongji.mafengwo.cn CNAME .
+tongji.meizu.com CNAME .
+*.tongji.meizu.com CNAME .
 tongji.techweb.com.cn CNAME .
 *.tongji.techweb.com.cn CNAME .
 tongji.xinmin.cn CNAME .
