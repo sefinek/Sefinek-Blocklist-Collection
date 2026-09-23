@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,410 domains
+# Entries: 18,437 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: No IP (only domains)
 # Expires: 1 day
-# Last updated: September 20, 2026 at 5:56 PM UTC | 2026-09-20T17:56:12.791Z
+# Last updated: September 23, 2026 at 8:16 AM UTC | 2026-09-23T08:16:01.301Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -295,6 +295,8 @@ amazon-adsystem.amazon.com
 ads.amazon.dev
 advertising.amazon.dev
 api.imdb.eu-west-1.prod.paets.advertising.amazon.dev
+bdtelemetry.amazon
+api.mshop.bdtelemetry.amazon
 assoc-amazon.com
 wms.assoc-amazon.com
 ws-fe.assoc-amazon.com
@@ -410,6 +412,9 @@ advice-ads.s3.amazonaws.com
 analytics.s3.amazonaws.com
 analyticsengine.s3.amazonaws.com
 sprocket-ping.s3.amazonaws.com
+ad-host-backup-america.s3.us-west-1.amazonaws.com
+ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com
+ad-host-backup-europe.s3.eu-central-1.amazonaws.com
 prod.cm.publishers.advertising.a2z.com
 prod.tahoe-analytics.publishers.advertising.a2z.com
 ap-southeast-1.prod.pr.analytics.console.aws.a2z.com
@@ -517,6 +522,7 @@ xml.affiliate.rakuten.co.jp
 rat.rakuten.co.jp
 secure.rat.rakuten.co.jp
 an.facebook.com
+analytics.facebook.com
 pixel.facebook.com
 o.update.fbsbx.com
 p.update.fbsbx.com
@@ -8756,12 +8762,25 @@ tsg-hdp-raw-log.ap-southeast-1.log.aliyuncs.com
 tva-igame-global-ipa-0001.us-east-1.log.aliyuncs.com
 videocloud-sgp.ap-southeast-1.log.aliyuncs.com
 vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com
+cn-hangzhou.log.aliyuncs.com
+cbu-offer.cn-shanghai.log.aliyuncs.com
+cbu-search-app.cn-shanghai.log.aliyuncs.com
+client-upload.cn-shanghai.log.aliyuncs.com
+wireless-app-log.cn-hangzhou.log.aliyuncs.com
+log-global.aliyuncs.com
+adsplusadx-prod.log-global.aliyuncs.com
+crown-client.log-global.aliyuncs.com
+dcsz-gamelog-yyzdsy-kr.log-global.aliyuncs.com
+dida-function-log-hz.log-global.aliyuncs.com
+hishort-video.log-global.aliyuncs.com
+hoyodesk-app-log.log-global.aliyuncs.com
+india-service-log.log-global.aliyuncs.com
+oneconsole-blank-log.log-global.aliyuncs.com
+room-event.log-global.aliyuncs.com
+tva-satanpit-global-ipa-0001.log-global.aliyuncs.com
 ad-host-backup-america.oss-us-west-1.aliyuncs.com
 ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
 ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
-ad-host-backup-america.s3.us-west-1.amazonaws.com
-ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com
-ad-host-backup-europe.s3.eu-central-1.amazonaws.com
 analytics.userreport.com
 bapi.userreport.com
 cdn.userreport.com
@@ -11004,6 +11023,8 @@ s3-ca-liveops.easybrain.com
 s3-playable-ads.easybrain.com
 orion.bendingspoons.com
 storage.orion.bendingspoons.com
+bzr.openai.com
+bzrcdn.openai.com
 adtimaserver.vn
 api.adtimaserver.vn
 log.adtimaserver.vn
@@ -13587,6 +13608,7 @@ afrxixlnj.com
 afzotfwramzy.in
 agacelebir.com
 aggravatingoil.com
+agileskincareunrented.com
 agle21xe2anfddirite.com
 agorahtag.tech
 agqoshfujku.com
@@ -13929,6 +13951,7 @@ bfwzpynoz.com
 bg4nxu2u5t.com
 bharalhallahs.com
 bhcumsc.com
+bhjkpnfsgejvo.com
 bicolourprepossessstrong.com
 bid.glass
 bidclickmedia.com
@@ -14034,6 +14057,7 @@ broadcastbed.com
 broaddoor.com
 broadensilkslush.com
 broadlyjukeboxunrevised.com
+broadsidedaisysanta.com
 bronzecedarleaf.com
 browsecoherentunrefined.com
 browser-update.org
@@ -14624,6 +14648,7 @@ driverhugoverblown.com
 drubpainch.com
 drumcash.com
 drydrum.com
+dryhachug.in
 ds88pc0kw6cvc.cloudfront.net
 dsp.wtf
 dtv5loup63fac.cloudfront.net
@@ -14880,6 +14905,7 @@ frightenedpotato.com
 frivolousdrinkloss.com
 frs2c.com
 fruhujma.in
+frykyuoqcto.com
 fsavmklplmddsu.com
 fsxmidyo.com
 ft.budtawney.com
@@ -15409,6 +15435,7 @@ kvkaa.com
 kw3y5otoeuniv7e9rsi.com
 kx.upturnsidoist.cyou
 kykay.com
+kypwvjoni.com
 kzuocxorfo.com
 laceassumestatic.com
 lactolwant.com

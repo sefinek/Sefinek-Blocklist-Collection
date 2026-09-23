@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026092017 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092308 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,410 domains
+; Entries: 18,437 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 20, 2026 at 5:56 PM UTC | 2026-09-20T17:56:13.212Z
+; Last updated: September 23, 2026 at 8:16 AM UTC | 2026-09-23T08:16:01.317Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -556,6 +556,10 @@ advertising.amazon.dev CNAME .
 *.advertising.amazon.dev CNAME .
 api.imdb.eu-west-1.prod.paets.advertising.amazon.dev CNAME .
 *.api.imdb.eu-west-1.prod.paets.advertising.amazon.dev CNAME .
+bdtelemetry.amazon CNAME .
+*.bdtelemetry.amazon CNAME .
+api.mshop.bdtelemetry.amazon CNAME .
+*.api.mshop.bdtelemetry.amazon CNAME .
 assoc-amazon.com CNAME .
 *.assoc-amazon.com CNAME .
 wms.assoc-amazon.com CNAME .
@@ -784,6 +788,12 @@ analyticsengine.s3.amazonaws.com CNAME .
 *.analyticsengine.s3.amazonaws.com CNAME .
 sprocket-ping.s3.amazonaws.com CNAME .
 *.sprocket-ping.s3.amazonaws.com CNAME .
+ad-host-backup-america.s3.us-west-1.amazonaws.com CNAME .
+*.ad-host-backup-america.s3.us-west-1.amazonaws.com CNAME .
+ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com CNAME .
+*.ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com CNAME .
+ad-host-backup-europe.s3.eu-central-1.amazonaws.com CNAME .
+*.ad-host-backup-europe.s3.eu-central-1.amazonaws.com CNAME .
 prod.cm.publishers.advertising.a2z.com CNAME .
 *.prod.cm.publishers.advertising.a2z.com CNAME .
 prod.tahoe-analytics.publishers.advertising.a2z.com CNAME .
@@ -996,6 +1006,8 @@ secure.rat.rakuten.co.jp CNAME .
 *.secure.rat.rakuten.co.jp CNAME .
 an.facebook.com CNAME .
 *.an.facebook.com CNAME .
+analytics.facebook.com CNAME .
+*.analytics.facebook.com CNAME .
 pixel.facebook.com CNAME .
 *.pixel.facebook.com CNAME .
 o.update.fbsbx.com CNAME .
@@ -16624,18 +16636,44 @@ videocloud-sgp.ap-southeast-1.log.aliyuncs.com CNAME .
 *.videocloud-sgp.ap-southeast-1.log.aliyuncs.com CNAME .
 vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com CNAME .
 *.vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com CNAME .
+cn-hangzhou.log.aliyuncs.com CNAME .
+*.cn-hangzhou.log.aliyuncs.com CNAME .
+cbu-offer.cn-shanghai.log.aliyuncs.com CNAME .
+*.cbu-offer.cn-shanghai.log.aliyuncs.com CNAME .
+cbu-search-app.cn-shanghai.log.aliyuncs.com CNAME .
+*.cbu-search-app.cn-shanghai.log.aliyuncs.com CNAME .
+client-upload.cn-shanghai.log.aliyuncs.com CNAME .
+*.client-upload.cn-shanghai.log.aliyuncs.com CNAME .
+wireless-app-log.cn-hangzhou.log.aliyuncs.com CNAME .
+*.wireless-app-log.cn-hangzhou.log.aliyuncs.com CNAME .
+log-global.aliyuncs.com CNAME .
+*.log-global.aliyuncs.com CNAME .
+adsplusadx-prod.log-global.aliyuncs.com CNAME .
+*.adsplusadx-prod.log-global.aliyuncs.com CNAME .
+crown-client.log-global.aliyuncs.com CNAME .
+*.crown-client.log-global.aliyuncs.com CNAME .
+dcsz-gamelog-yyzdsy-kr.log-global.aliyuncs.com CNAME .
+*.dcsz-gamelog-yyzdsy-kr.log-global.aliyuncs.com CNAME .
+dida-function-log-hz.log-global.aliyuncs.com CNAME .
+*.dida-function-log-hz.log-global.aliyuncs.com CNAME .
+hishort-video.log-global.aliyuncs.com CNAME .
+*.hishort-video.log-global.aliyuncs.com CNAME .
+hoyodesk-app-log.log-global.aliyuncs.com CNAME .
+*.hoyodesk-app-log.log-global.aliyuncs.com CNAME .
+india-service-log.log-global.aliyuncs.com CNAME .
+*.india-service-log.log-global.aliyuncs.com CNAME .
+oneconsole-blank-log.log-global.aliyuncs.com CNAME .
+*.oneconsole-blank-log.log-global.aliyuncs.com CNAME .
+room-event.log-global.aliyuncs.com CNAME .
+*.room-event.log-global.aliyuncs.com CNAME .
+tva-satanpit-global-ipa-0001.log-global.aliyuncs.com CNAME .
+*.tva-satanpit-global-ipa-0001.log-global.aliyuncs.com CNAME .
 ad-host-backup-america.oss-us-west-1.aliyuncs.com CNAME .
 *.ad-host-backup-america.oss-us-west-1.aliyuncs.com CNAME .
 ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com CNAME .
 *.ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com CNAME .
 ad-host-backup-europe.oss-eu-central-1.aliyuncs.com CNAME .
 *.ad-host-backup-europe.oss-eu-central-1.aliyuncs.com CNAME .
-ad-host-backup-america.s3.us-west-1.amazonaws.com CNAME .
-*.ad-host-backup-america.s3.us-west-1.amazonaws.com CNAME .
-ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com CNAME .
-*.ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com CNAME .
-ad-host-backup-europe.s3.eu-central-1.amazonaws.com CNAME .
-*.ad-host-backup-europe.s3.eu-central-1.amazonaws.com CNAME .
 analytics.userreport.com CNAME .
 *.analytics.userreport.com CNAME .
 bapi.userreport.com CNAME .
@@ -20972,6 +21010,10 @@ orion.bendingspoons.com CNAME .
 *.orion.bendingspoons.com CNAME .
 storage.orion.bendingspoons.com CNAME .
 *.storage.orion.bendingspoons.com CNAME .
+bzr.openai.com CNAME .
+*.bzr.openai.com CNAME .
+bzrcdn.openai.com CNAME .
+*.bzrcdn.openai.com CNAME .
 adtimaserver.vn CNAME .
 *.adtimaserver.vn CNAME .
 api.adtimaserver.vn CNAME .
@@ -25984,6 +26026,8 @@ agacelebir.com CNAME .
 *.agacelebir.com CNAME .
 aggravatingoil.com CNAME .
 *.aggravatingoil.com CNAME .
+agileskincareunrented.com CNAME .
+*.agileskincareunrented.com CNAME .
 agle21xe2anfddirite.com CNAME .
 *.agle21xe2anfddirite.com CNAME .
 agorahtag.tech CNAME .
@@ -26668,6 +26712,8 @@ bharalhallahs.com CNAME .
 *.bharalhallahs.com CNAME .
 bhcumsc.com CNAME .
 *.bhcumsc.com CNAME .
+bhjkpnfsgejvo.com CNAME .
+*.bhjkpnfsgejvo.com CNAME .
 bicolourprepossessstrong.com CNAME .
 *.bicolourprepossessstrong.com CNAME .
 bid.glass CNAME .
@@ -26878,6 +26924,8 @@ broadensilkslush.com CNAME .
 *.broadensilkslush.com CNAME .
 broadlyjukeboxunrevised.com CNAME .
 *.broadlyjukeboxunrevised.com CNAME .
+broadsidedaisysanta.com CNAME .
+*.broadsidedaisysanta.com CNAME .
 bronzecedarleaf.com CNAME .
 *.bronzecedarleaf.com CNAME .
 browsecoherentunrefined.com CNAME .
@@ -28058,6 +28106,8 @@ drumcash.com CNAME .
 *.drumcash.com CNAME .
 drydrum.com CNAME .
 *.drydrum.com CNAME .
+dryhachug.in CNAME .
+*.dryhachug.in CNAME .
 ds88pc0kw6cvc.cloudfront.net CNAME .
 *.ds88pc0kw6cvc.cloudfront.net CNAME .
 dsp.wtf CNAME .
@@ -28570,6 +28620,8 @@ frs2c.com CNAME .
 *.frs2c.com CNAME .
 fruhujma.in CNAME .
 *.fruhujma.in CNAME .
+frykyuoqcto.com CNAME .
+*.frykyuoqcto.com CNAME .
 fsavmklplmddsu.com CNAME .
 *.fsavmklplmddsu.com CNAME .
 fsxmidyo.com CNAME .
@@ -29628,6 +29680,8 @@ kx.upturnsidoist.cyou CNAME .
 *.kx.upturnsidoist.cyou CNAME .
 kykay.com CNAME .
 *.kykay.com CNAME .
+kypwvjoni.com CNAME .
+*.kypwvjoni.com CNAME .
 kzuocxorfo.com CNAME .
 *.kzuocxorfo.com CNAME .
 laceassumestatic.com CNAME .

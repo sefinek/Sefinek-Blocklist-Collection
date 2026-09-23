@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,410 domains
+# Entries: 18,437 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: Dnsmasq
 # Expires: 1 day
-# Last updated: September 20, 2026 at 5:56 PM UTC | 2026-09-20T17:56:13.201Z
+# Last updated: September 23, 2026 at 8:16 AM UTC | 2026-09-23T08:16:01.356Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -295,6 +295,8 @@ server=/amazon-adsystem.amazon.com/
 server=/ads.amazon.dev/
 server=/advertising.amazon.dev/
 server=/api.imdb.eu-west-1.prod.paets.advertising.amazon.dev/
+server=/bdtelemetry.amazon/
+server=/api.mshop.bdtelemetry.amazon/
 server=/assoc-amazon.com/
 server=/wms.assoc-amazon.com/
 server=/ws-fe.assoc-amazon.com/
@@ -410,6 +412,9 @@ server=/advice-ads.s3.amazonaws.com/
 server=/analytics.s3.amazonaws.com/
 server=/analyticsengine.s3.amazonaws.com/
 server=/sprocket-ping.s3.amazonaws.com/
+server=/ad-host-backup-america.s3.us-west-1.amazonaws.com/
+server=/ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com/
+server=/ad-host-backup-europe.s3.eu-central-1.amazonaws.com/
 server=/prod.cm.publishers.advertising.a2z.com/
 server=/prod.tahoe-analytics.publishers.advertising.a2z.com/
 server=/ap-southeast-1.prod.pr.analytics.console.aws.a2z.com/
@@ -517,6 +522,7 @@ server=/xml.affiliate.rakuten.co.jp/
 server=/rat.rakuten.co.jp/
 server=/secure.rat.rakuten.co.jp/
 server=/an.facebook.com/
+server=/analytics.facebook.com/
 server=/pixel.facebook.com/
 server=/o.update.fbsbx.com/
 server=/p.update.fbsbx.com/
@@ -8756,12 +8762,25 @@ server=/tsg-hdp-raw-log.ap-southeast-1.log.aliyuncs.com/
 server=/tva-igame-global-ipa-0001.us-east-1.log.aliyuncs.com/
 server=/videocloud-sgp.ap-southeast-1.log.aliyuncs.com/
 server=/vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com/
+server=/cn-hangzhou.log.aliyuncs.com/
+server=/cbu-offer.cn-shanghai.log.aliyuncs.com/
+server=/cbu-search-app.cn-shanghai.log.aliyuncs.com/
+server=/client-upload.cn-shanghai.log.aliyuncs.com/
+server=/wireless-app-log.cn-hangzhou.log.aliyuncs.com/
+server=/log-global.aliyuncs.com/
+server=/adsplusadx-prod.log-global.aliyuncs.com/
+server=/crown-client.log-global.aliyuncs.com/
+server=/dcsz-gamelog-yyzdsy-kr.log-global.aliyuncs.com/
+server=/dida-function-log-hz.log-global.aliyuncs.com/
+server=/hishort-video.log-global.aliyuncs.com/
+server=/hoyodesk-app-log.log-global.aliyuncs.com/
+server=/india-service-log.log-global.aliyuncs.com/
+server=/oneconsole-blank-log.log-global.aliyuncs.com/
+server=/room-event.log-global.aliyuncs.com/
+server=/tva-satanpit-global-ipa-0001.log-global.aliyuncs.com/
 server=/ad-host-backup-america.oss-us-west-1.aliyuncs.com/
 server=/ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com/
 server=/ad-host-backup-europe.oss-eu-central-1.aliyuncs.com/
-server=/ad-host-backup-america.s3.us-west-1.amazonaws.com/
-server=/ad-host-backup-asia.s3.ap-southeast-1.amazonaws.com/
-server=/ad-host-backup-europe.s3.eu-central-1.amazonaws.com/
 server=/analytics.userreport.com/
 server=/bapi.userreport.com/
 server=/cdn.userreport.com/
@@ -11004,6 +11023,8 @@ server=/s3-ca-liveops.easybrain.com/
 server=/s3-playable-ads.easybrain.com/
 server=/orion.bendingspoons.com/
 server=/storage.orion.bendingspoons.com/
+server=/bzr.openai.com/
+server=/bzrcdn.openai.com/
 server=/adtimaserver.vn/
 server=/api.adtimaserver.vn/
 server=/log.adtimaserver.vn/
@@ -13587,6 +13608,7 @@ server=/afrxixlnj.com/
 server=/afzotfwramzy.in/
 server=/agacelebir.com/
 server=/aggravatingoil.com/
+server=/agileskincareunrented.com/
 server=/agle21xe2anfddirite.com/
 server=/agorahtag.tech/
 server=/agqoshfujku.com/
@@ -13929,6 +13951,7 @@ server=/bfwzpynoz.com/
 server=/bg4nxu2u5t.com/
 server=/bharalhallahs.com/
 server=/bhcumsc.com/
+server=/bhjkpnfsgejvo.com/
 server=/bicolourprepossessstrong.com/
 server=/bid.glass/
 server=/bidclickmedia.com/
@@ -14034,6 +14057,7 @@ server=/broadcastbed.com/
 server=/broaddoor.com/
 server=/broadensilkslush.com/
 server=/broadlyjukeboxunrevised.com/
+server=/broadsidedaisysanta.com/
 server=/bronzecedarleaf.com/
 server=/browsecoherentunrefined.com/
 server=/browser-update.org/
@@ -14624,6 +14648,7 @@ server=/driverhugoverblown.com/
 server=/drubpainch.com/
 server=/drumcash.com/
 server=/drydrum.com/
+server=/dryhachug.in/
 server=/ds88pc0kw6cvc.cloudfront.net/
 server=/dsp.wtf/
 server=/dtv5loup63fac.cloudfront.net/
@@ -14880,6 +14905,7 @@ server=/frightenedpotato.com/
 server=/frivolousdrinkloss.com/
 server=/frs2c.com/
 server=/fruhujma.in/
+server=/frykyuoqcto.com/
 server=/fsavmklplmddsu.com/
 server=/fsxmidyo.com/
 server=/ft.budtawney.com/
@@ -15409,6 +15435,7 @@ server=/kvkaa.com/
 server=/kw3y5otoeuniv7e9rsi.com/
 server=/kx.upturnsidoist.cyou/
 server=/kykay.com/
+server=/kypwvjoni.com/
 server=/kzuocxorfo.com/
 server=/laceassumestatic.com/
 server=/lactolwant.com/
