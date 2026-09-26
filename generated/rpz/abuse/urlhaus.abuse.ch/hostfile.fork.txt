@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026092618 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092623 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 383 domains
+; Entries: 384 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 26, 2026 at 6:18 PM UTC | 2026-09-26T18:18:33.932Z
+; Last updated: September 26, 2026 at 11:23 PM UTC | 2026-09-26T23:23:53.245Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -72,6 +72,8 @@ backupso.com CNAME .
 *.backupso.com CNAME .
 balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 blankeyeo.com CNAME .
@@ -140,8 +142,6 @@ clubdetiroelpicarcho.com CNAME .
 *.clubdetiroelpicarcho.com CNAME .
 cn.devglobal.biz CNAME .
 *.cn.devglobal.biz CNAME .
-cn.unionlever.com CNAME .
-*.cn.unionlever.com CNAME .
 compuserviceonline.com.br CNAME .
 *.compuserviceonline.com.br CNAME .
 continentalgroup.net.in CNAME .
@@ -160,8 +160,6 @@ crystalpvp.ru CNAME .
 *.crystalpvp.ru CNAME .
 cs.go.kg CNAME .
 *.cs.go.kg CNAME .
-ctsfactory.com CNAME .
-*.ctsfactory.com CNAME .
 d.14yaa.com CNAME .
 *.d.14yaa.com CNAME .
 d.wanyouxi7.com CNAME .
@@ -210,6 +208,8 @@ download.haozip.com CNAME .
 *.download.haozip.com CNAME .
 download.kaobeitu.com CNAME .
 *.download.kaobeitu.com CNAME .
+download.pdf00.cn CNAME .
+*.download.pdf00.cn CNAME .
 download.pdf00.com CNAME .
 *.download.pdf00.com CNAME .
 duct-master.com CNAME .
@@ -224,6 +224,8 @@ elrneba.com CNAME .
 *.elrneba.com CNAME .
 en.taichuan.com CNAME .
 *.en.taichuan.com CNAME .
+endpoint.project0.cc CNAME .
+*.endpoint.project0.cc CNAME .
 envs.sh CNAME .
 *.envs.sh CNAME .
 epanpano.com CNAME .
@@ -382,8 +384,6 @@ luminexclient.net CNAME .
 *.luminexclient.net CNAME .
 luminouspower.com.pk CNAME .
 *.luminouspower.com.pk CNAME .
-m.jkoa.co.kr CNAME .
-*.m.jkoa.co.kr CNAME .
 m.meta-dm.com CNAME .
 *.m.meta-dm.com CNAME .
 maidforyou1985.com CNAME .
@@ -398,6 +398,8 @@ mibd.org CNAME .
 *.mibd.org CNAME .
 miriamgualda.com.br CNAME .
 *.miriamgualda.com.br CNAME .
+missysgym.com CNAME .
+*.missysgym.com CNAME .
 mitreart.com CNAME .
 *.mitreart.com CNAME .
 mkconstructions.net CNAME .
@@ -454,8 +456,6 @@ outpost.co.ke CNAME .
 *.outpost.co.ke CNAME .
 p3.zbjimg.com CNAME .
 *.p3.zbjimg.com CNAME .
-palharesinformatica.com.br CNAME .
-*.palharesinformatica.com.br CNAME .
 pay.aqiu6.com CNAME .
 *.pay.aqiu6.com CNAME .
 pcupd.com CNAME .
@@ -486,10 +486,14 @@ profileone.jo3.org CNAME .
 *.profileone.jo3.org CNAME .
 profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev CNAME .
 *.profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev CNAME .
+protherapycenter.com CNAME .
+*.protherapycenter.com CNAME .
 public.demo.securecloudsandbox.com CNAME .
 *.public.demo.securecloudsandbox.com CNAME .
 pvsa.gxfugy.cn CNAME .
 *.pvsa.gxfugy.cn CNAME .
+qiniuyunxz.yxflzs.com CNAME .
+*.qiniuyunxz.yxflzs.com CNAME .
 qv.co.ke CNAME .
 *.qv.co.ke CNAME .
 ramirex.ro CNAME .
@@ -580,8 +584,6 @@ smartermail.host CNAME .
 *.smartermail.host CNAME .
 soft.110route.com CNAME .
 *.soft.110route.com CNAME .
-spgint.com CNAME .
-*.spgint.com CNAME .
 srsorvete.com.br CNAME .
 *.srsorvete.com.br CNAME .
 static.ilclock.com CNAME .
@@ -646,6 +648,8 @@ transparenciacanaa.com.br CNAME .
 *.transparenciacanaa.com.br CNAME .
 trtmyanmar.com CNAME .
 *.trtmyanmar.com CNAME .
+twu-hwt.org CNAME .
+*.twu-hwt.org CNAME .
 upaicdn.xinmei365.com CNAME .
 *.upaicdn.xinmei365.com CNAME .
 upchemicals.co.in CNAME .

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026092523 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092623 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,496 domains
+; Entries: 40,498 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 25, 2026 at 11:49 PM UTC | 2026-09-25T23:49:45.793Z
+; Last updated: September 26, 2026 at 11:23 PM UTC | 2026-09-26T23:23:55.814Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -150,6 +150,8 @@ bluekai.com CNAME .
 *.bluekai.com CNAME .
 blueoyster.click CNAME .
 *.blueoyster.click CNAME .
+bmtrcs.com CNAME .
+*.bmtrcs.com CNAME .
 bonne-terre-data-layer.com CNAME .
 *.bonne-terre-data-layer.com CNAME .
 bonuscake.ru CNAME .
@@ -676,6 +678,8 @@ nmgplatform.com CNAME .
 *.nmgplatform.com CNAME .
 nmo-ep.nl CNAME .
 *.nmo-ep.nl CNAME .
+nodals.io CNAME .
+*.nodals.io CNAME .
 notifpush.com CNAME .
 *.notifpush.com CNAME .
 ns1p.net CNAME .
