@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026091207 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026092608 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,25 +9,17 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: AdGuard Mobile Ads Blocklist
-; Entries: 926 domains
+; Entries: 928 domains
 ; Source: https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: September 12, 2026 at 7:36 AM UTC | 2026-09-12T07:36:46.297Z
+; Last updated: September 26, 2026 at 8:24 AM UTC | 2026-09-26T08:24:37.286Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
 ; Report false positives: https://blocklist.sefinek.net/false-positives
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
-yodo1.com CNAME .
-*.yodo1.com CNAME .
-banner.bet365partners.com CNAME .
-*.banner.bet365partners.com CNAME .
-playwire.com CNAME .
-*.playwire.com CNAME .
-fingerhi.net CNAME .
-*.fingerhi.net CNAME .
 adx-open-service.youku.com CNAME .
 *.adx-open-service.youku.com CNAME .
 ad.youku.com CNAME .
@@ -190,6 +182,18 @@ startup.mobile.webvisor.com CNAME .
 *.startup.mobile.webvisor.com CNAME .
 startup-mobile.ap.yandex-net.ru CNAME .
 *.startup-mobile.ap.yandex-net.ru CNAME .
+app.bxapi.de CNAME .
+*.app.bxapi.de CNAME .
+yodo1.com CNAME .
+*.yodo1.com CNAME .
+banner.bet365partners.com CNAME .
+*.banner.bet365partners.com CNAME .
+playwire.com CNAME .
+*.playwire.com CNAME .
+fingerhi.net CNAME .
+*.fingerhi.net CNAME .
+palateonce.com CNAME .
+*.palateonce.com CNAME .
 ad2.fivecdm.com CNAME .
 *.ad2.fivecdm.com CNAME .
 ads-m.rustore.ru CNAME .
