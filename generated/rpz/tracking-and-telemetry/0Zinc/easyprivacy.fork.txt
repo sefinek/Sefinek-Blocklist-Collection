@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100103 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100200 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,499 domains
+; Entries: 40,510 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 1, 2026 at 3:37 AM UTC | 2026-10-01T03:37:14.170Z
+; Last updated: October 2, 2026 at 12:27 AM UTC | 2026-10-02T00:27:59.685Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2206,6 +2206,8 @@ events.plutus.ninja CNAME .
 *.events.plutus.ninja CNAME .
 events.realgravity.com CNAME .
 *.events.realgravity.com CNAME .
+events.searchtap.net CNAME .
+*.events.searchtap.net CNAME .
 events.shareably.net CNAME .
 *.events.shareably.net CNAME .
 events.shoplift.ai CNAME .
@@ -2332,6 +2334,8 @@ geotags.refinery89.com CNAME .
 *.geotags.refinery89.com CNAME .
 gi-client-tracking.goodgamestudios.com CNAME .
 *.gi-client-tracking.goodgamestudios.com CNAME .
+gkx.gokwik.co CNAME .
+*.gkx.gokwik.co CNAME .
 globale-analytics-sdk.global-e.com CNAME .
 *.globale-analytics-sdk.global-e.com CNAME .
 go.activengage.com CNAME .
@@ -2732,6 +2736,8 @@ p.metrilo.com CNAME .
 *.p.metrilo.com CNAME .
 p.placed.com CNAME .
 *.p.placed.com CNAME .
+p.sa7eer.com CNAME .
+*.p.sa7eer.com CNAME .
 p.skimresources.com CNAME .
 *.p.skimresources.com CNAME .
 p.tryretool.com CNAME .
@@ -2954,6 +2960,8 @@ reach-id.orbit.tm-awx.com CNAME .
 *.reach-id.orbit.tm-awx.com CNAME .
 realm.hearst3pcc.com CNAME .
 *.realm.hearst3pcc.com CNAME .
+realtimeanalytics.yext.com CNAME .
+*.realtimeanalytics.yext.com CNAME .
 receive.wmcdp.io CNAME .
 *.receive.wmcdp.io CNAME .
 reco.target2sell.com CNAME .
@@ -4634,6 +4642,8 @@ beacon.sina.com.cn CNAME .
 *.beacon.sina.com.cn CNAME .
 beaconcdn.qq.com CNAME .
 *.beaconcdn.qq.com CNAME .
+browsertdidticket.m.qq.com CNAME .
+*.browsertdidticket.m.qq.com CNAME .
 bzclk.baidu.com CNAME .
 *.bzclk.baidu.com CNAME .
 c.holmesmind.com CNAME .
@@ -4670,6 +4680,8 @@ fourier.taobao.com CNAME .
 *.fourier.taobao.com CNAME .
 g.yccdn.com CNAME .
 *.g.yccdn.com CNAME .
+gatherer.m.qq.com CNAME .
+*.gatherer.m.qq.com CNAME .
 gdt.qq.com CNAME .
 *.gdt.qq.com CNAME .
 hacx60.com CNAME .
@@ -4768,6 +4780,8 @@ web-trace.ksapisrv.com CNAME .
 *.web-trace.ksapisrv.com CNAME .
 webstat.qiumibao.com CNAME .
 *.webstat.qiumibao.com CNAME .
+webstat.ws.126.net CNAME .
+*.webstat.ws.126.net CNAME .
 webtrack.pospal.cn CNAME .
 *.webtrack.pospal.cn CNAME .
 wlog.kuaishou.com CNAME .
@@ -6016,6 +6030,8 @@ counter.darkreader.app CNAME .
 *.counter.darkreader.app CNAME .
 cpt.itv.com CNAME .
 *.cpt.itv.com CNAME .
+crta.dailymail.com CNAME .
+*.crta.dailymail.com CNAME .
 crta.metro.co.uk CNAME .
 *.crta.metro.co.uk CNAME .
 crumbs.robinhood.com CNAME .
@@ -6694,6 +6710,8 @@ pulse.delta.com CNAME .
 *.pulse.delta.com CNAME .
 pulse.genki.world CNAME .
 *.pulse.genki.world CNAME .
+pulsepoint.ideal.house CNAME .
+*.pulsepoint.ideal.house CNAME .
 pumpkin.abine.com CNAME .
 *.pumpkin.abine.com CNAME .
 px.srvcs.tumblr.com CNAME .
@@ -7046,6 +7064,8 @@ td.airdroid.com CNAME .
 *.td.airdroid.com CNAME .
 tealium-proxy.libertex.org CNAME .
 *.tealium-proxy.libertex.org CNAME .
+ted.dailymail.co.uk CNAME .
+*.ted.dailymail.co.uk CNAME .
 telegraph.prd.api.max.com CNAME .
 *.telegraph.prd.api.max.com CNAME .
 telem.sre.gopuff.com CNAME .
@@ -80112,6 +80132,8 @@ log.mgtv.com CNAME .
 *.log.mgtv.com CNAME .
 log.mix.sina.com.cn CNAME .
 *.log.mix.sina.com.cn CNAME .
+log.news.baidu.com CNAME .
+*.log.news.baidu.com CNAME .
 log.sina.cn CNAME .
 *.log.sina.cn CNAME .
 log.zcool.com.cn CNAME .
