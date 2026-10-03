@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026062121 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100315 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Stalkerware Indicators Blocklist
-; Entries: 925 domains
+; Entries: 928 domains
 ; Source: https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: June 21, 2026 at 9:33 PM UTC | 2026-06-21T21:33:04.600Z
+; Last updated: October 3, 2026 at 3:35 PM UTC | 2026-10-03T15:35:59.065Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -398,6 +398,8 @@ corn-cob.com CNAME .
 *.corn-cob.com CNAME .
 cp.mspyonline.com CNAME .
 *.cp.mspyonline.com CNAME .
+cp.spystealth.com CNAME .
+*.cp.spystealth.com CNAME .
 cp.thewispy.com CNAME .
 *.cp.thewispy.com CNAME .
 cpcalendars.spymasterpro.com CNAME .
@@ -1510,6 +1512,8 @@ spyzie.com CNAME .
 *.spyzie.com CNAME .
 sse.chyldmonitor.com CNAME .
 *.sse.chyldmonitor.com CNAME .
+stage.spystealth.com CNAME .
+*.stage.spystealth.com CNAME .
 staging-all-tracker.appspot.com CNAME .
 *.staging-all-tracker.appspot.com CNAME .
 staging.smstracker.com CNAME .
@@ -1634,6 +1638,8 @@ true-truck-86810.firebaseio.com CNAME .
 *.true-truck-86810.firebaseio.com CNAME .
 truewebmedia.com CNAME .
 *.truewebmedia.com CNAME .
+tt.spystealth.com CNAME .
+*.tt.spystealth.com CNAME .
 ttjj.ga CNAME .
 *.ttjj.ga CNAME .
 ttjj.ml CNAME .
