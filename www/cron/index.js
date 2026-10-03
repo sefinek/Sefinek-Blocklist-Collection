@@ -15,8 +15,9 @@ const runScript = name => {
 };
 
 const startCronJobs = () => {
-	// Every Monday at 03:00 - rebuild the Worker edge-cache route candidate list
-	cron.schedule('0 3 * * 1', () => runScript('refresh-worker-routes.js'), { timezone: TIMEZONE, name: 'refresh-worker-routes', noOverlap: true });
+	// Every Monday at 03:30 - rebuild and apply the Worker edge-cache route list.
+	// Offset from the watchdog's 03:00 run - both read and write data/edge-routes.json.
+	cron.schedule('30 3 * * 1', () => runScript('refresh-worker-routes.js'), { timezone: TIMEZONE, name: 'refresh-worker-routes', noOverlap: true });
 
 	// Every 3 hours - watch Workers Free daily usage, emergency-remove routes if close to the cap
 	cron.schedule('0 */3 * * *', () => runScript('worker-usage-watchdog.js'), { timezone: TIMEZONE, name: 'worker-usage-watchdog', noOverlap: true });

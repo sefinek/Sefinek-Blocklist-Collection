@@ -1,10 +1,8 @@
 process.loadEnvFile();
-const { readFile } = require('node:fs/promises');
-const { join } = require('node:path');
 const axios = require('../www/services/axios.js');
 const withRetry = require('./utils/withRetry.js');
+const { readState } = require('./utils/edgeRoutes.js');
 
-const ROUTES_JSON_PATH = join(__dirname, '..', 'cloudflare', 'routes.json');
 const CHUNK_SIZE = 30;
 const BATCH_DELAY_MS = 750;
 const RATE_LIMIT_ERROR_CODE = 1134;
@@ -40,11 +38,13 @@ const purgeBatch = async batch => {
 };
 
 (async () => {
-	// Only the Worker-cached routes (cloudflare/routes.json) hold anything to invalidate - every other
+	// Only the Worker-cached routes (data/edge-routes.json) hold anything to invalidate - every other
 	// /generated/v1/* response is served with Cache-Control: public, max-age=0 (express.static default),
 	// which Cloudflare's zone cache never stores (confirmed via CF-Cache-Status: DYNAMIC), so purging
 	// them would be a no-op.
-	const { paths } = await readFile(ROUTES_JSON_PATH, 'utf-8').then(JSON.parse).catch(() => ({ paths: [] }));
+	// Emergency-removed paths are included too - their edge copies may still be served once restored
+	const state = await readState();
+	const paths = [...new Set([...state.paths, ...(state.emergencyRemovedPaths ?? [])])];
 	if (!paths.length) return console.log('No Worker-cached routes, nothing to purge');
 
 	const urls = paths.map(path => `${ORIGIN}${path}`);

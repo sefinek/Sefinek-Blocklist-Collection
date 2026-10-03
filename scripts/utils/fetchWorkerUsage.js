@@ -1,4 +1,6 @@
 const axios = require('../../www/services/axios.js');
+const withRetry = require('./withRetry.js');
+const isRetryableHttpError = require('./isRetryableHttpError.js');
 
 // workersZoneInvocationsAdaptiveGroups reflects actual Worker script invocations (what counts
 // against the Workers Free daily cap), unlike httpRequestsAdaptiveGroups which counts all zone
@@ -19,10 +21,15 @@ module.exports = async ({ token, zoneId, hours = 24 }) => {
 		}
 	`;
 
-	const res = await axios.post('https://api.cloudflare.com/client/v4/graphql', {
+	const res = await withRetry(() => axios.post('https://api.cloudflare.com/client/v4/graphql', {
 		query,
 		variables: { zoneTag: zoneId, start: start.toISOString(), end: end.toISOString() },
-	}, { headers: { Authorization: `Bearer ${token}` } });
+	}, { headers: { Authorization: `Bearer ${token}` } }), {
+		maxRetries: 4,
+		baseMs: 2000,
+		isRetryable: isRetryableHttpError,
+		onRetry: (err, attempt, delay) => console.warn(`Analytics query failed (${err.code || err.response?.status}), retrying in ${delay}ms (attempt ${attempt})`),
+	});
 
 	if (res.data.errors) throw new Error(`Analytics query failed: ${JSON.stringify(res.data.errors)}`);
 	return res.data.data.viewer.zones[0]?.invocations[0]?.sum?.requests ?? 0;
