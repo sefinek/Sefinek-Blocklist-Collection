@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100209 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100403 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,520 domains
+; Entries: 40,526 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 2, 2026 at 9:17 AM UTC | 2026-10-02T09:17:34.847Z
+; Last updated: October 4, 2026 at 3:47 AM UTC | 2026-10-04T03:47:44.633Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -9946,6 +9946,8 @@ ams.lelong.com.my CNAME .
 *.ams.lelong.com.my CNAME .
 ams.oraclecloud.com CNAME .
 *.ams.oraclecloud.com CNAME .
+amspbs.com CNAME .
+*.amspbs.com CNAME .
 amsunsolar.actonservice.com CNAME .
 *.amsunsolar.actonservice.com CNAME .
 amvtwk.thebottleclub.com CNAME .
@@ -10038,6 +10040,8 @@ analytic.hawaii.aaa.com CNAME .
 *.analytic.hawaii.aaa.com CNAME .
 analytic.hotelclub.com CNAME .
 *.analytic.hotelclub.com CNAME .
+analytic.is CNAME .
+*.analytic.is CNAME .
 analytic.newmexico.aaa.com CNAME .
 *.analytic.newmexico.aaa.com CNAME .
 analytic.northernnewengland.aaa.com CNAME .
@@ -10192,6 +10196,8 @@ analytics.api.justeattakeaway.com CNAME .
 *.analytics.api.justeattakeaway.com CNAME .
 analytics.apnewsregistry.com CNAME .
 *.analytics.apnewsregistry.com CNAME .
+analytics.app.funnelish.com CNAME .
+*.analytics.app.funnelish.com CNAME .
 analytics.archive.org CNAME .
 *.analytics.archive.org CNAME .
 analytics.argeton.com CNAME .
@@ -16376,6 +16382,8 @@ cdn-eu.usefathom.com CNAME .
 *.cdn-eu.usefathom.com CNAME .
 cdn-rum.ngenix.net CNAME .
 *.cdn-rum.ngenix.net CNAME .
+cdn-vitals.com CNAME .
+*.cdn-vitals.com CNAME .
 cdn.9gtb.com CNAME .
 *.cdn.9gtb.com CNAME .
 cdn.arcstudiopro.com CNAME .
@@ -25832,6 +25840,8 @@ flog.pressplay.cc CNAME .
 *.flog.pressplay.cc CNAME .
 floorforce.actonservice.com CNAME .
 *.floorforce.actonservice.com CNAME .
+floors.dev CNAME .
+*.floors.dev CNAME .
 flotech.actonservice.com CNAME .
 *.flotech.actonservice.com CNAME .
 flow.kiloutou.fr CNAME .
@@ -26310,6 +26320,8 @@ fsqwdj.live-tennis.eu CNAME .
 *.fsqwdj.live-tennis.eu CNAME .
 fsresidential.actonservice.com CNAME .
 *.fsresidential.actonservice.com CNAME .
+fsrv.io CNAME .
+*.fsrv.io CNAME .
 fst-ec.perimeterx.net CNAME .
 *.fst-ec.perimeterx.net CNAME .
 fsugco.rcn.nl CNAME .
