@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,437 domains
+# Entries: 18,459 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: 127.0.0.1 before each domain
 # Expires: 1 day
-# Last updated: September 23, 2026 at 8:16 AM UTC | 2026-09-23T08:16:01.347Z
+# Last updated: October 5, 2026 at 1:21 PM UTC | 2026-10-05T13:21:16.668Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -1969,6 +1969,11 @@
 127.0.0.1 us-wf.taboola.com
 127.0.0.1 vidanalytics.taboola.com
 127.0.0.1 vidstat.taboola.com
+127.0.0.1 cdn.taboola.com.cn
+127.0.0.1 images.taboola.com.cn
+127.0.0.1 popup.taboola.com.cn
+127.0.0.1 taboola.com.cn
+127.0.0.1 www.taboola.com.cn
 127.0.0.1 ad.crwdcntrl.net
 127.0.0.1 bcp.crwdcntrl.net
 127.0.0.1 crwdcntrl.net
@@ -5701,6 +5706,7 @@
 127.0.0.1 ws3.trafficstars.com
 127.0.0.1 www.trafficstars.com
 127.0.0.1 cdn.tsyndicate.com
+127.0.0.1 pxl-eu.rtb.tsyndicate.com
 127.0.0.1 pxl.tsyndicate.com
 127.0.0.1 r-eu.tsyndicate.com
 127.0.0.1 rtb.tsyndicate.com
@@ -6445,23 +6451,12 @@
 127.0.0.1 bidvertiser.com
 127.0.0.1 secure.bidvertiser.com
 127.0.0.1 www.bidvertiser.com
-127.0.0.1 a.connatix.com
-127.0.0.1 capi.connatix.com
-127.0.0.1 cd.connatix.com
-127.0.0.1 cdn.connatix.com
-127.0.0.1 cdns.connatix.com
-127.0.0.1 cds.connatix.com
+127.0.0.1 assets.connatix.com
 127.0.0.1 ck.connatix.com
 127.0.0.1 cks.connatix.com
-127.0.0.1 connatix.com
-127.0.0.1 gitlab.connatix.com
-127.0.0.1 img.connatix.com
-127.0.0.1 l.connatix.com
-127.0.0.1 minio.connatix.com
-127.0.0.1 registry.connatix.com
-127.0.0.1 upload.connatix.com
-127.0.0.1 vid.connatix.com
-127.0.0.1 www.connatix.com
+127.0.0.1 ins.connatix.com
+127.0.0.1 lit.connatix.com
+127.0.0.1 pl.connatix.com
 127.0.0.1 16x9.myfastcdn.com
 127.0.0.1 1x1.myfastcdn.com
 127.0.0.1 3x2.myfastcdn.com
@@ -7814,15 +7809,16 @@
 127.0.0.1 ping-meta-prd.jwpltx.com
 127.0.0.1 prd.jwpltx.com
 127.0.0.1 ak-events-collector.spot.im
-127.0.0.1 api-2-0.spot.im
+127.0.0.1 bi-events-collector.spot.im
 127.0.0.1 direct-events-collector.spot.im
 127.0.0.1 event-stream.spot.im
 127.0.0.1 events-collector.spot.im
 127.0.0.1 metrics-logger.spot.im
+127.0.0.1 open-api.spot.im
 127.0.0.1 pix.spot.im
 127.0.0.1 publisher-assets.spot.im
+127.0.0.1 recirculation.spot.im
 127.0.0.1 t.spot.im
-127.0.0.1 traffic.spot.im
 127.0.0.1 eoapxl.com
 127.0.0.1 eoapxl1.eoapxl.com
 127.0.0.1 eoapxl2.eoapxl.com
@@ -9640,11 +9636,13 @@
 127.0.0.1 videoads-cloud.rovio.com
 127.0.0.1 i.singular.net
 127.0.0.1 s2s.singular.net
+127.0.0.1 safetrack.singular.net
+127.0.0.1 safetrack-s2s.singular.net
 127.0.0.1 sdk-api-v1.singular.net
-127.0.0.1 singular.net
 127.0.0.1 skadnetwork.singular.net
-127.0.0.1 t.singular.net
-127.0.0.1 view-prod.ad.singular.net
+127.0.0.1 skan.singular.net
+127.0.0.1 skan-s2s.singular.net
+127.0.0.1 web-sdk-cdn.singular.net
 127.0.0.1 metric.nimo.tv
 127.0.0.1 statwup.nimo.tv
 127.0.0.1 udbdf-v2.nimo.tv
@@ -11025,6 +11023,17 @@
 127.0.0.1 storage.orion.bendingspoons.com
 127.0.0.1 bzr.openai.com
 127.0.0.1 bzrcdn.openai.com
+127.0.0.1 pomxd.com
+127.0.0.1 srv.eu.pomxd.com
+127.0.0.1 advlion.com
+127.0.0.1 sg-td-v3-01-callback.advlion.com
+127.0.0.1 tk2.advlion.com
+127.0.0.1 ads-api-o.api.leiniao.com
+127.0.0.1 ctv-ads.api.leiniao.com
+127.0.0.1 euads-o.api.leiniao.com
+127.0.0.1 file-hw-ads-o.api.leiniao.com
+127.0.0.1 ssai-ads.api.leiniao.com
+127.0.0.1 ssai2-ads.api.leiniao.com
 127.0.0.1 adtimaserver.vn
 127.0.0.1 api.adtimaserver.vn
 127.0.0.1 log.adtimaserver.vn
@@ -12847,6 +12856,7 @@
 127.0.0.1 79xmz3lmss.com
 127.0.0.1 7ca78m3csgbrid7ge.com
 127.0.0.1 864feb57ruary.com
+127.0.0.1 8m9.8xb3njrjigxhge9q9mp2.cfd
 127.0.0.1 940functions.net
 127.0.0.1 970vantage.net
 127.0.0.1 999.money
@@ -12865,6 +12875,7 @@
 127.0.0.1 aanqylta.com
 127.0.0.1 abacho.net
 127.0.0.1 abc-ads.com
+127.0.0.1 ablelaunchshorts.com
 127.0.0.1 abmkupxixavk.in
 127.0.0.1 aboardlevel.com
 127.0.0.1 above.com
@@ -13533,7 +13544,6 @@
 127.0.0.1 advisormedia.cz
 127.0.0.1 adviva.com
 127.0.0.1 adviva.net
-127.0.0.1 advlion.com
 127.0.0.1 advmanager.techfun.pl
 127.0.0.1 advnt.com
 127.0.0.1 advolution.de
@@ -13969,6 +13979,7 @@
 127.0.0.1 bizrate.com
 127.0.0.1 bjads.bejbej.ca
 127.0.0.1 bk8sports.com
+127.0.0.1 bl.rajeevrapido.cfd
 127.0.0.1 blackbrake.com
 127.0.0.1 bladelikefreightwhat.com
 127.0.0.1 blahlivedsnowdrop.com
@@ -14117,6 +14128,7 @@
 127.0.0.1 campaign.bharatmatrimony.com
 127.0.0.1 campaigns.williamhill.com
 127.0.0.1 campfirecroutondecorator.com
+127.0.0.1 camph.org
 127.0.0.1 cams.gratis
 127.0.0.1 can-get-so.me
 127.0.0.1 canekilttantrum.com
@@ -14126,6 +14138,7 @@
 127.0.0.1 captify.co.uk
 127.0.0.1 carambo.la
 127.0.0.1 carbonads.net
+127.0.0.1 cardiaccrystaleternity.com
 127.0.0.1 caribedkurukh.com
 127.0.0.1 carveddoublebogeyhigh.com
 127.0.0.1 carvyre.com
@@ -14349,6 +14362,7 @@
 127.0.0.1 content.bitsontherun.com
 127.0.0.1 content.lemonpi.io
 127.0.0.1 content.mql5.com
+127.0.0.1 contraltoflubmedical.com
 127.0.0.1 convenebeice.com
 127.0.0.1 conversionruler.com
 127.0.0.1 convrse.media
@@ -15380,6 +15394,7 @@
 127.0.0.1 justicejudo.com
 127.0.0.1 justrelevant.com
 127.0.0.1 justwebads.com
+127.0.0.1 jvntctypey.com
 127.0.0.1 jwuoxhjuq.com
 127.0.0.1 jz.thringsettos.cyou
 127.0.0.1 k.iinfo.cz
@@ -15453,6 +15468,7 @@
 127.0.0.1 lbn.ru
 127.0.0.1 lby2kd27c.com
 127.0.0.1 ldjsypolwypxy.space
+127.0.0.1 lduohrmhrme.com
 127.0.0.1 leadclick.com
 127.0.0.1 leadplace.fr
 127.0.0.1 leadzu.com
@@ -16197,6 +16213,7 @@
 127.0.0.1 plusungratefulinstruction.com
 127.0.0.1 pnhoppacwh.com
 127.0.0.1 pnuhondppw.com
+127.0.0.1 po.zuhgg4cxt6noffj8.rest
 127.0.0.1 poawooptugroo.com
 127.0.0.1 pocitadlo.cz
 127.0.0.1 podefr2.net
@@ -16352,6 +16369,7 @@
 127.0.0.1 pw.oulapoat.qpon
 127.0.0.1 pwieu.com
 127.0.0.1 pwmctl.com
+127.0.0.1 pwyamrbild.in
 127.0.0.1 pyicbcxvs.com
 127.0.0.1 pyxiscablese.com
 127.0.0.1 pz.mulchimbiber.com
@@ -16576,6 +16594,7 @@
 127.0.0.1 rutseasickmunch.com
 127.0.0.1 ruvsraaklrih.com
 127.0.0.1 ruwjkygaxo.com
+127.0.0.1 rvjoiedxxq.com
 127.0.0.1 rvrpushserv.com
 127.0.0.1 rwulzuaqsafn.com
 127.0.0.1 rxeosevsso.com
@@ -16753,6 +16772,7 @@
 127.0.0.1 snuff-brownsprintcountry.com
 127.0.0.1 snugglethesheep.com
 127.0.0.1 so-gr3at3.com
+127.0.0.1 soamuylg.com
 127.0.0.1 sobakenchmaphk.com
 127.0.0.1 soccercadencefridge.com
 127.0.0.1 socialspark.com
@@ -17264,6 +17284,7 @@
 127.0.0.1 varietyofdisplayformats.com
 127.0.0.1 variouscreativeformats.com
 127.0.0.1 variousformatscontent.com
+127.0.0.1 vast.streamux.top
 127.0.0.1 vast.vstserv.com
 127.0.0.1 vaugroar.com
 127.0.0.1 vc.colpwoofell.qpon
@@ -17381,6 +17402,7 @@
 127.0.0.1 webcounter.cz
 127.0.0.1 webcounter.goweb.de
 127.0.0.1 webeyemob.com
+127.0.0.1 webls.net
 127.0.0.1 webmasterplan.com
 127.0.0.1 webmasterplan.de
 127.0.0.1 weborama.com

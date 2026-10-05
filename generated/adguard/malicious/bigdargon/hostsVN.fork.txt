@@ -6,12 +6,12 @@
 !     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 !
 ! Title: HostsVN Malware Blocklist
-! Entries: 18,437 domains
+! Entries: 18,459 domains
 ! Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ! License: Unknown, check the source
 ! Format: AdGuard [adguard.com]
 ! Expires: 1 day
-! Last updated: September 23, 2026 at 8:16 AM UTC | 2026-09-23T08:16:01.309Z
+! Last updated: October 5, 2026 at 1:21 PM UTC | 2026-10-05T13:21:16.690Z
 !
 ! This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ! Homepage: https://blocklist.sefinek.net
@@ -1969,6 +1969,11 @@
 ||us-wf.taboola.com^
 ||vidanalytics.taboola.com^
 ||vidstat.taboola.com^
+||cdn.taboola.com.cn^
+||images.taboola.com.cn^
+||popup.taboola.com.cn^
+||taboola.com.cn^
+||www.taboola.com.cn^
 ||ad.crwdcntrl.net^
 ||bcp.crwdcntrl.net^
 ||crwdcntrl.net^
@@ -5701,6 +5706,7 @@
 ||ws3.trafficstars.com^
 ||www.trafficstars.com^
 ||cdn.tsyndicate.com^
+||pxl-eu.rtb.tsyndicate.com^
 ||pxl.tsyndicate.com^
 ||r-eu.tsyndicate.com^
 ||rtb.tsyndicate.com^
@@ -6445,23 +6451,12 @@
 ||bidvertiser.com^
 ||secure.bidvertiser.com^
 ||www.bidvertiser.com^
-||a.connatix.com^
-||capi.connatix.com^
-||cd.connatix.com^
-||cdn.connatix.com^
-||cdns.connatix.com^
-||cds.connatix.com^
+||assets.connatix.com^
 ||ck.connatix.com^
 ||cks.connatix.com^
-||connatix.com^
-||gitlab.connatix.com^
-||img.connatix.com^
-||l.connatix.com^
-||minio.connatix.com^
-||registry.connatix.com^
-||upload.connatix.com^
-||vid.connatix.com^
-||www.connatix.com^
+||ins.connatix.com^
+||lit.connatix.com^
+||pl.connatix.com^
 ||16x9.myfastcdn.com^
 ||1x1.myfastcdn.com^
 ||3x2.myfastcdn.com^
@@ -7814,15 +7809,16 @@
 ||ping-meta-prd.jwpltx.com^
 ||prd.jwpltx.com^
 ||ak-events-collector.spot.im^
-||api-2-0.spot.im^
+||bi-events-collector.spot.im^
 ||direct-events-collector.spot.im^
 ||event-stream.spot.im^
 ||events-collector.spot.im^
 ||metrics-logger.spot.im^
+||open-api.spot.im^
 ||pix.spot.im^
 ||publisher-assets.spot.im^
+||recirculation.spot.im^
 ||t.spot.im^
-||traffic.spot.im^
 ||eoapxl.com^
 ||eoapxl1.eoapxl.com^
 ||eoapxl2.eoapxl.com^
@@ -9640,11 +9636,13 @@
 ||videoads-cloud.rovio.com^
 ||i.singular.net^
 ||s2s.singular.net^
+||safetrack.singular.net^
+||safetrack-s2s.singular.net^
 ||sdk-api-v1.singular.net^
-||singular.net^
 ||skadnetwork.singular.net^
-||t.singular.net^
-||view-prod.ad.singular.net^
+||skan.singular.net^
+||skan-s2s.singular.net^
+||web-sdk-cdn.singular.net^
 ||metric.nimo.tv^
 ||statwup.nimo.tv^
 ||udbdf-v2.nimo.tv^
@@ -11025,6 +11023,17 @@
 ||storage.orion.bendingspoons.com^
 ||bzr.openai.com^
 ||bzrcdn.openai.com^
+||pomxd.com^
+||srv.eu.pomxd.com^
+||advlion.com^
+||sg-td-v3-01-callback.advlion.com^
+||tk2.advlion.com^
+||ads-api-o.api.leiniao.com^
+||ctv-ads.api.leiniao.com^
+||euads-o.api.leiniao.com^
+||file-hw-ads-o.api.leiniao.com^
+||ssai-ads.api.leiniao.com^
+||ssai2-ads.api.leiniao.com^
 ||adtimaserver.vn^
 ||api.adtimaserver.vn^
 ||log.adtimaserver.vn^
@@ -12847,6 +12856,7 @@
 ||79xmz3lmss.com^
 ||7ca78m3csgbrid7ge.com^
 ||864feb57ruary.com^
+||8m9.8xb3njrjigxhge9q9mp2.cfd^
 ||940functions.net^
 ||970vantage.net^
 ||999.money^
@@ -12865,6 +12875,7 @@
 ||aanqylta.com^
 ||abacho.net^
 ||abc-ads.com^
+||ablelaunchshorts.com^
 ||abmkupxixavk.in^
 ||aboardlevel.com^
 ||above.com^
@@ -13533,7 +13544,6 @@
 ||advisormedia.cz^
 ||adviva.com^
 ||adviva.net^
-||advlion.com^
 ||advmanager.techfun.pl^
 ||advnt.com^
 ||advolution.de^
@@ -13969,6 +13979,7 @@
 ||bizrate.com^
 ||bjads.bejbej.ca^
 ||bk8sports.com^
+||bl.rajeevrapido.cfd^
 ||blackbrake.com^
 ||bladelikefreightwhat.com^
 ||blahlivedsnowdrop.com^
@@ -14117,6 +14128,7 @@
 ||campaign.bharatmatrimony.com^
 ||campaigns.williamhill.com^
 ||campfirecroutondecorator.com^
+||camph.org^
 ||cams.gratis^
 ||can-get-so.me^
 ||canekilttantrum.com^
@@ -14126,6 +14138,7 @@
 ||captify.co.uk^
 ||carambo.la^
 ||carbonads.net^
+||cardiaccrystaleternity.com^
 ||caribedkurukh.com^
 ||carveddoublebogeyhigh.com^
 ||carvyre.com^
@@ -14349,6 +14362,7 @@
 ||content.bitsontherun.com^
 ||content.lemonpi.io^
 ||content.mql5.com^
+||contraltoflubmedical.com^
 ||convenebeice.com^
 ||conversionruler.com^
 ||convrse.media^
@@ -15380,6 +15394,7 @@
 ||justicejudo.com^
 ||justrelevant.com^
 ||justwebads.com^
+||jvntctypey.com^
 ||jwuoxhjuq.com^
 ||jz.thringsettos.cyou^
 ||k.iinfo.cz^
@@ -15453,6 +15468,7 @@
 ||lbn.ru^
 ||lby2kd27c.com^
 ||ldjsypolwypxy.space^
+||lduohrmhrme.com^
 ||leadclick.com^
 ||leadplace.fr^
 ||leadzu.com^
@@ -16197,6 +16213,7 @@
 ||plusungratefulinstruction.com^
 ||pnhoppacwh.com^
 ||pnuhondppw.com^
+||po.zuhgg4cxt6noffj8.rest^
 ||poawooptugroo.com^
 ||pocitadlo.cz^
 ||podefr2.net^
@@ -16352,6 +16369,7 @@
 ||pw.oulapoat.qpon^
 ||pwieu.com^
 ||pwmctl.com^
+||pwyamrbild.in^
 ||pyicbcxvs.com^
 ||pyxiscablese.com^
 ||pz.mulchimbiber.com^
@@ -16576,6 +16594,7 @@
 ||rutseasickmunch.com^
 ||ruvsraaklrih.com^
 ||ruwjkygaxo.com^
+||rvjoiedxxq.com^
 ||rvrpushserv.com^
 ||rwulzuaqsafn.com^
 ||rxeosevsso.com^
@@ -16753,6 +16772,7 @@
 ||snuff-brownsprintcountry.com^
 ||snugglethesheep.com^
 ||so-gr3at3.com^
+||soamuylg.com^
 ||sobakenchmaphk.com^
 ||soccercadencefridge.com^
 ||socialspark.com^
@@ -17264,6 +17284,7 @@
 ||varietyofdisplayformats.com^
 ||variouscreativeformats.com^
 ||variousformatscontent.com^
+||vast.streamux.top^
 ||vast.vstserv.com^
 ||vaugroar.com^
 ||vc.colpwoofell.qpon^
@@ -17381,6 +17402,7 @@
 ||webcounter.cz^
 ||webcounter.goweb.de^
 ||webeyemob.com^
+||webls.net^
 ||webmasterplan.com^
 ||webmasterplan.de^
 ||weborama.com^

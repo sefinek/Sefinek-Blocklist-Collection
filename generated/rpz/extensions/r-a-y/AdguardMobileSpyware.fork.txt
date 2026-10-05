@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100209 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100513 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -14,7 +14,7 @@ $TTL 300
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 2, 2026 at 9:17 AM UTC | 2026-10-02T09:17:34.733Z
+; Last updated: October 5, 2026 at 1:21 PM UTC | 2026-10-05T13:21:14.673Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1116,12 +1116,6 @@ event.karrotmarket.com CNAME .
 *.event.karrotmarket.com CNAME .
 iot-in-logser.realme.com CNAME .
 *.iot-in-logser.realme.com CNAME .
-push-api.topaz-analytics.com CNAME .
-*.push-api.topaz-analytics.com CNAME .
-analytics.wildlifestudios.com CNAME .
-*.analytics.wildlifestudios.com CNAME .
-opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io CNAME .
-*.opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io CNAME .
 rabbit.meitustat.com CNAME .
 *.rabbit.meitustat.com CNAME .
 mediation.mwmadnetworks.com CNAME .
@@ -1140,6 +1134,12 @@ vk-analytics.ru CNAME .
 *.vk-analytics.ru CNAME .
 tracking.iwhop.cn CNAME .
 *.tracking.iwhop.cn CNAME .
+push-api.topaz-analytics.com CNAME .
+*.push-api.topaz-analytics.com CNAME .
+analytics.wildlifestudios.com CNAME .
+*.analytics.wildlifestudios.com CNAME .
+opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io CNAME .
+*.opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io CNAME .
 log-verify.mob.com CNAME .
 *.log-verify.mob.com CNAME .
 app-analytics-services.com CNAME .
@@ -2238,14 +2238,14 @@ analytics.tiktok.com CNAME .
 *.analytics.tiktok.com CNAME .
 woodpecker.uc.cn CNAME .
 *.woodpecker.uc.cn CNAME .
-track.uc.cn CNAME .
-*.track.uc.cn CNAME .
 applog.uc.cn CNAME .
 *.applog.uc.cn CNAME .
 dispatcher.upmc.uc.cn CNAME .
 *.dispatcher.upmc.uc.cn CNAME .
 gjapplog.uc.cn CNAME .
 *.gjapplog.uc.cn CNAME .
+track.uc.cn CNAME .
+*.track.uc.cn CNAME .
 uc9.ucweb.com CNAME .
 *.uc9.ucweb.com CNAME .
 ucus.ucweb.com CNAME .
