@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100423 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100604 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -14,7 +14,7 @@ $TTL 300
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 4, 2026 at 11:49 PM UTC | 2026-10-04T23:49:15.432Z
+; Last updated: October 6, 2026 at 4:20 AM UTC | 2026-10-06T04:20:04.425Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2372,8 +2372,6 @@ hb.vhsrv.com CNAME .
 *.hb.vhsrv.com CNAME .
 heartbeat-pearl.vercel.app CNAME .
 *.heartbeat-pearl.vercel.app CNAME .
-heimdall.hearstapps.com CNAME .
-*.heimdall.hearstapps.com CNAME .
 helix.bitformations.ca CNAME .
 *.helix.bitformations.ca CNAME .
 hello.staticstuff.net CNAME .
@@ -3136,6 +3134,8 @@ st.cdnco.us CNAME .
 *.st.cdnco.us CNAME .
 st.linkfire.com CNAME .
 *.st.linkfire.com CNAME .
+st.putler.com CNAME .
+*.st.putler.com CNAME .
 staging-pt.ispot.tv CNAME .
 *.staging-pt.ispot.tv CNAME .
 starman.fathomdns.com CNAME .
