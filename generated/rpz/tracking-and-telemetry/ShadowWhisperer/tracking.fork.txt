@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100604 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100700 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Tracking Blocklist
-; Entries: 117,720 domains
+; Entries: 117,743 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 6, 2026 at 4:20 AM UTC | 2026-10-06T04:20:04.810Z
+; Last updated: October 7, 2026 at 12:21 AM UTC | 2026-10-07T00:21:54.065Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -42308,6 +42308,8 @@ cdn-api.arcpublishing.com CNAME .
 *.cdn-api.arcpublishing.com CNAME .
 cdna.rqt-paiement.cofidis.fr CNAME .
 *.cdna.rqt-paiement.cofidis.fr CNAME .
+cdn-a.telus.com CNAME .
+*.cdn-a.telus.com CNAME .
 cdn.ato.santander.co.uk CNAME .
 *.cdn.ato.santander.co.uk CNAME .
 cdna.tst-paiement.cofidis.fr CNAME .
@@ -42526,6 +42528,8 @@ cdntm.hangseng.com CNAME .
 *.cdntm.hangseng.com CNAME .
 cdntm.hsbc.ae CNAME .
 *.cdntm.hsbc.ae CNAME .
+cdntm.hsbc.bm CNAME .
+*.cdntm.hsbc.bm CNAME .
 cdntm.hsbc.ca CNAME .
 *.cdntm.hsbc.ca CNAME .
 cdntm.hsbc.co.in CNAME .
@@ -47604,8 +47608,14 @@ content22.accountonline.com CNAME .
 *.content22.accountonline.com CNAME .
 content22.bancanet.banamex.com CNAME .
 *.content22.bancanet.banamex.com CNAME .
+content22.bancanetempresarial.banamex.com.mx CNAME .
+*.content22.bancanetempresarial.banamex.com.mx CNAME .
 content22.bmo.com CNAME .
 *.content22.bmo.com CNAME .
+content22.citibank.com CNAME .
+*.content22.citibank.com CNAME .
+content22.citibank.com.sg CNAME .
+*.content22.citibank.com.sg CNAME .
 content22.citibankonline.com CNAME .
 *.content22.citibankonline.com CNAME .
 content22.citicards.com CNAME .
@@ -47620,6 +47630,8 @@ content22.online.citi.com CNAME .
 *.content22.online.citi.com CNAME .
 content22.retailservicescommercial.citi.com CNAME .
 *.content22.retailservicescommercial.citi.com CNAME .
+content2.instacart.com CNAME .
+*.content2.instacart.com CNAME .
 content2.paywerk.co CNAME .
 *.content2.paywerk.co CNAME .
 content3.lexisnexisrisk.com CNAME .
@@ -47674,6 +47686,8 @@ content.archiver-app.sageflo.com CNAME .
 *.content.archiver-app.sageflo.com CNAME .
 content.assist.chromeriver.com CNAME .
 *.content.assist.chromeriver.com CNAME .
+content.asurion53.com CNAME .
+*.content.asurion53.com CNAME .
 content.atmosphere.ca CNAME .
 *.content.atmosphere.ca CNAME .
 content.aurum.com CNAME .
@@ -47726,6 +47740,8 @@ content.certifid.com CNAME .
 *.content.certifid.com CNAME .
 content.citadele.lv CNAME .
 *.content.citadele.lv CNAME .
+content.citizensbankonline.com CNAME .
+*.content.citizensbankonline.com CNAME .
 content.clubpremier.com CNAME .
 *.content.clubpremier.com CNAME .
 content.cofidis.pt CNAME .
@@ -47768,6 +47784,8 @@ content.data.mheducation.com CNAME .
 *.content.data.mheducation.com CNAME .
 content.davidhaleweb.com CNAME .
 *.content.davidhaleweb.com CNAME .
+content.digital.citbank.com CNAME .
+*.content.digital.citbank.com CNAME .
 content.digital-credit.app CNAME .
 *.content.digital-credit.app CNAME .
 content.discovercard.com CNAME .
@@ -47776,6 +47794,8 @@ content.discover.com CNAME .
 *.content.discover.com CNAME .
 contentdsp.com CNAME .
 *.contentdsp.com CNAME .
+content.ebanking-services.com CNAME .
+*.content.ebanking-services.com CNAME .
 content.ecampus.com CNAME .
 *.content.ecampus.com CNAME .
 content.e.captivateiq.com CNAME .
@@ -47824,10 +47844,14 @@ content.fgqhfhvqzm.stensul.com CNAME .
 *.content.fgqhfhvqzm.stensul.com CNAME .
 content.fig.ca CNAME .
 *.content.fig.ca CNAME .
+content.fisglobal.com CNAME .
+*.content.fisglobal.com CNAME .
 content.floridarentals.com CNAME .
 *.content.floridarentals.com CNAME .
 content.formalifesciencemarketing.com CNAME .
 *.content.formalifesciencemarketing.com CNAME .
+content.fswebchw.com CNAME .
+*.content.fswebchw.com CNAME .
 content.gap.com CNAME .
 *.content.gap.com CNAME .
 content.gapfactory.com CNAME .
@@ -47894,6 +47918,8 @@ content.hsuite.activity.hapara.com CNAME .
 *.content.hsuite.activity.hapara.com CNAME .
 content.hurix.com CNAME .
 *.content.hurix.com CNAME .
+content.ibanking-services.com CNAME .
+*.content.ibanking-services.com CNAME .
 content.iddataweb.com CNAME .
 *.content.iddataweb.com CNAME .
 content.imagedepositgateway.com CNAME .
@@ -47994,6 +48020,8 @@ content.northcdatacenters.info CNAME .
 *.content.northcdatacenters.info CNAME .
 content.nps.skytouchnps.com CNAME .
 *.content.nps.skytouchnps.com CNAME .
+content.nubank.com.br CNAME .
+*.content.nubank.com.br CNAME .
 content.nu.com.co CNAME .
 *.content.nu.com.co CNAME .
 content.nu.com.mx CNAME .
@@ -48028,6 +48056,8 @@ content.patient.pendo.cws.labcorp.com CNAME .
 *.content.patient.pendo.cws.labcorp.com CNAME .
 content.paycardsolutions.com CNAME .
 *.content.paycardsolutions.com CNAME .
+content.pcfinancial.ca CNAME .
+*.content.pcfinancial.ca CNAME .
 content.pd-log.showpad.biz CNAME .
 *.content.pd-log.showpad.biz CNAME .
 content.pen.console.gotoresolve.com CNAME .
@@ -48328,6 +48358,8 @@ content.sfbli.com CNAME .
 *.content.sfbli.com CNAME .
 content.sga.auvik.com CNAME .
 *.content.sga.auvik.com CNAME .
+content.sheerid.com CNAME .
+*.content.sheerid.com CNAME .
 content.shemeshautomation.com CNAME .
 *.content.shemeshautomation.com CNAME .
 content.shop.post.ch CNAME .
@@ -49680,6 +49712,8 @@ csp.yandex.net CNAME .
 *.csp.yandex.net CNAME .
 cssbu.childbirthinjuries.com CNAME .
 *.cssbu.childbirthinjuries.com CNAME .
+csservice.aircanada.com CNAME .
+*.csservice.aircanada.com CNAME .
 css.euroformulas.com.br CNAME .
 *.css.euroformulas.com.br CNAME .
 csst.cheltenhammuscat.com CNAME .
@@ -49702,6 +49736,8 @@ cstat.wap.sasisa.ru CNAME .
 *.cstat.wap.sasisa.ru CNAME .
 cst.innogames.de CNAME .
 *.cst.innogames.de CNAME .
+cstm.gumtree.com CNAME .
+*.cstm.gumtree.com CNAME .
 c.strava.com CNAME .
 *.c.strava.com CNAME .
 cstream.wi-fi.ru CNAME .
@@ -50838,6 +50874,8 @@ d3owq2fdwtdp2j.cloudfront.net CNAME .
 *.d3owq2fdwtdp2j.cloudfront.net CNAME .
 d3t15oqv74y46a.cloudfront.net CNAME .
 *.d3t15oqv74y46a.cloudfront.net CNAME .
+d3tracking.rbc.com CNAME .
+*.d3tracking.rbc.com CNAME .
 d3ty4og90bdf2f.cloudfront.net CNAME .
 *.d3ty4og90bdf2f.cloudfront.net CNAME .
 d3u598arehftfk.cloudfront.net CNAME .
@@ -61576,6 +61614,8 @@ ecomm.events CNAME .
 *.ecomm.events CNAME .
 ecom.mss.hertz.io CNAME .
 *.ecom.mss.hertz.io CNAME .
+ecomm.thegiftcardshop.com CNAME .
+*.ecomm.thegiftcardshop.com CNAME .
 ecomtrack.io CNAME .
 *.ecomtrack.io CNAME .
 econda.com CNAME .
@@ -85594,6 +85634,8 @@ ln.acornfun.com CNAME .
 *.ln.acornfun.com CNAME .
 ln.ameba.jp CNAME .
 *.ln.ameba.jp CNAME .
+ln.betboom.com CNAME .
+*.ln.betboom.com CNAME .
 ln.cash.app CNAME .
 *.ln.cash.app CNAME .
 lndata.com CNAME .
@@ -85624,6 +85666,8 @@ lnoni.sigoseguros.com CNAME .
 *.lnoni.sigoseguros.com CNAME .
 lnss.lifetouch.com CNAME .
 *.lnss.lifetouch.com CNAME .
+ln.tangluck.com CNAME .
+*.ln.tangluck.com CNAME .
 load.402.worldofsupercars.nl CNAME .
 *.load.402.worldofsupercars.nl CNAME .
 load.55697329000106.homedeccori.com CNAME .
@@ -219354,6 +219398,8 @@ tms-view.sony.jp CNAME .
 *.tms-view.sony.jp CNAME .
 tms.virginatlantic.com CNAME .
 *.tms.virginatlantic.com CNAME .
+tms.wape.autodesk.com CNAME .
+*.tms.wape.autodesk.com CNAME .
 tms.ynaye.com.br CNAME .
 *.tms.ynaye.com.br CNAME .
 tms.zwilling.com CNAME .
