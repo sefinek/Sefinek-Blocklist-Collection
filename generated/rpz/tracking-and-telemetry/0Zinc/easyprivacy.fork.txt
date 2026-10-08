@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100700 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026100800 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,519 domains
+; Entries: 40,518 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 7, 2026 at 12:21 AM UTC | 2026-10-07T00:21:53.662Z
+; Last updated: October 8, 2026 at 12:43 AM UTC | 2026-10-08T00:43:29.016Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -314,8 +314,6 @@ efreecode.com CNAME .
 *.efreecode.com CNAME .
 egoi.site CNAME .
 *.egoi.site CNAME .
-emrld.cc CNAME .
-*.emrld.cc CNAME .
 entail-insights.com CNAME .
 *.entail-insights.com CNAME .
 enterombacerick.com CNAME .
@@ -2870,6 +2868,8 @@ pixel.yabidos.com CNAME .
 *.pixel.yabidos.com CNAME .
 pixel.yola.com CNAME .
 *.pixel.yola.com CNAME .
+pixel2.realclever.com CNAME .
+*.pixel2.realclever.com CNAME .
 pixels.afcdn.com CNAME .
 *.pixels.afcdn.com CNAME .
 pixels.zalify.com CNAME .
@@ -80786,8 +80786,6 @@ matt.mercadolivre.com.br CNAME .
 *.matt.mercadolivre.com.br CNAME .
 metrics.uol.com.br CNAME .
 *.metrics.uol.com.br CNAME .
-sdk-analytics-web.cloud.itau.com.br CNAME .
-*.sdk-analytics-web.cloud.itau.com.br CNAME .
 stats.uniplaces.com CNAME .
 *.stats.uniplaces.com CNAME .
 strapi.clickjogos.com.br CNAME .
