@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100900 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101003 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,519 domains
+; Entries: 40,523 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 9, 2026 at 12:59 AM UTC | 2026-10-09T00:59:08.446Z
+; Last updated: October 10, 2026 at 3:50 AM UTC | 2026-10-10T03:50:04.832Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -920,6 +920,8 @@ tkrconnector.com CNAME .
 *.tkrconnector.com CNAME .
 tncid.app CNAME .
 *.tncid.app CNAME .
+tp-em.cc CNAME .
+*.tp-em.cc CNAME .
 trackclicks.info CNAME .
 *.trackclicks.info CNAME .
 trackier.com CNAME .
@@ -2344,8 +2346,6 @@ geotags.refinery89.com CNAME .
 *.geotags.refinery89.com CNAME .
 gi-client-tracking.goodgamestudios.com CNAME .
 *.gi-client-tracking.goodgamestudios.com CNAME .
-gkx.gokwik.co CNAME .
-*.gkx.gokwik.co CNAME .
 globale-analytics-sdk.global-e.com CNAME .
 *.globale-analytics-sdk.global-e.com CNAME .
 go.activengage.com CNAME .
@@ -3294,6 +3294,8 @@ stats.zoogletools.net CNAME .
 *.stats.zoogletools.net CNAME .
 stats.zotabox.com CNAME .
 *.stats.zotabox.com CNAME .
+stats.zruvix.com CNAME .
+*.stats.zruvix.com CNAME .
 stats2.indianpornempire.com CNAME .
 *.stats2.indianpornempire.com CNAME .
 statsapi.screen9.com CNAME .
@@ -5600,6 +5602,8 @@ analytics.qushad.com CNAME .
 *.analytics.qushad.com CNAME .
 analytics.ticimax.cloud CNAME .
 *.analytics.ticimax.cloud CNAME .
+analytics.tsoftapps.com CNAME .
+*.analytics.tsoftapps.com CNAME .
 c.keltis.com CNAME .
 *.c.keltis.com CNAME .
 log.collectaction.com CNAME .
@@ -6452,6 +6456,8 @@ logx.optimizely.com CNAME .
 *.logx.optimizely.com CNAME .
 love.vidora.su CNAME .
 *.love.vidora.su CNAME .
+ma.gamersnexus.net CNAME .
+*.ma.gamersnexus.net CNAME .
 ma.redhat.com CNAME .
 *.ma.redhat.com CNAME .
 marketing.alibaba.com CNAME .
@@ -80510,6 +80516,8 @@ tracking.gruppo.mps.it CNAME .
 *.tracking.gruppo.mps.it CNAME .
 ad-bls-tracking.lemino.docomo.ne.jp CNAME .
 *.ad-bls-tracking.lemino.docomo.ne.jp CNAME .
+ad-manager.matsukiyococokara-online.com CNAME .
+*.ad-manager.matsukiyococokara-online.com CNAME .
 ad-platform.jmty.jp CNAME .
 *.ad-platform.jmty.jp CNAME .
 altema-log.com CNAME .
