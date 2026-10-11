@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100909 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101109 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,531 domains
+; Entries: 40,538 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 9, 2026 at 9:57 AM UTC | 2026-10-09T09:57:54.240Z
+; Last updated: October 11, 2026 at 9:37 AM UTC | 2026-10-11T09:37:39.738Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -8702,6 +8702,8 @@ ad-ebis.toysub.jp CNAME .
 *.ad-ebis.toysub.jp CNAME .
 ad-log.dable.io CNAME .
 *.ad-log.dable.io CNAME .
+ad-manager.matsukiyococokara-online.com CNAME .
+*.ad-manager.matsukiyococokara-online.com CNAME .
 ad-platform.jmty.jp CNAME .
 *.ad-platform.jmty.jp CNAME .
 ad-tracker-api.luizalabs.com CNAME .
@@ -11118,6 +11120,8 @@ analytics.trust.page CNAME .
 *.analytics.trust.page CNAME .
 analytics.trutv.com CNAME .
 *.analytics.trutv.com CNAME .
+analytics.tsoftapps.com CNAME .
+*.analytics.tsoftapps.com CNAME .
 analytics.tufos.com.br CNAME .
 *.analytics.tufos.com.br CNAME .
 analytics.turnertv.com CNAME .
@@ -18218,10 +18222,12 @@ content22.citibank.com.au CNAME .
 *.content22.citibank.com.au CNAME .
 content22.citibankonline.com CNAME .
 *.content22.citibankonline.com CNAME .
-content22.online.citi.com CNAME .
-*.content22.online.citi.com CNAME .
 contents.pwc.com CNAME .
 *.contents.pwc.com CNAME .
+contents1.00110.citi.com CNAME .
+*.contents1.00110.citi.com CNAME .
+contents2.00110.citi.com CNAME .
+*.contents2.00110.citi.com CNAME .
 contoso-my.sharepoint.com CNAME .
 *.contoso-my.sharepoint.com CNAME .
 contractor-app.buildforce.com CNAME .
@@ -27210,8 +27216,6 @@ gkopqp.coccodrillo.eu CNAME .
 *.gkopqp.coccodrillo.eu CNAME .
 gksqdt.reitmans.com CNAME .
 *.gksqdt.reitmans.com CNAME .
-gkx.gokwik.co CNAME .
-*.gkx.gokwik.co CNAME .
 gl5g98t0vfjb.panprices.com CNAME .
 *.gl5g98t0vfjb.panprices.com CNAME .
 glamipixel.com CNAME .
@@ -37730,6 +37734,8 @@ ma.brightby.se CNAME .
 *.ma.brightby.se CNAME .
 ma.cbre.com CNAME .
 *.ma.cbre.com CNAME .
+ma.gamersnexus.net CNAME .
+*.ma.gamersnexus.net CNAME .
 ma.hitachi-systems.com CNAME .
 *.ma.hitachi-systems.com CNAME .
 ma.hmhco.com CNAME .
@@ -54566,6 +54572,8 @@ servicing.business.hsbc.com CNAME .
 *.servicing.business.hsbc.com CNAME .
 servicing.unitedautocredit.net CNAME .
 *.servicing.unitedautocredit.net CNAME .
+session.bugsnag.kindle.amazon.dev CNAME .
+*.session.bugsnag.kindle.amazon.dev CNAME .
 session.timecommerce.net CNAME .
 *.session.timecommerce.net CNAME .
 sessions.embeddables.com CNAME .
@@ -65772,6 +65780,8 @@ stats.zoogletools.net CNAME .
 *.stats.zoogletools.net CNAME .
 stats.zotabox.com CNAME .
 *.stats.zotabox.com CNAME .
+stats.zruvix.com CNAME .
+*.stats.zruvix.com CNAME .
 stats2.architecturaldigest.com CNAME .
 *.stats2.architecturaldigest.com CNAME .
 stats2.bonappetit.com CNAME .
@@ -69578,6 +69588,8 @@ townhouses.woodlea.com.au CNAME .
 *.townhouses.woodlea.com.au CNAME .
 townsquareinteractive.actonservice.com CNAME .
 *.townsquareinteractive.actonservice.com CNAME .
+tp-em.cc CNAME .
+*.tp-em.cc CNAME .
 tp.ackermann.ch CNAME .
 *.tp.ackermann.ch CNAME .
 tp.ambria.de CNAME .
@@ -77504,6 +77516,8 @@ wdukge.midwayusa.com CNAME .
 *.wdukge.midwayusa.com CNAME .
 we-love-privacy.humane.club CNAME .
 *.we-love-privacy.humane.club CNAME .
+we-stats.com.cdn.cloudflare.net CNAME .
+*.we-stats.com.cdn.cloudflare.net CNAME .
 we.care.oswegohealth.org CNAME .
 *.we.care.oswegohealth.org CNAME .
 we.kurly.com CNAME .
