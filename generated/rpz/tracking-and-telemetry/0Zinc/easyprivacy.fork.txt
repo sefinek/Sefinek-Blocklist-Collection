@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101003 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101100 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,523 domains
+; Entries: 40,526 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 10, 2026 at 3:50 AM UTC | 2026-10-10T03:50:04.832Z
+; Last updated: October 11, 2026 at 12:13 AM UTC | 2026-10-11T00:13:29.212Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -3086,6 +3086,8 @@ secure.merchantadvantage.com CNAME .
 *.secure.merchantadvantage.com CNAME .
 seg.sharethis.com CNAME .
 *.seg.sharethis.com CNAME .
+session.bugsnag.kindle.amazon.dev CNAME .
+*.session.bugsnag.kindle.amazon.dev CNAME .
 session.timecommerce.net CNAME .
 *.session.timecommerce.net CNAME .
 sessions.embeddables.com CNAME .
@@ -3940,6 +3942,8 @@ watchtower.graindata.com CNAME .
 *.watchtower.graindata.com CNAME .
 wco.crownpeak.com CNAME .
 *.wco.crownpeak.com CNAME .
+we-stats.com.cdn.cloudflare.net CNAME .
+*.we-stats.com.cdn.cloudflare.net CNAME .
 web-beacon.starii-rover.com CNAME .
 *.web-beacon.starii-rover.com CNAME .
 web-tracker.smsbump.com CNAME .
@@ -7370,8 +7374,10 @@ content22.citibank.com.au CNAME .
 *.content22.citibank.com.au CNAME .
 content22.citibankonline.com CNAME .
 *.content22.citibankonline.com CNAME .
-content22.online.citi.com CNAME .
-*.content22.online.citi.com CNAME .
+contents1.00110.citi.com CNAME .
+*.contents1.00110.citi.com CNAME .
+contents2.00110.citi.com CNAME .
+*.contents2.00110.citi.com CNAME .
 drfdisvc.walmart.com CNAME .
 *.drfdisvc.walmart.com CNAME .
 event.evtm.53.com CNAME .
