@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,459 domains
+# Entries: 18,480 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: 127.0.0.1 before each domain
 # Expires: 1 day
-# Last updated: October 5, 2026 at 1:21 PM UTC | 2026-10-05T13:21:16.668Z
+# Last updated: October 12, 2026 at 2:11 PM UTC | 2026-10-12T14:11:24.928Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -205,6 +205,8 @@
 127.0.0.1 adsensecustomsearchads.com
 127.0.0.1 www.adsensecustomsearchads.com
 127.0.0.1 app-ads-services.com
+127.0.0.1 muf.app-ads-services.com
+127.0.0.1 odf.app-ads-services.com
 127.0.0.1 odm.app-ads-services.com
 127.0.0.1 www.app-ads-services.com
 127.0.0.1 target.microsoft.com
@@ -2242,11 +2244,13 @@
 127.0.0.1 track.uc.cn
 127.0.0.1 api.branch.io
 127.0.0.1 api2.branch.io
+127.0.0.1 api3.branch.io
 127.0.0.1 branch.io
 127.0.0.1 cdn.branch.io
+127.0.0.1 dsp.branch.io
 127.0.0.1 gdpr.branch.io
 127.0.0.1 go.branch.io
-127.0.0.1 growth.branch.io
+127.0.0.1 protected-api.branch.io
 127.0.0.1 start.branch.io
 127.0.0.1 video.branch.io
 127.0.0.1 vulcan.branch.io
@@ -8461,6 +8465,7 @@
 127.0.0.1 app-shake.xml-eu.ak-is2.net
 127.0.0.1 app-shake.xs.ak-is2.net
 127.0.0.1 bappaads.xml.ak-is2.net
+127.0.0.1 branchdsp.rtb-ui.ak-is2.net
 127.0.0.1 cachegorilla.xml.ak-is2.net
 127.0.0.1 ctrtraffic.fs.ak-is2.net
 127.0.0.1 danarimedia.xml.ak-is2.net
@@ -10359,16 +10364,20 @@
 127.0.0.1 d1.ads.rmbl.ws
 127.0.0.1 d2.ads.rmbl.ws
 127.0.0.1 d4.ads.rmbl.ws
-127.0.0.1 analytics.adjust.cn
 127.0.0.1 analytics.adjust.com
-127.0.0.1 analytics.adjust.io
-127.0.0.1 analytics.adjust.net.in
-127.0.0.1 analytics.adjust.world
-127.0.0.1 analytics.eu.adjust.com
-127.0.0.1 app.adjust.cn
 127.0.0.1 app.adjust.com
+127.0.0.1 s2s.adjust.com
+127.0.0.1 view.adjust.com
+127.0.0.1 analytics.eu.adjust.com
+127.0.0.1 analytics.tr.adjust.com
+127.0.0.1 analytics.us.adjust.com
+127.0.0.1 analytics.adjust.cn
+127.0.0.1 app.adjust.cn
+127.0.0.1 analytics.adjust.io
 127.0.0.1 app.adjust.io
+127.0.0.1 analytics.adjust.net.in
 127.0.0.1 app.adjust.net.in
+127.0.0.1 analytics.adjust.world
 127.0.0.1 app.adjust.world
 127.0.0.1 bright-sdk.com
 127.0.0.1 brightdata.com
@@ -14058,6 +14067,7 @@
 127.0.0.1 bridesmaidspamimmortal.com
 127.0.0.1 bridgetrack.com
 127.0.0.1 brigadedelegatesandbox.com
+127.0.0.1 briggie.org
 127.0.0.1 brightadnetwork.com
 127.0.0.1 brightcriticism.com
 127.0.0.1 brightinfo.com
@@ -14102,6 +14112,7 @@
 127.0.0.1 bvmcdn.net
 127.0.0.1 bvtpk.com
 127.0.0.1 bwp.download.com
+127.0.0.1 bx.meayis.cfd
 127.0.0.1 bytefrom2010.com
 127.0.0.1 bzyfzusiqohk.com
 127.0.0.1 c.bannerflow.net
@@ -14492,6 +14503,7 @@
 127.0.0.1 d2j042cj1421wi.cloudfront.net
 127.0.0.1 d2kk0o3fr7ed01.cloudfront.net
 127.0.0.1 d2lahoz916es9g.cloudfront.net
+127.0.0.1 d2pf0ys5xus6n.cloudfront.net
 127.0.0.1 d2qnx6y010m4rt.cloudfront.net
 127.0.0.1 d2sbzwmcg5amr3.cloudfront.net
 127.0.0.1 d2ty8gaf6rmowa.cloudfront.net
@@ -14515,6 +14527,7 @@
 127.0.0.1 d3rjndf2qggsna.cloudfront.net
 127.0.0.1 d3u598arehftfk.cloudfront.net
 127.0.0.1 d3v3bqdndm4erx.cloudfront.net
+127.0.0.1 dadgah.org
 127.0.0.1 dads.wedobest.com.cn
 127.0.0.1 dadsimz.com
 127.0.0.1 daejyre.com
@@ -14544,6 +14557,7 @@
 127.0.0.1 dbxexsnxxzwwo.com
 127.0.0.1 dc-storm.com
 127.0.0.1 dcbbwymp1bhlf.cloudfront.net
+127.0.0.1 dd.gillyspencie.com
 127.0.0.1 dd1xbevqx.com
 127.0.0.1 ddzk5l3bd.com
 127.0.0.1 dead-put.com
@@ -14796,6 +14810,7 @@
 127.0.0.1 european-toplist.de
 127.0.0.1 euroranking.de
 127.0.0.1 eusta.de
+127.0.0.1 evasivewashoutsociety.com
 127.0.0.1 evergage.com
 127.0.0.1 evzhzppj5kel.com
 127.0.0.1 eweconciliate.com
@@ -14860,6 +14875,7 @@
 127.0.0.1 feuageepitoke.com
 127.0.0.1 fhsmtrnsfnt.com
 127.0.0.1 fhvfd.com
+127.0.0.1 fhyatbab.in
 127.0.0.1 fibqukktuv.in
 127.0.0.1 fiksu.com
 127.0.0.1 filezoness.com
@@ -15010,6 +15026,7 @@
 127.0.0.1 gmhyebojlimvqbc.com
 127.0.0.1 gmxvmvptfm.com
 127.0.0.1 gnenuelnn.com
+127.0.0.1 gnschdti.com
 127.0.0.1 go-clicks.de
 127.0.0.1 go-rank.de
 127.0.0.1 go.bigbang.solutions
@@ -15948,6 +15965,7 @@
 127.0.0.1 ocio.leadzu.com
 127.0.0.1 oclasrv.com
 127.0.0.1 od.stimefloccus.shop
+127.0.0.1 odloqsduxqha.in
 127.0.0.1 odnvkuocmow.in
 127.0.0.1 odqdkealzr.com
 127.0.0.1 oewa.at
@@ -16392,6 +16410,7 @@
 127.0.0.1 qn.unspedtaction.com
 127.0.0.1 qnbeenbgsx.com
 127.0.0.1 qnenxwwxzav.com
+127.0.0.1 qnfonjdhdpx.com
 127.0.0.1 qnp16tstw.com
 127.0.0.1 qnsr.com
 127.0.0.1 qo.errorrespan.com
@@ -16424,6 +16443,7 @@
 127.0.0.1 r.leadzu.com
 127.0.0.1 r.trwl1.com
 127.0.0.1 r0ckeet.com
+127.0.0.1 rabon.org
 127.0.0.1 radiate.com
 127.0.0.1 radiumone.com
 127.0.0.1 radxabsah.com
@@ -17263,6 +17283,7 @@
 127.0.0.1 uumkcycj.com
 127.0.0.1 uvopoefe.com
 127.0.0.1 uwoaptee.com
+127.0.0.1 ux.bagwigvendee.cfd
 127.0.0.1 uyunad.com
 127.0.0.1 uz.louchefunnel.shop
 127.0.0.1 v6rxv5coo5.com

@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,459 domains
+# Entries: 18,480 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: 0.0.0.0 before each domain
 # Expires: 1 day
-# Last updated: October 5, 2026 at 1:21 PM UTC | 2026-10-05T13:21:16.702Z
+# Last updated: October 12, 2026 at 2:11 PM UTC | 2026-10-12T14:11:24.599Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -205,6 +205,8 @@
 0.0.0.0 adsensecustomsearchads.com
 0.0.0.0 www.adsensecustomsearchads.com
 0.0.0.0 app-ads-services.com
+0.0.0.0 muf.app-ads-services.com
+0.0.0.0 odf.app-ads-services.com
 0.0.0.0 odm.app-ads-services.com
 0.0.0.0 www.app-ads-services.com
 0.0.0.0 target.microsoft.com
@@ -2242,11 +2244,13 @@
 0.0.0.0 track.uc.cn
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
+0.0.0.0 api3.branch.io
 0.0.0.0 branch.io
 0.0.0.0 cdn.branch.io
+0.0.0.0 dsp.branch.io
 0.0.0.0 gdpr.branch.io
 0.0.0.0 go.branch.io
-0.0.0.0 growth.branch.io
+0.0.0.0 protected-api.branch.io
 0.0.0.0 start.branch.io
 0.0.0.0 video.branch.io
 0.0.0.0 vulcan.branch.io
@@ -8461,6 +8465,7 @@
 0.0.0.0 app-shake.xml-eu.ak-is2.net
 0.0.0.0 app-shake.xs.ak-is2.net
 0.0.0.0 bappaads.xml.ak-is2.net
+0.0.0.0 branchdsp.rtb-ui.ak-is2.net
 0.0.0.0 cachegorilla.xml.ak-is2.net
 0.0.0.0 ctrtraffic.fs.ak-is2.net
 0.0.0.0 danarimedia.xml.ak-is2.net
@@ -10359,16 +10364,20 @@
 0.0.0.0 d1.ads.rmbl.ws
 0.0.0.0 d2.ads.rmbl.ws
 0.0.0.0 d4.ads.rmbl.ws
-0.0.0.0 analytics.adjust.cn
 0.0.0.0 analytics.adjust.com
-0.0.0.0 analytics.adjust.io
-0.0.0.0 analytics.adjust.net.in
-0.0.0.0 analytics.adjust.world
-0.0.0.0 analytics.eu.adjust.com
-0.0.0.0 app.adjust.cn
 0.0.0.0 app.adjust.com
+0.0.0.0 s2s.adjust.com
+0.0.0.0 view.adjust.com
+0.0.0.0 analytics.eu.adjust.com
+0.0.0.0 analytics.tr.adjust.com
+0.0.0.0 analytics.us.adjust.com
+0.0.0.0 analytics.adjust.cn
+0.0.0.0 app.adjust.cn
+0.0.0.0 analytics.adjust.io
 0.0.0.0 app.adjust.io
+0.0.0.0 analytics.adjust.net.in
 0.0.0.0 app.adjust.net.in
+0.0.0.0 analytics.adjust.world
 0.0.0.0 app.adjust.world
 0.0.0.0 bright-sdk.com
 0.0.0.0 brightdata.com
@@ -14058,6 +14067,7 @@
 0.0.0.0 bridesmaidspamimmortal.com
 0.0.0.0 bridgetrack.com
 0.0.0.0 brigadedelegatesandbox.com
+0.0.0.0 briggie.org
 0.0.0.0 brightadnetwork.com
 0.0.0.0 brightcriticism.com
 0.0.0.0 brightinfo.com
@@ -14102,6 +14112,7 @@
 0.0.0.0 bvmcdn.net
 0.0.0.0 bvtpk.com
 0.0.0.0 bwp.download.com
+0.0.0.0 bx.meayis.cfd
 0.0.0.0 bytefrom2010.com
 0.0.0.0 bzyfzusiqohk.com
 0.0.0.0 c.bannerflow.net
@@ -14492,6 +14503,7 @@
 0.0.0.0 d2j042cj1421wi.cloudfront.net
 0.0.0.0 d2kk0o3fr7ed01.cloudfront.net
 0.0.0.0 d2lahoz916es9g.cloudfront.net
+0.0.0.0 d2pf0ys5xus6n.cloudfront.net
 0.0.0.0 d2qnx6y010m4rt.cloudfront.net
 0.0.0.0 d2sbzwmcg5amr3.cloudfront.net
 0.0.0.0 d2ty8gaf6rmowa.cloudfront.net
@@ -14515,6 +14527,7 @@
 0.0.0.0 d3rjndf2qggsna.cloudfront.net
 0.0.0.0 d3u598arehftfk.cloudfront.net
 0.0.0.0 d3v3bqdndm4erx.cloudfront.net
+0.0.0.0 dadgah.org
 0.0.0.0 dads.wedobest.com.cn
 0.0.0.0 dadsimz.com
 0.0.0.0 daejyre.com
@@ -14544,6 +14557,7 @@
 0.0.0.0 dbxexsnxxzwwo.com
 0.0.0.0 dc-storm.com
 0.0.0.0 dcbbwymp1bhlf.cloudfront.net
+0.0.0.0 dd.gillyspencie.com
 0.0.0.0 dd1xbevqx.com
 0.0.0.0 ddzk5l3bd.com
 0.0.0.0 dead-put.com
@@ -14796,6 +14810,7 @@
 0.0.0.0 european-toplist.de
 0.0.0.0 euroranking.de
 0.0.0.0 eusta.de
+0.0.0.0 evasivewashoutsociety.com
 0.0.0.0 evergage.com
 0.0.0.0 evzhzppj5kel.com
 0.0.0.0 eweconciliate.com
@@ -14860,6 +14875,7 @@
 0.0.0.0 feuageepitoke.com
 0.0.0.0 fhsmtrnsfnt.com
 0.0.0.0 fhvfd.com
+0.0.0.0 fhyatbab.in
 0.0.0.0 fibqukktuv.in
 0.0.0.0 fiksu.com
 0.0.0.0 filezoness.com
@@ -15010,6 +15026,7 @@
 0.0.0.0 gmhyebojlimvqbc.com
 0.0.0.0 gmxvmvptfm.com
 0.0.0.0 gnenuelnn.com
+0.0.0.0 gnschdti.com
 0.0.0.0 go-clicks.de
 0.0.0.0 go-rank.de
 0.0.0.0 go.bigbang.solutions
@@ -15948,6 +15965,7 @@
 0.0.0.0 ocio.leadzu.com
 0.0.0.0 oclasrv.com
 0.0.0.0 od.stimefloccus.shop
+0.0.0.0 odloqsduxqha.in
 0.0.0.0 odnvkuocmow.in
 0.0.0.0 odqdkealzr.com
 0.0.0.0 oewa.at
@@ -16392,6 +16410,7 @@
 0.0.0.0 qn.unspedtaction.com
 0.0.0.0 qnbeenbgsx.com
 0.0.0.0 qnenxwwxzav.com
+0.0.0.0 qnfonjdhdpx.com
 0.0.0.0 qnp16tstw.com
 0.0.0.0 qnsr.com
 0.0.0.0 qo.errorrespan.com
@@ -16424,6 +16443,7 @@
 0.0.0.0 r.leadzu.com
 0.0.0.0 r.trwl1.com
 0.0.0.0 r0ckeet.com
+0.0.0.0 rabon.org
 0.0.0.0 radiate.com
 0.0.0.0 radiumone.com
 0.0.0.0 radxabsah.com
@@ -17263,6 +17283,7 @@
 0.0.0.0 uumkcycj.com
 0.0.0.0 uvopoefe.com
 0.0.0.0 uwoaptee.com
+0.0.0.0 ux.bagwigvendee.cfd
 0.0.0.0 uyunad.com
 0.0.0.0 uz.louchefunnel.shop
 0.0.0.0 v6rxv5coo5.com

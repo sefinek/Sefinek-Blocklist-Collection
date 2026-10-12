@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026100513 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101214 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,459 domains
+; Entries: 18,480 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 5, 2026 at 1:21 PM UTC | 2026-10-05T13:21:16.640Z
+; Last updated: October 12, 2026 at 2:11 PM UTC | 2026-10-12T14:11:24.631Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -380,6 +380,10 @@ adsensecustomsearchads.com CNAME .
 *.adsensecustomsearchads.com CNAME .
 app-ads-services.com CNAME .
 *.app-ads-services.com CNAME .
+muf.app-ads-services.com CNAME .
+*.muf.app-ads-services.com CNAME .
+odf.app-ads-services.com CNAME .
+*.odf.app-ads-services.com CNAME .
 odm.app-ads-services.com CNAME .
 *.odm.app-ads-services.com CNAME .
 target.microsoft.com CNAME .
@@ -4348,16 +4352,20 @@ api.branch.io CNAME .
 *.api.branch.io CNAME .
 api2.branch.io CNAME .
 *.api2.branch.io CNAME .
+api3.branch.io CNAME .
+*.api3.branch.io CNAME .
 branch.io CNAME .
 *.branch.io CNAME .
 cdn.branch.io CNAME .
 *.cdn.branch.io CNAME .
+dsp.branch.io CNAME .
+*.dsp.branch.io CNAME .
 gdpr.branch.io CNAME .
 *.gdpr.branch.io CNAME .
 go.branch.io CNAME .
 *.go.branch.io CNAME .
-growth.branch.io CNAME .
-*.growth.branch.io CNAME .
+protected-api.branch.io CNAME .
+*.protected-api.branch.io CNAME .
 start.branch.io CNAME .
 *.start.branch.io CNAME .
 video.branch.io CNAME .
@@ -16060,6 +16068,8 @@ app-shake.xs.ak-is2.net CNAME .
 *.app-shake.xs.ak-is2.net CNAME .
 bappaads.xml.ak-is2.net CNAME .
 *.bappaads.xml.ak-is2.net CNAME .
+branchdsp.rtb-ui.ak-is2.net CNAME .
+*.branchdsp.rtb-ui.ak-is2.net CNAME .
 cachegorilla.xml.ak-is2.net CNAME .
 *.cachegorilla.xml.ak-is2.net CNAME .
 ctrtraffic.fs.ak-is2.net CNAME .
@@ -19746,26 +19756,34 @@ d2.ads.rmbl.ws CNAME .
 *.d2.ads.rmbl.ws CNAME .
 d4.ads.rmbl.ws CNAME .
 *.d4.ads.rmbl.ws CNAME .
-analytics.adjust.cn CNAME .
-*.analytics.adjust.cn CNAME .
 analytics.adjust.com CNAME .
 *.analytics.adjust.com CNAME .
-analytics.adjust.io CNAME .
-*.analytics.adjust.io CNAME .
-analytics.adjust.net.in CNAME .
-*.analytics.adjust.net.in CNAME .
-analytics.adjust.world CNAME .
-*.analytics.adjust.world CNAME .
-analytics.eu.adjust.com CNAME .
-*.analytics.eu.adjust.com CNAME .
-app.adjust.cn CNAME .
-*.app.adjust.cn CNAME .
 app.adjust.com CNAME .
 *.app.adjust.com CNAME .
+s2s.adjust.com CNAME .
+*.s2s.adjust.com CNAME .
+view.adjust.com CNAME .
+*.view.adjust.com CNAME .
+analytics.eu.adjust.com CNAME .
+*.analytics.eu.adjust.com CNAME .
+analytics.tr.adjust.com CNAME .
+*.analytics.tr.adjust.com CNAME .
+analytics.us.adjust.com CNAME .
+*.analytics.us.adjust.com CNAME .
+analytics.adjust.cn CNAME .
+*.analytics.adjust.cn CNAME .
+app.adjust.cn CNAME .
+*.app.adjust.cn CNAME .
+analytics.adjust.io CNAME .
+*.analytics.adjust.io CNAME .
 app.adjust.io CNAME .
 *.app.adjust.io CNAME .
+analytics.adjust.net.in CNAME .
+*.analytics.adjust.net.in CNAME .
 app.adjust.net.in CNAME .
 *.app.adjust.net.in CNAME .
+analytics.adjust.world CNAME .
+*.analytics.adjust.world CNAME .
 app.adjust.world CNAME .
 *.app.adjust.world CNAME .
 bright-sdk.com CNAME .
@@ -26926,6 +26944,8 @@ bridgetrack.com CNAME .
 *.bridgetrack.com CNAME .
 brigadedelegatesandbox.com CNAME .
 *.brigadedelegatesandbox.com CNAME .
+briggie.org CNAME .
+*.briggie.org CNAME .
 brightadnetwork.com CNAME .
 *.brightadnetwork.com CNAME .
 brightcriticism.com CNAME .
@@ -27014,6 +27034,8 @@ bvtpk.com CNAME .
 *.bvtpk.com CNAME .
 bwp.download.com CNAME .
 *.bwp.download.com CNAME .
+bx.meayis.cfd CNAME .
+*.bx.meayis.cfd CNAME .
 bytefrom2010.com CNAME .
 *.bytefrom2010.com CNAME .
 bzyfzusiqohk.com CNAME .
@@ -27794,6 +27816,8 @@ d2kk0o3fr7ed01.cloudfront.net CNAME .
 *.d2kk0o3fr7ed01.cloudfront.net CNAME .
 d2lahoz916es9g.cloudfront.net CNAME .
 *.d2lahoz916es9g.cloudfront.net CNAME .
+d2pf0ys5xus6n.cloudfront.net CNAME .
+*.d2pf0ys5xus6n.cloudfront.net CNAME .
 d2qnx6y010m4rt.cloudfront.net CNAME .
 *.d2qnx6y010m4rt.cloudfront.net CNAME .
 d2sbzwmcg5amr3.cloudfront.net CNAME .
@@ -27840,6 +27864,8 @@ d3u598arehftfk.cloudfront.net CNAME .
 *.d3u598arehftfk.cloudfront.net CNAME .
 d3v3bqdndm4erx.cloudfront.net CNAME .
 *.d3v3bqdndm4erx.cloudfront.net CNAME .
+dadgah.org CNAME .
+*.dadgah.org CNAME .
 dads.wedobest.com.cn CNAME .
 *.dads.wedobest.com.cn CNAME .
 dadsimz.com CNAME .
@@ -27898,6 +27924,8 @@ dc-storm.com CNAME .
 *.dc-storm.com CNAME .
 dcbbwymp1bhlf.cloudfront.net CNAME .
 *.dcbbwymp1bhlf.cloudfront.net CNAME .
+dd.gillyspencie.com CNAME .
+*.dd.gillyspencie.com CNAME .
 dd1xbevqx.com CNAME .
 *.dd1xbevqx.com CNAME .
 ddzk5l3bd.com CNAME .
@@ -28402,6 +28430,8 @@ euroranking.de CNAME .
 *.euroranking.de CNAME .
 eusta.de CNAME .
 *.eusta.de CNAME .
+evasivewashoutsociety.com CNAME .
+*.evasivewashoutsociety.com CNAME .
 evergage.com CNAME .
 *.evergage.com CNAME .
 evzhzppj5kel.com CNAME .
@@ -28530,6 +28560,8 @@ fhsmtrnsfnt.com CNAME .
 *.fhsmtrnsfnt.com CNAME .
 fhvfd.com CNAME .
 *.fhvfd.com CNAME .
+fhyatbab.in CNAME .
+*.fhyatbab.in CNAME .
 fibqukktuv.in CNAME .
 *.fibqukktuv.in CNAME .
 fiksu.com CNAME .
@@ -28830,6 +28862,8 @@ gmxvmvptfm.com CNAME .
 *.gmxvmvptfm.com CNAME .
 gnenuelnn.com CNAME .
 *.gnenuelnn.com CNAME .
+gnschdti.com CNAME .
+*.gnschdti.com CNAME .
 go-clicks.de CNAME .
 *.go-clicks.de CNAME .
 go-rank.de CNAME .
@@ -30706,6 +30740,8 @@ oclasrv.com CNAME .
 *.oclasrv.com CNAME .
 od.stimefloccus.shop CNAME .
 *.od.stimefloccus.shop CNAME .
+odloqsduxqha.in CNAME .
+*.odloqsduxqha.in CNAME .
 odnvkuocmow.in CNAME .
 *.odnvkuocmow.in CNAME .
 odqdkealzr.com CNAME .
@@ -31594,6 +31630,8 @@ qnbeenbgsx.com CNAME .
 *.qnbeenbgsx.com CNAME .
 qnenxwwxzav.com CNAME .
 *.qnenxwwxzav.com CNAME .
+qnfonjdhdpx.com CNAME .
+*.qnfonjdhdpx.com CNAME .
 qnp16tstw.com CNAME .
 *.qnp16tstw.com CNAME .
 qnsr.com CNAME .
@@ -31658,6 +31696,8 @@ r.trwl1.com CNAME .
 *.r.trwl1.com CNAME .
 r0ckeet.com CNAME .
 *.r0ckeet.com CNAME .
+rabon.org CNAME .
+*.rabon.org CNAME .
 radiate.com CNAME .
 *.radiate.com CNAME .
 radiumone.com CNAME .
@@ -33336,6 +33376,8 @@ uvopoefe.com CNAME .
 *.uvopoefe.com CNAME .
 uwoaptee.com CNAME .
 *.uwoaptee.com CNAME .
+ux.bagwigvendee.cfd CNAME .
+*.ux.bagwigvendee.cfd CNAME .
 uyunad.com CNAME .
 *.uyunad.com CNAME .
 uz.louchefunnel.shop CNAME .
