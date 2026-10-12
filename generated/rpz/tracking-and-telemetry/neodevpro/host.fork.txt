@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101117 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101222 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,21 +9,17 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: NeoDevPro Host Blocklist
-; Entries: 113,127 domains
+; Entries: 113,133 domains
 ; Source: https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 11, 2026 at 5:14 PM UTC | 2026-10-11T17:14:08.747Z
+; Last updated: October 12, 2026 at 10:25 PM UTC | 2026-10-12T22:25:10.943Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
 ; Report false positives: https://blocklist.sefinek.net/false-positives
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
-0.03a2ffd59df.com CNAME .
-*.0.03a2ffd59df.com CNAME .
-0.da.58.com.cn CNAME .
-*.0.da.58.com.cn CNAME .
 0.myikas.com CNAME .
 *.0.myikas.com CNAME .
 0.net.easyjet.com CNAME .
@@ -1740,8 +1736,6 @@ $TTL 300
 *.2.haoxue360.com CNAME .
 2.letvlive.com CNAME .
 *.2.letvlive.com CNAME .
-2.net CNAME .
-*.2.net CNAME .
 2.tuxi.com.cn CNAME .
 *.2.tuxi.com.cn CNAME .
 2.up.qingdaonews.com CNAME .
@@ -1972,6 +1966,8 @@ $TTL 300
 *.22betpartners.com CNAME .
 22blqkmkg.de CNAME .
 *.22blqkmkg.de CNAME .
+22ccaa.com CNAME .
+*.22ccaa.com CNAME .
 22ee88.com CNAME .
 *.22ee88.com CNAME .
 22eo9qlbpt.com CNAME .
@@ -3006,6 +3002,8 @@ $TTL 300
 *.39mob.com CNAME .
 39q0imqo0.com CNAME .
 *.39q0imqo0.com CNAME .
+3a2ffd59df.com CNAME .
+*.3a2ffd59df.com CNAME .
 3a3df91b05.com CNAME .
 *.3a3df91b05.com CNAME .
 3ae7054c01.com CNAME .
@@ -5226,8 +5224,8 @@ $TTL 300
 *.78win07.com CNAME .
 78win09.com CNAME .
 *.78win09.com CNAME .
-79181531227.con1casino.com CNAME .
-*.79181531227.con1casino.com CNAME .
+79181531227.com CNAME .
+*.79181531227.com CNAME .
 7926ccc537.com CNAME .
 *.7926ccc537.com CNAME .
 7996epzfh.com CNAME .
@@ -5964,6 +5962,8 @@ $TTL 300
 *.8k9ynfczfd.com CNAME .
 8kbet.app CNAME .
 *.8kbet.app CNAME .
+8kbet.com CNAME .
+*.8kbet.com CNAME .
 8khgnlxk6.com CNAME .
 *.8khgnlxk6.com CNAME .
 8kj1ldt1.de CNAME .
@@ -7706,8 +7706,8 @@ a13398.actonservice.com CNAME .
 *.a13398.actonservice.com CNAME .
 a13404.actonservice.com CNAME .
 *.a13404.actonservice.com CNAME .
-a13422.actonservice.comaten.com CNAME .
-*.a13422.actonservice.comaten.com CNAME .
+a13422.actonservice.com CNAME .
+*.a13422.actonservice.com CNAME .
 a13425.actonservice.com CNAME .
 *.a13425.actonservice.com CNAME .
 a13460.actonservice.com CNAME .
@@ -26410,8 +26410,8 @@ apitiny.net CNAME .
 *.apitiny.net CNAME .
 apiv4.anythinktech.com CNAME .
 *.apiv4.anythinktech.com CNAME .
-apiwmsv288.net CNAME .
-*.apiwmsv288.net CNAME .
+apiwmda.58.com.cn CNAME .
+*.apiwmda.58.com.cn CNAME .
 apiyd.my91app.com CNAME .
 *.apiyd.my91app.com CNAME .
 apizqaczw.com CNAME .
@@ -74684,6 +74684,8 @@ five88.lc CNAME .
 *.five88.lc CNAME .
 five88.my CNAME .
 *.five88.my CNAME .
+five88.net CNAME .
+*.five88.net CNAME .
 five88.ng CNAME .
 *.five88.ng CNAME .
 five88.nl CNAME .
@@ -74708,8 +74710,6 @@ five88.wine CNAME .
 *.five88.wine CNAME .
 five88.world CNAME .
 *.five88.world CNAME .
-five880contacts.com CNAME .
-*.five880contacts.com CNAME .
 five88chinhhang.com CNAME .
 *.five88chinhhang.com CNAME .
 fivesidedsquare.com CNAME .
@@ -115400,8 +115400,8 @@ m.tick0.com CNAME .
 *.m.tick0.com CNAME .
 m.tin888.club CNAME .
 *.m.tin888.club CNAME .
-m.tin888.to2ccaa.com CNAME .
-*.m.tin888.to2ccaa.com CNAME .
+m.tin888.top CNAME .
+*.m.tin888.top CNAME .
 m.tiojk.com CNAME .
 *.m.tiojk.com CNAME .
 m.tjiaa.com CNAME .
@@ -124738,8 +124738,6 @@ metrics4.data.hicloud.com CNAME .
 *.metrics4.data.hicloud.com CNAME .
 metrics5.data.hicloud.com CNAME .
 *.metrics5.data.hicloud.com CNAME .
-metrics8kbet.com CNAME .
-*.metrics8kbet.com CNAME .
 metricsdirect.com CNAME .
 *.metricsdirect.com CNAME .
 metricsinfo.edc.ca CNAME .
@@ -129572,6 +129570,8 @@ n0zwlat83.com CNAME .
 *.n0zwlat83.com CNAME .
 n12rk1r9h.com CNAME .
 *.n12rk1r9h.com CNAME .
+n1casino.com CNAME .
+*.n1casino.com CNAME .
 n1yy6blznk.com CNAME .
 *.n1yy6blznk.com CNAME .
 n2.clips4sale.com CNAME .
@@ -181354,8 +181354,8 @@ sub1.cosmosdirekt.de CNAME .
 *.sub1.cosmosdirekt.de CNAME .
 sub1.gebeall.info CNAME .
 *.sub1.gebeall.info CNAME .
-sub2.aostreet.com CNAME .
-*.sub2.aostreet.com CNAME .
+sub2.abcbest.info CNAME .
+*.sub2.abcbest.info CNAME .
 sub2.avgle.com CNAME .
 *.sub2.avgle.com CNAME .
 sub2tech.com CNAME .
@@ -182240,6 +182240,8 @@ sv1.sv88d.com CNAME .
 *.sv1.sv88d.com CNAME .
 sv2.biz CNAME .
 *.sv2.biz CNAME .
+sv288.net CNAME .
+*.sv288.net CNAME .
 sv368.casino CNAME .
 *.sv368.casino CNAME .
 sv368.one CNAME .
@@ -188116,8 +188118,6 @@ tin88.top CNAME .
 *.tin88.top CNAME .
 tin888.net CNAME .
 *.tin888.net CNAME .
-tin888.top CNAME .
-*.tin888.top CNAME .
 tinb.net CNAME .
 *.tinb.net CNAME .
 tineidsreseeds.com CNAME .
@@ -195222,6 +195222,8 @@ trck.spoteffects.net CNAME .
 *.trck.spoteffects.net CNAME .
 trck.stefany.co.jp CNAME .
 *.trck.stefany.co.jp CNAME .
+trck.wargaming.net CNAME .
+*.trck.wargaming.net CNAME .
 trck.www4.earlywarning.com CNAME .
 *.trck.www4.earlywarning.com CNAME .
 trck.www4.paze.com CNAME .
@@ -202026,6 +202028,8 @@ utiq.xatakaciencia.com CNAME .
 *.utiq.xatakaciencia.com CNAME .
 utiq.xatakafoto.com CNAME .
 *.utiq.xatakafoto.com CNAME .
+utiq.xatakahome.com CNAME .
+*.utiq.xatakahome.com CNAME .
 utiq.xatakamovil.com CNAME .
 *.utiq.xatakamovil.com CNAME .
 utiq.xatakandroid.com CNAME .
@@ -213620,8 +213624,6 @@ ms88asia.com CNAME .
 *.ms88asia.com CNAME .
 ms88ca.com CNAME .
 *.ms88ca.com CNAME .
-n1casino.com CNAME .
-*.n1casino.com CNAME .
 nangong2.com CNAME .
 *.nangong2.com CNAME .
 national-lottery.co.uk CNAME .
@@ -213658,8 +213660,6 @@ nmpcdn.com CNAME .
 *.nmpcdn.com CNAME .
 nnnwwwe.com CNAME .
 *.nnnwwwe.com CNAME .
-norgesautbcbest.info CNAME .
-*.norgesautbcbest.info CNAME .
 northbet.com CNAME .
 *.northbet.com CNAME .
 nova88.com CNAME .
@@ -222050,6 +222050,8 @@ zkczzltlhp6y.com CNAME .
 *.zkczzltlhp6y.com CNAME .
 zkdtpucowdlat.website CNAME .
 *.zkdtpucowdlat.website CNAME .
+zkdvaodpyoxvd.online CNAME .
+*.zkdvaodpyoxvd.online CNAME .
 zkebwy.copenhagenstudios.com CNAME .
 *.zkebwy.copenhagenstudios.com CNAME .
 zkfjdxlwwcilg.website CNAME .
@@ -222464,6 +222466,8 @@ zonhteso.com CNAME .
 *.zonhteso.com CNAME .
 zonjdpdkswtna.online CNAME .
 *.zonjdpdkswtna.online CNAME .
+zononi.com CNAME .
+*.zononi.com CNAME .
 zonst.com CNAME .
 *.zonst.com CNAME .
 zontera.com CNAME .
@@ -223200,6 +223204,8 @@ zuvwhajyrtkfq.space CNAME .
 *.zuvwhajyrtkfq.space CNAME .
 zuwnqfdzojfzk.site CNAME .
 *.zuwnqfdzojfzk.site CNAME .
+zuxzvxmibplsk.website CNAME .
+*.zuxzvxmibplsk.website CNAME .
 zuykihipzrmv.com CNAME .
 *.zuykihipzrmv.com CNAME .
 zuyloscnskdiu.online CNAME .
