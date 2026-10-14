@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101109 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101408 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,538 domains
+; Entries: 40,539 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 11, 2026 at 9:37 AM UTC | 2026-10-11T09:37:39.738Z
+; Last updated: October 14, 2026 at 8:20 AM UTC | 2026-10-14T08:20:33.281Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -10468,6 +10468,8 @@ analytics.favcy.com CNAME .
 *.analytics.favcy.com CNAME .
 analytics.ferguson.com CNAME .
 *.analytics.ferguson.com CNAME .
+analytics.fibwatch.com CNAME .
+*.analytics.fibwatch.com CNAME .
 analytics.firespring.com CNAME .
 *.analytics.firespring.com CNAME .
 analytics.firstbankcardcenter.com CNAME .
