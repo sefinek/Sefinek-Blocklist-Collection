@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101702 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026101807 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Ads Blocklist
-; Entries: 28,222 domains
+; Entries: 28,227 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 17, 2026 at 2:35 AM UTC | 2026-10-17T02:35:57.316Z
+; Last updated: October 18, 2026 at 7:42 AM UTC | 2026-10-18T07:42:53.570Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -13452,6 +13452,8 @@ advertising.amazon.com.be CNAME .
 *.advertising.amazon.com.be CNAME .
 advertising.amazon.dev CNAME .
 *.advertising.amazon.dev CNAME .
+advertising.amazon.es CNAME .
+*.advertising.amazon.es CNAME .
 advertising.aol.com CNAME .
 *.advertising.aol.com CNAME .
 advertising-api-eu.amazon.com CNAME .
@@ -20436,6 +20438,8 @@ ccpa-no-script.psg.nexstardigital.net CNAME .
 *.ccpa-no-script.psg.nexstardigital.net CNAME .
 ccpa-script.psg.nexstardigital.net CNAME .
 *.ccpa-script.psg.nexstardigital.net CNAME .
+ccprod.roving.com CNAME .
+*.ccprod.roving.com CNAME .
 cc.relatoseroticos-gratis.com CNAME .
 *.cc.relatoseroticos-gratis.com CNAME .
 cc.sexgeschichten-kostenlos.com CNAME .
@@ -24482,6 +24486,8 @@ dev-vertiv-xrwidgets-enh0cfcpfmhwh0az.z01.azurefd.net CNAME .
 *.dev-vertiv-xrwidgets-enh0cfcpfmhwh0az.z01.azurefd.net CNAME .
 dewapush.com CNAME .
 *.dewapush.com CNAME .
+dewapush.eu.cc CNAME .
+*.dewapush.eu.cc CNAME .
 dexerto.media CNAME .
 *.dexerto.media CNAME .
 dexpredict.com CNAME .
@@ -27230,6 +27236,8 @@ feedburner.com CNAME .
 *.feedburner.com CNAME .
 feedburner.google.com CNAME .
 *.feedburner.google.com CNAME .
+feedcontentcloud.com CNAME .
+*.feedcontentcloud.com CNAME .
 feedgrabbr.com CNAME .
 *.feedgrabbr.com CNAME .
 feedify.info CNAME .
@@ -30738,6 +30746,8 @@ hypercarart.com CNAME .
 *.hypercarart.com CNAME .
 hyperlegend.com CNAME .
 *.hyperlegend.com CNAME .
+hyperpromote.com CNAME .
+*.hyperpromote.com CNAME .
 hyperxxx.club CNAME .
 *.hyperxxx.club CNAME .
 hyprmx.com CNAME .
