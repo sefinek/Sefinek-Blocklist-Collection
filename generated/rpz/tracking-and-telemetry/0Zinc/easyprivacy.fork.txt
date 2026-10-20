@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102002 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102023 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,533 domains
+; Entries: 40,539 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 20, 2026 at 2:59 AM UTC | 2026-10-20T02:59:44.527Z
+; Last updated: October 20, 2026 at 11:38 PM UTC | 2026-10-20T23:38:24.319Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -442,6 +442,8 @@ g9904216750.co CNAME .
 *.g9904216750.co CNAME .
 g990421676.co CNAME .
 *.g990421676.co CNAME .
+gaij.app CNAME .
+*.gaij.app CNAME .
 gbqofs.com CNAME .
 *.gbqofs.com CNAME .
 gcprivacy.com CNAME .
@@ -2672,6 +2674,8 @@ msadsscale.azureedge.net CNAME .
 *.msadsscale.azureedge.net CNAME .
 mv.treehousei.com CNAME .
 *.mv.treehousei.com CNAME .
+mxanalytics.youruncensoredai.workers.dev CNAME .
+*.mxanalytics.youruncensoredai.workers.dev CNAME .
 native-ads-events-api.c4s-rd.services CNAME .
 *.native-ads-events-api.c4s-rd.services CNAME .
 native-ads-events-api2.c4s-rd.services CNAME .
@@ -6270,6 +6274,8 @@ fp.bizjournals.com CNAME .
 *.fp.bizjournals.com CNAME .
 fp.measure.office.com CNAME .
 *.fp.measure.office.com CNAME .
+fp.uncensored.com CNAME .
+*.fp.uncensored.com CNAME .
 fpa-cdn.adweek.com CNAME .
 *.fpa-cdn.adweek.com CNAME .
 fpa-cdn.arstechnica.com CNAME .
@@ -6792,6 +6798,8 @@ rec.banggood.com CNAME .
 *.rec.banggood.com CNAME .
 relay.fiverr.com CNAME .
 *.relay.fiverr.com CNAME .
+report.senzia.cc CNAME .
+*.report.senzia.cc CNAME .
 reports.tunein.com CNAME .
 *.reports.tunein.com CNAME .
 researchlog.dbresearch.com CNAME .
@@ -7058,6 +7066,8 @@ t.producthunt.com CNAME .
 *.t.producthunt.com CNAME .
 t.regionsjob.com CNAME .
 *.t.regionsjob.com CNAME .
+t.venice.ai CNAME .
+*.t.venice.ai CNAME .
 t.wayfair.ca CNAME .
 *.t.wayfair.ca CNAME .
 t.wayfair.co.uk CNAME .
@@ -7404,6 +7414,8 @@ img2021.navyfederal.org CNAME .
 *.img2021.navyfederal.org CNAME .
 imgs.signifyd.com CNAME .
 *.imgs.signifyd.com CNAME .
+l.ca.ovhcloud.com CNAME .
+*.l.ca.ovhcloud.com CNAME .
 log-185a61e7.bendigobank.com.au CNAME .
 *.log-185a61e7.bendigobank.com.au CNAME .
 log-2ffe60ee.westpac.com.au CNAME .
