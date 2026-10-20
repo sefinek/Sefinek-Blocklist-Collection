@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102008 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102014 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,17 +9,19 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: URLhaus Malicious Hosts
-; Entries: 423 domains
+; Entries: 425 domains
 ; Source: https://urlhaus.abuse.ch/downloads/hostfile
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 20, 2026 at 8:10 AM UTC | 2026-10-20T08:10:04.946Z
+; Last updated: October 20, 2026 at 2:05 PM UTC | 2026-10-20T14:05:48.433Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
 ; Report false positives: https://blocklist.sefinek.net/false-positives
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------
+123.ywxww.net CNAME .
+*.123.ywxww.net CNAME .
 1717.1000uc.com CNAME .
 *.1717.1000uc.com CNAME .
 198-macros.com CNAME .
@@ -48,6 +50,8 @@ admin.byte.in.ua CNAME .
 *.admin.byte.in.ua CNAME .
 admin.gestroom.it CNAME .
 *.admin.gestroom.it CNAME .
+adubuildersco.com CNAME .
+*.adubuildersco.com CNAME .
 aftelecom.com.br CNAME .
 *.aftelecom.com.br CNAME .
 aidlifempowerment.com CNAME .
@@ -64,10 +68,6 @@ anubisclient.co.uk CNAME .
 *.anubisclient.co.uk CNAME .
 api.recapcha.fun CNAME .
 *.api.recapcha.fun CNAME .
-api.xyz-code.biz CNAME .
-*.api.xyz-code.biz CNAME .
-app.app-river.icu CNAME .
-*.app.app-river.icu CNAME .
 app.appzcvb.com CNAME .
 *.app.appzcvb.com CNAME .
 areyouready.co.za CNAME .
@@ -86,6 +86,8 @@ balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 *.balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev CNAME .
 bankruptcyrhodeisland.com CNAME .
 *.bankruptcyrhodeisland.com CNAME .
+beak.in CNAME .
+*.beak.in CNAME .
 beoauto.alexion.rs CNAME .
 *.beoauto.alexion.rs CNAME .
 betmagik.com CNAME .
@@ -144,12 +146,12 @@ cdn.wovplaying.help CNAME .
 *.cdn.wovplaying.help CNAME .
 celebratingseniors.net CNAME .
 *.celebratingseniors.net CNAME .
+cepde.org CNAME .
+*.cepde.org CNAME .
 chantcompass9.com CNAME .
 *.chantcompass9.com CNAME .
 chat-server.maverickpreviews.com CNAME .
 *.chat-server.maverickpreviews.com CNAME .
-check.okx3.io CNAME .
-*.check.okx3.io CNAME .
 checkfivem.com CNAME .
 *.checkfivem.com CNAME .
 cheetoclient.com CNAME .
@@ -192,6 +194,8 @@ data.yhydl.com CNAME .
 *.data.yhydl.com CNAME .
 dcrun.co.uk CNAME .
 *.dcrun.co.uk CNAME .
+dcwblida.dz CNAME .
+*.dcwblida.dz CNAME .
 deagroup-ks.com CNAME .
 *.deagroup-ks.com CNAME .
 debugify.net CNAME .
@@ -216,8 +220,6 @@ dl.dzqzd.com CNAME .
 *.dl.dzqzd.com CNAME .
 dl.natgo.cn CNAME .
 *.dl.natgo.cn CNAME .
-do.opinionvip.club CNAME .
-*.do.opinionvip.club CNAME .
 domainmob.com CNAME .
 *.domainmob.com CNAME .
 donkeytourscroatia.com CNAME .
@@ -230,14 +232,10 @@ down.fwqlt.com CNAME .
 *.down.fwqlt.com CNAME .
 down.pcclear.com CNAME .
 *.down.pcclear.com CNAME .
-down.qqfarmer.com.cn CNAME .
-*.down.qqfarmer.com.cn CNAME .
 download.caihong.com CNAME .
 *.download.caihong.com CNAME .
 download.doumaibiji.cn CNAME .
 *.download.doumaibiji.cn CNAME .
-download.foden.site CNAME .
-*.download.foden.site CNAME .
 download.haozip.com CNAME .
 *.download.haozip.com CNAME .
 download.kaobeitu.com CNAME .
@@ -280,6 +278,8 @@ fd.v2downf.shop CNAME .
 *.fd.v2downf.shop CNAME .
 file.blackint3.com CNAME .
 *.file.blackint3.com CNAME .
+file.uhsea.com CNAME .
+*.file.uhsea.com CNAME .
 filerit.com CNAME .
 *.filerit.com CNAME .
 first-security-verden.de CNAME .
@@ -480,6 +480,8 @@ nova-75.com CNAME .
 *.nova-75.com CNAME .
 nova-client.com CNAME .
 *.nova-client.com CNAME .
+nusatoyota.co.id CNAME .
+*.nusatoyota.co.id CNAME .
 obearo.com CNAME .
 *.obearo.com CNAME .
 odinclient.st CNAME .
@@ -562,6 +564,8 @@ reservphotoinstay.one CNAME .
 *.reservphotoinstay.one CNAME .
 reservphotoinstaynow.shop CNAME .
 *.reservphotoinstaynow.shop CNAME .
+reutilizemais.co.mz CNAME .
+*.reutilizemais.co.mz CNAME .
 rheddh.com CNAME .
 *.rheddh.com CNAME .
 riderspin.com CNAME .
@@ -580,6 +584,8 @@ sales.ifree.page CNAME .
 *.sales.ifree.page CNAME .
 samiksha.com.sg CNAME .
 *.samiksha.com.sg CNAME .
+samul.elblag.pl CNAME .
+*.samul.elblag.pl CNAME .
 sbmods.top CNAME .
 *.sbmods.top CNAME .
 scanbot.me CNAME .
@@ -648,6 +654,8 @@ sutterpoint.com CNAME .
 *.sutterpoint.com CNAME .
 svirtual.sanviatorperu.edu.pe CNAME .
 *.svirtual.sanviatorperu.edu.pe CNAME .
+swiftfusion.tech CNAME .
+*.swiftfusion.tech CNAME .
 swscripts.com CNAME .
 *.swscripts.com CNAME .
 tangentwaves.com CNAME .
@@ -676,8 +684,6 @@ theholidayroads.com CNAME .
 *.theholidayroads.com CNAME .
 thementordirectory.com CNAME .
 *.thementordirectory.com CNAME .
-theoremaoliveoil.com CNAME .
-*.theoremaoliveoil.com CNAME .
 thisisafalsepositive.st CNAME .
 *.thisisafalsepositive.st CNAME .
 tiacreation.club CNAME .
@@ -688,8 +694,6 @@ toolshare.com.tr CNAME .
 *.toolshare.com.tr CNAME .
 top8onlinegame.com CNAME .
 *.top8onlinegame.com CNAME .
-tpp.om-stock.com CNAME .
-*.tpp.om-stock.com CNAME .
 tr.zhzy999.net CNAME .
 *.tr.zhzy999.net CNAME .
 transparenciacanaa.com.br CNAME .
