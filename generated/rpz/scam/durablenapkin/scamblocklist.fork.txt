@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101908 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102008 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Durablenapkin Scam Blocklist
-; Entries: 2,237 domains
+; Entries: 2,278 domains
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; License: MIT (https://mit-license.org/)
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 19, 2026 at 8:25 AM UTC | 2026-10-19T08:25:12.818Z
+; Last updated: October 20, 2026 at 8:10 AM UTC | 2026-10-20T08:10:08.582Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -56,6 +56,8 @@ store.47n78xprrvp1.top CNAME .
 *.5wzgtq8dpk.com CNAME .
 65spy7rgcu.com CNAME .
 *.65spy7rgcu.com CNAME .
+store.65spy7rgcu.com CNAME .
+*.store.65spy7rgcu.com CNAME .
 7ng6v3lu3c.execute-api.us-east-1.amazonaws.com CNAME .
 *.7ng6v3lu3c.execute-api.us-east-1.amazonaws.com CNAME .
 93mobiles.com CNAME .
@@ -70,6 +72,8 @@ adflowtube.com CNAME .
 *.adflowtube.com CNAME .
 adidasko.com CNAME .
 *.adidasko.com CNAME .
+store.adidasko.com CNAME .
+*.store.adidasko.com CNAME .
 adminicesm.life CNAME .
 *.adminicesm.life CNAME .
 store.adminicesm.life CNAME .
@@ -102,8 +106,6 @@ store.airupsrbija.com CNAME .
 *.store.airupsrbija.com CNAME .
 aizipai.cn CNAME .
 *.aizipai.cn CNAME .
-aldi-life.vip CNAME .
-*.aldi-life.vip CNAME .
 alindflepkaty14.pages.dev CNAME .
 *.alindflepkaty14.pages.dev CNAME .
 store.alindflepkaty14.pages.dev CNAME .
@@ -188,18 +190,16 @@ avarik.web.app CNAME .
 *.avarik.web.app CNAME .
 store.avarik.web.app CNAME .
 *.store.avarik.web.app CNAME .
-store.avito.avito.avito.avito.booking.com-id90123.info CNAME .
-*.store.avito.avito.avito.avito.booking.com-id90123.info CNAME .
-avito.avito.avito.pay.com-id02349.info CNAME .
-*.avito.avito.avito.pay.com-id02349.info CNAME .
-avito.booking.com-id01251.info CNAME .
-*.avito.booking.com-id01251.info CNAME .
-avito.booking.com-id16313.info CNAME .
-*.avito.booking.com-id16313.info CNAME .
-avito.sberbank.www.booking.com-id123251.info CNAME .
-*.avito.sberbank.www.booking.com-id123251.info CNAME .
-avito.www.pay.pay.booking.com-id20341.info CNAME .
-*.avito.www.pay.pay.booking.com-id20341.info CNAME .
+avito.avito.avito.pay.booking.com-id01251.info CNAME .
+*.avito.avito.avito.pay.booking.com-id01251.info CNAME .
+avito.avito.avito.sber.sberbank.booking.com-id90123.info CNAME .
+*.avito.avito.avito.sber.sberbank.booking.com-id90123.info CNAME .
+avito.avito.pay.com-id15421.info CNAME .
+*.avito.avito.pay.com-id15421.info CNAME .
+avito.pay.www.booking.com-id02349.info CNAME .
+*.avito.pay.www.booking.com-id02349.info CNAME .
+store.avito.sberbank.booking.com-id123251.info CNAME .
+*.store.avito.sberbank.booking.com-id123251.info CNAME .
 azfancy.com CNAME .
 *.azfancy.com CNAME .
 azsolver.com CNAME .
@@ -280,8 +280,6 @@ binomo.in CNAME .
 *.binomo.in CNAME .
 binomo.info CNAME .
 *.binomo.info CNAME .
-binomo.vip CNAME .
-*.binomo.vip CNAME .
 binomo1.com CNAME .
 *.binomo1.com CNAME .
 binomo2.zendesk.com CNAME .
@@ -336,6 +334,10 @@ store.bnidigital.com CNAME .
 *.store.bnidigital.com CNAME .
 bombardina.pl CNAME .
 *.bombardina.pl CNAME .
+bonuspulsefortune.life CNAME .
+*.bonuspulsefortune.life CNAME .
+store.booking.com-id15421.info CNAME .
+*.store.booking.com-id15421.info CNAME .
 boutiqueondemand.com CNAME .
 *.boutiqueondemand.com CNAME .
 bradcroninnapo82.myshopify.com CNAME .
@@ -444,6 +446,8 @@ cmoboy.com CNAME .
 *.cmoboy.com CNAME .
 store.cmoboy.com CNAME .
 *.store.cmoboy.com CNAME .
+store.cocumbertee.com CNAME .
+*.store.cocumbertee.com CNAME .
 cognatesyringe.com CNAME .
 *.cognatesyringe.com CNAME .
 store.cognatesyringe.com CNAME .
@@ -458,6 +462,8 @@ store.coinreq.com CNAME .
 *.store.coinreq.com CNAME .
 colorandcotton.com CNAME .
 *.colorandcotton.com CNAME .
+com-id129041.info CNAME .
+*.com-id129041.info CNAME .
 compoundexotics.com CNAME .
 *.compoundexotics.com CNAME .
 confira.io CNAME .
@@ -494,6 +500,8 @@ cryptot.net CNAME .
 *.cryptot.net CNAME .
 store.cryptot.net CNAME .
 *.store.cryptot.net CNAME .
+csbo.shop CNAME .
+*.csbo.shop CNAME .
 customizerbox.com CNAME .
 *.customizerbox.com CNAME .
 store.customizerbox.com CNAME .
@@ -536,10 +544,8 @@ dautee.com CNAME .
 *.dautee.com CNAME .
 davidsmovingco.com CNAME .
 *.davidsmovingco.com CNAME .
-debridlink.com CNAME .
-*.debridlink.com CNAME .
-store.debridlink.com CNAME .
-*.store.debridlink.com CNAME .
+ddoe.shop CNAME .
+*.ddoe.shop CNAME .
 decoryourhome.store CNAME .
 *.decoryourhome.store CNAME .
 deergift.com CNAME .
@@ -550,6 +556,8 @@ desiupload.in CNAME .
 *.desiupload.in CNAME .
 store.desiupload.in CNAME .
 *.store.desiupload.in CNAME .
+dev.id601294105.date CNAME .
+*.dev.id601294105.date CNAME .
 devifoodgrains.com CNAME .
 *.devifoodgrains.com CNAME .
 dezpez.com CNAME .
@@ -602,8 +610,6 @@ duitpanas.top CNAME .
 *.duitpanas.top CNAME .
 store.duitpanas.top CNAME .
 *.store.duitpanas.top CNAME .
-dunkansp.info CNAME .
-*.dunkansp.info CNAME .
 e-indianvisa.com CNAME .
 *.e-indianvisa.com CNAME .
 e-touristvisa.com CNAME .
@@ -624,6 +630,8 @@ easypayment.me CNAME .
 *.easypayment.me CNAME .
 store.easypayment.me CNAME .
 *.store.easypayment.me CNAME .
+easyshopper.org CNAME .
+*.easyshopper.org CNAME .
 ecomicrolab.com CNAME .
 *.ecomicrolab.com CNAME .
 ecs-online.ffm.to CNAME .
@@ -638,8 +646,8 @@ edwardjhutley107375938786edwardjrhutley70205433153583usps.com CNAME .
 *.edwardjhutley107375938786edwardjrhutley70205433153583usps.com CNAME .
 elaka.lk CNAME .
 *.elaka.lk CNAME .
-store.elonspace.org CNAME .
-*.store.elonspace.org CNAME .
+elonspace.org CNAME .
+*.elonspace.org CNAME .
 emberio.com CNAME .
 *.emberio.com CNAME .
 store.emberio.com CNAME .
@@ -750,6 +758,8 @@ faze47.com CNAME .
 *.faze47.com CNAME .
 faze5.com CNAME .
 *.faze5.com CNAME .
+store.faze70.com CNAME .
+*.store.faze70.com CNAME .
 faze77.com CNAME .
 *.faze77.com CNAME .
 faze8.com CNAME .
@@ -816,6 +826,8 @@ finnews7.wordpress.com CNAME .
 *.finnews7.wordpress.com CNAME .
 store.finnews7.wordpress.com CNAME .
 *.store.finnews7.wordpress.com CNAME .
+fishingdaily.shop CNAME .
+*.fishingdaily.shop CNAME .
 fitgirl-repacks-site.org CNAME .
 *.fitgirl-repacks-site.org CNAME .
 fiusps.com CNAME .
@@ -848,6 +860,8 @@ freedom.invoiceid-bill.com CNAME .
 *.freedom.invoiceid-bill.com CNAME .
 store.freedom.invoiceid-bill.com CNAME .
 *.store.freedom.invoiceid-bill.com CNAME .
+store.freegiftscards.shop CNAME .
+*.store.freegiftscards.shop CNAME .
 friday99.com CNAME .
 *.friday99.com CNAME .
 frostgoddess.com CNAME .
@@ -880,6 +894,8 @@ store.fveco.com CNAME .
 *.store.fveco.com CNAME .
 gamedrive.org CNAME .
 *.gamedrive.org CNAME .
+gamgoing.com CNAME .
+*.gamgoing.com CNAME .
 gamingbuffs.com CNAME .
 *.gamingbuffs.com CNAME .
 gcqcanada.com CNAME .
@@ -950,6 +966,8 @@ govmedcareers.com CNAME .
 *.govmedcareers.com CNAME .
 store.govmedcareers.com CNAME .
 *.store.govmedcareers.com CNAME .
+gr.update-tracks.com CNAME .
+*.gr.update-tracks.com CNAME .
 greatoffersnow.com CNAME .
 *.greatoffersnow.com CNAME .
 gsport.com CNAME .
@@ -1122,6 +1140,8 @@ info-flirtme.com CNAME .
 *.info-flirtme.com CNAME .
 info-milfroom.com CNAME .
 *.info-milfroom.com CNAME .
+infosystemsllc.com CNAME .
+*.infosystemsllc.com CNAME .
 injustice.site CNAME .
 *.injustice.site CNAME .
 instant-e-app-for-campaign.github.io CNAME .
@@ -1158,6 +1178,8 @@ store.jellystores.com CNAME .
 *.store.jellystores.com CNAME .
 jne-express.my.id CNAME .
 *.jne-express.my.id CNAME .
+jorvanda.com CNAME .
+*.jorvanda.com CNAME .
 jsdimmigration.com CNAME .
 *.jsdimmigration.com CNAME .
 store.jsdimmigration.com CNAME .
@@ -1280,6 +1302,10 @@ lp.voucheras.com CNAME .
 *.lp.voucheras.com CNAME .
 store.lp.voucheras.com CNAME .
 *.store.lp.voucheras.com CNAME .
+lskg.shop CNAME .
+*.lskg.shop CNAME .
+store.lskg.shop CNAME .
+*.store.lskg.shop CNAME .
 lucatee.com CNAME .
 *.lucatee.com CNAME .
 lucidtiger.com CNAME .
@@ -1298,6 +1324,8 @@ luxsgear.com CNAME .
 *.luxsgear.com CNAME .
 store.luxsgear.com CNAME .
 *.store.luxsgear.com CNAME .
+store.m.coinexeu.vip CNAME .
+*.store.m.coinexeu.vip CNAME .
 maebl.com CNAME .
 *.maebl.com CNAME .
 store.maebl.com CNAME .
@@ -1320,8 +1348,6 @@ mango-desert-09ebb4010.4.azurestaticapps.net CNAME .
 *.mango-desert-09ebb4010.4.azurestaticapps.net CNAME .
 store.mango-desert-09ebb4010.4.azurestaticapps.net CNAME .
 *.store.mango-desert-09ebb4010.4.azurestaticapps.net CNAME .
-mansion-xenarthran.info CNAME .
-*.mansion-xenarthran.info CNAME .
 maxdebrid.com CNAME .
 *.maxdebrid.com CNAME .
 mayor4london.com CNAME .
@@ -1364,6 +1390,8 @@ moddetail.com CNAME .
 *.moddetail.com CNAME .
 store.moddetail.com CNAME .
 *.store.moddetail.com CNAME .
+modernusfemale.com CNAME .
+*.modernusfemale.com CNAME .
 modmobile24.com CNAME .
 *.modmobile24.com CNAME .
 store.modmobile24.com CNAME .
@@ -1386,6 +1414,8 @@ mujib-store28.blogspot.com CNAME .
 *.mujib-store28.blogspot.com CNAME .
 store.mujib-store28.blogspot.com CNAME .
 *.store.mujib-store28.blogspot.com CNAME .
+mullvaad.net CNAME .
+*.mullvaad.net CNAME .
 multifilmy.pl CNAME .
 *.multifilmy.pl CNAME .
 muskai.net CNAME .
@@ -1486,6 +1516,8 @@ navi33.com CNAME .
 *.navi33.com CNAME .
 navi35.com CNAME .
 *.navi35.com CNAME .
+navi35.ru CNAME .
+*.navi35.ru CNAME .
 navi36.ru CNAME .
 *.navi36.ru CNAME .
 navi38.ru CNAME .
@@ -1648,6 +1680,8 @@ nip98.com CNAME .
 *.nip98.com CNAME .
 nirvezal.com CNAME .
 *.nirvezal.com CNAME .
+nlepfpteg.com CNAME .
+*.nlepfpteg.com CNAME .
 nofotballshop.com CNAME .
 *.nofotballshop.com CNAME .
 nonofy.com CNAME .
@@ -1714,6 +1748,8 @@ store.olymptrade-qid.com CNAME .
 *.store.olymptrade-qid.com CNAME .
 online-binomo.com CNAME .
 *.online-binomo.com CNAME .
+store.online-binomo.com CNAME .
+*.store.online-binomo.com CNAME .
 onlinecda.pl CNAME .
 *.onlinecda.pl CNAME .
 onlinefilmy.pl CNAME .
@@ -1770,20 +1806,30 @@ paradisevs.com CNAME .
 *.paradisevs.com CNAME .
 path2zillion.com CNAME .
 *.path2zillion.com CNAME .
-pay.avito.avito.avito.avito.com-id20341.info CNAME .
-*.pay.avito.avito.avito.avito.com-id20341.info CNAME .
-pay.avito.avito.avito.booking.com-id15421.info CNAME .
-*.pay.avito.avito.avito.booking.com-id15421.info CNAME .
-store.pay.avito.avito.bo0king.com-id16313.info CNAME .
-*.store.pay.avito.avito.bo0king.com-id16313.info CNAME .
-store.pay.avito.com-id129041.info CNAME .
-*.store.pay.avito.com-id129041.info CNAME .
-store.pay.avito.pay.com-id20341.info CNAME .
-*.store.pay.avito.pay.com-id20341.info CNAME .
+store.pay.avito.avito.avito.avito.avito.avito.com-id02349.info CNAME .
+*.store.pay.avito.avito.avito.avito.avito.avito.com-id02349.info CNAME .
+pay.avito.avito.avito.avito.b00king.com-id16313.info CNAME .
+*.pay.avito.avito.avito.avito.b00king.com-id16313.info CNAME .
+pay.avito.avito.avito.avito.sber.booking.com-id90123.info CNAME .
+*.pay.avito.avito.avito.avito.sber.booking.com-id90123.info CNAME .
+pay.avito.avito.avito.avito.www.booking.com-id02349.info CNAME .
+*.pay.avito.avito.avito.avito.www.booking.com-id02349.info CNAME .
+pay.avito.avito.avito.sber.com-id20341.info CNAME .
+*.pay.avito.avito.avito.sber.com-id20341.info CNAME .
+pay.avito.avito.avito.www.booking.com-id20341.info CNAME .
+*.pay.avito.avito.avito.www.booking.com-id20341.info CNAME .
 pay.avito.pay.com-id3212341.info CNAME .
 *.pay.avito.pay.com-id3212341.info CNAME .
-pay.www.booking.com-id23901.info CNAME .
-*.pay.www.booking.com-id23901.info CNAME .
+pay.avito.sber.booking.com-id3212341.info CNAME .
+*.pay.avito.sber.booking.com-id3212341.info CNAME .
+store.pay.avito.www.booking.com-id329712.com CNAME .
+*.store.pay.avito.www.booking.com-id329712.com CNAME .
+pay.b00klng.com-id16313.info CNAME .
+*.pay.b00klng.com-id16313.info CNAME .
+store.pay.www.avito.www.booking.com-id15421.info CNAME .
+*.store.pay.www.avito.www.booking.com-id15421.info CNAME .
+pay.www.sber.avito.booking.com-id20341.info CNAME .
+*.pay.www.sber.avito.booking.com-id20341.info CNAME .
 peekpok.com CNAME .
 *.peekpok.com CNAME .
 penguinnow.com CNAME .
@@ -1808,6 +1854,8 @@ phirussacmush.net CNAME .
 *.phirussacmush.net CNAME .
 store.phirussacmush.net CNAME .
 *.store.phirussacmush.net CNAME .
+phototan-update.cfd CNAME .
+*.phototan-update.cfd CNAME .
 pinjamanrupiah.xyz CNAME .
 *.pinjamanrupiah.xyz CNAME .
 store.pinjamanrupiah.xyz CNAME .
@@ -1854,6 +1902,8 @@ promo-offer.com CNAME .
 *.promo-offer.com CNAME .
 promotion40-form.com CNAME .
 *.promotion40-form.com CNAME .
+store.providedexcitingcritical.pro CNAME .
+*.store.providedexcitingcritical.pro CNAME .
 prpages.com CNAME .
 *.prpages.com CNAME .
 pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com CNAME .
@@ -1924,8 +1974,6 @@ robinmooreband.com CNAME .
 *.robinmooreband.com CNAME .
 robuxmenu.vip CNAME .
 *.robuxmenu.vip CNAME .
-store.robuxmenu.vip CNAME .
-*.store.robuxmenu.vip CNAME .
 rockchief.com CNAME .
 *.rockchief.com CNAME .
 rosateeshop.com CNAME .
@@ -1934,6 +1982,8 @@ royaldecorhome.store CNAME .
 *.royaldecorhome.store CNAME .
 royalhedgies.com CNAME .
 *.royalhedgies.com CNAME .
+royalkingsmail.co.uk CNAME .
+*.royalkingsmail.co.uk CNAME .
 rozomii.info CNAME .
 *.rozomii.info CNAME .
 store.rozomii.info CNAME .
@@ -1956,6 +2006,8 @@ store.ruthiekresal.za.com CNAME .
 *.store.ruthiekresal.za.com CNAME .
 sakuradate.com CNAME .
 *.sakuradate.com CNAME .
+store.saleberghaus.com CNAME .
+*.store.saleberghaus.com CNAME .
 salimusic.com CNAME .
 *.salimusic.com CNAME .
 store.salimusic.com CNAME .
@@ -1964,26 +2016,34 @@ saveeeee.myshopify.com CNAME .
 *.saveeeee.myshopify.com CNAME .
 store.saveeeee.myshopify.com CNAME .
 *.store.saveeeee.myshopify.com CNAME .
-sber.avito.pay.booking.com-id3212341.info CNAME .
-*.sber.avito.pay.booking.com-id3212341.info CNAME .
-store.sber.pay.com-id01251.info CNAME .
-*.store.sber.pay.com-id01251.info CNAME .
-store.sberbank.avito.avito.avito.avito.avito.avito.com-id20341.info CNAME .
-*.store.sberbank.avito.avito.avito.avito.avito.avito.com-id20341.info CNAME .
-sberbank.avito.avito.avito.avito.avito.booking.com-id02349.info CNAME .
-*.sberbank.avito.avito.avito.avito.avito.booking.com-id02349.info CNAME .
-sberbank.avito.avito.avito.sberbank.booking.com-id90123.info CNAME .
-*.sberbank.avito.avito.avito.sberbank.booking.com-id90123.info CNAME .
-store.sberbank.avito.booklng.com-id16313.info CNAME .
-*.store.sberbank.avito.booklng.com-id16313.info CNAME .
-store.sberbank.avito.pay.com-id02349.info CNAME .
-*.store.sberbank.avito.pay.com-id02349.info CNAME .
-sberbank.avito.pay.com-id20341.info CNAME .
-*.sberbank.avito.pay.com-id20341.info CNAME .
-sberbank.pay.booking.com-id2435141.info CNAME .
-*.sberbank.pay.booking.com-id2435141.info CNAME .
-store.sberbank.sberbank.com-id123251.info CNAME .
-*.store.sberbank.sberbank.com-id123251.info CNAME .
+sber.pay.avito.avito.www.booking.com-id90123.info CNAME .
+*.sber.pay.avito.avito.www.booking.com-id90123.info CNAME .
+sber.pay.avito.sber.www.booking.com-id23901.info CNAME .
+*.sber.pay.avito.sber.www.booking.com-id23901.info CNAME .
+store.sber.sberbank.avito.avito.avito.avito.booking.com-id20341.info CNAME .
+*.store.sber.sberbank.avito.avito.avito.avito.booking.com-id20341.info CNAME .
+sber.sberbank.com-id409712.com CNAME .
+*.sber.sberbank.com-id409712.com CNAME .
+sberbank.avito.avito.avito.sber.avito.com-id02349.info CNAME .
+*.sberbank.avito.avito.avito.sber.avito.com-id02349.info CNAME .
+sberbank.avito.avito.com-id15421.info CNAME .
+*.sberbank.avito.avito.com-id15421.info CNAME .
+sberbank.avito.avito.sber.booking.com-id01251.info CNAME .
+*.sberbank.avito.avito.sber.booking.com-id01251.info CNAME .
+sberbank.avito.pay.booking.com-id3212341.info CNAME .
+*.sberbank.avito.pay.booking.com-id3212341.info CNAME .
+sberbank.pay.booking.com-id20341.info CNAME .
+*.sberbank.pay.booking.com-id20341.info CNAME .
+sberbank.pay.pay.www.booking.com-id20341.info CNAME .
+*.sberbank.pay.pay.www.booking.com-id20341.info CNAME .
+store.sberbank.pay.sber.com-id20341.info CNAME .
+*.store.sberbank.pay.sber.com-id20341.info CNAME .
+sberbank.sber.booking.com-id90123.info CNAME .
+*.sberbank.sber.booking.com-id90123.info CNAME .
+sberbank.sber.com-id129041.info CNAME .
+*.sberbank.sber.com-id129041.info CNAME .
+sberbank.sberbank.booking.com-id123251.info CNAME .
+*.sberbank.sberbank.booking.com-id123251.info CNAME .
 seagulltee.com CNAME .
 *.seagulltee.com CNAME .
 seans24.com.pl CNAME .
@@ -1992,6 +2052,10 @@ seasonsofficial.com CNAME .
 *.seasonsofficial.com CNAME .
 store.seasonsofficial.com CNAME .
 *.store.seasonsofficial.com CNAME .
+secrity2redline.com CNAME .
+*.secrity2redline.com CNAME .
+store.secrity2redline.com CNAME .
+*.store.secrity2redline.com CNAME .
 securevault.top CNAME .
 *.securevault.top CNAME .
 store.securevault.top CNAME .
@@ -2050,8 +2114,6 @@ store.skincheap.com CNAME .
 *.store.skincheap.com CNAME .
 skinszone.net CNAME .
 *.skinszone.net CNAME .
-store.skipped.vip CNAME .
-*.store.skipped.vip CNAME .
 skyfollowerbridge.com CNAME .
 *.skyfollowerbridge.com CNAME .
 sligen.com CNAME .
@@ -2228,6 +2290,8 @@ store.terverystaio.info CNAME .
 *.store.terverystaio.info CNAME .
 teslatime.net CNAME .
 *.teslatime.net CNAME .
+store.thebayonline.shop CNAME .
+*.store.thebayonline.shop CNAME .
 theeaglebrand.company.site CNAME .
 *.theeaglebrand.company.site CNAME .
 store.theeaglebrand.company.site CNAME .
@@ -2592,6 +2656,8 @@ whbinder.com CNAME .
 *.whbinder.com CNAME .
 wikeb.com CNAME .
 *.wikeb.com CNAME .
+wind88.shop CNAME .
+*.wind88.shop CNAME .
 wintexfashions.com CNAME .
 *.wintexfashions.com CNAME .
 wisdomganga.com CNAME .
@@ -2640,12 +2706,18 @@ yahhhoo.com CNAME .
 *.yahhhoo.com CNAME .
 store.yahhhoo.com CNAME .
 *.store.yahhhoo.com CNAME .
-store.yandex.avito.avito.avito.avito.avito.booking.com-id23901.info CNAME .
-*.store.yandex.avito.avito.avito.avito.avito.booking.com-id23901.info CNAME .
-store.yandex.avito.avito.avito.avito.booking.com-id02349.info CNAME .
-*.store.yandex.avito.avito.avito.avito.booking.com-id02349.info CNAME .
-yandex.avito.avito.avito.booking.com-id23901.info CNAME .
-*.yandex.avito.avito.avito.booking.com-id23901.info CNAME .
+yandex.avito.avito.avito.pay.www.booking.com-id20341.info CNAME .
+*.yandex.avito.avito.avito.pay.www.booking.com-id20341.info CNAME .
+store.yandex.avito.avito.pay.booking.com-id20341.info CNAME .
+*.store.yandex.avito.avito.pay.booking.com-id20341.info CNAME .
+yandex.avito.avito.pay.www.booking.com-id01251.info CNAME .
+*.yandex.avito.avito.pay.www.booking.com-id01251.info CNAME .
+yandex.avito.sber.booking.com-id01251.info CNAME .
+*.yandex.avito.sber.booking.com-id01251.info CNAME .
+store.yandex.booking.com-id23901.info CNAME .
+*.store.yandex.booking.com-id23901.info CNAME .
+store.yandex.sber.avito.avito.avito.avito.avito.com-id20341.info CNAME .
+*.store.yandex.sber.avito.avito.avito.avito.avito.com-id20341.info CNAME .
 yasir252.com CNAME .
 *.yasir252.com CNAME .
 yeezysofficial.us.com CNAME .
