@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102023 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102123 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,539 domains
+; Entries: 40,546 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 20, 2026 at 11:38 PM UTC | 2026-10-20T23:38:24.319Z
+; Last updated: October 21, 2026 at 11:55 PM UTC | 2026-10-21T23:55:45.933Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -6608,6 +6608,8 @@ observe.metarouter.io CNAME .
 *.observe.metarouter.io CNAME .
 ocular.hotukdeals.com CNAME .
 *.ocular.hotukdeals.com CNAME .
+ocular.pepperdeals.com CNAME .
+*.ocular.pepperdeals.com CNAME .
 ohm-dot-hackster-io.appspot.com CNAME .
 *.ohm-dot-hackster-io.appspot.com CNAME .
 ol-collector.quillbot.com CNAME .
@@ -7420,6 +7422,8 @@ log-185a61e7.bendigobank.com.au CNAME .
 *.log-185a61e7.bendigobank.com.au CNAME .
 log-2ffe60ee.westpac.com.au CNAME .
 *.log-2ffe60ee.westpac.com.au CNAME .
+o-api.hotukdeals.com CNAME .
+*.o-api.hotukdeals.com CNAME .
 qfp.intuit.com CNAME .
 *.qfp.intuit.com CNAME .
 rba-screen.healthsafe-id.com CNAME .
@@ -78864,6 +78868,10 @@ navigation-timing.meinestadt.de CNAME .
 *.navigation-timing.meinestadt.de CNAME .
 nct.ui-portal.de CNAME .
 *.nct.ui-portal.de CNAME .
+ocular.mydealz.de CNAME .
+*.ocular.mydealz.de CNAME .
+ocular.preisjaeger.at CNAME .
+*.ocular.preisjaeger.at CNAME .
 oxifwsabgd.nzz.ch CNAME .
 *.oxifwsabgd.nzz.ch CNAME .
 pi.technik3d.com CNAME .
@@ -80770,6 +80778,8 @@ kropka.onet.pl CNAME .
 *.kropka.onet.pl CNAME .
 mklik.gazeta.pl CNAME .
 *.mklik.gazeta.pl CNAME .
+ocular.pepper.pl CNAME .
+*.ocular.pepper.pl CNAME .
 p.gazeta.pl CNAME .
 *.p.gazeta.pl CNAME .
 pb.siepomaga.pl CNAME .
@@ -81008,6 +81018,8 @@ logs.openbank.com CNAME .
 *.logs.openbank.com CNAME .
 mega.promodescuentos.com CNAME .
 *.mega.promodescuentos.com CNAME .
+ocular.chollometro.com CNAME .
+*.ocular.chollometro.com CNAME .
 ocular.promodescuentos.com CNAME .
 *.ocular.promodescuentos.com CNAME .
 pixel.europapress.net CNAME .
@@ -81044,6 +81056,8 @@ fusion.bonniertidskrifter.se CNAME .
 *.fusion.bonniertidskrifter.se CNAME .
 gx.idg.se CNAME .
 *.gx.idg.se CNAME .
+ocular.pepperdeals.se CNAME .
+*.ocular.pepperdeals.se CNAME .
 stat.nyheter24.se CNAME .
 *.stat.nyheter24.se CNAME .
 scribe.wongnai.com CNAME .
