@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101802 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102102 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,542 domains
+; Entries: 40,551 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 18, 2026 at 2:35 AM UTC | 2026-10-18T02:35:42.034Z
+; Last updated: October 21, 2026 at 2:54 AM UTC | 2026-10-21T02:54:35.731Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -14656,6 +14656,8 @@ beacon.cdn.qq.com CNAME .
 *.beacon.cdn.qq.com CNAME .
 beacon.cdnma.com CNAME .
 *.beacon.cdnma.com CNAME .
+beacon.cdnpure.com CNAME .
+*.beacon.cdnpure.com CNAME .
 beacon.coofis.com CNAME .
 *.beacon.coofis.com CNAME .
 beacon.dropbox.com CNAME .
@@ -26086,6 +26088,8 @@ fp.mandatumtrader.fi CNAME .
 *.fp.mandatumtrader.fi CNAME .
 fp.measure.office.com CNAME .
 *.fp.measure.office.com CNAME .
+fp.uncensored.com CNAME .
+*.fp.uncensored.com CNAME .
 fpa-cdn.adweek.com CNAME .
 *.fpa-cdn.adweek.com CNAME .
 fpa-cdn.arstechnica.com CNAME .
@@ -26624,6 +26628,8 @@ gagysn.floward.com CNAME .
 *.gagysn.floward.com CNAME .
 gahhfg.bobo.com.br CNAME .
 *.gahhfg.bobo.com.br CNAME .
+gaij.app CNAME .
+*.gaij.app CNAME .
 gak.webtoons.com CNAME .
 *.gak.webtoons.com CNAME .
 galileotelemetry.tencent.com CNAME .
@@ -34290,6 +34296,8 @@ l.brightside.com CNAME .
 *.l.brightside.com CNAME .
 l.bspace.io CNAME .
 *.l.bspace.io CNAME .
+l.ca.ovhcloud.com CNAME .
+*.l.ca.ovhcloud.com CNAME .
 l.civic.com CNAME .
 *.l.civic.com CNAME .
 l.claphere.com CNAME .
@@ -45428,6 +45436,8 @@ mx2.carte-gr.total.fr CNAME .
 *.mx2.carte-gr.total.fr CNAME .
 mx2.happ.social CNAME .
 *.mx2.happ.social CNAME .
+mxanalytics.youruncensoredai.workers.dev CNAME .
+*.mxanalytics.youruncensoredai.workers.dev CNAME .
 mxdzxd.mister-auto.com CNAME .
 *.mxdzxd.mister-auto.com CNAME .
 mxhunv.kurz-mal-weg.de CNAME .
@@ -50242,6 +50252,8 @@ r.skimresources.com CNAME .
 *.r.skimresources.com CNAME .
 r.sportsie.com CNAME .
 *.r.sportsie.com CNAME .
+r.upload.app CNAME .
+*.r.upload.app CNAME .
 r.winf.site CNAME .
 *.r.winf.site CNAME .
 r.wz.de CNAME .
@@ -50726,6 +50738,8 @@ report.appmetrica.yandex.net.iberostar.com CNAME .
 *.report.appmetrica.yandex.net.iberostar.com CNAME .
 report.meituan.com CNAME .
 *.report.meituan.com CNAME .
+report.senzia.cc CNAME .
+*.report.senzia.cc CNAME .
 reportic.app CNAME .
 *.reportic.app CNAME .
 reporting-api.gannettinnovation.com CNAME .
@@ -65558,6 +65572,8 @@ stats.te.com CNAME .
 *.stats.te.com CNAME .
 stats.teamdetails.com CNAME .
 *.stats.teamdetails.com CNAME .
+stats.techinate.com CNAME .
+*.stats.techinate.com CNAME .
 stats.tedserbinski.com CNAME .
 *.stats.tedserbinski.com CNAME .
 stats.teenranch.com CNAME .
@@ -67590,6 +67606,8 @@ t.utrockets.com CNAME .
 *.t.utrockets.com CNAME .
 t.valcyte.com CNAME .
 *.t.valcyte.com CNAME .
+t.venice.ai CNAME .
+*.t.venice.ai CNAME .
 t.veranstaltungsticket-bahn.de CNAME .
 *.t.veranstaltungsticket-bahn.de CNAME .
 t.vibe.co CNAME .
