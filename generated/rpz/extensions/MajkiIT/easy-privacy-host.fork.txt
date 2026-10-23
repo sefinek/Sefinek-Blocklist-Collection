@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102102 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102302 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,551 domains
+; Entries: 40,563 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 21, 2026 at 2:54 AM UTC | 2026-10-21T02:54:35.731Z
+; Last updated: October 23, 2026 at 2:57 AM UTC | 2026-10-23T02:57:12.426Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -16712,6 +16712,8 @@ clb.yahoo.co.jp CNAME .
 *.clb.yahoo.co.jp CNAME .
 clck.dzen.ru CNAME .
 *.clck.dzen.ru CNAME .
+clcksrv.com CNAME .
+*.clcksrv.com CNAME .
 clcktrax.com CNAME .
 *.clcktrax.com CNAME .
 cleanservices.actonservice.com CNAME .
@@ -25260,6 +25262,8 @@ execreps.actonsoftware.com CNAME .
 *.execreps.actonsoftware.com CNAME .
 execution-ci360.rai.it CNAME .
 *.execution-ci360.rai.it CNAME .
+exfdg.com CNAME .
+*.exfdg.com CNAME .
 exhibit.coteriefashionevents.com CNAME .
 *.exhibit.coteriefashionevents.com CNAME .
 exhibit.firex.co.uk CNAME .
@@ -25612,6 +25616,8 @@ fd.ivoclar.com CNAME .
 *.fd.ivoclar.com CNAME .
 fdbs.actonservice.com CNAME .
 *.fdbs.actonservice.com CNAME .
+fdgcore.com CNAME .
+*.fdgcore.com CNAME .
 fdiinc.actonservice.com CNAME .
 *.fdiinc.actonservice.com CNAME .
 fdixsh.platypusshoes.com.au CNAME .
@@ -26328,6 +26334,8 @@ fse.net.anwalt.de CNAME .
 *.fse.net.anwalt.de CNAME .
 fsegfy.lepoint.fr CNAME .
 *.fsegfy.lepoint.fr CNAME .
+fservr.com CNAME .
+*.fservr.com CNAME .
 fsm.lapresse.ca CNAME .
 *.fsm.lapresse.ca CNAME .
 fsqwdj.live-tennis.eu CNAME .
@@ -46426,6 +46434,8 @@ nzuwat.miliboo.it CNAME .
 *.nzuwat.miliboo.it CNAME .
 nzzvvf.goldengoose.com CNAME .
 *.nzzvvf.goldengoose.com CNAME .
+o-api.hotukdeals.com CNAME .
+*.o-api.hotukdeals.com CNAME .
 o.bluewin.ch CNAME .
 *.o.bluewin.ch CNAME .
 o.carmax.com CNAME .
@@ -46558,10 +46568,22 @@ ocpi.americanexpress.ca CNAME .
 *.ocpi.americanexpress.ca CNAME .
 ocs.hagerty.com CNAME .
 *.ocs.hagerty.com CNAME .
+ocular.chollometro.com CNAME .
+*.ocular.chollometro.com CNAME .
 ocular.dealabs.com CNAME .
 *.ocular.dealabs.com CNAME .
 ocular.hotukdeals.com CNAME .
 *.ocular.hotukdeals.com CNAME .
+ocular.mydealz.de CNAME .
+*.ocular.mydealz.de CNAME .
+ocular.pepper.pl CNAME .
+*.ocular.pepper.pl CNAME .
+ocular.pepperdeals.com CNAME .
+*.ocular.pepperdeals.com CNAME .
+ocular.pepperdeals.se CNAME .
+*.ocular.pepperdeals.se CNAME .
+ocular.preisjaeger.at CNAME .
+*.ocular.preisjaeger.at CNAME .
 ocular.promodescuentos.com CNAME .
 *.ocular.promodescuentos.com CNAME .
 ocwlhv.ecid.com.br CNAME .
@@ -80616,6 +80638,8 @@ yrjpgjv35y9x.salud-masculina.info CNAME .
 *.yrjpgjv35y9x.salud-masculina.info CNAME .
 yrrudp.inven.co.kr CNAME .
 *.yrrudp.inven.co.kr CNAME .
+yrtace.com CNAME .
+*.yrtace.com CNAME .
 ysaaks.mobiauto.com.br CNAME .
 *.ysaaks.mobiauto.com.br CNAME .
 yskvdo.gebrauchtwagen.at CNAME .
