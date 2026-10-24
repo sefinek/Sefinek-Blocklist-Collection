@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026101313 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102417 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: HostsVN Malware Blocklist
-; Entries: 18,490 domains
+; Entries: 18,536 domains
 ; Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 13, 2026 at 1:24 PM UTC | 2026-10-13T13:24:00.019Z
+; Last updated: October 24, 2026 at 5:48 PM UTC | 2026-10-24T17:48:13.927Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -4570,16 +4570,24 @@ taplytics.com CNAME .
 *.taplytics.com CNAME .
 wpengine.taplytics.com CNAME .
 *.wpengine.taplytics.com CNAME .
+amplitude.com CNAME .
+*.amplitude.com CNAME .
 api.amplitude.com CNAME .
 *.api.amplitude.com CNAME .
 api.eu.amplitude.com CNAME .
 *.api.eu.amplitude.com CNAME .
 api.lab.amplitude.com CNAME .
 *.api.lab.amplitude.com CNAME .
+api.lab.eu.amplitude.com CNAME .
+*.api.lab.eu.amplitude.com CNAME .
 api2.amplitude.com CNAME .
 *.api2.amplitude.com CNAME .
 cdn.amplitude.com CNAME .
 *.cdn.amplitude.com CNAME .
+sr-client-cfg.amplitude.com CNAME .
+*.sr-client-cfg.amplitude.com CNAME .
+sr-client-cfg.eu.amplitude.com CNAME .
+*.sr-client-cfg.eu.amplitude.com CNAME .
 ar.voicefive.com CNAME .
 *.ar.voicefive.com CNAME .
 b.voicefive.com CNAME .
@@ -6162,8 +6170,12 @@ sts.batmobi.net CNAME .
 *.360in.com CNAME .
 ad.360in.com CNAME .
 *.ad.360in.com CNAME .
+camera360-api.360in.com CNAME .
+*.camera360-api.360in.com CNAME .
 challenge.360in.com CNAME .
 *.challenge.360in.com CNAME .
+common-api.360in.com CNAME .
+*.common-api.360in.com CNAME .
 dispatcher.360in.com CNAME .
 *.dispatcher.360in.com CNAME .
 exp.360in.com CNAME .
@@ -6174,6 +6186,16 @@ i.360in.com CNAME .
 *.i.360in.com CNAME .
 member.360in.com CNAME .
 *.member.360in.com CNAME .
+phototask-api.360in.com CNAME .
+*.phototask-api.360in.com CNAME .
+applog.camera360.com CNAME .
+*.applog.camera360.com CNAME .
+collect.camera360.com CNAME .
+*.collect.camera360.com CNAME .
+dispatcher.camera360.com CNAME .
+*.dispatcher.camera360.com CNAME .
+pushmsg.camera360.com CNAME .
+*.pushmsg.camera360.com CNAME .
 ad.reklamstore.com CNAME .
 *.ad.reklamstore.com CNAME .
 adserver.reklamstore.com CNAME .
@@ -12566,6 +12588,8 @@ h-adashx4ae.ut.taobao.com CNAME .
 *.h-adashx4ae.ut.taobao.com CNAME .
 abtest.alibaba.com CNAME .
 *.abtest.alibaba.com CNAME .
+aplus.alibaba.com CNAME .
+*.aplus.alibaba.com CNAME .
 dmtracking.alibaba.com CNAME .
 *.dmtracking.alibaba.com CNAME .
 dmtracking2.alibaba.com CNAME .
@@ -12576,10 +12600,20 @@ hydra.alibaba.com CNAME .
 *.hydra.alibaba.com CNAME .
 stat.alibaba.com CNAME .
 *.stat.alibaba.com CNAME .
+tdum.alibaba.com CNAME .
+*.tdum.alibaba.com CNAME .
+umlazada.alibaba.com CNAME .
+*.umlazada.alibaba.com CNAME .
 adashx.ut.alibaba.com CNAME .
 *.adashx.ut.alibaba.com CNAME .
 h-adashx.ut.alibaba.com CNAME .
 *.h-adashx.ut.alibaba.com CNAME .
+acs-mum.alibabachengdun.com CNAME .
+*.acs-mum.alibabachengdun.com CNAME .
+mum.alibabachengdun.com CNAME .
+*.mum.alibabachengdun.com CNAME .
+mum.alibabachengdun.net CNAME .
+*.mum.alibabachengdun.net CNAME .
 adservice.aliexpress.com CNAME .
 *.adservice.aliexpress.com CNAME .
 fourier.aliexpress.com CNAME .
@@ -16640,14 +16674,22 @@ vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com CNAME .
 *.vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com CNAME .
 cn-hangzhou.log.aliyuncs.com CNAME .
 *.cn-hangzhou.log.aliyuncs.com CNAME .
+alivc-aio.cn-hangzhou.log.aliyuncs.com CNAME .
+*.alivc-aio.cn-hangzhou.log.aliyuncs.com CNAME .
 cbu-offer.cn-shanghai.log.aliyuncs.com CNAME .
 *.cbu-offer.cn-shanghai.log.aliyuncs.com CNAME .
 cbu-search-app.cn-shanghai.log.aliyuncs.com CNAME .
 *.cbu-search-app.cn-shanghai.log.aliyuncs.com CNAME .
 client-upload.cn-shanghai.log.aliyuncs.com CNAME .
 *.client-upload.cn-shanghai.log.aliyuncs.com CNAME .
+videocloud.cn-hangzhou.log.aliyuncs.com CNAME .
+*.videocloud.cn-hangzhou.log.aliyuncs.com CNAME .
 wireless-app-log.cn-hangzhou.log.aliyuncs.com CNAME .
 *.wireless-app-log.cn-hangzhou.log.aliyuncs.com CNAME .
+ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com CNAME .
+*.ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com CNAME .
+ali-ctf-req.cn-hangzhou.dualstack.log.aliyuncs.com CNAME .
+*.ali-ctf-req.cn-hangzhou.dualstack.log.aliyuncs.com CNAME .
 log-global.aliyuncs.com CNAME .
 *.log-global.aliyuncs.com CNAME .
 adsplusadx-prod.log-global.aliyuncs.com CNAME .
@@ -21050,6 +21092,44 @@ ssai-ads.api.leiniao.com CNAME .
 *.ssai-ads.api.leiniao.com CNAME .
 ssai2-ads.api.leiniao.com CNAME .
 *.ssai2-ads.api.leiniao.com CNAME .
+zhangyuyidong.cn CNAME .
+*.zhangyuyidong.cn CNAME .
+sdk.zhangyuyidong.cn CNAME .
+*.sdk.zhangyuyidong.cn CNAME .
+beizi.biz CNAME .
+*.beizi.biz CNAME .
+sdk.beizi.biz CNAME .
+*.sdk.beizi.biz CNAME .
+apmplus.ap-southeast-1.volces.com CNAME .
+*.apmplus.ap-southeast-1.volces.com CNAME .
+apmplus.volces.com CNAME .
+*.apmplus.volces.com CNAME .
+gator.volces.com CNAME .
+*.gator.volces.com CNAME .
+mssdk.volces.com CNAME .
+*.mssdk.volces.com CNAME .
+tab.volces.com CNAME .
+*.tab.volces.com CNAME .
+pangolin-dsp-toutiao.com CNAME .
+*.pangolin-dsp-toutiao.com CNAME .
+pangolin-sdk-toutiao-b.com CNAME .
+*.pangolin-sdk-toutiao-b.com CNAME .
+pangolin-sdk-toutiao.com CNAME .
+*.pangolin-sdk-toutiao.com CNAME .
+api-access.pangolin-sdk-toutiao.com CNAME .
+*.api-access.pangolin-sdk-toutiao.com CNAME .
+gromore.pangolin-sdk-toutiao.com CNAME .
+*.gromore.pangolin-sdk-toutiao.com CNAME .
+log-api.pangolin-sdk-toutiao.com CNAME .
+*.log-api.pangolin-sdk-toutiao.com CNAME .
+pangolin-sdk-toutiao1.com CNAME .
+*.pangolin-sdk-toutiao1.com CNAME .
+api-access.pangolin-sdk-toutiao1.com CNAME .
+*.api-access.pangolin-sdk-toutiao1.com CNAME .
+pglstatp-toutiao.com CNAME .
+*.pglstatp-toutiao.com CNAME .
+sf3-fe-tos.pglstatp-toutiao.com CNAME .
+*.sf3-fe-tos.pglstatp-toutiao.com CNAME .
 adtimaserver.vn CNAME .
 *.adtimaserver.vn CNAME .
 api.adtimaserver.vn CNAME .
@@ -26320,6 +26400,8 @@ aps.hearstnp.com CNAME .
 *.aps.hearstnp.com CNAME .
 apture.com CNAME .
 *.apture.com CNAME .
+apzptquixoyr.com CNAME .
+*.apzptquixoyr.com CNAME .
 aq7ua5ma85rddeinve.com CNAME .
 *.aq7ua5ma85rddeinve.com CNAME .
 aqauikfd.com CNAME .
@@ -26462,6 +26544,8 @@ awhilediplomagloss.com CNAME .
 *.awhilediplomagloss.com CNAME .
 awjojjrimaf.in CNAME .
 *.awjojjrimaf.in CNAME .
+awqmgvpbarmhyw.com CNAME .
+*.awqmgvpbarmhyw.com CNAME .
 awzbijw.com CNAME .
 *.awzbijw.com CNAME .
 axdsz.pro CNAME .
@@ -29308,6 +29392,8 @@ ik.hatcheskoeri.shop CNAME .
 *.ik.hatcheskoeri.shop CNAME .
 ikahnruntx.com CNAME .
 *.ikahnruntx.com CNAME .
+il.coiffesreal.qpon CNAME .
+*.il.coiffesreal.qpon CNAME .
 ilead.itrack.it CNAME .
 *.ilead.itrack.it CNAME .
 ileeckut.com CNAME .
@@ -29786,6 +29872,8 @@ laughcloth.com CNAME .
 *.laughcloth.com CNAME .
 launchbit.com CNAME .
 *.launchbit.com CNAME .
+lavnkios.in CNAME .
+*.lavnkios.in CNAME .
 laxativestuckunclog.com CNAME .
 *.laxativestuckunclog.com CNAME .
 layer-ad.de CNAME .
@@ -30030,6 +30118,8 @@ mandateowl.com CNAME .
 *.mandateowl.com CNAME .
 manpowerspiritualunrented.com CNAME .
 *.manpowerspiritualunrented.com CNAME .
+maobtqwrqrzxm.com CNAME .
+*.maobtqwrqrzxm.com CNAME .
 mapbasin.com CNAME .
 *.mapbasin.com CNAME .
 marasgumpus.com CNAME .
@@ -30078,6 +30168,8 @@ matrimonyfeudboss.com CNAME .
 *.matrimonyfeudboss.com CNAME .
 mattockpackall.com CNAME .
 *.mattockpackall.com CNAME .
+mauve-pinkgetawhifftime.com CNAME .
+*.mauve-pinkgetawhifftime.com CNAME .
 mawlaybob.com CNAME .
 *.mawlaybob.com CNAME .
 mawptuaz.com CNAME .
@@ -31874,6 +31966,8 @@ remotepwn.com CNAME .
 *.remotepwn.com CNAME .
 remox.com CNAME .
 *.remox.com CNAME .
+renamereptiliantrance.com CNAME .
+*.renamereptiliantrance.com CNAME .
 renderstreamshuttleanalytics.net CNAME .
 *.renderstreamshuttleanalytics.net CNAME .
 repeatsweater.com CNAME .
@@ -33198,6 +33292,8 @@ tsiwqtng8huauw30n.com CNAME .
 *.tsiwqtng8huauw30n.com CNAME .
 ttgmjfgldgv9ed10.com CNAME .
 *.ttgmjfgldgv9ed10.com CNAME .
+tu.bawrelcuttail.com CNAME .
+*.tu.bawrelcuttail.com CNAME .
 tubecorp.com CNAME .
 *.tubecorp.com CNAME .
 tubecup.net CNAME .
@@ -33364,6 +33460,8 @@ urimnugocfr.com CNAME .
 *.urimnugocfr.com CNAME .
 urlcash.net CNAME .
 *.urlcash.net CNAME .
+urrfkabrkhxjat.com CNAME .
+*.urrfkabrkhxjat.com CNAME .
 us.claroadsxml.com CNAME .
 *.us.claroadsxml.com CNAME .
 uselnk.com CNAME .
@@ -34366,12 +34464,6 @@ app-analytics-services-att.com CNAME .
 *.app-analytics-services-att.com CNAME .
 app-analytics-services.com CNAME .
 *.app-analytics-services.com CNAME .
-applog.camera360.com CNAME .
-*.applog.camera360.com CNAME .
-appres.camera360.com CNAME .
-*.appres.camera360.com CNAME .
-arc.io CNAME .
-*.arc.io CNAME .
 asadcdn.com CNAME .
 *.asadcdn.com CNAME .
 asdkd.tutuapp.com CNAME .

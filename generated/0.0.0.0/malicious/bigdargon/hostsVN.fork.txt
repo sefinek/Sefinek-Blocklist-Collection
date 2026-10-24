@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,490 domains
+# Entries: 18,536 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: 0.0.0.0 before each domain
 # Expires: 1 day
-# Last updated: October 13, 2026 at 1:24 PM UTC | 2026-10-13T13:24:00.046Z
+# Last updated: October 24, 2026 at 5:48 PM UTC | 2026-10-24T17:48:13.848Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -2359,11 +2359,15 @@
 0.0.0.0 taplytics.com
 0.0.0.0 wpengine.taplytics.com
 0.0.0.0 www.taplytics.com
+0.0.0.0 amplitude.com
 0.0.0.0 api.amplitude.com
 0.0.0.0 api.eu.amplitude.com
 0.0.0.0 api.lab.amplitude.com
+0.0.0.0 api.lab.eu.amplitude.com
 0.0.0.0 api2.amplitude.com
 0.0.0.0 cdn.amplitude.com
+0.0.0.0 sr-client-cfg.amplitude.com
+0.0.0.0 sr-client-cfg.eu.amplitude.com
 0.0.0.0 ar.voicefive.com
 0.0.0.0 b.voicefive.com
 0.0.0.0 voicefive.com
@@ -3190,12 +3194,19 @@
 0.0.0.0 sts.batmobi.net
 0.0.0.0 360in.com
 0.0.0.0 ad.360in.com
+0.0.0.0 camera360-api.360in.com
 0.0.0.0 challenge.360in.com
+0.0.0.0 common-api.360in.com
 0.0.0.0 dispatcher.360in.com
 0.0.0.0 exp.360in.com
 0.0.0.0 hotpot.360in.com
 0.0.0.0 i.360in.com
 0.0.0.0 member.360in.com
+0.0.0.0 phototask-api.360in.com
+0.0.0.0 applog.camera360.com
+0.0.0.0 collect.camera360.com
+0.0.0.0 dispatcher.camera360.com
+0.0.0.0 pushmsg.camera360.com
 0.0.0.0 ad.reklamstore.com
 0.0.0.0 adserver.reklamstore.com
 0.0.0.0 adserver2.reklamstore.com
@@ -6570,13 +6581,19 @@
 0.0.0.0 h-adashx.ut.taobao.com
 0.0.0.0 h-adashx4ae.ut.taobao.com
 0.0.0.0 abtest.alibaba.com
+0.0.0.0 aplus.alibaba.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 hydra.alibaba.com
 0.0.0.0 stat.alibaba.com
+0.0.0.0 tdum.alibaba.com
+0.0.0.0 umlazada.alibaba.com
 0.0.0.0 adashx.ut.alibaba.com
 0.0.0.0 h-adashx.ut.alibaba.com
+0.0.0.0 acs-mum.alibabachengdun.com
+0.0.0.0 mum.alibabachengdun.com
+0.0.0.0 mum.alibabachengdun.net
 0.0.0.0 adservice.aliexpress.com
 0.0.0.0 fourier.aliexpress.com
 0.0.0.0 moduleanalysis.aliexpress.com
@@ -8764,10 +8781,14 @@
 0.0.0.0 videocloud-sgp.ap-southeast-1.log.aliyuncs.com
 0.0.0.0 vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com
 0.0.0.0 cn-hangzhou.log.aliyuncs.com
+0.0.0.0 alivc-aio.cn-hangzhou.log.aliyuncs.com
 0.0.0.0 cbu-offer.cn-shanghai.log.aliyuncs.com
 0.0.0.0 cbu-search-app.cn-shanghai.log.aliyuncs.com
 0.0.0.0 client-upload.cn-shanghai.log.aliyuncs.com
+0.0.0.0 videocloud.cn-hangzhou.log.aliyuncs.com
 0.0.0.0 wireless-app-log.cn-hangzhou.log.aliyuncs.com
+0.0.0.0 ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com
+0.0.0.0 ali-ctf-req.cn-hangzhou.dualstack.log.aliyuncs.com
 0.0.0.0 log-global.aliyuncs.com
 0.0.0.0 adsplusadx-prod.log-global.aliyuncs.com
 0.0.0.0 crown-client.log-global.aliyuncs.com
@@ -11043,6 +11064,25 @@
 0.0.0.0 file-hw-ads-o.api.leiniao.com
 0.0.0.0 ssai-ads.api.leiniao.com
 0.0.0.0 ssai2-ads.api.leiniao.com
+0.0.0.0 zhangyuyidong.cn
+0.0.0.0 sdk.zhangyuyidong.cn
+0.0.0.0 beizi.biz
+0.0.0.0 sdk.beizi.biz
+0.0.0.0 apmplus.ap-southeast-1.volces.com
+0.0.0.0 apmplus.volces.com
+0.0.0.0 gator.volces.com
+0.0.0.0 mssdk.volces.com
+0.0.0.0 tab.volces.com
+0.0.0.0 pangolin-dsp-toutiao.com
+0.0.0.0 pangolin-sdk-toutiao-b.com
+0.0.0.0 pangolin-sdk-toutiao.com
+0.0.0.0 api-access.pangolin-sdk-toutiao.com
+0.0.0.0 gromore.pangolin-sdk-toutiao.com
+0.0.0.0 log-api.pangolin-sdk-toutiao.com
+0.0.0.0 pangolin-sdk-toutiao1.com
+0.0.0.0 api-access.pangolin-sdk-toutiao1.com
+0.0.0.0 pglstatp-toutiao.com
+0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com
 0.0.0.0 adtimaserver.vn
 0.0.0.0 api.adtimaserver.vn
 0.0.0.0 log.adtimaserver.vn
@@ -13755,6 +13795,7 @@
 0.0.0.0 appular.com
 0.0.0.0 aps.hearstnp.com
 0.0.0.0 apture.com
+0.0.0.0 apzptquixoyr.com
 0.0.0.0 aq7ua5ma85rddeinve.com
 0.0.0.0 aqauikfd.com
 0.0.0.0 aquaticowl.com
@@ -13826,6 +13867,7 @@
 0.0.0.0 aweprt.com
 0.0.0.0 awhilediplomagloss.com
 0.0.0.0 awjojjrimaf.in
+0.0.0.0 awqmgvpbarmhyw.com
 0.0.0.0 awzbijw.com
 0.0.0.0 axdsz.pro
 0.0.0.0 axillovely.com
@@ -15249,6 +15291,7 @@
 0.0.0.0 ij.cobolgammed.com
 0.0.0.0 ik.hatcheskoeri.shop
 0.0.0.0 ikahnruntx.com
+0.0.0.0 il.coiffesreal.qpon
 0.0.0.0 ilead.itrack.it
 0.0.0.0 ileeckut.com
 0.0.0.0 illustriousoatmeal.com
@@ -15488,6 +15531,7 @@
 0.0.0.0 late-bloomingwalluphospital.com
 0.0.0.0 laughcloth.com
 0.0.0.0 launchbit.com
+0.0.0.0 lavnkios.in
 0.0.0.0 laxativestuckunclog.com
 0.0.0.0 layer-ad.de
 0.0.0.0 layer-ads.de
@@ -15610,6 +15654,7 @@
 0.0.0.0 manage.com
 0.0.0.0 mandateowl.com
 0.0.0.0 manpowerspiritualunrented.com
+0.0.0.0 maobtqwrqrzxm.com
 0.0.0.0 mapbasin.com
 0.0.0.0 marasgumpus.com
 0.0.0.0 marazma.com
@@ -15634,6 +15679,7 @@
 0.0.0.0 matomy.com
 0.0.0.0 matrimonyfeudboss.com
 0.0.0.0 mattockpackall.com
+0.0.0.0 mauve-pinkgetawhifftime.com
 0.0.0.0 mawlaybob.com
 0.0.0.0 mawptuaz.com
 0.0.0.0 max.i12.de
@@ -16532,6 +16578,7 @@
 0.0.0.0 reluctancefleck.com
 0.0.0.0 remotepwn.com
 0.0.0.0 remox.com
+0.0.0.0 renamereptiliantrance.com
 0.0.0.0 renderstreamshuttleanalytics.net
 0.0.0.0 repeatsweater.com
 0.0.0.0 reporo.net
@@ -17194,6 +17241,7 @@
 0.0.0.0 trustlearningclearly.com
 0.0.0.0 tsiwqtng8huauw30n.com
 0.0.0.0 ttgmjfgldgv9ed10.com
+0.0.0.0 tu.bawrelcuttail.com
 0.0.0.0 tubecorp.com
 0.0.0.0 tubecup.net
 0.0.0.0 tubemogul.com
@@ -17277,6 +17325,7 @@
 0.0.0.0 urgerrebasis.com
 0.0.0.0 urimnugocfr.com
 0.0.0.0 urlcash.net
+0.0.0.0 urrfkabrkhxjat.com
 0.0.0.0 us.claroadsxml.com
 0.0.0.0 uselnk.com
 0.0.0.0 usemax.de
@@ -17845,9 +17894,6 @@
 0.0.0.0 apolloprogram.io
 0.0.0.0 app-analytics-services-att.com
 0.0.0.0 app-analytics-services.com
-0.0.0.0 applog.camera360.com
-0.0.0.0 appres.camera360.com
-0.0.0.0 arc.io
 0.0.0.0 asadcdn.com
 0.0.0.0 asdkd.tutuapp.com
 0.0.0.0 astat.nikkei.com

@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,490 domains
+# Entries: 18,536 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: 127.0.0.1 before each domain
 # Expires: 1 day
-# Last updated: October 13, 2026 at 1:24 PM UTC | 2026-10-13T13:24:00.082Z
+# Last updated: October 24, 2026 at 5:48 PM UTC | 2026-10-24T17:48:13.896Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -2359,11 +2359,15 @@
 127.0.0.1 taplytics.com
 127.0.0.1 wpengine.taplytics.com
 127.0.0.1 www.taplytics.com
+127.0.0.1 amplitude.com
 127.0.0.1 api.amplitude.com
 127.0.0.1 api.eu.amplitude.com
 127.0.0.1 api.lab.amplitude.com
+127.0.0.1 api.lab.eu.amplitude.com
 127.0.0.1 api2.amplitude.com
 127.0.0.1 cdn.amplitude.com
+127.0.0.1 sr-client-cfg.amplitude.com
+127.0.0.1 sr-client-cfg.eu.amplitude.com
 127.0.0.1 ar.voicefive.com
 127.0.0.1 b.voicefive.com
 127.0.0.1 voicefive.com
@@ -3190,12 +3194,19 @@
 127.0.0.1 sts.batmobi.net
 127.0.0.1 360in.com
 127.0.0.1 ad.360in.com
+127.0.0.1 camera360-api.360in.com
 127.0.0.1 challenge.360in.com
+127.0.0.1 common-api.360in.com
 127.0.0.1 dispatcher.360in.com
 127.0.0.1 exp.360in.com
 127.0.0.1 hotpot.360in.com
 127.0.0.1 i.360in.com
 127.0.0.1 member.360in.com
+127.0.0.1 phototask-api.360in.com
+127.0.0.1 applog.camera360.com
+127.0.0.1 collect.camera360.com
+127.0.0.1 dispatcher.camera360.com
+127.0.0.1 pushmsg.camera360.com
 127.0.0.1 ad.reklamstore.com
 127.0.0.1 adserver.reklamstore.com
 127.0.0.1 adserver2.reklamstore.com
@@ -6570,13 +6581,19 @@
 127.0.0.1 h-adashx.ut.taobao.com
 127.0.0.1 h-adashx4ae.ut.taobao.com
 127.0.0.1 abtest.alibaba.com
+127.0.0.1 aplus.alibaba.com
 127.0.0.1 dmtracking.alibaba.com
 127.0.0.1 dmtracking2.alibaba.com
 127.0.0.1 fourier.alibaba.com
 127.0.0.1 hydra.alibaba.com
 127.0.0.1 stat.alibaba.com
+127.0.0.1 tdum.alibaba.com
+127.0.0.1 umlazada.alibaba.com
 127.0.0.1 adashx.ut.alibaba.com
 127.0.0.1 h-adashx.ut.alibaba.com
+127.0.0.1 acs-mum.alibabachengdun.com
+127.0.0.1 mum.alibabachengdun.com
+127.0.0.1 mum.alibabachengdun.net
 127.0.0.1 adservice.aliexpress.com
 127.0.0.1 fourier.aliexpress.com
 127.0.0.1 moduleanalysis.aliexpress.com
@@ -8764,10 +8781,14 @@
 127.0.0.1 videocloud-sgp.ap-southeast-1.log.aliyuncs.com
 127.0.0.1 vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com
 127.0.0.1 cn-hangzhou.log.aliyuncs.com
+127.0.0.1 alivc-aio.cn-hangzhou.log.aliyuncs.com
 127.0.0.1 cbu-offer.cn-shanghai.log.aliyuncs.com
 127.0.0.1 cbu-search-app.cn-shanghai.log.aliyuncs.com
 127.0.0.1 client-upload.cn-shanghai.log.aliyuncs.com
+127.0.0.1 videocloud.cn-hangzhou.log.aliyuncs.com
 127.0.0.1 wireless-app-log.cn-hangzhou.log.aliyuncs.com
+127.0.0.1 ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com
+127.0.0.1 ali-ctf-req.cn-hangzhou.dualstack.log.aliyuncs.com
 127.0.0.1 log-global.aliyuncs.com
 127.0.0.1 adsplusadx-prod.log-global.aliyuncs.com
 127.0.0.1 crown-client.log-global.aliyuncs.com
@@ -11043,6 +11064,25 @@
 127.0.0.1 file-hw-ads-o.api.leiniao.com
 127.0.0.1 ssai-ads.api.leiniao.com
 127.0.0.1 ssai2-ads.api.leiniao.com
+127.0.0.1 zhangyuyidong.cn
+127.0.0.1 sdk.zhangyuyidong.cn
+127.0.0.1 beizi.biz
+127.0.0.1 sdk.beizi.biz
+127.0.0.1 apmplus.ap-southeast-1.volces.com
+127.0.0.1 apmplus.volces.com
+127.0.0.1 gator.volces.com
+127.0.0.1 mssdk.volces.com
+127.0.0.1 tab.volces.com
+127.0.0.1 pangolin-dsp-toutiao.com
+127.0.0.1 pangolin-sdk-toutiao-b.com
+127.0.0.1 pangolin-sdk-toutiao.com
+127.0.0.1 api-access.pangolin-sdk-toutiao.com
+127.0.0.1 gromore.pangolin-sdk-toutiao.com
+127.0.0.1 log-api.pangolin-sdk-toutiao.com
+127.0.0.1 pangolin-sdk-toutiao1.com
+127.0.0.1 api-access.pangolin-sdk-toutiao1.com
+127.0.0.1 pglstatp-toutiao.com
+127.0.0.1 sf3-fe-tos.pglstatp-toutiao.com
 127.0.0.1 adtimaserver.vn
 127.0.0.1 api.adtimaserver.vn
 127.0.0.1 log.adtimaserver.vn
@@ -13755,6 +13795,7 @@
 127.0.0.1 appular.com
 127.0.0.1 aps.hearstnp.com
 127.0.0.1 apture.com
+127.0.0.1 apzptquixoyr.com
 127.0.0.1 aq7ua5ma85rddeinve.com
 127.0.0.1 aqauikfd.com
 127.0.0.1 aquaticowl.com
@@ -13826,6 +13867,7 @@
 127.0.0.1 aweprt.com
 127.0.0.1 awhilediplomagloss.com
 127.0.0.1 awjojjrimaf.in
+127.0.0.1 awqmgvpbarmhyw.com
 127.0.0.1 awzbijw.com
 127.0.0.1 axdsz.pro
 127.0.0.1 axillovely.com
@@ -15249,6 +15291,7 @@
 127.0.0.1 ij.cobolgammed.com
 127.0.0.1 ik.hatcheskoeri.shop
 127.0.0.1 ikahnruntx.com
+127.0.0.1 il.coiffesreal.qpon
 127.0.0.1 ilead.itrack.it
 127.0.0.1 ileeckut.com
 127.0.0.1 illustriousoatmeal.com
@@ -15488,6 +15531,7 @@
 127.0.0.1 late-bloomingwalluphospital.com
 127.0.0.1 laughcloth.com
 127.0.0.1 launchbit.com
+127.0.0.1 lavnkios.in
 127.0.0.1 laxativestuckunclog.com
 127.0.0.1 layer-ad.de
 127.0.0.1 layer-ads.de
@@ -15610,6 +15654,7 @@
 127.0.0.1 manage.com
 127.0.0.1 mandateowl.com
 127.0.0.1 manpowerspiritualunrented.com
+127.0.0.1 maobtqwrqrzxm.com
 127.0.0.1 mapbasin.com
 127.0.0.1 marasgumpus.com
 127.0.0.1 marazma.com
@@ -15634,6 +15679,7 @@
 127.0.0.1 matomy.com
 127.0.0.1 matrimonyfeudboss.com
 127.0.0.1 mattockpackall.com
+127.0.0.1 mauve-pinkgetawhifftime.com
 127.0.0.1 mawlaybob.com
 127.0.0.1 mawptuaz.com
 127.0.0.1 max.i12.de
@@ -16532,6 +16578,7 @@
 127.0.0.1 reluctancefleck.com
 127.0.0.1 remotepwn.com
 127.0.0.1 remox.com
+127.0.0.1 renamereptiliantrance.com
 127.0.0.1 renderstreamshuttleanalytics.net
 127.0.0.1 repeatsweater.com
 127.0.0.1 reporo.net
@@ -17194,6 +17241,7 @@
 127.0.0.1 trustlearningclearly.com
 127.0.0.1 tsiwqtng8huauw30n.com
 127.0.0.1 ttgmjfgldgv9ed10.com
+127.0.0.1 tu.bawrelcuttail.com
 127.0.0.1 tubecorp.com
 127.0.0.1 tubecup.net
 127.0.0.1 tubemogul.com
@@ -17277,6 +17325,7 @@
 127.0.0.1 urgerrebasis.com
 127.0.0.1 urimnugocfr.com
 127.0.0.1 urlcash.net
+127.0.0.1 urrfkabrkhxjat.com
 127.0.0.1 us.claroadsxml.com
 127.0.0.1 uselnk.com
 127.0.0.1 usemax.de
@@ -17845,9 +17894,6 @@
 127.0.0.1 apolloprogram.io
 127.0.0.1 app-analytics-services-att.com
 127.0.0.1 app-analytics-services.com
-127.0.0.1 applog.camera360.com
-127.0.0.1 appres.camera360.com
-127.0.0.1 arc.io
 127.0.0.1 asadcdn.com
 127.0.0.1 asdkd.tutuapp.com
 127.0.0.1 astat.nikkei.com

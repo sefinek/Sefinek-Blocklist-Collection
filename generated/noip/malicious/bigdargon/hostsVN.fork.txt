@@ -6,12 +6,12 @@
 #     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 #
 # Title: HostsVN Malware Blocklist
-# Entries: 18,490 domains
+# Entries: 18,536 domains
 # Source: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | https://bigdargon.github.io/hostsVN/
 # License: Unknown, check the source
 # Format: No IP (only domains)
 # Expires: 1 day
-# Last updated: October 13, 2026 at 1:23 PM UTC | 2026-10-13T13:23:59.744Z
+# Last updated: October 24, 2026 at 5:48 PM UTC | 2026-10-24T17:48:13.836Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -2359,11 +2359,15 @@ switch.taplytics.com
 taplytics.com
 wpengine.taplytics.com
 www.taplytics.com
+amplitude.com
 api.amplitude.com
 api.eu.amplitude.com
 api.lab.amplitude.com
+api.lab.eu.amplitude.com
 api2.amplitude.com
 cdn.amplitude.com
+sr-client-cfg.amplitude.com
+sr-client-cfg.eu.amplitude.com
 ar.voicefive.com
 b.voicefive.com
 voicefive.com
@@ -3190,12 +3194,19 @@ proxy.batmobi.net
 sts.batmobi.net
 360in.com
 ad.360in.com
+camera360-api.360in.com
 challenge.360in.com
+common-api.360in.com
 dispatcher.360in.com
 exp.360in.com
 hotpot.360in.com
 i.360in.com
 member.360in.com
+phototask-api.360in.com
+applog.camera360.com
+collect.camera360.com
+dispatcher.camera360.com
+pushmsg.camera360.com
 ad.reklamstore.com
 adserver.reklamstore.com
 adserver2.reklamstore.com
@@ -6570,13 +6581,19 @@ adashxgc.ut.taobao.com
 h-adashx.ut.taobao.com
 h-adashx4ae.ut.taobao.com
 abtest.alibaba.com
+aplus.alibaba.com
 dmtracking.alibaba.com
 dmtracking2.alibaba.com
 fourier.alibaba.com
 hydra.alibaba.com
 stat.alibaba.com
+tdum.alibaba.com
+umlazada.alibaba.com
 adashx.ut.alibaba.com
 h-adashx.ut.alibaba.com
+acs-mum.alibabachengdun.com
+mum.alibabachengdun.com
+mum.alibabachengdun.net
 adservice.aliexpress.com
 fourier.aliexpress.com
 moduleanalysis.aliexpress.com
@@ -8764,10 +8781,14 @@ tva-igame-global-ipa-0001.us-east-1.log.aliyuncs.com
 videocloud-sgp.ap-southeast-1.log.aliyuncs.com
 vod-newplayer-sg.ap-southeast-1.log.aliyuncs.com
 cn-hangzhou.log.aliyuncs.com
+alivc-aio.cn-hangzhou.log.aliyuncs.com
 cbu-offer.cn-shanghai.log.aliyuncs.com
 cbu-search-app.cn-shanghai.log.aliyuncs.com
 client-upload.cn-shanghai.log.aliyuncs.com
+videocloud.cn-hangzhou.log.aliyuncs.com
 wireless-app-log.cn-hangzhou.log.aliyuncs.com
+ali-ctf.cn-hangzhou.dualstack.log.aliyuncs.com
+ali-ctf-req.cn-hangzhou.dualstack.log.aliyuncs.com
 log-global.aliyuncs.com
 adsplusadx-prod.log-global.aliyuncs.com
 crown-client.log-global.aliyuncs.com
@@ -11043,6 +11064,25 @@ euads-o.api.leiniao.com
 file-hw-ads-o.api.leiniao.com
 ssai-ads.api.leiniao.com
 ssai2-ads.api.leiniao.com
+zhangyuyidong.cn
+sdk.zhangyuyidong.cn
+beizi.biz
+sdk.beizi.biz
+apmplus.ap-southeast-1.volces.com
+apmplus.volces.com
+gator.volces.com
+mssdk.volces.com
+tab.volces.com
+pangolin-dsp-toutiao.com
+pangolin-sdk-toutiao-b.com
+pangolin-sdk-toutiao.com
+api-access.pangolin-sdk-toutiao.com
+gromore.pangolin-sdk-toutiao.com
+log-api.pangolin-sdk-toutiao.com
+pangolin-sdk-toutiao1.com
+api-access.pangolin-sdk-toutiao1.com
+pglstatp-toutiao.com
+sf3-fe-tos.pglstatp-toutiao.com
 adtimaserver.vn
 api.adtimaserver.vn
 log.adtimaserver.vn
@@ -13755,6 +13795,7 @@ apptera.com
 appular.com
 aps.hearstnp.com
 apture.com
+apzptquixoyr.com
 aq7ua5ma85rddeinve.com
 aqauikfd.com
 aquaticowl.com
@@ -13826,6 +13867,7 @@ awempire.com
 aweprt.com
 awhilediplomagloss.com
 awjojjrimaf.in
+awqmgvpbarmhyw.com
 awzbijw.com
 axdsz.pro
 axillovely.com
@@ -15249,6 +15291,7 @@ iifvcfwiqi.com
 ij.cobolgammed.com
 ik.hatcheskoeri.shop
 ikahnruntx.com
+il.coiffesreal.qpon
 ilead.itrack.it
 ileeckut.com
 illustriousoatmeal.com
@@ -15488,6 +15531,7 @@ langretsahibah.com
 late-bloomingwalluphospital.com
 laughcloth.com
 launchbit.com
+lavnkios.in
 laxativestuckunclog.com
 layer-ad.de
 layer-ads.de
@@ -15610,6 +15654,7 @@ malware-scan.com
 manage.com
 mandateowl.com
 manpowerspiritualunrented.com
+maobtqwrqrzxm.com
 mapbasin.com
 marasgumpus.com
 marazma.com
@@ -15634,6 +15679,7 @@ matheranalytics.com
 matomy.com
 matrimonyfeudboss.com
 mattockpackall.com
+mauve-pinkgetawhifftime.com
 mawlaybob.com
 mawptuaz.com
 max.i12.de
@@ -16532,6 +16578,7 @@ relmaxtop.com
 reluctancefleck.com
 remotepwn.com
 remox.com
+renamereptiliantrance.com
 renderstreamshuttleanalytics.net
 repeatsweater.com
 reporo.net
@@ -17194,6 +17241,7 @@ trusting-produce.com
 trustlearningclearly.com
 tsiwqtng8huauw30n.com
 ttgmjfgldgv9ed10.com
+tu.bawrelcuttail.com
 tubecorp.com
 tubecup.net
 tubemogul.com
@@ -17277,6 +17325,7 @@ uptrendsdata.com
 urgerrebasis.com
 urimnugocfr.com
 urlcash.net
+urrfkabrkhxjat.com
 us.claroadsxml.com
 uselnk.com
 usemax.de
@@ -17845,9 +17894,6 @@ api2.poperblocker.com
 apolloprogram.io
 app-analytics-services-att.com
 app-analytics-services.com
-applog.camera360.com
-appres.camera360.com
-arc.io
 asadcdn.com
 asdkd.tutuapp.com
 astat.nikkei.com
