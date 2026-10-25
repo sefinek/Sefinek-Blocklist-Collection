@@ -1,6 +1,6 @@
 {
   "name": "blocklist.sefinek.net",
-  "version": "0.24.1-rc.1+20261003",
+  "version": "0.24.1-rc.2+20261026",
   "private": true,
   "homepage": "https://blocklist.sefinek.net",
   "bugs": {
@@ -27,18 +27,18 @@
   "dependencies": {
     "axios": "^1.20.0",
     "cron-parser": "^5.10.2",
-    "ejs": "^7.0.1",
+    "ejs": "^7.0.2",
     "express": "^5.3.0",
     "express-rate-limit": "^8.7.1",
     "express-timeout-handler": "^2.2.2",
     "express-validator": "^7.3.2",
     "helmet": "^8.3.0",
     "lzma-native": "^8.0.6",
-    "marked": "^18.1.0",
-    "mongoose": "^9.11.1",
+    "marked": "^18.1.1",
+    "mongoose": "^9.11.4",
     "morgan": "^1.12.1",
     "node-cron": "^4.6.0",
-    "nodemailer": "^10.0.16",
+    "nodemailer": "^10.2.1",
     "rate-limit-redis": "^6.0.1",
     "redis": "^6.3.0",
     "ws": "^8.22.0"
