@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102302 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102502 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,563 domains
+; Entries: 40,565 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 23, 2026 at 2:57 AM UTC | 2026-10-23T02:57:12.426Z
+; Last updated: October 25, 2026 at 2:45 AM UTC | 2026-10-25T02:45:39.006Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -14696,6 +14696,8 @@ beacon.sina.com.cn CNAME .
 *.beacon.sina.com.cn CNAME .
 beacon.sojern.com CNAME .
 *.beacon.sojern.com CNAME .
+beacon.viafoura.io CNAME .
+*.beacon.viafoura.io CNAME .
 beacon.walmart.com CNAME .
 *.beacon.walmart.com CNAME .
 beacon.watch.impress.co.jp CNAME .
@@ -48606,6 +48608,8 @@ pixel.propublica.org CNAME .
 *.pixel.propublica.org CNAME .
 pixel.pub.lilyai.net CNAME .
 *.pixel.pub.lilyai.net CNAME .
+pixel.quantserve.com CNAME .
+*.pixel.quantserve.com CNAME .
 pixel.redgifs.com CNAME .
 *.pixel.redgifs.com CNAME .
 pixel.roymorgan.com CNAME .
