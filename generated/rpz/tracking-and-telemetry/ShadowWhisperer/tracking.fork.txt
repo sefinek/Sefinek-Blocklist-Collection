@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102523 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026102615 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Tracking Blocklist
-; Entries: 119,486 domains
+; Entries: 119,489 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 25, 2026 at 11:01 PM UTC | 2026-10-25T23:01:55.875Z
+; Last updated: October 26, 2026 at 3:46 PM UTC | 2026-10-26T15:46:17.946Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -50688,6 +50688,8 @@ counter.powr.io CNAME .
 *.counter.powr.io CNAME .
 counter.pr-cy.ru CNAME .
 *.counter.pr-cy.ru CNAME .
+counter.privatez.link CNAME .
+*.counter.privatez.link CNAME .
 counter.quon.ru CNAME .
 *.counter.quon.ru CNAME .
 counter.raikevich.com CNAME .
@@ -226670,6 +226672,8 @@ track.primeagencia.com.br CNAME .
 *.track.primeagencia.com.br CNAME .
 track.prismadata.fr CNAME .
 *.track.prismadata.fr CNAME .
+track.privatez.link CNAME .
+*.track.privatez.link CNAME .
 track.projetobravomike.com.br CNAME .
 *.track.projetobravomike.com.br CNAME .
 track.proofreadanywhere.com CNAME .
@@ -227198,6 +227202,8 @@ track.who.my.id CNAME .
 *.track.who.my.id CNAME .
 trackwill.com CNAME .
 *.trackwill.com CNAME .
+trackwilltrk.com CNAME .
+*.trackwilltrk.com CNAME .
 track.wmiemailstats.com CNAME .
 *.track.wmiemailstats.com CNAME .
 track.wonderpass.asia CNAME .
