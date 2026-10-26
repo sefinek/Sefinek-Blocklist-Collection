@@ -264,6 +264,6 @@ const categories = [
 
 <%- include('./includes/copyright.ejs') %>
 
-<script type="module" src="/js/index.js" data-ws-address="<%= process.env.NODE_ENV === 'production' ? process.env.WS_ADDRESS : `${process.env.WS_ADDRESS}:${process.env.WS_PORT}` %>"></script>
+<script type="module" src="/js/index.js"></script>
 
 <%- include('./includes/footer.ejs') %>

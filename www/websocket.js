@@ -2,13 +2,7 @@ const WebSocket = require('ws');
 const { getFullDate } = require('./utils/time.js');
 const RequestStats = require('./database/models/request-stats.model');
 
-const wss = new WebSocket.Server({
-	port: process.env.WS_PORT,
-	maxPayload: 256,
-	clientTracking: true,
-	perMessageDeflate: false,
-});
-
+const WS_PATH = '/ws';
 const MAX_CLIENTS = 80;
 const BROADCAST_INTERVAL = 2000;
 const HEARTBEAT_INTERVAL = 30000;
@@ -59,19 +53,15 @@ const broadcast = async () => {
 	}
 };
 
-const broadcastInterval = setInterval(broadcast, BROADCAST_INTERVAL);
+const wss = new WebSocket.Server({
+	noServer: true,
+	maxPayload: 256,
+	clientTracking: true,
+	perMessageDeflate: false,
+});
 
-const heartbeatInterval = setInterval(() => {
-	for (const ws of wss.clients) {
-		if (!ws.isAlive) {
-			ws.terminate();
-			continue;
-		}
-
-		ws.isAlive = false;
-		ws.ping();
-	}
-}, HEARTBEAT_INTERVAL);
+let broadcastInterval = null;
+let heartbeatInterval = null;
 
 wss.on('connection', (ws, req) => {
 	if (wss.clients.size > MAX_CLIENTS) {
@@ -109,9 +99,48 @@ wss.on('connection', (ws, req) => {
 	ws.on('error', err => console.error('WebSocket error:', err));
 });
 
-wss.on('close', () => {
+const reject = (socket, status, text) => {
+	socket.write(`HTTP/1.1 ${status} ${text}\r\nConnection: close\r\n\r\n`);
+	socket.destroy();
+};
+
+const isAllowedOrigin = (req, allowedOrigin) => {
+	const { origin } = req.headers;
+	if (origin === allowedOrigin) return true;
+
+	try {
+		return !!origin && new URL(origin).host === req.headers.host;
+	} catch {
+		return false;
+	}
+};
+
+const attach = (server, { allowedOrigin }) => {
+	server.on('upgrade', (req, socket, head) => {
+		if (new URL(req.url, 'http://localhost').pathname !== WS_PATH) return reject(socket, 404, 'Not Found');
+		if (!isAllowedOrigin(req, allowedOrigin)) return reject(socket, 403, 'Forbidden');
+
+		wss.handleUpgrade(req, socket, head, ws => wss.emit('connection', ws, req));
+	});
+
+	broadcastInterval = setInterval(broadcast, BROADCAST_INTERVAL);
+	heartbeatInterval = setInterval(() => {
+		for (const ws of wss.clients) {
+			if (!ws.isAlive) {
+				ws.terminate();
+				continue;
+			}
+
+			ws.isAlive = false;
+			ws.ping();
+		}
+	}, HEARTBEAT_INTERVAL);
+};
+
+const close = () => {
 	clearInterval(broadcastInterval);
 	clearInterval(heartbeatInterval);
-});
+	for (const ws of wss.clients) ws.close(1001, 'Server shutting down');
+};
 
-console.log(`WebSocket server running at ${process.env.WS_ADDRESS}:${process.env.WS_PORT}`);
+module.exports = { attach, close };

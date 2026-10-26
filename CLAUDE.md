@@ -41,7 +41,7 @@ npm run pull:blocklists             # Sync blocklists worktree branch
 - **`server.js`** - Express app; in production runs as PM2 cluster (workers per CPU)
 - **Primary process** handles MongoDB/Redis connections, stats aggregation (Redis → MongoDB every 5 min), and the cron jobs (`www/cron/index.js`, `node-cron` - only registered here, never in per-CPU workers, to avoid running each job N times)
 - **Worker processes** handle HTTP requests
-- **`websocket.js`** - Real-time metrics broadcast (max 100 clients, 2s interval)
+- **`websocket.js`** - Real-time metrics broadcast (max 80 clients per worker, 2s interval). Attached by `server.js` to every worker's HTTP server (`attach(server, { allowedOrigin })`, `noServer` mode, upgrade on `/ws` on the same port, origin checked against `DOMAIN`/`Host`), so there is no separate port; `close()` runs on shutdown
 - Routes: `/`, `/metrics`, `/update-schedule`, `/api/v1/blocklist/check`, `/api/v1/reports/false-positive`, `/api/v1/edge/hit` (internal, called by the Cloudflare Worker), `/docs/`
 - Controllers in `www/controllers/`; file listings cached in-memory for 5 hours
 
@@ -69,8 +69,6 @@ ESLint enforced (`eslint.config.mjs`):
 NODE_ENV=development|production
 DOMAIN=http://127.0.0.1
 PORT=8080
-WS_ADDRESS=ws://127.0.0.1
-WS_PORT=8095
 MONGODB_URL=mongodb://...
 REDIS_HOST=...
 REDIS_PASSWD=...

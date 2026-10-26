@@ -1,6 +1,6 @@
 import { formatDate, updateElementDate, updateElementDateOnly } from './date.js';
 
-const WS_ADDRESS = document.querySelector('script[data-ws-address]')?.dataset?.wsAddress;
+const WS_URL = `${location.protocol === 'https:' ? 'wss' : 'ws'}://${location.host}/ws`;
 const RECONNECT_DELAY = 3000;
 const MAX_RECONNECT_DELAY = 30000;
 const HEARTBEAT_INTERVAL = 30000;
@@ -77,9 +77,9 @@ const handleWebSocketMessage = event => {
 const getReconnectDelay = () => Math.min(RECONNECT_DELAY * Math.pow(1.5, reconnectAttempts), MAX_RECONNECT_DELAY);
 
 const connect = () => {
-	if (!WS_ADDRESS || ws?.readyState === WebSocket.OPEN || ws?.readyState === WebSocket.CONNECTING) return;
+	if (ws?.readyState === WebSocket.OPEN || ws?.readyState === WebSocket.CONNECTING) return;
 
-	ws = new WebSocket(WS_ADDRESS);
+	ws = new WebSocket(WS_URL);
 	setStatus('connecting', 'Establishing WebSocket connection...');
 
 	ws.onopen = () => {

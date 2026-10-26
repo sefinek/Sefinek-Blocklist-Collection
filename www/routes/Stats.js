@@ -67,7 +67,7 @@ router.get('/api/v1/stats/minute', async (req, res) => {
 		if (toDate > today) return res.status(400).json({ success: false, status: 400, message: 'Date cannot be in the future' });
 		if (toDate < fromDate) return res.status(400).json({ success: false, status: 400, message: '"to" date cannot be before "from" date' });
 
-		const daysDiff = Math.ceil((toDate - fromDate) / (1000 * 60 * 60 * 24));
+		const daysDiff = Math.round((toDate - fromDate) / (1000 * 60 * 60 * 24));
 		if (daysDiff > MAX_RANGE_DAYS) return res.status(400).json({ success: false, status: 400, message: `Date range cannot exceed ${MAX_RANGE_DAYS} days` });
 
 		const parsedInterval = parseInt(interval) || 1;

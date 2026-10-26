@@ -39,6 +39,7 @@ app.use(timeout());
 const IndexRouter = require('./routes/Index.js');
 const FalsePositivesRouter = require('./routes/FalsePositives.js');
 const BlocklistsRouter = require('./routes/Blocklists/Index.js');
+const websocket = require('./websocket.js');
 const StatsRouter = require('./routes/Stats.js');
 const EdgeRouter = require('./routes/Edge.js');
 const DeprecatedListsRouter = require('./routes/Blocklists/Deprecated.js');
@@ -59,5 +60,16 @@ app.use(notFound);
 app.use(internalError);
 
 // Start the server
-const { DOMAIN, PORT } = process.env;
-app.listen(PORT, () => process.send ? process.send('ready') : console.log(`Server running at ${DOMAIN}:${PORT}`));
+const { DOMAIN, NODE_ENV, PORT } = process.env;
+const server = app.listen(PORT, () => process.send ? process.send('ready') : console.log(`Server running at ${DOMAIN}:${PORT}`));
+websocket.attach(server, { allowedOrigin: NODE_ENV === 'production' ? DOMAIN : `${DOMAIN}:${PORT}` });
+
+const shutdown = () => {
+	websocket.close();
+	server.close(() => process.exit(0));
+	server.closeIdleConnections();
+	setTimeout(() => process.exit(1), 10000).unref();
+};
+
+process.on('SIGTERM', shutdown);
+process.on('SIGINT', shutdown);

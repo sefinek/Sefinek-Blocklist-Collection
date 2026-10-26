@@ -17,7 +17,6 @@ if (!MONGODB_URL) throw new Error('Missing MongoDB connection URL');
 		startAggregationJob();
 		require('./cron/index.js').startCronJobs();
 		require('./server.js');
-		require('./websocket.js');
 		return;
 	}
 
@@ -25,7 +24,6 @@ if (!MONGODB_URL) throw new Error('Missing MongoDB connection URL');
 	if (cluster.isPrimary) {
 		await connectToDatabase();
 		require('./services/redis.js');
-		require('./websocket.js');
 
 		// Start Redis → MongoDB aggregation job (runs every 5 minutes)
 		startAggregationJob();

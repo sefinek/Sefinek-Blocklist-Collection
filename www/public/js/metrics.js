@@ -1109,7 +1109,7 @@ const loadData = async () => {
 		return;
 	}
 
-	const daysDiff = Math.ceil((toDate - fromDate) / (1000 * 60 * 60 * 24));
+	const daysDiff = Math.round((toDate - fromDate) / (1000 * 60 * 60 * 24));
 	const minInterval = getMinInterval(daysDiff);
 	if (currentInterval < minInterval) {
 		alert(`For ${daysDiff} days range, minimum interval is ${minInterval >= 60 ? `${minInterval / 60}h` : `${minInterval}m`}. Please select a larger interval.`);
@@ -1192,7 +1192,7 @@ const updateIntervalsForCustomRange = () => {
 		return;
 	}
 
-	const daysDiff = Math.ceil((toDate - fromDate) / (1000 * 60 * 60 * 24));
+	const daysDiff = Math.round((toDate - fromDate) / (1000 * 60 * 60 * 24));
 	updateIntervalButtons(daysDiff);
 };
 
