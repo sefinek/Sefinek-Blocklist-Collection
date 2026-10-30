@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102812 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026103000 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: MVPS Hosts / Yoyo Ads & Trackers
-; Entries: 3,563 domains
+; Entries: 3,565 domains
 ; Source: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext&useip=0.0.0.0
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 28, 2026 at 12:00 PM UTC | 2026-10-28T12:00:37.969Z
+; Last updated: October 30, 2026 at 12:35 AM UTC | 2026-10-30T00:35:55.431Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -952,6 +952,8 @@ ads.linkedin.com CNAME .
 *.ads.linkedin.com CNAME .
 ads.livenation.com CNAME .
 *.ads.livenation.com CNAME .
+ads.locksecures.com CNAME .
+*.ads.locksecures.com CNAME .
 ads.lzjl.com CNAME .
 *.ads.lzjl.com CNAME .
 ads.ma7.tv CNAME .
@@ -5304,6 +5306,8 @@ pushno.com CNAME .
 *.pushno.com CNAME .
 pushtrack.co CNAME .
 *.pushtrack.co CNAME .
+pushub.net CNAME .
+*.pushub.net CNAME .
 px.dynamicyield.com CNAME .
 *.px.dynamicyield.com CNAME .
 px.gfycat.com CNAME .
