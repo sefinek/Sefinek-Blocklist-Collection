@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026102803 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026103103 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,551 domains
+; Entries: 40,557 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 28, 2026 at 3:33 AM UTC | 2026-10-28T03:33:00.704Z
+; Last updated: October 31, 2026 at 3:41 AM UTC | 2026-10-31T03:41:45.352Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2138,6 +2138,8 @@ etl.springbot.com CNAME .
 *.etl.springbot.com CNAME .
 eu-mobile.events.data.microsoft.com CNAME .
 *.eu-mobile.events.data.microsoft.com CNAME .
+eu-office.events.data.microsoft.com CNAME .
+*.eu-office.events.data.microsoft.com CNAME .
 ev.moneymade.io CNAME .
 *.ev.moneymade.io CNAME .
 ev.stellarlabs.ai CNAME .
@@ -3538,6 +3540,8 @@ tm.vendemore.com CNAME .
 *.tm.vendemore.com CNAME .
 tms.fmm.io CNAME .
 *.tms.fmm.io CNAME .
+tms.wape.autodesk.com CNAME .
+*.tms.wape.autodesk.com CNAME .
 to.getnitropack.com CNAME .
 *.to.getnitropack.com CNAME .
 tonanalytics.mugiwarattagentai.agency CNAME .
@@ -5912,6 +5916,8 @@ bi.banggood.com CNAME .
 *.bi.banggood.com CNAME .
 bicp-analytics.postscript.io CNAME .
 *.bicp-analytics.postscript.io CNAME .
+bifrost-api.hotstar.com CNAME .
+*.bifrost-api.hotstar.com CNAME .
 binocule21c.merriam-webster.com CNAME .
 *.binocule21c.merriam-webster.com CNAME .
 blitz-analytics-batch-server.blitz.gg CNAME .
@@ -6976,6 +6982,8 @@ stats.ibtimes.co.in CNAME .
 *.stats.ibtimes.co.in CNAME .
 stats.ibtimes.sg CNAME .
 *.stats.ibtimes.sg CNAME .
+stats.jiosaavn.com CNAME .
+*.stats.jiosaavn.com CNAME .
 stats.justpaste.it CNAME .
 *.stats.justpaste.it CNAME .
 stats.lrb.co.uk CNAME .
@@ -7234,6 +7242,8 @@ tracking.christianpost.com CNAME .
 *.tracking.christianpost.com CNAME .
 tracking.digitalocean.com CNAME .
 *.tracking.digitalocean.com CNAME .
+tracking.dpmlol.com CNAME .
+*.tracking.dpmlol.com CNAME .
 tracking.engineering.cloud.seek.com.au CNAME .
 *.tracking.engineering.cloud.seek.com.au CNAME .
 tracking.game8.co CNAME .
@@ -78832,6 +78842,8 @@ data.openerotik.com CNAME .
 *.data.openerotik.com CNAME .
 data.sportdeutschland.tv CNAME .
 *.data.sportdeutschland.tv CNAME .
+dbik.literatur-couch.de CNAME .
+*.dbik.literatur-couch.de CNAME .
 dd.betano.com CNAME .
 *.dd.betano.com CNAME .
 dv.chemie.de CNAME .
