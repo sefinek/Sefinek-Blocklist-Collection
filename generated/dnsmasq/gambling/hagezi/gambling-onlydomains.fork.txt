@@ -7,12 +7,12 @@
 #
 # Title: HaGeZi's Gambling - blocks gambling content!
 # Description: Blocks gambling-related sites.
-# Entries: 626,746 domains
+# Entries: 626,738 domains
 # Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt | https://github.com/hagezi/dns-blocklists
 # License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 # Format: Dnsmasq
 # Expires: 1 day
-# Last updated: October 31, 2026 at 11:35 AM UTC | 2026-10-31T11:35:04.782Z
+# Last updated: October 31, 2026 at 8:55 PM UTC | 2026-10-31T20:55:09.621Z
 #
 # This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # Homepage: https://blocklist.sefinek.net
@@ -39,10 +39,6 @@ server=/k6b7.1stlvyou.com/
 server=/pixel-us.1winsa.com/
 server=/stage.gitea.1xbet-37322.top/
 server=/id.1xbet-adq.top/
-server=/adm.1xbet-bofw.top/
-server=/airflow.1xbet-bofw.top/
-server=/mattermost.1xbet-bofw.top/
-server=/portainer.1xbet-bofw.top/
 server=/api-dev.1xbet-bonuskod.ru/
 server=/devops.1xbet-bonuskod.ru/
 server=/nl.1xbet-bonuskod.ru/
@@ -72,9 +68,13 @@ server=/rabbitmq.1xbet-nvrz.top/
 server=/drive.1xbet-telegramm.ru/
 server=/beta.1xbet-vgna.top/
 server=/workspace.1xbet-vgna.top/
+server=/jira.1xbet-vxj.top/
+server=/pay.1xbet-vxj.top/
+server=/proxmox.1xbet-vxj.top/
 server=/backoffice.1xbet-whel.top/
 server=/dev.okta.1xslots-284.top/
 server=/builder.1xslots-284.top/
+server=/dify.1xslots-284.top/
 server=/staff.1xslots-cqm.top/
 server=/studio.1xslots-cqm.top/
 server=/chatgpt.1xslots-kvo.top/
@@ -7126,6 +7126,7 @@ server=/ai.riobetcasino-fdu.top/
 server=/boss.riobetcasino-fdu.top/
 server=/business.riobetcasino-fdu.top/
 server=/cloud.riobetcasino-fdu.top/
+server=/command.riobetcasino-fdu.top/
 server=/static.riobetcasino-fdu.top/
 server=/workspace.riobetcasino-hem.top/
 server=/www.en.riobetcasino-lgt.top/
@@ -31798,6 +31799,7 @@ server=/1xbet-bod4.cfd/
 server=/1xbet-body.top/
 server=/1xbet-bof85.buzz/
 server=/1xbet-bof88.cam/
+server=/1xbet-bofw.top/
 server=/1xbet-bog5.cfd/
 server=/1xbet-bog83.cam/
 server=/1xbet-bogx.top/
@@ -268097,7 +268099,6 @@ server=/com-polybet-q63.com/
 server=/com-polybet-q64.com/
 server=/com-polybet-q65.com/
 server=/com-polybet-q66.com/
-server=/com-polybet-q67.com/
 server=/com-polybet-q68.com/
 server=/com-polybet-q69.com/
 server=/com-polybet-q70.com/
@@ -280721,7 +280722,6 @@ server=/diabetikertreff-bietigheim.de/
 server=/diabetir.online/
 server=/diabetis-mellitus.de/
 server=/diabetologe-online.de/
-server=/diabetologia-budapest.hu/
 server=/diabetologie-info.de/
 server=/diabetologie-steglitz.berlin/
 server=/diabetover-oficjalna.shop/
@@ -321568,7 +321568,6 @@ server=/gomu837-slot.com/
 server=/gomu837casino.com/
 server=/gomu837hoki.com/
 server=/gomu837slots.com/
-server=/gomubet-amp.site/
 server=/gomubetsaldo.com/
 server=/gomubetslots.com/
 server=/gomubetx.com/
@@ -361326,9 +361325,6 @@ server=/jojobet15020.com/
 server=/jojobet15021.com/
 server=/jojobet15022.com/
 server=/jojobet15024.com/
-server=/jojobet15025.com/
-server=/jojobet15026.com/
-server=/jojobet15027.com/
 server=/jojobet15444.com/
 server=/jojobet15859.com/
 server=/jojobet15862.com/
@@ -374164,7 +374160,6 @@ server=/kartupokergg.app/
 server=/kartupokergo.com/
 server=/kartupokerss.com/
 server=/kartupokerxxx.com/
-server=/kartupokerxxx.net/
 server=/kartusayang.com/
 server=/kartuscan.com/
 server=/kartusepak.com/
@@ -441550,7 +441545,6 @@ server=/nagapoker1.asia/
 server=/nagapoker88.asia/
 server=/nagapoker88.com/
 server=/nagapoker9.us/
-server=/nagapoker988.net/
 server=/nagapoker99.org/
 server=/nagapokermax.com/
 server=/nagapokerqq88.asia/
@@ -509909,6 +509903,7 @@ server=/revolutioncasinotipspl.com/
 server=/revolutioncasinovinne-no.com/
 server=/revolutions-casinos.com/
 server=/revolutionscasino.net/
+server=/revolutonlineslot-fr.com/
 server=/revoluts-casino.com/
 server=/revolutscasino.ch/
 server=/revolutscasino.se/
@@ -524902,7 +524897,6 @@ server=/santollucky.ph/
 server=/santorini-wine-tasting-tour.com/
 server=/santoriniwine-tour.com/
 server=/santos-casino.com/
-server=/santos-casino-official.online/
 server=/santos-casino-official.site/
 server=/santos-casino-ru.casino/
 server=/santos-casino-vip.team/
@@ -538203,7 +538197,6 @@ server=/slotsarjana.net/
 server=/slotsasiapro.com/
 server=/slotsate777.xyz/
 server=/slotsatlas.online/
-server=/slotsau.site/
 server=/slotsavana.co/
 server=/slotsavanna.pro/
 server=/slotsavant.pro/
@@ -624665,7 +624658,6 @@ server=/zgrljtoog.com/
 server=/zgsyb.poker/
 server=/zgy.casino/
 server=/zh-app-betway.com/
-server=/zh-bet-1xbet.com/
 server=/zh-bet-leisu.com/
 server=/zh-bet-lolwc.com/
 server=/zh-bet-s16lol.com/

@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026103111 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026103120 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -10,12 +10,12 @@ $TTL 300
 ;
 ; Title: HaGeZi's Gambling - blocks gambling content!
 ; Description: Blocks gambling-related sites.
-; Entries: 626,746 domains
+; Entries: 626,738 domains
 ; Source: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/gambling-onlydomains.txt | https://github.com/hagezi/dns-blocklists
 ; License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: October 31, 2026 at 11:35 AM UTC | 2026-10-31T11:35:05.388Z
+; Last updated: October 31, 2026 at 8:55 PM UTC | 2026-10-31T20:55:08.664Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -63,14 +63,6 @@ stage.gitea.1xbet-37322.top CNAME .
 *.stage.gitea.1xbet-37322.top CNAME .
 id.1xbet-adq.top CNAME .
 *.id.1xbet-adq.top CNAME .
-adm.1xbet-bofw.top CNAME .
-*.adm.1xbet-bofw.top CNAME .
-airflow.1xbet-bofw.top CNAME .
-*.airflow.1xbet-bofw.top CNAME .
-mattermost.1xbet-bofw.top CNAME .
-*.mattermost.1xbet-bofw.top CNAME .
-portainer.1xbet-bofw.top CNAME .
-*.portainer.1xbet-bofw.top CNAME .
 api-dev.1xbet-bonuskod.ru CNAME .
 *.api-dev.1xbet-bonuskod.ru CNAME .
 devops.1xbet-bonuskod.ru CNAME .
@@ -129,12 +121,20 @@ beta.1xbet-vgna.top CNAME .
 *.beta.1xbet-vgna.top CNAME .
 workspace.1xbet-vgna.top CNAME .
 *.workspace.1xbet-vgna.top CNAME .
+jira.1xbet-vxj.top CNAME .
+*.jira.1xbet-vxj.top CNAME .
+pay.1xbet-vxj.top CNAME .
+*.pay.1xbet-vxj.top CNAME .
+proxmox.1xbet-vxj.top CNAME .
+*.proxmox.1xbet-vxj.top CNAME .
 backoffice.1xbet-whel.top CNAME .
 *.backoffice.1xbet-whel.top CNAME .
 dev.okta.1xslots-284.top CNAME .
 *.dev.okta.1xslots-284.top CNAME .
 builder.1xslots-284.top CNAME .
 *.builder.1xslots-284.top CNAME .
+dify.1xslots-284.top CNAME .
+*.dify.1xslots-284.top CNAME .
 staff.1xslots-cqm.top CNAME .
 *.staff.1xslots-cqm.top CNAME .
 studio.1xslots-cqm.top CNAME .
@@ -14237,6 +14237,8 @@ business.riobetcasino-fdu.top CNAME .
 *.business.riobetcasino-fdu.top CNAME .
 cloud.riobetcasino-fdu.top CNAME .
 *.cloud.riobetcasino-fdu.top CNAME .
+command.riobetcasino-fdu.top CNAME .
+*.command.riobetcasino-fdu.top CNAME .
 static.riobetcasino-fdu.top CNAME .
 *.static.riobetcasino-fdu.top CNAME .
 workspace.riobetcasino-hem.top CNAME .
@@ -63581,6 +63583,8 @@ zx.zzxx889.com CNAME .
 *.1xbet-bof85.buzz CNAME .
 1xbet-bof88.cam CNAME .
 *.1xbet-bof88.cam CNAME .
+1xbet-bofw.top CNAME .
+*.1xbet-bofw.top CNAME .
 1xbet-bog5.cfd CNAME .
 *.1xbet-bog5.cfd CNAME .
 1xbet-bog83.cam CNAME .
@@ -536179,8 +536183,6 @@ com-polybet-q65.com CNAME .
 *.com-polybet-q65.com CNAME .
 com-polybet-q66.com CNAME .
 *.com-polybet-q66.com CNAME .
-com-polybet-q67.com CNAME .
-*.com-polybet-q67.com CNAME .
 com-polybet-q68.com CNAME .
 *.com-polybet-q68.com CNAME .
 com-polybet-q69.com CNAME .
@@ -561427,8 +561429,6 @@ diabetis-mellitus.de CNAME .
 *.diabetis-mellitus.de CNAME .
 diabetologe-online.de CNAME .
 *.diabetologe-online.de CNAME .
-diabetologia-budapest.hu CNAME .
-*.diabetologia-budapest.hu CNAME .
 diabetologie-info.de CNAME .
 *.diabetologie-info.de CNAME .
 diabetologie-steglitz.berlin CNAME .
@@ -643121,8 +643121,6 @@ gomu837hoki.com CNAME .
 *.gomu837hoki.com CNAME .
 gomu837slots.com CNAME .
 *.gomu837slots.com CNAME .
-gomubet-amp.site CNAME .
-*.gomubet-amp.site CNAME .
 gomubetsaldo.com CNAME .
 *.gomubetsaldo.com CNAME .
 gomubetslots.com CNAME .
@@ -722637,12 +722635,6 @@ jojobet15022.com CNAME .
 *.jojobet15022.com CNAME .
 jojobet15024.com CNAME .
 *.jojobet15024.com CNAME .
-jojobet15025.com CNAME .
-*.jojobet15025.com CNAME .
-jojobet15026.com CNAME .
-*.jojobet15026.com CNAME .
-jojobet15027.com CNAME .
-*.jojobet15027.com CNAME .
 jojobet15444.com CNAME .
 *.jojobet15444.com CNAME .
 jojobet15859.com CNAME .
@@ -748313,8 +748305,6 @@ kartupokerss.com CNAME .
 *.kartupokerss.com CNAME .
 kartupokerxxx.com CNAME .
 *.kartupokerxxx.com CNAME .
-kartupokerxxx.net CNAME .
-*.kartupokerxxx.net CNAME .
 kartusayang.com CNAME .
 *.kartusayang.com CNAME .
 kartuscan.com CNAME .
@@ -883085,8 +883075,6 @@ nagapoker88.com CNAME .
 *.nagapoker88.com CNAME .
 nagapoker9.us CNAME .
 *.nagapoker9.us CNAME .
-nagapoker988.net CNAME .
-*.nagapoker988.net CNAME .
 nagapoker99.org CNAME .
 *.nagapoker99.org CNAME .
 nagapokermax.com CNAME .
@@ -1019803,6 +1019791,8 @@ revolutions-casinos.com CNAME .
 *.revolutions-casinos.com CNAME .
 revolutionscasino.net CNAME .
 *.revolutionscasino.net CNAME .
+revolutonlineslot-fr.com CNAME .
+*.revolutonlineslot-fr.com CNAME .
 revoluts-casino.com CNAME .
 *.revoluts-casino.com CNAME .
 revolutscasino.ch CNAME .
@@ -1049789,8 +1049779,6 @@ santoriniwine-tour.com CNAME .
 *.santoriniwine-tour.com CNAME .
 santos-casino.com CNAME .
 *.santos-casino.com CNAME .
-santos-casino-official.online CNAME .
-*.santos-casino-official.online CNAME .
 santos-casino-official.site CNAME .
 *.santos-casino-official.site CNAME .
 santos-casino-ru.casino CNAME .
@@ -1076391,8 +1076379,6 @@ slotsate777.xyz CNAME .
 *.slotsate777.xyz CNAME .
 slotsatlas.online CNAME .
 *.slotsatlas.online CNAME .
-slotsau.site CNAME .
-*.slotsau.site CNAME .
 slotsavana.co CNAME .
 *.slotsavana.co CNAME .
 slotsavanna.pro CNAME .
@@ -1249315,8 +1249301,6 @@ zgy.casino CNAME .
 *.zgy.casino CNAME .
 zh-app-betway.com CNAME .
 *.zh-app-betway.com CNAME .
-zh-bet-1xbet.com CNAME .
-*.zh-bet-1xbet.com CNAME .
 zh-bet-leisu.com CNAME .
 *.zh-bet-leisu.com CNAME .
 zh-bet-lolwc.com CNAME .
