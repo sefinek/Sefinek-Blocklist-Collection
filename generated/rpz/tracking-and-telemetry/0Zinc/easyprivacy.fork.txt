@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026110103 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026110501 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,559 domains
+; Entries: 40,562 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 1, 2026 at 3:47 AM UTC | 2026-11-01T03:47:54.316Z
+; Last updated: November 5, 2026 at 1:17 AM UTC | 2026-11-05T01:17:35.940Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2638,6 +2638,8 @@ metrics.futureplc.engineering CNAME .
 *.metrics.futureplc.engineering CNAME .
 metrics.gs-chat.com CNAME .
 *.metrics.gs-chat.com CNAME .
+metrics.kapa.ai CNAME .
+*.metrics.kapa.ai CNAME .
 metrics.kmsmep.com CNAME .
 *.metrics.kmsmep.com CNAME .
 metrics.mdstrm.com CNAME .
@@ -5228,6 +5230,8 @@ dtr-onsite-feed.datarize.ai CNAME .
 *.dtr-onsite-feed.datarize.ai CNAME .
 event.hackle.io CNAME .
 *.event.hackle.io CNAME .
+js-error-tracer-api.cafe24.com CNAME .
+*.js-error-tracer-api.cafe24.com CNAME .
 log.adplex.co.kr CNAME .
 *.log.adplex.co.kr CNAME .
 log.cizion.com CNAME .
@@ -6494,6 +6498,8 @@ logx-experimentation.iherb.com CNAME .
 *.logx-experimentation.iherb.com CNAME .
 logx.optimizely.com CNAME .
 *.logx.optimizely.com CNAME .
+loki-ingest.fox.com CNAME .
+*.loki-ingest.fox.com CNAME .
 love.vidora.su CNAME .
 *.love.vidora.su CNAME .
 ma.gamersnexus.net CNAME .
@@ -6762,6 +6768,8 @@ private.wccftech.com CNAME .
 *.private.wccftech.com CNAME .
 prod-events.nykaa.com CNAME .
 *.prod-events.nykaa.com CNAME .
+prod-foxkit.kts.fox CNAME .
+*.prod-foxkit.kts.fox CNAME .
 prop.astonvillanews.co.uk CNAME .
 *.prop.astonvillanews.co.uk CNAME .
 proxima.midjourney.com CNAME .
@@ -59066,8 +59074,6 @@ home.edm.globalsources.com CNAME .
 *.home.edm.globalsources.com CNAME .
 hopeful.coh.org CNAME .
 *.hopeful.coh.org CNAME .
-horizoneurope.ukri.org CNAME .
-*.horizoneurope.ukri.org CNAME .
 hospitality.redbull.racing CNAME .
 *.hospitality.redbull.racing CNAME .
 hptechnology.arrow.com CNAME .
