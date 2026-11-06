@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026110601 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026110610 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Tracking Blocklist
-; Entries: 121,081 domains
+; Entries: 121,080 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 6, 2026 at 1:22 AM UTC | 2026-11-06T01:22:11.051Z
+; Last updated: November 6, 2026 at 10:18 AM UTC | 2026-11-06T10:18:43.224Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -240,6 +240,8 @@ $TTL 300
 *.1eusy6.boxoffice.adventuretix.com CNAME .
 1f506eaf.b-cdn.net CNAME .
 *.1f506eaf.b-cdn.net CNAME .
+1fcktracker.com CNAME .
+*.1fcktracker.com CNAME .
 1-instant.okcupid.com CNAME .
 *.1-instant.okcupid.com CNAME .
 1j2n061x3td.www.digi.no CNAME .
@@ -7280,6 +7282,8 @@ aitrillion.com CNAME .
 *.aitrillion.com CNAME .
 aitrio-stats.com CNAME .
 *.aitrio-stats.com CNAME .
+aizhantj.com CNAME .
+*.aizhantj.com CNAME .
 aiztl.eloquii.com CNAME .
 *.aiztl.eloquii.com CNAME .
 ajaralarm.com CNAME .
@@ -90602,10 +90606,6 @@ listenup.ai CNAME .
 *.listenup.ai CNAME .
 listing-a8-itp.hello-storage.com CNAME .
 *.listing-a8-itp.hello-storage.com CNAME .
-listrakbi.com CNAME .
-*.listrakbi.com CNAME .
-listrak.com CNAME .
-*.listrak.com CNAME .
 lite.lchfarkivet.se CNAME .
 *.lite.lchfarkivet.se CNAME .
 literally-analytics.appspot.com CNAME .
@@ -132666,14 +132666,6 @@ nodbledp.com CNAME .
 *.nodbledp.com CNAME .
 nod.caracda.de CNAME .
 *.nod.caracda.de CNAME .
-node41.aizhantj.com CNAME .
-*.node41.aizhantj.com CNAME .
-node91.aizhantj.com CNAME .
-*.node91.aizhantj.com CNAME .
-node92.aizhantj.com CNAME .
-*.node92.aizhantj.com CNAME .
-node93.aizhantj.com CNAME .
-*.node93.aizhantj.com CNAME .
 node.cciesecurity.net CNAME .
 *.node.cciesecurity.net CNAME .
 node.ccie.store CNAME .
@@ -133552,6 +133544,10 @@ oefnb8trk.com CNAME .
 *.oefnb8trk.com CNAME .
 oeko.immergruen-energie.de CNAME .
 *.oeko.immergruen-energie.de CNAME .
+oeo2zp9s.com CNAME .
+*.oeo2zp9s.com CNAME .
+oev4ll6o.com CNAME .
+*.oev4ll6o.com CNAME .
 o.evite.com CNAME .
 *.o.evite.com CNAME .
 o.evoicereceptionist.com CNAME .
@@ -224488,6 +224484,8 @@ t.hustlerhollywood.com CNAME .
 *.t.hustlerhollywood.com CNAME .
 t.huzzle.com CNAME .
 *.t.huzzle.com CNAME .
+thxtrack.com CNAME .
+*.thxtrack.com CNAME .
 t.hyatt.com CNAME .
 *.t.hyatt.com CNAME .
 t.iagodahlem.com CNAME .
