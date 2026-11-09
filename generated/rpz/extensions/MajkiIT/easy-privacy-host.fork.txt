@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026110610 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026110910 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,574 domains
+; Entries: 40,589 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 6, 2026 at 10:18 AM UTC | 2026-11-06T10:18:38.989Z
+; Last updated: November 9, 2026 at 10:50 AM UTC | 2026-11-09T10:50:15.898Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -10098,6 +10098,8 @@ analytics-fe.digital-cloud.medallia.ca CNAME .
 *.analytics-fe.digital-cloud.medallia.ca CNAME .
 analytics-fe.digital-cloud.medallia.com CNAME .
 *.analytics-fe.digital-cloud.medallia.com CNAME .
+analytics-fe.digital-cloud.medallia.eu CNAME .
+*.analytics-fe.digital-cloud.medallia.eu CNAME .
 analytics-gw.games.wanmei.com CNAME .
 *.analytics-gw.games.wanmei.com CNAME .
 analytics-hub.3plearning.com CNAME .
@@ -11526,6 +11528,8 @@ aphxav.green-acres.it CNAME .
 *.aphxav.green-acres.it CNAME .
 api-analytics-prd.pelcro.com CNAME .
 *.api-analytics-prd.pelcro.com CNAME .
+api-engage-us.sitecorecloud.io CNAME .
+*.api-engage-us.sitecorecloud.io CNAME .
 api-hotmart-tracking-manager.hotmart.com CNAME .
 *.api-hotmart-tracking-manager.hotmart.com CNAME .
 api-js.mixpanel.com CNAME .
@@ -15162,6 +15166,8 @@ boss.openapp.link CNAME .
 *.boss.openapp.link CNAME .
 bot.asksyllable.com CNAME .
 *.bot.asksyllable.com CNAME .
+bot.cdn.adeo.cloud CNAME .
+*.bot.cdn.adeo.cloud CNAME .
 bot.stackbots.com CNAME .
 *.bot.stackbots.com CNAME .
 bot.streaktrivia.com CNAME .
@@ -16406,6 +16412,8 @@ cdn.dfsdk.com CNAME .
 *.cdn.dfsdk.com CNAME .
 cdn.eaec.fpfis.tech.ec.europa.eu CNAME .
 *.cdn.eaec.fpfis.tech.ec.europa.eu CNAME .
+cdn.ltba.io CNAME .
+*.cdn.ltba.io CNAME .
 cdn.net.dz.jumia.com CNAME .
 *.cdn.net.dz.jumia.com CNAME .
 cdn.net.elogia.net CNAME .
@@ -17378,6 +17386,8 @@ collect2.allianz.ch CNAME .
 *.collect2.allianz.ch CNAME .
 collectfront.nector.io CNAME .
 *.collectfront.nector.io CNAME .
+collection.cyberprocurement.com CNAME .
+*.collection.cyberprocurement.com CNAME .
 collection.mola.tv CNAME .
 *.collection.mola.tv CNAME .
 collection.saga.co.uk CNAME .
@@ -21964,6 +21974,8 @@ dmw2pzbenclyd.cloudfront.net CNAME .
 *.dmw2pzbenclyd.cloudfront.net CNAME .
 dmxhgf4zuwdvu.cloudfront.net CNAME .
 *.dmxhgf4zuwdvu.cloudfront.net CNAME .
+dn-analytics.alketech.eu CNAME .
+*.dn-analytics.alketech.eu CNAME .
 dn34cbtcv9mef.cloudfront.net CNAME .
 *.dn34cbtcv9mef.cloudfront.net CNAME .
 dna.uol.com.br CNAME .
@@ -46546,6 +46558,8 @@ obs.greencolumnblog.com CNAME .
 *.obs.greencolumnblog.com CNAME .
 obs.jollyoutdoorjogger.com CNAME .
 *.obs.jollyoutdoorjogger.com CNAME .
+obs.protoroundprince.com CNAME .
+*.obs.protoroundprince.com CNAME .
 obs.sd4823.spglobal.com CNAME .
 *.obs.sd4823.spglobal.com CNAME .
 obs.system1onesource.com CNAME .
@@ -47794,6 +47808,8 @@ p.jmlp.app CNAME .
 *.p.jmlp.app CNAME .
 p.logbox.io CNAME .
 *.p.logbox.io CNAME .
+p.marktplaats.net CNAME .
+*.p.marktplaats.net CNAME .
 p.marqueplace.com CNAME .
 *.p.marqueplace.com CNAME .
 p.mdb.tools CNAME .
@@ -48610,10 +48626,14 @@ pixel.nine.com.au CNAME .
 *.pixel.nine.com.au CNAME .
 pixel.nudgify.com CNAME .
 *.pixel.nudgify.com CNAME .
+pixel.optimeeze.data.adeo.cloud CNAME .
+*.pixel.optimeeze.data.adeo.cloud CNAME .
 pixel.patch.com CNAME .
 *.pixel.patch.com CNAME .
 pixel.poptok.com CNAME .
 *.pixel.poptok.com CNAME .
+pixel.profound.click CNAME .
+*.pixel.profound.click CNAME .
 pixel.propublica.org CNAME .
 *.pixel.propublica.org CNAME .
 pixel.pub.lilyai.net CNAME .
@@ -51432,6 +51452,8 @@ rum.corewebvitals.io CNAME .
 *.rum.corewebvitals.io CNAME .
 rum.cronitor.io CNAME .
 *.rum.cronitor.io CNAME .
+rum.haystack.es CNAME .
+*.rum.haystack.es CNAME .
 rum.hlx.page CNAME .
 *.rum.hlx.page CNAME .
 rum.ingress.layer0.co CNAME .
@@ -63144,6 +63166,8 @@ sst.cooperativa.cl CNAME .
 *.sst.cooperativa.cl CNAME .
 sst.fdiintelligence.com CNAME .
 *.sst.fdiintelligence.com CNAME .
+sst.leroymerlin.pl CNAME .
+*.sst.leroymerlin.pl CNAME .
 sst.shopware.com CNAME .
 *.sst.shopware.com CNAME .
 sst.vrijopnaam.nl CNAME .
@@ -67788,6 +67812,8 @@ tag.triboomedia.it CNAME .
 *.tag.triboomedia.it CNAME .
 tag.unifyintent.com CNAME .
 *.tag.unifyintent.com CNAME .
+tag.web.onesdata.com CNAME .
+*.tag.web.onesdata.com CNAME .
 tag.weezmo.com CNAME .
 *.tag.weezmo.com CNAME .
 tagcommander.laredoute.be CNAME .
@@ -67800,6 +67826,8 @@ tagger.ope.scmp.com CNAME .
 *.tagger.ope.scmp.com CNAME .
 tagger.opecloud.com CNAME .
 *.tagger.opecloud.com CNAME .
+tagging.conde.digital CNAME .
+*.tagging.conde.digital CNAME .
 tagging.shiftdigitalapps.io CNAME .
 *.tagging.shiftdigitalapps.io CNAME .
 tagging.sliponline.nl CNAME .
@@ -73562,6 +73590,8 @@ tracking.opentable.com CNAME .
 *.tracking.opentable.com CNAME .
 tracking.oppd.com CNAME .
 *.tracking.oppd.com CNAME .
+tracking.optimeeze.data.adeo.cloud CNAME .
+*.tracking.optimeeze.data.adeo.cloud CNAME .
 tracking.orientladies.de CNAME .
 *.tracking.orientladies.de CNAME .
 tracking.osteuropaladies.de CNAME .
