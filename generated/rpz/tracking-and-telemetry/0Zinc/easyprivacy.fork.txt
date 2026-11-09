@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026110501 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026110900 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,562 domains
+; Entries: 40,571 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 5, 2026 at 1:17 AM UTC | 2026-11-05T01:17:35.940Z
+; Last updated: November 9, 2026 at 12:30 AM UTC | 2026-11-09T00:30:56.774Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1074,6 +1074,8 @@ sra-px.cdn-fileserver.com CNAME .
 *.sra-px.cdn-fileserver.com CNAME .
 youseasky.com CNAME .
 *.youseasky.com CNAME .
+dn-analytics.alketech.eu CNAME .
+*.dn-analytics.alketech.eu CNAME .
 tracker-shr.ortb.net CNAME .
 *.tracker-shr.ortb.net CNAME .
 adless.io CNAME .
@@ -1280,6 +1282,8 @@ analytics-fe.digital-cloud.medallia.ca CNAME .
 *.analytics-fe.digital-cloud.medallia.ca CNAME .
 analytics-fe.digital-cloud.medallia.com CNAME .
 *.analytics-fe.digital-cloud.medallia.com CNAME .
+analytics-fe.digital-cloud.medallia.eu CNAME .
+*.analytics-fe.digital-cloud.medallia.eu CNAME .
 analytics-ipv6.tiktokw.us CNAME .
 *.analytics-ipv6.tiktokw.us CNAME .
 analytics-prd.aws.wehaa.net CNAME .
@@ -1592,6 +1596,8 @@ ape-tagit.timeinc.net CNAME .
 *.ape-tagit.timeinc.net CNAME .
 api-analytics-prd.pelcro.com CNAME .
 *.api-analytics-prd.pelcro.com CNAME .
+api-engage-us.sitecorecloud.io CNAME .
+*.api-engage-us.sitecorecloud.io CNAME .
 api.autopilothq.com CNAME .
 *.api.autopilothq.com CNAME .
 api.croct.io CNAME .
@@ -1790,6 +1796,8 @@ cdn.9gtb.com CNAME .
 *.cdn.9gtb.com CNAME .
 cdn.dfsdk.com CNAME .
 *.cdn.dfsdk.com CNAME .
+cdn.ltba.io CNAME .
+*.cdn.ltba.io CNAME .
 cdn.polarbyte.com CNAME .
 *.cdn.polarbyte.com CNAME .
 cdn.prod.euid.eu CNAME .
@@ -2732,6 +2740,8 @@ obs.greencolumnblog.com CNAME .
 *.obs.greencolumnblog.com CNAME .
 obs.jollyoutdoorjogger.com CNAME .
 *.obs.jollyoutdoorjogger.com CNAME .
+obs.protoroundprince.com CNAME .
+*.obs.protoroundprince.com CNAME .
 obs.sd4823.spglobal.com CNAME .
 *.obs.sd4823.spglobal.com CNAME .
 obs.system1onesource.com CNAME .
@@ -2862,6 +2872,8 @@ pixel.newscred.com CNAME .
 *.pixel.newscred.com CNAME .
 pixel.nudgify.com CNAME .
 *.pixel.nudgify.com CNAME .
+pixel.profound.click CNAME .
+*.pixel.profound.click CNAME .
 pixel.propublica.org CNAME .
 *.pixel.propublica.org CNAME .
 pixel.pub.lilyai.net CNAME .
@@ -3490,6 +3502,8 @@ tag.unifyintent.com CNAME .
 *.tag.unifyintent.com CNAME .
 tagger.opecloud.com CNAME .
 *.tagger.opecloud.com CNAME .
+tagging.conde.digital CNAME .
+*.tagging.conde.digital CNAME .
 tagging.shiftdigitalapps.io CNAME .
 *.tagging.shiftdigitalapps.io CNAME .
 tags.catapultx.com CNAME .
@@ -4482,6 +4496,8 @@ orbidder.otto.de CNAME .
 *.orbidder.otto.de CNAME .
 owen.prolitteris.ch CNAME .
 *.owen.prolitteris.ch CNAME .
+p.marktplaats.net CNAME .
+*.p.marktplaats.net CNAME .
 pixel.poptok.com CNAME .
 *.pixel.poptok.com CNAME .
 plausible.ams.to CNAME .
@@ -5582,6 +5598,8 @@ pub.servidoresge.com CNAME .
 *.pub.servidoresge.com CNAME .
 rt.cdnmedia.tv CNAME .
 *.rt.cdnmedia.tv CNAME .
+rum.haystack.es CNAME .
+*.rum.haystack.es CNAME .
 segment.lalr.co CNAME .
 *.segment.lalr.co CNAME .
 sp.vtex.com CNAME .
