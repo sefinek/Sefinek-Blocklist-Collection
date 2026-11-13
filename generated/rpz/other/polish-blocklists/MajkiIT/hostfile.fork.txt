@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111313 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026111321 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Ads Filter Hostfile
-; Entries: 1,194 domains
+; Entries: 1,219 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 13, 2026 at 1:49 PM UTC | 2026-11-13T13:49:30.134Z
+; Last updated: November 13, 2026 at 9:10 PM UTC | 2026-11-13T21:10:45.137Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2234,6 +2234,8 @@ stg.tool.snowdahlia.pro CNAME .
 *.9.stg.tool.snowdahlia.pro CNAME .
 stg.perp.cheerfulridge.com CNAME .
 *.stg.perp.cheerfulridge.com CNAME .
+0.stg.perp.cheerfulridge.com CNAME .
+*.0.stg.perp.cheerfulridge.com CNAME .
 1.stg.perp.cheerfulridge.com CNAME .
 *.1.stg.perp.cheerfulridge.com CNAME .
 2.stg.perp.cheerfulridge.com CNAME .
@@ -2254,6 +2256,8 @@ stg.perp.cheerfulridge.com CNAME .
 *.9.stg.perp.cheerfulridge.com CNAME .
 stg.yin.bamboolake.pro CNAME .
 *.stg.yin.bamboolake.pro CNAME .
+0.stg.yin.bamboolake.pro CNAME .
+*.0.stg.yin.bamboolake.pro CNAME .
 1.stg.yin.bamboolake.pro CNAME .
 *.1.stg.yin.bamboolake.pro CNAME .
 2.stg.yin.bamboolake.pro CNAME .
@@ -2274,6 +2278,8 @@ stg.yin.bamboolake.pro CNAME .
 *.9.stg.yin.bamboolake.pro CNAME .
 stg.deer.calmjacket.com CNAME .
 *.stg.deer.calmjacket.com CNAME .
+0.stg.deer.calmjacket.com CNAME .
+*.0.stg.deer.calmjacket.com CNAME .
 1.stg.deer.calmjacket.com CNAME .
 *.1.stg.deer.calmjacket.com CNAME .
 2.stg.deer.calmjacket.com CNAME .
@@ -2292,3 +2298,47 @@ stg.deer.calmjacket.com CNAME .
 *.8.stg.deer.calmjacket.com CNAME .
 9.stg.deer.calmjacket.com CNAME .
 *.9.stg.deer.calmjacket.com CNAME .
+stg.bog.lovingflag.com CNAME .
+*.stg.bog.lovingflag.com CNAME .
+0.stg.bog.lovingflag.com CNAME .
+*.0.stg.bog.lovingflag.com CNAME .
+1.stg.bog.lovingflag.com CNAME .
+*.1.stg.bog.lovingflag.com CNAME .
+2.stg.bog.lovingflag.com CNAME .
+*.2.stg.bog.lovingflag.com CNAME .
+3.stg.bog.lovingflag.com CNAME .
+*.3.stg.bog.lovingflag.com CNAME .
+4.stg.bog.lovingflag.com CNAME .
+*.4.stg.bog.lovingflag.com CNAME .
+5.stg.bog.lovingflag.com CNAME .
+*.5.stg.bog.lovingflag.com CNAME .
+6.stg.bog.lovingflag.com CNAME .
+*.6.stg.bog.lovingflag.com CNAME .
+7.stg.bog.lovingflag.com CNAME .
+*.7.stg.bog.lovingflag.com CNAME .
+8.stg.bog.lovingflag.com CNAME .
+*.8.stg.bog.lovingflag.com CNAME .
+9.stg.bog.lovingflag.com CNAME .
+*.9.stg.bog.lovingflag.com CNAME .
+stg.silk.caringyarn.pro CNAME .
+*.stg.silk.caringyarn.pro CNAME .
+0.stg.silk.caringyarn.pro CNAME .
+*.0.stg.silk.caringyarn.pro CNAME .
+1.stg.silk.caringyarn.pro CNAME .
+*.1.stg.silk.caringyarn.pro CNAME .
+2.stg.silk.caringyarn.pro CNAME .
+*.2.stg.silk.caringyarn.pro CNAME .
+3.stg.silk.caringyarn.pro CNAME .
+*.3.stg.silk.caringyarn.pro CNAME .
+4.stg.silk.caringyarn.pro CNAME .
+*.4.stg.silk.caringyarn.pro CNAME .
+5.stg.silk.caringyarn.pro CNAME .
+*.5.stg.silk.caringyarn.pro CNAME .
+6.stg.silk.caringyarn.pro CNAME .
+*.6.stg.silk.caringyarn.pro CNAME .
+7.stg.silk.caringyarn.pro CNAME .
+*.7.stg.silk.caringyarn.pro CNAME .
+8.stg.silk.caringyarn.pro CNAME .
+*.8.stg.silk.caringyarn.pro CNAME .
+9.stg.silk.caringyarn.pro CNAME .
+*.9.stg.silk.caringyarn.pro CNAME .
