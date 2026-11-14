@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111321 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026111419 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: ShadowWhisperer Tracking Blocklist
-; Entries: 142,618 domains
+; Entries: 142,634 domains
 ; Source: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 13, 2026 at 9:10 PM UTC | 2026-11-13T21:10:47.511Z
+; Last updated: November 14, 2026 at 7:42 PM UTC | 2026-11-14T19:42:10.293Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -7720,6 +7720,8 @@ aia.rheefsa.com CNAME .
 *.aia.rheefsa.com CNAME .
 aiasst.allinadventures.com CNAME .
 *.aiasst.allinadventures.com CNAME .
+aibeacon.jp CNAME .
+*.aibeacon.jp CNAME .
 ai.butysportowe.pl CNAME .
 *.ai.butysportowe.pl CNAME .
 aicap.tech CNAME .
@@ -30874,6 +30876,8 @@ analytics.roboyo.cloud CNAME .
 *.analytics.roboyo.cloud CNAME .
 analytics.robpatton.com CNAME .
 *.analytics.robpatton.com CNAME .
+analytics.rob-run.kefir.games CNAME .
+*.analytics.rob-run.kefir.games CNAME .
 analytics.robshaw.co.za CNAME .
 *.analytics.robshaw.co.za CNAME .
 analytics.robsontenorio.com CNAME .
@@ -53774,6 +53778,8 @@ coleta.suplementosgolfeto.com.br CNAME .
 *.coleta.suplementosgolfeto.com.br CNAME .
 colibri-js.akamaized.net CNAME .
 *.colibri-js.akamaized.net CNAME .
+collabinsights.teams.cloud.microsoft CNAME .
+*.collabinsights.teams.cloud.microsoft CNAME .
 collagen.renewskinco.com CNAME .
 *.collagen.renewskinco.com CNAME .
 collateralanalytics.com CNAME .
@@ -54828,6 +54834,8 @@ commonalmanac.com CNAME .
 *.commonalmanac.com CNAME .
 common-info.wondershare.com CNAME .
 *.common-info.wondershare.com CNAME .
+common-logger.cdn.web.vanguard.com CNAME .
+*.common-logger.cdn.web.vanguard.com CNAME .
 common.ludusapps.com CNAME .
 *.common.ludusapps.com CNAME .
 commons-analytics.fly.dev CNAME .
@@ -78336,6 +78344,8 @@ eventtracker.com CNAME .
 *.eventtracker.com CNAME .
 eventtracking-log.services.video.ibm.com CNAME .
 *.eventtracking-log.services.video.ibm.com CNAME .
+eventtracking-na2.hubapi.com CNAME .
+*.eventtracking-na2.hubapi.com CNAME .
 event-tracking-services.global.commerce-connector.com CNAME .
 *.event-tracking-services.global.commerce-connector.com CNAME .
 event.trimmer-agent.jp CNAME .
@@ -88880,6 +88890,8 @@ gtm.everlend.no CNAME .
 *.gtm.everlend.no CNAME .
 gtm.everlend.se CNAME .
 *.gtm.everlend.se CNAME .
+gtm.everydayhealth.com CNAME .
+*.gtm.everydayhealth.com CNAME .
 gtm.everyshot.com.au CNAME .
 *.gtm.everyshot.com.au CNAME .
 gtm.evolcan.com CNAME .
@@ -119158,6 +119170,8 @@ load.sst.toxtool.eu CNAME .
 *.load.sst.toxtool.eu CNAME .
 load.sst.transportlogistic.de CNAME .
 *.load.sst.transportlogistic.de CNAME .
+load.sst.trans-siberian.com CNAME .
+*.load.sst.trans-siberian.com CNAME .
 load.sst.travel4med.at CNAME .
 *.load.sst.travel4med.at CNAME .
 load.sst.travel4med.com CNAME .
@@ -141596,6 +141610,8 @@ metrics-us.cometchat.io CNAME .
 *.metrics-us.cometchat.io CNAME .
 metrics.us.dockers.com CNAME .
 *.metrics.us.dockers.com CNAME .
+metrics.us-east-1.iris.apx.amazon.dev CNAME .
+*.metrics.us-east-1.iris.apx.amazon.dev CNAME .
 metrics.userguiding.com CNAME .
 *.metrics.userguiding.com CNAME .
 metrics.usfoods.com CNAME .
@@ -151894,6 +151910,8 @@ monitoring.medizinbedarf.eu CNAME .
 *.monitoring.medizinbedarf.eu CNAME .
 monitoring.paw-wow.de CNAME .
 *.monitoring.paw-wow.de CNAME .
+monitoringplatform.teams.microsoft.com CNAME .
+*.monitoringplatform.teams.microsoft.com CNAME .
 monitoring.rottne.com CNAME .
 *.monitoring.rottne.com CNAME .
 monitoring.sumup.net CNAME .
@@ -175400,6 +175418,8 @@ prod-clientlogs-n.northeurope.cloudapp.azure.com CNAME .
 *.prod-clientlogs-n.northeurope.cloudapp.azure.com CNAME .
 prod-dfm-proxy-connext.azurewebsites.net CNAME .
 *.prod-dfm-proxy-connext.azurewebsites.net CNAME .
+prod-edgecenter-analytics-http-proxy-0.rob-run.kefir.games CNAME .
+*.prod-edgecenter-analytics-http-proxy-0.rob-run.kefir.games CNAME .
 prodege.com CNAME .
 *.prodege.com CNAME .
 prodegemr.com CNAME .
@@ -175408,6 +175428,10 @@ prod-foxkit.kts.fox CNAME .
 *.prod-foxkit.kts.fox CNAME .
 prod-frontier.chaperone.lumindigitalhosting.com CNAME .
 *.prod-frontier.chaperone.lumindigitalhosting.com CNAME .
+prod-gcore-amsterdam-1-analytics-http-proxy-0.rob-run.kefir.games CNAME .
+*.prod-gcore-amsterdam-1-analytics-http-proxy-0.rob-run.kefir.games CNAME .
+prod-gcore-luxembourg-2-analytics-http-proxy-0.rob-run.kefir.games CNAME .
+*.prod-gcore-luxembourg-2-analytics-http-proxy-0.rob-run.kefir.games CNAME .
 prod.geo.gluops.com CNAME .
 *.prod.geo.gluops.com CNAME .
 prod.geoservice.gluops.com CNAME .
@@ -201830,6 +201854,8 @@ sitecheck.opera.com CNAME .
 *.sitecheck.opera.com CNAME .
 site.ckeditor.com CNAME .
 *.site.ckeditor.com CNAME .
+sitecorecloud.io CNAME .
+*.sitecorecloud.io CNAME .
 sitecore.com CNAME .
 *.sitecore.com CNAME .
 sitectlyst.saksfifthavenue.com CNAME .
@@ -262408,6 +262434,8 @@ tealium-f.squarecdn.com CNAME .
 *.tealium-f.squarecdn.com CNAME .
 tealiumiq.com CNAME .
 *.tealiumiq.com CNAME .
+tealium-tags.cuidadodesalud.gov CNAME .
+*.tealium-tags.cuidadodesalud.gov CNAME .
 tealium-tags.healthcare.gov CNAME .
 *.tealium-tags.healthcare.gov CNAME .
 tealm-c.crocs.com CNAME .
@@ -270248,6 +270276,8 @@ track.naccas.org CNAME .
 *.track.naccas.org CNAME .
 track.nandaintimus.com.br CNAME .
 *.track.nandaintimus.com.br CNAME .
+track.nativebrik.com CNAME .
+*.track.nativebrik.com CNAME .
 track.naturalacneclinic.com CNAME .
 *.track.naturalacneclinic.com CNAME .
 track.naturesmace.com CNAME .
@@ -279272,6 +279302,8 @@ wake.tvn.pl CNAME .
 *.wake.tvn.pl CNAME .
 wa.lds.online CNAME .
 *.wa.lds.online CNAME .
+walkietalkiereport.teams.microsoft.com CNAME .
+*.walkietalkiereport.teams.microsoft.com CNAME .
 walkinginthemoon.com CNAME .
 *.walkinginthemoon.com CNAME .
 walkmeapps.com CNAME .
