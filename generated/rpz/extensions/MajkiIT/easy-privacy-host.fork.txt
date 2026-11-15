@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111304 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026111510 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,605 domains
+; Entries: 40,619 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 13, 2026 at 4:36 AM UTC | 2026-11-13T04:36:43.362Z
+; Last updated: November 15, 2026 at 10:19 AM UTC | 2026-11-15T10:19:23.146Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -9134,6 +9134,8 @@ adnext.co CNAME .
 *.adnext.co CNAME .
 adnl.bk.mufg.jp CNAME .
 *.adnl.bk.mufg.jp CNAME .
+adnz.co CNAME .
+*.adnz.co CNAME .
 adobe-analytics-dc.belastingdienst.nl CNAME .
 *.adobe-analytics-dc.belastingdienst.nl CNAME .
 adobe-analytics.vionicshoes.com CNAME .
@@ -10212,6 +10214,8 @@ analytics.allovoisins.com CNAME .
 *.analytics.allovoisins.com CNAME .
 analytics.alrajhibank.com.sa CNAME .
 *.analytics.alrajhibank.com.sa CNAME .
+analytics.alvarezrosa.com CNAME .
+*.analytics.alvarezrosa.com CNAME .
 analytics.amakings.com CNAME .
 *.analytics.amakings.com CNAME .
 analytics.americanfunds.com CNAME .
@@ -10296,6 +10300,8 @@ analytics.brave.com CNAME .
 *.analytics.brave.com CNAME .
 analytics.brickaward.com CNAME .
 *.analytics.brickaward.com CNAME .
+analytics.bucks.helixo.co CNAME .
+*.analytics.bucks.helixo.co CNAME .
 analytics.byecorps.com CNAME .
 *.analytics.byecorps.com CNAME .
 analytics.canaltnt.es CNAME .
@@ -16406,6 +16412,8 @@ cdeatz.spartoo.it CNAME .
 *.cdeatz.spartoo.it CNAME .
 cdfhpj.automobile.it CNAME .
 *.cdfhpj.automobile.it CNAME .
+cdid.trip.com CNAME .
+*.cdid.trip.com CNAME .
 cdjbf8trk.com CNAME .
 *.cdjbf8trk.com CNAME .
 cdjhcf.hometogo.es CNAME .
@@ -16450,6 +16458,8 @@ cdn.sy-d.io CNAME .
 *.cdn.sy-d.io CNAME .
 cdn.usefathom.com CNAME .
 *.cdn.usefathom.com CNAME .
+cdn.visits.dqapis.com CNAME .
+*.cdn.visits.dqapis.com CNAME .
 cdn1.skrill.com CNAME .
 *.cdn1.skrill.com CNAME .
 cdn7.baunetz.de CNAME .
@@ -19534,6 +19544,8 @@ dart.onjoyri.de CNAME .
 *.dart.onjoyri.de CNAME .
 dash.getsitecontrol.com CNAME .
 *.dash.getsitecontrol.com CNAME .
+dash.kryon.one CNAME .
+*.dash.kryon.one CNAME .
 dashboardbntest.branchcustom.xyz CNAME .
 *.dashboardbntest.branchcustom.xyz CNAME .
 dasych.drmartypets.com CNAME .
@@ -23022,6 +23034,8 @@ edge.truistsecurities.com CNAME .
 *.edge.truistsecurities.com CNAME .
 edge.venatusmedia.com CNAME .
 *.edge.venatusmedia.com CNAME .
+edge.wingify.net CNAME .
+*.edge.wingify.net CNAME .
 edge.wnetwork.com CNAME .
 *.edge.wnetwork.com CNAME .
 edgedc.falabella.com CNAME .
@@ -26140,6 +26154,8 @@ fpa-cdn.adweek.com CNAME .
 *.fpa-cdn.adweek.com CNAME .
 fpa-cdn.arstechnica.com CNAME .
 *.fpa-cdn.arstechnica.com CNAME .
+fpa-events.theintercept.com CNAME .
+*.fpa-events.theintercept.com CNAME .
 fpadga.mcruises.ru CNAME .
 *.fpadga.mcruises.ru CNAME .
 fpapi.io CNAME .
@@ -45996,6 +46012,8 @@ newtest.wunderman-email.cjm.adobe.com CNAME .
 *.newtest.wunderman-email.cjm.adobe.com CNAME .
 nex.163.com CNAME .
 *.nex.163.com CNAME .
+nexus.firecrown.com CNAME .
+*.nexus.firecrown.com CNAME .
 nexxtv-events.servicebus.windows.net CNAME .
 *.nexxtv-events.servicebus.windows.net CNAME .
 nffxqi.jorgebischoff.com.br CNAME .
@@ -47652,6 +47670,8 @@ ot.obi.sk CNAME .
 *.ot.obi.sk CNAME .
 otel-collector.lenta.tech CNAME .
 *.otel-collector.lenta.tech CNAME .
+otel-gw.booking.com CNAME .
+*.otel-gw.booking.com CNAME .
 otel-mobile.doordash.com CNAME .
 *.otel-mobile.doordash.com CNAME .
 othanasis.openapp.link CNAME .
@@ -51212,6 +51232,8 @@ riovdv.mustit.co.kr CNAME .
 *.riovdv.mustit.co.kr CNAME .
 riscitsolutions.actonservice.com CNAME .
 *.riscitsolutions.actonservice.com CNAME .
+riskpoc.trip.com CNAME .
+*.riskpoc.trip.com CNAME .
 riundo.bonprix.no CNAME .
 *.riundo.bonprix.no CNAME .
 riwkmo.spacemarket.com CNAME .
@@ -51566,6 +51588,8 @@ rxtolo.domiporta.pl CNAME .
 *.rxtolo.domiporta.pl CNAME .
 ry0.rythmefm.com CNAME .
 *.ry0.rythmefm.com CNAME .
+rybbit-analytics.livecounts.io CNAME .
+*.rybbit-analytics.livecounts.io CNAME .
 rybbit.sg-app.com CNAME .
 *.rybbit.sg-app.com CNAME .
 ryjknw.sonnenbrillen.com CNAME .
@@ -55164,6 +55188,8 @@ sinfo.dtcidev.co CNAME .
 *.sinfo.dtcidev.co CNAME .
 singleplatform.actonservice.com CNAME .
 *.singleplatform.actonservice.com CNAME .
+sink.gw.booking.com CNAME .
+*.sink.gw.booking.com CNAME .
 sinkou.tireshop.com.br CNAME .
 *.sinkou.tireshop.com.br CNAME .
 sinmo.chasecenter.com CNAME .
@@ -67806,6 +67832,8 @@ tag.brandcdn.com CNAME .
 *.tag.brandcdn.com CNAME .
 tag.cribnotes.jp CNAME .
 *.tag.cribnotes.jp CNAME .
+tag.decentriq.com CNAME .
+*.tag.decentriq.com CNAME .
 tag.digops.sincro.io CNAME .
 *.tag.digops.sincro.io CNAME .
 tag.eisa.mercari.com CNAME .
