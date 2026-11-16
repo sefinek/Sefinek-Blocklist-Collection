@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111500 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026111621 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,606 domains
+; Entries: 40,612 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 15, 2026 at 12:39 AM UTC | 2026-11-15T00:39:12.708Z
+; Last updated: November 16, 2026 at 9:33 PM UTC | 2026-11-16T21:33:35.181Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -1226,6 +1226,8 @@ ads-tracking.collectiveaudience.co CNAME .
 *.ads-tracking.collectiveaudience.co CNAME .
 ads-trk.vidible.tv CNAME .
 *.ads-trk.vidible.tv CNAME .
+adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net CNAME .
+*.adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net CNAME .
 adv-analytics-collector.videograph.ai CNAME .
 *.adv-analytics-collector.videograph.ai CNAME .
 affiliate-api.raptive.com CNAME .
@@ -2036,6 +2038,8 @@ dash.getsitecontrol.com CNAME .
 *.dash.getsitecontrol.com CNAME .
 dash.kryon.one CNAME .
 *.dash.kryon.one CNAME .
+data.cdnbasket.net CNAME .
+*.data.cdnbasket.net CNAME .
 data.circulate.com CNAME .
 *.data.circulate.com CNAME .
 data.digitalks.az CNAME .
@@ -2808,6 +2812,8 @@ pa.pinpoll.com CNAME .
 *.pa.pinpoll.com CNAME .
 page-events-ustats.udemy.com CNAME .
 *.page-events-ustats.udemy.com CNAME .
+page.cdnbasket.net CNAME .
+*.page.cdnbasket.net CNAME .
 pages-stats.rbl.ms CNAME .
 *.pages-stats.rbl.ms CNAME .
 pagesense-collect.zoho.com CNAME .
@@ -4000,6 +4006,8 @@ video-intel.pixels.ai CNAME .
 *.video-intel.pixels.ai CNAME .
 videoevents.outbrain.com CNAME .
 *.videoevents.outbrain.com CNAME .
+view.cdnbasket.net CNAME .
+*.view.cdnbasket.net CNAME .
 vitals.flyingpress.com CNAME .
 *.vitals.flyingpress.com CNAME .
 vm.target-video.com CNAME .
@@ -4068,6 +4076,8 @@ wstats.ageverif.com CNAME .
 *.wstats.ageverif.com CNAME .
 wstats.slashed.cloud CNAME .
 *.wstats.slashed.cloud CNAME .
+wt.omnisendlink.com CNAME .
+*.wt.omnisendlink.com CNAME .
 wt.viagogo.net CNAME .
 *.wt.viagogo.net CNAME .
 wtb-tag.swaven.com CNAME .
@@ -5662,6 +5672,8 @@ tracking.smartmeapp.com CNAME .
 *.tracking.smartmeapp.com CNAME .
 tracking.univtec.com CNAME .
 *.tracking.univtec.com CNAME .
+view.publitas.com CNAME .
+*.view.publitas.com CNAME .
 webpixel.smartmeapp.com CNAME .
 *.webpixel.smartmeapp.com CNAME .
 collector.schibsted.io CNAME .
