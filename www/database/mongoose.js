@@ -28,9 +28,9 @@ connection.on('connected', async () => {
 	}
 });
 
-connection.on('disconnected', () => {
-	console.warn('MongoDB disconnected!');
-});
+let closing = false;
+connection.on('disconnecting', () => closing = true);
+connection.on('disconnected', () => (closing ? console.log('MongoDB disconnected') : console.warn('MongoDB disconnected unexpectedly!')));
 
 connection.on('error', err => {
 	console.error('MongoDB connection error:', err);

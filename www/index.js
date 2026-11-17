@@ -2,6 +2,7 @@ process.loadEnvFile();
 
 const cluster = require('node:cluster');
 const numCPUs = require('node:os').availableParallelism();
+const RESTART_DELAY_MS = 2000;
 const connectToDatabase = require('./database/mongoose.js');
 const { startAggregationJob } = require('./services/aggregateStats.js');
 
@@ -47,7 +48,7 @@ if (!MONGODB_URL) throw new Error('Missing MongoDB connection URL');
 		// Auto-restart workers on crash
 		cluster.on('exit', (worker, code, signal) => {
 			console.error(`Worker ${worker.process.pid} died (code: ${code}, signal: ${signal}). Restarting...`);
-			cluster.fork();
+			setTimeout(() => cluster.fork(), RESTART_DELAY_MS);
 		});
 
 		console.log(`Primary ${process.pid} running at ${DOMAIN}:${PORT}`);

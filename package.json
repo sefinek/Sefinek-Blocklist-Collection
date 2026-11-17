@@ -1,6 +1,6 @@
 {
   "name": "blocklist.sefinek.net",
-  "version": "0.24.1-rc.3+20261026",
+  "version": "0.24.1-rc.4+20261118",
   "private": true,
   "homepage": "https://blocklist.sefinek.net",
   "bugs": {
@@ -25,27 +25,27 @@
     "cf:deploy": "cd cloudflare && wrangler deploy"
   },
   "dependencies": {
-    "axios": "^1.20.0",
-    "cron-parser": "^5.10.2",
+    "axios": "^1.21.1",
+    "cron-parser": "^5.10.6",
     "ejs": "^7.0.2",
     "express": "^5.3.0",
-    "express-rate-limit": "^8.7.1",
+    "express-rate-limit": "^8.7.4",
     "express-timeout-handler": "^2.2.2",
     "express-validator": "^7.3.2",
     "helmet": "^8.3.0",
     "lzma-native": "^8.0.6",
-    "marked": "^18.1.1",
-    "mongoose": "^9.11.4",
+    "marked": "^18.2.1",
+    "mongoose": "^9.12.2",
     "morgan": "^1.12.1",
     "node-cron": "^4.6.0",
-    "nodemailer": "^10.2.1",
-    "rate-limit-redis": "^6.0.1",
-    "redis": "^6.3.0",
-    "ws": "^8.22.0"
+    "nodemailer": "^10.6.0",
+    "rate-limit-redis": "^6.0.2",
+    "redis": "^6.3.1",
+    "ws": "^8.23.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "ipaddr.js": "^2.5.0",
     "kleur": "^4.1.5",
     "unzipper": "^0.12.5",
