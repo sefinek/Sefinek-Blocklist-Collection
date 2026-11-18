@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111510 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026111811 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,619 domains
+; Entries: 40,625 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 15, 2026 at 10:19 AM UTC | 2026-11-15T10:19:23.146Z
+; Last updated: November 18, 2026 at 11:00 AM UTC | 2026-11-18T11:00:48.188Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -9326,6 +9326,8 @@ ads.tikpage.com CNAME .
 *.ads.tikpage.com CNAME .
 ads.tvp.pl CNAME .
 *.ads.tvp.pl CNAME .
+adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net CNAME .
+*.adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net CNAME .
 adscore.com CNAME .
 *.adscore.com CNAME .
 adsdk.yandex.ru CNAME .
@@ -19696,6 +19698,8 @@ data.cart.metrobyt-mobile.com CNAME .
 *.data.cart.metrobyt-mobile.com CNAME .
 data.carts.t-mobile.com CNAME .
 *.data.carts.t-mobile.com CNAME .
+data.cdnbasket.net CNAME .
+*.data.cdnbasket.net CNAME .
 data.charles-colby.com CNAME .
 *.data.charles-colby.com CNAME .
 data.chelseafc.com CNAME .
@@ -47968,6 +47972,8 @@ page.asraymond.com CNAME .
 *.page.asraymond.com CNAME .
 page.care.salinasvalleyhealth.com CNAME .
 *.page.care.salinasvalleyhealth.com CNAME .
+page.cdnbasket.net CNAME .
+*.page.cdnbasket.net CNAME .
 page.e.silverfernfarms.com CNAME .
 *.page.e.silverfernfarms.com CNAME .
 page.email.key.com CNAME .
@@ -77076,6 +77082,8 @@ view.americanbuildings.com CNAME .
 *.view.americanbuildings.com CNAME .
 view.aon.com CNAME .
 *.view.aon.com CNAME .
+view.cdnbasket.net CNAME .
+*.view.cdnbasket.net CNAME .
 view.centria.com CNAME .
 *.view.centria.com CNAME .
 view.fujitv.co.jp CNAME .
@@ -77086,6 +77094,8 @@ view.metlspan.com CNAME .
 *.view.metlspan.com CNAME .
 view.nucorbuildingsystems.com CNAME .
 *.view.nucorbuildingsystems.com CNAME .
+view.publitas.com CNAME .
+*.view.publitas.com CNAME .
 viewer.pandasuite.io CNAME .
 *.viewer.pandasuite.io CNAME .
 views.arabnews.com CNAME .
@@ -78606,6 +78616,8 @@ wt.generalihealthsolutions.de CNAME .
 *.wt.generalihealthsolutions.de CNAME .
 wt.netze-bw.de CNAME .
 *.wt.netze-bw.de CNAME .
+wt.omnisendlink.com CNAME .
+*.wt.omnisendlink.com CNAME .
 wt.oscaro.com CNAME .
 *.wt.oscaro.com CNAME .
 wt.vhb.de CNAME .
