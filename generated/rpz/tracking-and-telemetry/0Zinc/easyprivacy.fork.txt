@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111621 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026111902 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,612 domains
+; Entries: 40,619 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 16, 2026 at 9:33 PM UTC | 2026-11-16T21:33:35.181Z
+; Last updated: November 19, 2026 at 2:13 AM UTC | 2026-11-19T02:13:23.048Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2032,8 +2032,6 @@ d.lilstts.com CNAME .
 *.d.lilstts.com CNAME .
 d.shareaholic.com CNAME .
 *.d.shareaholic.com CNAME .
-d2gt2ux04o03l1.cloudfront.net CNAME .
-*.d2gt2ux04o03l1.cloudfront.net CNAME .
 dash.getsitecontrol.com CNAME .
 *.dash.getsitecontrol.com CNAME .
 dash.kryon.one CNAME .
@@ -2194,6 +2192,8 @@ event.collector.scopely.io CNAME .
 *.event.collector.scopely.io CNAME .
 event.instiengage.com CNAME .
 *.event.instiengage.com CNAME .
+event.prod.asgard.hullabalook.com CNAME .
+*.event.prod.asgard.hullabalook.com CNAME .
 event.syftdata.com CNAME .
 *.event.syftdata.com CNAME .
 event.syndigo.cloud CNAME .
@@ -2364,6 +2364,8 @@ ganon.yahoo.com CNAME .
 *.ganon.yahoo.com CNAME .
 gateway.foresee.com CNAME .
 *.gateway.foresee.com CNAME .
+gator.volces.com CNAME .
+*.gator.volces.com CNAME .
 gcp.fasthorse.workers.dev CNAME .
 *.gcp.fasthorse.workers.dev CNAME .
 genesis.malwarebytes.com CNAME .
@@ -2734,6 +2736,8 @@ ninja.onap.io CNAME .
 *.ninja.onap.io CNAME .
 nitrous-analytics.s3.amazonaws.com CNAME .
 *.nitrous-analytics.s3.amazonaws.com CNAME .
+nlog.instajob.ai CNAME .
+*.nlog.instajob.ai CNAME .
 noa.yahoo.com CNAME .
 *.noa.yahoo.com CNAME .
 noflake-aggregator-http.narvar.com CNAME .
@@ -3010,6 +3014,8 @@ pulse.shopflo.com CNAME .
 *.pulse.shopflo.com CNAME .
 pv-track.pxtrkapp.com CNAME .
 *.pv-track.pxtrkapp.com CNAME .
+pv-track.venatus.com CNAME .
+*.pv-track.venatus.com CNAME .
 px.marchex.io CNAME .
 *.px.marchex.io CNAME .
 px.mountain.com CNAME .
@@ -3164,6 +3170,8 @@ sessions.embeddables.com CNAME .
 *.sessions.embeddables.com CNAME .
 sftrack.searchforce.net CNAME .
 *.sftrack.searchforce.net CNAME .
+sg-fp.apitd.net CNAME .
+*.sg-fp.apitd.net CNAME .
 sgali-mcs.byteoversea.com CNAME .
 *.sgali-mcs.byteoversea.com CNAME .
 sgm-w.jd.com CNAME .
@@ -5954,6 +5962,8 @@ appanalysis.banggood.com CNAME .
 *.appanalysis.banggood.com CNAME .
 aptoide-mmp.aptoide.com CNAME .
 *.aptoide-mmp.aptoide.com CNAME .
+arc.msn.com CNAME .
+*.arc.msn.com CNAME .
 asanalytics.booking.com CNAME .
 *.asanalytics.booking.com CNAME .
 ats.alot.com CNAME .
@@ -6480,6 +6490,8 @@ ingress.linktr.ee CNAME .
 *.ingress.linktr.ee CNAME .
 insights-mxp-cdn.coursecareers.com CNAME .
 *.insights-mxp-cdn.coursecareers.com CNAME .
+insights.builderprofile.aws.dev CNAME .
+*.insights.builderprofile.aws.dev CNAME .
 intent.cmo.com.au CNAME .
 *.intent.cmo.com.au CNAME .
 intent.goodgearguide.com.au CNAME .
@@ -6954,6 +6966,8 @@ s.gofile.io CNAME .
 *.s.gofile.io CNAME .
 s.infogram.com CNAME .
 *.s.infogram.com CNAME .
+s.sintra.ai CNAME .
+*.s.sintra.ai CNAME .
 s.wayfair.com CNAME .
 *.s.wayfair.com CNAME .
 s4vrsde.www.arturia.com CNAME .
