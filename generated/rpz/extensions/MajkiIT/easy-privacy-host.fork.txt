@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111811 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026112010 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Easy Privacy Host Filter
-; Entries: 40,625 domains
+; Entries: 40,646 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 18, 2026 at 11:00 AM UTC | 2026-11-18T11:00:48.188Z
+; Last updated: November 20, 2026 at 10:53 AM UTC | 2026-11-20T10:53:30.404Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -10144,6 +10144,8 @@ analytics-prd.aws.wehaa.net CNAME .
 *.analytics-prd.aws.wehaa.net CNAME .
 analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com CNAME .
 *.analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com CNAME .
+analytics-prod.pubgen.org CNAME .
+*.analytics-prod.pubgen.org CNAME .
 analytics-prod2.glance-internal.inmobi.com CNAME .
 *.analytics-prod2.glance-internal.inmobi.com CNAME .
 analytics-production.hapyak.com CNAME .
@@ -13486,6 +13488,8 @@ aragenbio.actonservice.com CNAME .
 *.aragenbio.actonservice.com CNAME .
 aragonresearch.actonservice.com CNAME .
 *.aragonresearch.actonservice.com CNAME .
+arc.msn.com CNAME .
+*.arc.msn.com CNAME .
 arch.net.jumia.ug CNAME .
 *.arch.net.jumia.ug CNAME .
 arch.onjoyri.de CNAME .
@@ -16436,6 +16440,8 @@ cdn-vitals.com CNAME .
 *.cdn-vitals.com CNAME .
 cdn.9gtb.com CNAME .
 *.cdn.9gtb.com CNAME .
+cdn.a9f3k7z2m1.com CNAME .
+*.cdn.a9f3k7z2m1.com CNAME .
 cdn.arcstudiopro.com CNAME .
 *.cdn.arcstudiopro.com CNAME .
 cdn.dfsdk.com CNAME .
@@ -16444,6 +16450,8 @@ cdn.eaec.fpfis.tech.ec.europa.eu CNAME .
 *.cdn.eaec.fpfis.tech.ec.europa.eu CNAME .
 cdn.ltba.io CNAME .
 *.cdn.ltba.io CNAME .
+cdn.m2z7r9k4p1.com CNAME .
+*.cdn.m2z7r9k4p1.com CNAME .
 cdn.net.dz.jumia.com CNAME .
 *.cdn.net.dz.jumia.com CNAME .
 cdn.net.elogia.net CNAME .
@@ -16452,16 +16460,22 @@ cdn.polarbyte.com CNAME .
 *.cdn.polarbyte.com CNAME .
 cdn.prod.euid.eu CNAME .
 *.cdn.prod.euid.eu CNAME .
+cdn.q4x8n6b2t5.com CNAME .
+*.cdn.q4x8n6b2t5.com CNAME .
 cdn.ravm.tv CNAME .
 *.cdn.ravm.tv CNAME .
 cdn.seonintelligence.com CNAME .
 *.cdn.seonintelligence.com CNAME .
 cdn.sy-d.io CNAME .
 *.cdn.sy-d.io CNAME .
+cdn.t2037ulzqct5.com CNAME .
+*.cdn.t2037ulzqct5.com CNAME .
 cdn.usefathom.com CNAME .
 *.cdn.usefathom.com CNAME .
 cdn.visits.dqapis.com CNAME .
 *.cdn.visits.dqapis.com CNAME .
+cdn.x7k9m2q4z8r1.com CNAME .
+*.cdn.x7k9m2q4z8r1.com CNAME .
 cdn1.skrill.com CNAME .
 *.cdn1.skrill.com CNAME .
 cdn7.baunetz.de CNAME .
@@ -18056,6 +18070,8 @@ connectwithus.cetera.com CNAME .
 *.connectwithus.cetera.com CNAME .
 connext-cdn.azureedge.net CNAME .
 *.connext-cdn.azureedge.net CNAME .
+connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net CNAME .
+*.connext-fd-gnbrate4fjhjb3f7.z01.azurefd.net CNAME .
 conseil.seicgland.ch CNAME .
 *.conseil.seicgland.ch CNAME .
 conseils.dotbase.com CNAME .
@@ -20818,6 +20834,8 @@ dd.leboncoin.fr CNAME .
 *.dd.leboncoin.fr CNAME .
 dd.nytimes.com CNAME .
 *.dd.nytimes.com CNAME .
+dd.reuters.com CNAME .
+*.dd.reuters.com CNAME .
 dd.seloger-bureaux-commerces.com CNAME .
 *.dd.seloger-bureaux-commerces.com CNAME .
 dd.seloger.com CNAME .
@@ -21302,6 +21320,8 @@ digi-ping.com CNAME .
 *.digi-ping.com CNAME .
 digicard.jollyhires.com CNAME .
 *.digicard.jollyhires.com CNAME .
+digifaro-digital.uk.monitoringsolutions.sky CNAME .
+*.digifaro-digital.uk.monitoringsolutions.sky CNAME .
 digistat.westjet.com CNAME .
 *.digistat.westjet.com CNAME .
 digistats.westjet.com CNAME .
@@ -24984,6 +25004,8 @@ event.platform.autotrader.com.au CNAME .
 *.event.platform.autotrader.com.au CNAME .
 event.platform.tunein.com CNAME .
 *.event.platform.tunein.com CNAME .
+event.prod.asgard.hullabalook.com CNAME .
+*.event.prod.asgard.hullabalook.com CNAME .
 event.raise3d.cn CNAME .
 *.event.raise3d.cn CNAME .
 event.seatradecruiseevents.com CNAME .
@@ -25040,6 +25062,8 @@ eventos.ubmmexico.com CNAME .
 *.eventos.ubmmexico.com CNAME .
 eventos.usj.es CNAME .
 *.eventos.usj.es CNAME .
+eventpiper.vlcapi.net CNAME .
+*.eventpiper.vlcapi.net CNAME .
 events-endpoint.pointandplace.com CNAME .
 *.events-endpoint.pointandplace.com CNAME .
 events-ingestion-helpcenter.services.gorgias.help CNAME .
@@ -26650,6 +26674,8 @@ g2575096355.co CNAME .
 *.g2575096355.co CNAME .
 g2insights-cdn.azureedge.net CNAME .
 *.g2insights-cdn.azureedge.net CNAME .
+g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net CNAME .
+*.g2insights-fd-a0gpgwa4fycxd9d4.z01.azurefd.net CNAME .
 g4p.redtram.com CNAME .
 *.g4p.redtram.com CNAME .
 g594253006.co CNAME .
@@ -26726,6 +26752,8 @@ gateway.foresee.com CNAME .
 *.gateway.foresee.com CNAME .
 gatherer.m.qq.com CNAME .
 *.gatherer.m.qq.com CNAME .
+gator.volces.com CNAME .
+*.gator.volces.com CNAME .
 gawayez.e-postserv.com CNAME .
 *.gawayez.e-postserv.com CNAME .
 gay-hotvideo.net CNAME .
@@ -32754,6 +32782,8 @@ insights.biallo.de CNAME .
 *.insights.biallo.de CNAME .
 insights.bodogaffiliate.com CNAME .
 *.insights.bodogaffiliate.com CNAME .
+insights.builderprofile.aws.dev CNAME .
+*.insights.builderprofile.aws.dev CNAME .
 insights.cdt.ch CNAME .
 *.insights.cdt.ch CNAME .
 insights.diamond-consultants.com CNAME .
@@ -46128,6 +46158,8 @@ nlgzhd.yoox.com CNAME .
 *.nlgzhd.yoox.com CNAME .
 nljjem.honeys-onlineshop.com CNAME .
 *.nljjem.honeys-onlineshop.com CNAME .
+nlog.instajob.ai CNAME .
+*.nlog.instajob.ai CNAME .
 nlp-japan.life-and-mind.com CNAME .
 *.nlp-japan.life-and-mind.com CNAME .
 nltcs.idfnet.net CNAME .
@@ -47890,6 +47922,8 @@ p.skimresources.com CNAME .
 *.p.skimresources.com CNAME .
 p.spotidownloader.com CNAME .
 *.p.spotidownloader.com CNAME .
+p.teamily.ai CNAME .
+*.p.teamily.ai CNAME .
 p.tencentmind.com CNAME .
 *.p.tencentmind.com CNAME .
 p.tryretool.com CNAME .
@@ -48454,6 +48488,8 @@ pgs.farmprogress.com CNAME .
 *.pgs.farmprogress.com CNAME .
 pgt1.voyage-prive.es CNAME .
 *.pgt1.voyage-prive.es CNAME .
+ph.cto.new CNAME .
+*.ph.cto.new CNAME .
 phadia.thermo.com CNAME .
 *.phadia.thermo.com CNAME .
 phadia.thermofisher.com CNAME .
@@ -49792,6 +49828,8 @@ puzzle.spiriteq.com CNAME .
 *.puzzle.spiriteq.com CNAME .
 pv-track.pxtrkapp.com CNAME .
 *.pv-track.pxtrkapp.com CNAME .
+pv-track.venatus.com CNAME .
+*.pv-track.venatus.com CNAME .
 pv.hd.sohu.com CNAME .
 *.pv.hd.sohu.com CNAME .
 pv.kuaizhan.com CNAME .
@@ -51812,6 +51850,8 @@ s.sick.com CNAME .
 *.s.sick.com CNAME .
 s.simcoe.com CNAME .
 *.s.simcoe.com CNAME .
+s.sintra.ai CNAME .
+*.s.sintra.ai CNAME .
 s.sporks.space CNAME .
 *.s.sporks.space CNAME .
 s.srvsynd.com CNAME .
@@ -54798,6 +54838,8 @@ sfsinfo.sabic.com CNAME .
 *.sfsinfo.sabic.com CNAME .
 sftrack.searchforce.net CNAME .
 *.sftrack.searchforce.net CNAME .
+sg-fp.apitd.net CNAME .
+*.sg-fp.apitd.net CNAME .
 sg-go.experian.com CNAME .
 *.sg-go.experian.com CNAME .
 sg.carousellmotors.com CNAME .
