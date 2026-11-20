@@ -1,33 +1,29 @@
 const { createClient } = require('redis');
 
-const { REDIS_HOST, REDIS_PASSWD } = process.env;
-if (!REDIS_HOST) throw new Error('Missing REDIS_HOST environment variable');
-
 const RedisClient = createClient({
 	socket: {
-		host: REDIS_HOST,
+		host: process.env.REDIS_HOST,
 		port: 6379,
 		connectTimeout: 20 * 1000,
-		reconnectStrategy: times => Math.min(times * 5000, 15000),
+		reconnectStrategy: retries => Math.min(retries * 5000, 15000),
 	},
 	database: 8,
-	password: REDIS_PASSWD,
+	password: process.env.REDIS_PASSWD,
 });
 
-let error = false;
+let isDown = false;
 
-RedisClient.on('connect', () => {
-	console.log('Connected to Redis successfully');
-	error = false;
+RedisClient.on('ready', () => {
+	console.log(isDown ? 'Redis connection restored' : 'Connected to Redis successfully');
+	isDown = false;
 });
 
 RedisClient.on('error', err => {
-	if (!error) {
-		console.error('Redis error:', err.message);
-		error = true;
-	}
+	if (isDown) return;
+	isDown = true;
+	console.error('Redis error:', err.message);
 });
 
-(async () => RedisClient.connect())();
+RedisClient.connect().catch(err => console.error('Redis failed to connect on startup:', err.message));
 
 module.exports = RedisClient;
