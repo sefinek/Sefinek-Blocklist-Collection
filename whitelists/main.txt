@@ -34,8 +34,8 @@ ahrefs.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
 whatismyip.akamai.com ads/blocklistproject/hosts.fork.txt
 
 # AlbaHost (web hosting provider)
-albahost.net malicious/blocklistproject/malware.fork.txt
 albahost.net abuse/blocklistproject/hosts.fork.txt
+albahost.net malicious/blocklistproject/malware.fork.txt
 
 # AliExpress (Chinese e-commerce platform)
 s.click.aliexpress.com malicious/bigdargon/hostsVN.fork.txt
@@ -64,8 +64,8 @@ ayopramuka-kwarnas.id porn/oisd/nsfw.fork.txt
 bandlab.com gambling/judol/hosts.fork.txt
 
 # Binance (cryptocurrency exchange)
-log.bntrace.com extensions/hagezi/pro.fork.txt
 log.bntrace.com ads/jerryn70/GoodbyeAds.fork.txt
+log.bntrace.com extensions/hagezi/pro.fork.txt
 
 # Bitbucket (Git repository hosting)
 bitbucket.io ads/blocklistproject/hosts.fork.txt
@@ -117,11 +117,11 @@ e.customeriomail.com malicious/RPiList/Malware.fork.txt
 images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com spam/RPiList/spam-mails.fork.txt
 
 # Discord (voice, video and text communication platform)
+click.discord.com ads/firebog/Prigent-Ads.fork.txt
 click.discord.com ads/jerryn70/GoodbyeAds.fork.txt
 click.discord.com ads/yoyo/ads-trackers-etc.fork.txt
 click.discord.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 click.discord.com other/StevenBlack/hosts.fork.txt
-click.discord.com ads/firebog/Prigent-Ads.fork.txt
 
 # DiscordServers (Discord server listing)
 discordservers.com phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
@@ -129,13 +129,13 @@ discordservers.com scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 
 # Drift (conversational marketing platform)
 driftt.com ads/firebog/AdguardDNS.fork.txt
-driftt.com tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 driftt.com extensions/MajkiIT/adguard-host.fork.txt
+driftt.com tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 
 # Duda (website builder CDN)
 irp.cdn-website.com malicious/RPiList/Malware.fork.txt
 
-# EvenInsight (gambling platform)
+# EvenInsight (website safety checker)
 eveninsight.com gambling/TrustPositif/gambling-indonesia.fork.txt
 
 # FaceIT (competitive gaming platform)
@@ -163,8 +163,8 @@ g2a.com fraud/blocklistproject/hosts.fork.txt
 www.g2a.com fraud/blocklistproject/hosts.fork.txt
 
 # Google (search engine and technology company)
-scholar.google.com ads/jerryn70/GoodbyeAds.fork.txt
 lh7-rt.googleusercontent.com spam/RPiList/spam-mails.fork.txt
+scholar.google.com ads/jerryn70/GoodbyeAds.fork.txt
 storage.googleapis.com gambling/TrustPositif/gambling-indonesia.fork.txt
 t1.gstatic.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
 t2.gstatic.com tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt
@@ -204,10 +204,10 @@ ipqualityscore.com ads/blocklistproject/hosts.fork.txt
 www.ipqualityscore.com ads/blocklistproject/hosts.fork.txt
 
 # IronGeek (information security blog and resources)
-irongeek.com malicious/blocklistproject/malware.fork.txt
-www.irongeek.com malicious/blocklistproject/malware.fork.txt
 irongeek.com abuse/blocklistproject/hosts.fork.txt
+irongeek.com malicious/blocklistproject/malware.fork.txt
 www.irongeek.com abuse/blocklistproject/hosts.fork.txt
+www.irongeek.com malicious/blocklistproject/malware.fork.txt
 
 # Komputer Świat (Polish technology magazine)
 download.komputerswiat.pl abuse/blocklistproject/hosts.fork.txt
@@ -219,9 +219,6 @@ www.komputerswiat.pl malicious/blocklistproject/malware.fork.txt
 
 # KuCoin (cryptocurrency exchange)
 kucoin.com crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt
-
-# Kwai (short-form video platform)
-img.kwcdn.com spam/RPiList/spam-mails.fork.txt
 
 # Leboncoin (French online classifieds marketplace)
 leboncoin.fr extensions/deathbybandaid/CountryCodesLists-France.fork.txt
@@ -252,19 +249,19 @@ mywot.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 www.mywot.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 
 # Niconico (Japanese video sharing platform)
-www.nicovideo.jp porn/StevenBlack/porn.fork.txt
-www.nicovideo.jp porn/Sinfonietta/pornography-hosts.fork.txt
 www.nicovideo.jp porn/oisd/nsfw.fork.txt
+www.nicovideo.jp porn/Sinfonietta/pornography-hosts.fork.txt
+www.nicovideo.jp porn/StevenBlack/porn.fork.txt
 
 # NSFWJS (machine learning library for NSFW detection)
 nsfwjs.com porn/oisd/nsfw.fork.txt
 
-# Nvidia (graphics card manufacturer)
+# Nvidia (usage telemetry endpoint)
 events.gfe.nvidia.com tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 
 # o2.pl (Polish email and internet service provider)
-poczta.o2.pl porn/StevenBlack/porn.fork.txt
 poczta.o2.pl porn/Sinfonietta/pornography-hosts.fork.txt
+poczta.o2.pl porn/StevenBlack/porn.fork.txt
 
 # OneTrust (cookie consent management)
 cdn.cookielaw.org other/polish-blocklists/MajkiIT/hostfile.fork.txt
@@ -275,8 +272,8 @@ outbyte.com malicious/DandelionSprout-AntiMalwareHosts.fork.txt
 outbyte.com malicious/RPiList/Malware.fork.txt
 
 # Patreon (membership platform for creators)
-email.mailgun.patreon.com ads/jerryn70/GoodbyeAds.fork.txt
 c6.patreon.com ads/ShadowWhisperer/Ads.fork.txt
+email.mailgun.patreon.com ads/jerryn70/GoodbyeAds.fork.txt
 
 # Pinterest (image sharing and social media)
 i.pinimg.com spam/RPiList/spam-mails.fork.txt
@@ -310,8 +307,8 @@ semrush.com ads/blocklistproject/hosts.fork.txt
 www.semrush.com ads/blocklistproject/hosts.fork.txt
 
 # ShipSpotting (ship photography community)
-shipspotting.com malicious/blocklistproject/malware.fork.txt
 shipspotting.com abuse/blocklistproject/hosts.fork.txt
+shipspotting.com malicious/blocklistproject/malware.fork.txt
 
 # Sirus (World of Warcraft private server)
 sirus.su abuse/blocklistproject/hosts.fork.txt
@@ -342,10 +339,17 @@ va.tawk.to abuse/blocklistproject/hosts.fork.txt
 va.tawk.to ads/blocklistproject/hosts.fork.txt
 va.tawk.to malicious/blocklistproject/malware.fork.txt
 
+# Temu (e-commerce image CDN)
+img.kwcdn.com spam/RPiList/spam-mails.fork.txt
+
 # TheAnnoyingSite (humorous prank website)
 theannoyingsite.com ads/blocklistproject/hosts.fork.txt
 theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 theannoyingsite.com tracking-and-telemetry/neodevpro/host.fork.txt
+
+# Tipply (creator donation platform)
+tipply.pl gambling/blocklistproject/hosts.fork.txt
+tipply.pl gambling/hagezi/gambling-onlydomains.fork.txt
 
 # Trustpilot (customer review platform)
 widget.trustpilot.com ads/blocklistproject/hosts.fork.txt
@@ -368,8 +372,8 @@ download-new.utorrent.com abuse/blocklistproject/hosts.fork.txt
 download-new.utorrent.com malicious/blocklistproject/malware.fork.txt
 
 # VK (Russian social network)
-m.vk.com porn/StevenBlack/porn.fork.txt
 m.vk.com porn/Sinfonietta/pornography-hosts.fork.txt
+m.vk.com porn/StevenBlack/porn.fork.txt
 
 # Webflow (website builder CDN)
 cdn.prod.website-files.com spam/RPiList/spam-mails.fork.txt
@@ -387,8 +391,8 @@ onelogin.wpcdn.pl ads/ShadowWhisperer/Ads.fork.txt
 wykop.pl porn/oisd/nsfw.fork.txt
 
 # X (social media platform formerly Twitter)
-ton.twimg.com ads/ShadowWhisperer/Ads.fork.txt
 t.co ads/yoyo/ads-trackers-etc.fork.txt
+ton.twimg.com ads/ShadowWhisperer/Ads.fork.txt
 
 # Xiaomi MIUI (Android-based mobile operating system)
 api.sec.intl.miui.com ads/blocklistproject/hosts.fork.txt
@@ -399,7 +403,3 @@ email.mail.zapier.com malicious/RPiList/Malware.fork.txt
 
 # Ziff Media (digital media company)
 cdn.ziffstatic.com ads/blocklistproject/hosts.fork.txt
-
-# tipply.pl
-tipply.pl gambling/hagezi/gambling-onlydomains.fork.txt
-tipply.pl gambling/blocklistproject/hosts.fork.txt

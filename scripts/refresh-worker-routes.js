@@ -77,30 +77,30 @@ const fetchActualUsage = async () => {
 };
 
 const renderList = rows => rows.length
-	? `<ul>${rows.map(r => `<li>${escapeHtml(r.path)} (~${Math.round(r.avg)}/day)</li>`).join('')}</ul>`
-	: '<p><i>none</i></p>';
+	? `<ul>${rows.map(r => `<li>${escapeHtml(r.path)} (~${Math.round(r.avg)}/dzień)</li>`).join('')}</ul>`
+	: '<p><i>brak</i></p>';
 
 const renderSection = (title, rows) => rows.length ? `<h3>${title} (${rows.length})</h3>\n${renderList(rows)}` : '';
 
 const sendSummaryEmail = async ({ addedRows, notAddedRows, deferReason, removedRows, removeFailedRows, overflowDropped, budgetUsed, actualUsage, pendingCount }) => {
 	const usageLine = actualUsage === null
-		? '<p><i>Actual Workers usage check unavailable (API error).</i></p>'
-		: `<p><b>Actual Worker invocations (last 24h):</b> ${actualUsage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} Workers Free daily cap (${((actualUsage / WORKERS_FREE_CAP) * 100).toFixed(1)}%)</p>`;
+		? '<p><i>Nie udało się pobrać zużycia Workera (błąd API).</i></p>'
+		: `<p><b>Wywołania Workera z ostatnich 24 godzin:</b> ${actualUsage.toLocaleString('pl-PL')} / ${WORKERS_FREE_CAP.toLocaleString('pl-PL')} (${((actualUsage / WORKERS_FREE_CAP) * 100).toFixed(1)}% limitu dziennego)</p>`;
 
 	await mailer.sendMail({
 		from: FROM,
 		to: process.env.MAILER_AUTH_USER,
-		subject: `Worker routes updated (+${addedRows.length}/-${removedRows.length}${notAddedRows.length ? `, ${notAddedRows.length} not added` : ''}${removeFailedRows.length ? `, ${removeFailedRows.length} failed to remove` : ''})`,
-		html: `<p>Edge-cache Worker routes for <a href="https://blocklist.sefinek.net">blocklist.sefinek.net</a> were reconciled with Cloudflare via the API (no <code>wrangler deploy</code> needed).</p>
-<p><b>Estimated budget used:</b> ~${Math.round(budgetUsed).toLocaleString()} / ${BUDGET_DAILY.toLocaleString()} req/day target</p>
+		subject: `Aktualizacja tras Workera (+${addedRows.length}/-${removedRows.length}${notAddedRows.length ? `, niedodane: ${notAddedRows.length}` : ''}${removeFailedRows.length ? `, nieusunięte: ${removeFailedRows.length}` : ''})`,
+		html: `<p>Zakończono synchronizację tras cache Workera dla <a href="https://blocklist.sefinek.net">blocklist.sefinek.net</a>.</p>
+<p><b>Szacowany ruch wybranych tras:</b> ~${Math.round(budgetUsed).toLocaleString('pl-PL')} / ${BUDGET_DAILY.toLocaleString('pl-PL')} żądań dziennie (przyjęty budżet)</p>
 ${usageLine}
-${pendingCount ? `<p><b>Emergency stop in effect:</b> ${pendingCount} selected route(s) stay pending and will be restored gradually by the usage watchdog.</p>` : ''}
-${renderSection('Added', addedRows)}
-${renderSection(`Not added - ${deferReason ?? 'API error, see cron logs'}`, notAddedRows)}
-${renderSection('Removed - popularity dropped below threshold or no longer selected', removedRows)}
-${renderSection('Failed to remove - still live, see cron logs', removeFailedRows)}
-${renderSection('Dropped due to budget overflow, not popularity', overflowDropped)}
-<p>State: <code>${escapeHtml(STATE_PATH)}</code></p>`,
+${pendingCount ? `<p><b>Trwa wstrzymanie awaryjne.</b> Trasy oczekujące na stopniowe przywrócenie: ${pendingCount}.</p>` : ''}
+${renderSection('Dodane', addedRows)}
+${renderSection(`Niedodane - ${deferReason ?? 'błąd API, sprawdź logi crona'}`, notAddedRows)}
+${renderSection('Usunięte z aktualnego wyboru', removedRows)}
+${renderSection('Nieusunięte - nadal aktywne, sprawdź logi crona', removeFailedRows)}
+${renderSection('Poza wyborem z powodu budżetu ruchu', overflowDropped)}
+<p>Plik stanu: <code>${escapeHtml(STATE_PATH)}</code></p>`,
 	});
 };
 
@@ -148,8 +148,8 @@ ${renderSection('Dropped due to budget overflow, not popularity', overflowDroppe
 	// Removing is always safe; adding is left to the watchdog's gradual recovery during an emergency stop,
 	// and postponed when usage is already in the warning zone (the watchdog would likely remove them again)
 	let deferReason = null;
-	if (inEmergency) deferReason = 'emergency stop in effect, left to watchdog recovery';
-	else if (actualUsage !== null && actualUsage >= WARNING_THRESHOLD) deferReason = 'usage already in the warning zone, retried next week';
+	if (inEmergency) deferReason = 'wstrzymanie awaryjne, przywracaniem zajmuje się monitor zużycia';
+	else if (actualUsage !== null && actualUsage >= WARNING_THRESHOLD) deferReason = 'przekroczony próg ostrzegawczy, kolejna próba za tydzień';
 
 	const { removed: removedLive, failed: removeFailed } = await removeRoutes(toRemove);
 	const addedLive = toAdd.length && !deferReason ? await addRoutes(toAdd) : [];
@@ -191,8 +191,8 @@ ${renderSection('Dropped due to budget overflow, not popularity', overflowDroppe
 		await mailer.sendMail({
 			from: FROM,
 			to: process.env.MAILER_AUTH_USER,
-			subject: '[ERROR] refresh-worker-routes crashed',
-			html: `<p>The weekly Worker route refresh failed:</p><pre>${escapeHtml(err.message)}</pre><p>Live routes may be partially updated and differ from <code>${escapeHtml(STATE_PATH)}</code> - the next run reconciles against Cloudflare, or run <code>node scripts/refresh-worker-routes.js</code> manually.</p>`,
+			subject: '[BŁĄD] Aktualizacja tras Workera',
+			html: `<p>Aktualizacja tras Workera nie zakończyła się poprawnie:</p><pre>${escapeHtml(err.message)}</pre><p>Część zmian mogła zostać zastosowana. Kolejne uruchomienie zsynchronizuje trasy z Cloudflare. Możesz też uruchomić ręcznie <code>node scripts/refresh-worker-routes.js</code>.</p><p>Plik stanu: <code>${escapeHtml(STATE_PATH)}</code>.</p>`,
 		});
 	} catch (mailErr) {
 		console.error('Also failed to send the crash alert email:', mailErr.message);

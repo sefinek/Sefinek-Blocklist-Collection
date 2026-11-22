@@ -83,9 +83,9 @@ const attemptRecovery = async (state, usage) => {
 	if (!toRestore.length) return true;
 
 	await sendAlertEmail(
-		`[RECOVERY] Restored ${restored.length}/${toRestore.length} Worker routes after daily cap reset`,
-		`<p>The Workers Free daily cap reset since the last emergency stop (${state.emergencyStoppedAt}), so the watchdog restored the top ${(RECOVERY_FRACTION * 100).toFixed(0)}% most popular routes from what was removed (${restored.length}/${toRestore.length} succeeded${remaining.length ? `, ${remaining.length} still pending and will resume tomorrow` : ''}).</p>
-<p>This is a conservative restore, not the full previous list, to reduce the chance of immediately hitting the cap again. Normal usage monitoring resumes from here - the next check runs in up to 3h.</p>`
+		`[PRZYWRACANIE] Trasy Workera: ${restored.length}/${toRestore.length}`,
+		`<p>Rozpoczął się nowy dzień UTC, a zużycie spadło poniżej ${formatPct(WARNING_THRESHOLD)} limitu. Przywrócono ${restored.length}/${toRestore.length} tras z wybranej partii (${(RECOVERY_FRACTION * 100).toFixed(0)}% najpopularniejszych spośród oczekujących).</p>
+<p>${remaining.length ? `Pozostałe trasy: ${remaining.length}. Kolejna próba najwcześniej w następnym dniu UTC, gdy zużycie będzie poniżej progu ostrzegawczego.` : 'Przywrócono wszystkie oczekujące trasy.'} Kontrola zużycia odbywa się co 3 godziny.</p>`
 	);
 
 	return true;
@@ -115,14 +115,15 @@ const attemptRecovery = async (state, usage) => {
 		console.error('CRITICAL threshold exceeded, removing Worker routes immediately');
 		const { removedCount, failedCount, totalCount } = await emergencyRemoveRoutes(state);
 		const partialWarning = failedCount
-			? `<p><b>Warning:</b> ${failedCount} of ${totalCount} route(s) failed to remove (see cron logs) - they're still live and kept in <code>paths</code>, so the next run (up to 3h) will retry if usage is still critical. Remove them manually if it's urgent.</p>`
+			? `<p><b>Nieudane usunięcia:</b> ${failedCount}/${totalCount}. Te trasy nadal działają. Szczegóły w logach crona. Ponowna próba za maks. 3 godziny, jeśli zużycie nadal będzie krytyczne. W pilnej sytuacji usuń je ręcznie.</p>`
 			: '';
 		await sendAlertEmail(
-			`[CRITICAL] Worker routes removed automatically (${pct} of daily cap)`,
-			`<p><b>Emergency action taken:</b> ${removedCount}/${totalCount} Worker route(s) for <code>${WORKER_SCRIPT_NAME}</code> were removed automatically because usage reached ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct}) in the last 24h.</p>
+			`[ALARM] Usunięto ${removedCount}/${totalCount} tras Workera (${pct} limitu)`,
+			`<p><b>Awaryjnie usunięto ${removedCount}/${totalCount} tras Workera <code>${WORKER_SCRIPT_NAME}</code>.</b> Wywołania z ostatnich 24 godzin: ${usage.toLocaleString('pl-PL')} / ${WORKERS_FREE_CAP.toLocaleString('pl-PL')} (${pct} limitu dziennego).</p>
 ${partialWarning}
-<p>Traffic now goes straight to origin for those paths (uncached, but fully working) instead of risking Cloudflare rejecting requests once the daily Workers Free cap is hit.</p>
-<p>Routes will be restored gradually (top ${(RECOVERY_FRACTION * 100).toFixed(0)}% per UTC day) once usage drops below ${formatPct(WARNING_THRESHOLD)}. State: <code>${escapeHtml(STATE_PATH)}</code>.</p>`
+<p>Ruch dla usuniętych tras trafia bezpośrednio do serwera źródłowego, bez cache Workera.</p>
+<p>Przywracanie: ${(RECOVERY_FRACTION * 100).toFixed(0)}% najpopularniejszych oczekujących tras na dzień UTC, najwcześniej od kolejnego dnia i po spadku zużycia poniżej ${formatPct(WARNING_THRESHOLD)}.</p>
+<p>Plik stanu: <code>${escapeHtml(STATE_PATH)}</code>.</p>`
 		);
 		process.exit(0);
 	}
@@ -135,10 +136,10 @@ ${partialWarning}
 		}
 
 		await sendAlertEmail(
-			`[WARNING] Worker route usage at ${pct} of daily cap`,
-			`<p>Worker route usage for <code>${WORKER_SCRIPT_NAME}</code> reached ${usage.toLocaleString()} / ${WORKERS_FREE_CAP.toLocaleString()} (${pct}) in the last 24h.</p>
-<p>No action taken yet - automatic emergency removal triggers at ${formatPct(CRITICAL_THRESHOLD)}. Consider running <code>scripts/refresh-worker-routes.js</code> to shrink the route list, or investigate the traffic spike.</p>
-<p>Further warnings are suppressed until the next UTC day (CRITICAL alerts are always sent).</p>`
+			`[OSTRZEŻENIE] Worker: ${pct} limitu dziennego`,
+			`<p>Wywołania Workera <code>${WORKER_SCRIPT_NAME}</code> z ostatnich 24 godzin: ${usage.toLocaleString('pl-PL')} / ${WORKERS_FREE_CAP.toLocaleString('pl-PL')} (${pct} limitu dziennego).</p>
+<p>Trasy pozostają aktywne. Automatyczne usuwanie uruchomi się przy ${formatPct(CRITICAL_THRESHOLD)}. Sprawdź przyczynę wzrostu ruchu.</p>
+<p>Kolejne ostrzeżenie najwcześniej w następnym dniu UTC. Alerty krytyczne są wysyłane bez tego ograniczenia.</p>`
 		);
 		await markWarningSent();
 	}
@@ -147,7 +148,7 @@ ${partialWarning}
 })().catch(async err => {
 	console.error('worker-usage-watchdog failed:', err.message);
 	try {
-		await sendAlertEmail('[ERROR] worker-usage-watchdog crashed', `<p>The Workers usage watchdog failed before it could finish checking or acting on usage:</p><pre>${escapeHtml(err.message)}</pre><p>Live routes may differ from <code>${escapeHtml(STATE_PATH)}</code> - check manually.</p>`);
+		await sendAlertEmail('[BŁĄD] Monitor zużycia Workera', `<p>Monitor zużycia Workera nie zakończył działania:</p><pre>${escapeHtml(err.message)}</pre><p>Sprawdź trasy w Cloudflare. Mogą różnić się od pliku stanu <code>${escapeHtml(STATE_PATH)}</code>.</p>`);
 	} catch (mailErr) {
 		console.error('Also failed to send the crash alert email:', mailErr.message);
 	}
