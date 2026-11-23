@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const axios = require('./services/axios.js');
 const pkg = require('../package.json');
 
-const FILENAME = 'iTzq9EA7iEEtK9GO2i6EnAwzhQCs45BXncKBUhD9x0yPjSKM00gGkdvs5xwRC12UsP8mPtJNo7W8aIs05K5BpewQA8HqkUJc1tY';
+const FILENAME = 'ea45ed4211434d2889a3c62bc69f1600';
 const DOMAIN = pkg.homepage.replace('https://', '');
 const BATCH_SIZE = 10000;
 
