@@ -17,6 +17,7 @@
   "scripts": {
     "cf:deploy": "cd cloudflare && wrangler deploy",
     "cf:logs": "cd cloudflare && wrangler tail sefinek-blocklist-edge-cache",
+    "indexnow": "node www/IndexNow.js",
     "m": "ncu -u && npm i && npm update && npm audit fix",
     "pull": "git pull origin main",
     "pull:blocklists": "git -C blocklists fetch origin +refs/heads/blocklists:refs/remotes/origin/blocklists && git -C blocklists reset --hard origin/blocklists",
