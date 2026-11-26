@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026112407 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026112601 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: EasyPrivacy Hosts Blocklist
-; Entries: 40,639 domains
+; Entries: 40,641 domains
 ; Source: https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ; License: Unknown, check the source
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 24, 2026 at 7:59 AM UTC | 2026-11-24T07:59:05.533Z
+; Last updated: November 26, 2026 at 1:31 AM UTC | 2026-11-26T01:31:00.739Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -7466,6 +7466,8 @@ umami.vidfast.pro CNAME .
 *.umami.vidfast.pro CNAME .
 umami.wakarimasen.moe CNAME .
 *.umami.wakarimasen.moe CNAME .
+uniqueness.greenmangaming.com CNAME .
+*.uniqueness.greenmangaming.com CNAME .
 unl1zvy2zuyn.franchiseplus.nl CNAME .
 *.unl1zvy2zuyn.franchiseplus.nl CNAME .
 urs.metacritic.com CNAME .
@@ -7604,6 +7606,8 @@ rsx.afterpay.com CNAME .
 *.rsx.afterpay.com CNAME .
 svc2.sc.com CNAME .
 *.svc2.sc.com CNAME .
+tips.delt.io CNAME .
+*.tips.delt.io CNAME .
 tm-eps.neutrino.nu CNAME .
 *.tm-eps.neutrino.nu CNAME .
 tmetrix.my.chick-fil-a.com CNAME .
