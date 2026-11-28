@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2026111819 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2026112811 43200 3600 259200 300
   NS  localhost.
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 ;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -9,12 +9,12 @@ $TTL 300
 ;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
 ;
 ; Title: Polish Ads Filter Hostfile
-; Entries: 1,441 domains
+; Entries: 1,443 domains
 ; Source: https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt | https://www.certyficate.it/
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Format: RPZ
 ; Expires: 1 day
-; Last updated: November 18, 2026 at 7:54 PM UTC | 2026-11-18T19:54:14.119Z
+; Last updated: November 28, 2026 at 11:20 AM UTC | 2026-11-28T11:20:20.256Z
 ;
 ; This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 ; Homepage: https://blocklist.sefinek.net
@@ -2786,3 +2786,5 @@ neuca.www-com.co.uk CNAME .
 *.neuca.www-com.co.uk CNAME .
 secure.encryptedconnection.net CNAME .
 *.secure.encryptedconnection.net CNAME .
+moderemarkt.com CNAME .
+*.moderemarkt.com CNAME .
